@@ -20,7 +20,7 @@ Blocked on the PDF (the tables are not in the text layer):
 
 Blocked on a decision:
 
-- Scripture translation and its licence; then a `ScriptureProvider`.
+- A KJV source text (translation chosen 2026-10-13) and a `ScriptureProvider` for it; UK distribution of the KJV.
 - Redistribution under the witness's terms; UK Crown rights.
 - Reading typeface.
 
