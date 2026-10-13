@@ -1,0 +1,59 @@
+{
+ "schemaVersion": 1,
+ "tradition": "bcp1662",
+ "contentVersion": "0.1.0",
+ "title": "The Book of Common Prayer (1662), Baskerville printing of 1762",
+ "source": {
+  "id": "bcp1662-baskerville1762-satucket",
+  "file": "bcp1662-baskerville1762.txt",
+  "sha256": "b14a04a52f638571c748b091f4f02b8f8339112203ee6d39b4010dd46a0ecee5"
+ },
+ "files": [
+  {
+   "path": "collects.json",
+   "sha256": "f4d96cebc0f3dc97c454d4c5553997a2cea4a895983ea8798f02eed109f91eca"
+  },
+  {
+   "path": "propers/easter-anthems.json",
+   "sha256": "bc07f03c29cb7cc5a2fd3f7451b123e1538a319cebbe1fba665335ebb6af7f87"
+  },
+  {
+   "path": "psalter.json",
+   "sha256": "8bd0bc3babc1d2fc19b4e08d7b0c003f330bba95b173953d820ddd4803d98cc4"
+  },
+  {
+   "path": "rubrics/general.json",
+   "sha256": "d6ace39853d1e564c58ee30cafc2e641623ff135419b84fd5c46474749e37999"
+  },
+  {
+   "path": "services/athanasian-creed.json",
+   "sha256": "8c502933638fa3f1037dcd09b7ba7bb539a45d42271e8536fee99feb53210213"
+  },
+  {
+   "path": "services/evening-prayer.json",
+   "sha256": "df2a067f7cf0e824af070ce4990ce56bbe729f572b82deb4fcf6260d51243d80"
+  },
+  {
+   "path": "services/morning-prayer.json",
+   "sha256": "92552eb6feba741af0adc4c35d36d26e120241de87906ee78d50c44b3651ebc1"
+  }
+ ],
+ "provenance": [
+  {
+   "path": "Provenance/editorial-log.json",
+   "sha256": "18737d179f945de52542b72b5e755d603d1348e4106f3936950bdb73022378ed"
+  },
+  {
+   "path": "Provenance/review-queue.json",
+   "sha256": "75ec9267b230aee52b815f9855c70af26f80debfcae107a18af015977dabc459"
+  },
+  {
+   "path": "Provenance/transcription/edits.jsonl",
+   "sha256": "b6932d8c52090e191c0b761b48d5a6f3d457c674ab4cf7ff33c10ac83f8ccb55"
+  },
+  {
+   "path": "Provenance/transcription/normalized.txt",
+   "sha256": "f8afe10187a407c1089e3e325dc40a81b39794cdd14c3ac7e189c036d2e3700b"
+  }
+ ]
+}

@@ -1,0 +1,1479 @@
+{
+ "schemaVersion": 1,
+ "source": "bcp1662-baskerville1762-satucket",
+ "counts": {
+  "artifact-skipped": 3,
+  "dropcap-mismatch": 30,
+  "dropcap-restored": 43,
+  "dropcap-restored-from-unflagged-orphan-line": 1,
+  "not-extracted": 2,
+  "reading-order-reconstructed": 67,
+  "reading-preserved": 5,
+  "running-head-removed": 5,
+  "verse-number-misprinted": 1,
+  "verse-pointing": 11
+ },
+ "items": [
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 21610,
+   "letters": "T",
+   "sites": [
+    21338,
+    21586
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 22948,
+   "letters": "F",
+   "sites": [
+    22853,
+    22923
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 24157,
+   "letters": "H",
+   "sites": [
+    23982,
+    24108
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 24934,
+   "letters": "H",
+   "sites": [
+    24847,
+    24903
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 25073,
+   "letters": "O",
+   "sites": [
+    24967,
+    25067
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 27070,
+   "letters": "O",
+   "sites": [
+    27013,
+    27043
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 29000,
+   "letters": "H",
+   "sites": [
+    28942,
+    28988
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 30310,
+   "letters": "IU",
+   "sites": [
+    30217,
+    30235,
+    30265,
+    30303
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-mismatch",
+   "rawLine": 31051,
+   "letters": "L",
+   "sites": [
+    30978,
+    31039
+   ]
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "I",
+   "rawLine": 21338
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "T",
+   "rawLine": 21586
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "M",
+   "rawLine": 22853
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "F",
+   "rawLine": 22923
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "T",
+   "rawLine": 23982
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "H",
+   "rawLine": 24108
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 24847
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "H",
+   "rawLine": 24903
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "T",
+   "rawLine": 24967
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "O",
+   "rawLine": 25067
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "H",
+   "rawLine": 27013
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "O",
+   "rawLine": 27043
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 28942
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "H",
+   "rawLine": 28988
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "W",
+   "rawLine": 30217
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "I",
+   "rawLine": 30235
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "I",
+   "rawLine": 30265
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "U",
+   "rawLine": 30303
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "D",
+   "rawLine": 30978
+  },
+  {
+   "area": "psalter",
+   "kind": "dropcap-restored",
+   "basis": "orphan-line",
+   "letter": "L",
+   "rawLine": 31039
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 10,
+   "portion": null,
+   "verse": 4,
+   "colons": 0,
+   "rawLine": 20937
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 14,
+   "portion": null,
+   "verse": 7,
+   "colons": 0,
+   "rawLine": 21151
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 17,
+   "portion": null,
+   "verse": 3,
+   "colons": 0,
+   "rawLine": 21260
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 35,
+   "portion": null,
+   "verse": 20,
+   "colons": 0,
+   "rawLine": 22809
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 37,
+   "portion": null,
+   "verse": 6,
+   "colons": 0,
+   "rawLine": 22944
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 40,
+   "portion": null,
+   "verse": 6,
+   "colons": 2,
+   "rawLine": 23311
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 45,
+   "portion": null,
+   "verse": 11,
+   "colons": 0,
+   "rawLine": 23701
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 67,
+   "portion": null,
+   "verse": 1,
+   "colons": 2,
+   "rawLine": 25143
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 68,
+   "portion": null,
+   "verse": 31,
+   "colons": 0,
+   "rawLine": 25332
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 113,
+   "portion": null,
+   "verse": 4,
+   "colons": 0,
+   "rawLine": 29255
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-pointing",
+   "psalm": 116,
+   "portion": null,
+   "verse": 15,
+   "colons": 0,
+   "rawLine": 29434
+  },
+  {
+   "area": "psalter",
+   "kind": "verse-number-misprinted",
+   "psalm": 119,
+   "portion": 2,
+   "printed": 4,
+   "assigned": 3,
+   "rawLine": 29591
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.title",
+   "rawLines": [
+    1268,
+    1270
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentences.rubric",
+   "rawLines": [
+    1274,
+    1276
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.ezek-18-27",
+   "rawLines": [
+    1277,
+    1278
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.ps-51-3",
+   "rawLines": [
+    1281,
+    1281
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.ps-51-9",
+   "rawLines": [
+    1283,
+    1283
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.ps-51-17",
+   "rawLines": [
+    1289,
+    1289
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.joel-2-13",
+   "rawLines": [
+    1290,
+    1290
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.dan-9-9",
+   "rawLines": [
+    1292,
+    1292
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.jer-10-24",
+   "rawLines": [
+    1269,
+    1269
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.matt-3-2",
+   "rawLines": [
+    1270,
+    1270
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.luke-15-18",
+   "rawLines": [
+    1271,
+    1271
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.ps-143-2",
+   "rawLines": [
+    1276,
+    1277
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.sentence.1john-1-8",
+   "rawLines": [
+    1279,
+    1279
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.exhortation",
+   "rawLines": [
+    1285,
+    1298
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.confession.rubric",
+   "rawLines": [
+    1309,
+    1309
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.confession",
+   "rawLines": [
+    1311,
+    1311
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.absolution.rubric",
+   "rawLines": [
+    1300,
+    1301
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.absolution",
+   "rawLines": [
+    1302,
+    1302
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.lordsprayer.rubric",
+   "rawLines": [
+    1317,
+    1317
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.lordsprayer",
+   "rawLines": [
+    1319,
+    1320
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.preces.rubric",
+   "rawLines": [
+    1327,
+    1327
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.preces",
+   "rawLines": [
+    1328,
+    1332
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.gloria.rubric",
+   "rawLines": [
+    1334,
+    1334
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.gloria",
+   "rawLines": [
+    1335,
+    1339
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.psalms-lesson.rubric",
+   "rawLines": [
+    1340,
+    1341
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.magnificat.title",
+   "rawLines": [
+    1341,
+    1341
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.magnificat",
+   "rawLines": [
+    1325,
+    1346
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.cantate.rubric",
+   "rawLines": [
+    1338,
+    1338
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.cantate.title",
+   "rawLines": [
+    1339,
+    1339
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.cantate",
+   "rawLines": [
+    1340,
+    1367
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.nt-lesson.rubric",
+   "rawLines": [
+    1369,
+    1370
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.nuncdimittis.title",
+   "rawLines": [
+    1374,
+    1374
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.nuncdimittis",
+   "rawLines": [
+    1374,
+    1387
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.deus.rubric",
+   "rawLines": [
+    1388,
+    1388
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.deus.title",
+   "rawLines": [
+    1389,
+    1389
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.deus",
+   "rawLines": [
+    1351,
+    1391
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.creed.rubric",
+   "rawLines": [
+    1378,
+    1378
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.creed",
+   "rawLines": [
+    1379,
+    1396
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayers.rubric",
+   "rawLines": [
+    1402,
+    1402
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.salutation",
+   "rawLines": [
+    1406,
+    1406
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.letuspray.rubric",
+   "rawLines": [
+    1408,
+    1408
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.letuspray",
+   "rawLines": [
+    1409,
+    1409
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.kyrie",
+   "rawLines": [
+    1412,
+    1414
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.lordsprayer2.rubric",
+   "rawLines": [
+    1415,
+    1416
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.lordsprayer2",
+   "rawLines": [
+    1421,
+    1422
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.suffrages.rubric",
+   "rawLines": [
+    1424,
+    1424
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.suffrages",
+   "rawLines": [
+    1394,
+    1432
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.collects.rubric",
+   "rawLines": [
+    1409,
+    1411
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.collect.peace.title",
+   "rawLines": [
+    1415,
+    1415
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.collect.peace",
+   "rawLines": [
+    1416,
+    1417
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.collect.aid.title",
+   "rawLines": [
+    1425,
+    1425
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.collect.aid",
+   "rawLines": [
+    1426,
+    1427
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.anthem.rubric",
+   "rawLines": [
+    1435,
+    1435
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.king.title",
+   "rawLines": [
+    1439,
+    1439
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.king",
+   "rawLines": [
+    1440,
+    1440
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.royalfamily.title",
+   "rawLines": [
+    1451,
+    1451
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.royalfamily",
+   "rawLines": [
+    1452,
+    1452
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.clergy.title",
+   "rawLines": [
+    1435,
+    1435
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.clergy",
+   "rawLines": [
+    1436,
+    1436
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.chrysostom.title",
+   "rawLines": [
+    1446,
+    1446
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.prayer.chrysostom",
+   "rawLines": [
+    1447,
+    1447
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.grace.reference",
+   "rawLines": [
+    1456,
+    1456
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.grace",
+   "rawLines": [
+    1457,
+    1457
+   ]
+  },
+  {
+   "area": "evening-prayer",
+   "kind": "reading-order-reconstructed",
+   "unit": "ep.colophon",
+   "rawLines": [
+    1459,
+    1459
+   ]
+  },
+  {
+   "area": "athanasian-creed",
+   "kind": "reading-order-reconstructed",
+   "unit": "ath.rubric",
+   "rawLines": [
+    1471,
+    1494
+   ]
+  },
+  {
+   "area": "athanasian-creed",
+   "kind": "reading-order-reconstructed",
+   "unit": "ath.title",
+   "rawLines": [
+    1511,
+    1511
+   ]
+  },
+  {
+   "area": "athanasian-creed",
+   "kind": "reading-order-reconstructed",
+   "unit": "ath.creed",
+   "rawLines": [
+    1462,
+    1700
+   ]
+  },
+  {
+   "area": "general-rubrics",
+   "kind": "artifact-skipped",
+   "unit": "artifact.dropcap-t",
+   "text": "T",
+   "note": "Orphan drop capital of 'THE Psalter', not flagged by the extractor.",
+   "rawLines": [
+    829,
+    829
+   ],
+   "extractionPages": [
+    8
+   ]
+  },
+  {
+   "area": "general-rubrics",
+   "kind": "artifact-skipped",
+   "unit": "artifact.running-head",
+   "text": "The Order how the holy Scripture is to be read.",
+   "note": "Running head of the facing page.",
+   "rawLines": [
+    830,
+    830
+   ],
+   "extractionPages": [
+    8
+   ]
+  },
+  {
+   "area": "general-rubrics",
+   "kind": "artifact-skipped",
+   "unit": "artifact.table-heading",
+   "text": "Table of Leſſons from the four Goſpels.",
+   "note": "A line whose place on the page is unclear (possibly a heading from another page); review against the PDF.",
+   "rawLines": [
+    867,
+    868
+   ],
+   "extractionPages": [
+    8
+   ]
+  },
+  {
+   "area": "general-rubrics",
+   "kind": "dropcap-restored-from-unflagged-orphan-line",
+   "unit": "rules.psalter.monthly",
+   "rawLines": [
+    795,
+    812
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 2865
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "G",
+   "rawLine": 3412
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 3805
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 5229
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 7523
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 7536
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 8360
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 8529
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 8628
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 9209
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "G",
+   "rawLine": 9521
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 10003
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 10545
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 11034
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "K",
+   "rawLine": 11275
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "L",
+   "rawLine": 11554
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 11637
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 12400
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "A",
+   "rawLine": 12509
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 12608
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 13473
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 13969
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-restored",
+   "basis": "context",
+   "letter": "O",
+   "rawLine": 14349
+  },
+  {
+   "area": "collects",
+   "kind": "running-head-removed",
+   "observance": "epiphany-2",
+   "text": "EPIPHANY ."
+  },
+  {
+   "area": "collects",
+   "kind": "running-head-removed",
+   "observance": "epiphany-3",
+   "text": "EPIPHANY ."
+  },
+  {
+   "area": "collects",
+   "kind": "running-head-removed",
+   "observance": "epiphany-4",
+   "text": "EPIPHANY ."
+  },
+  {
+   "area": "collects",
+   "kind": "running-head-removed",
+   "observance": "epiphany-6",
+   "text": "EPIPHANY ."
+  },
+  {
+   "area": "collects",
+   "kind": "running-head-removed",
+   "observance": "easter-3",
+   "text": "E ASTER ."
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 2958,
+   "letters": "W",
+   "sites": [
+    2865,
+    2887,
+    2933
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 3486,
+   "letters": "SB",
+   "sites": [
+    3412,
+    3438,
+    3470
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 3906,
+   "letters": "A",
+   "sites": [
+    3805,
+    3819,
+    3873
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 5320,
+   "letters": "T",
+   "sites": [
+    5229,
+    5251,
+    5290
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 7545,
+   "letters": "AA",
+   "sites": [
+    7294,
+    7523,
+    7536
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 8387,
+   "letters": "M",
+   "sites": [
+    8360,
+    8381
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 8676,
+   "letters": "AT",
+   "sites": [
+    8529,
+    8546,
+    8583,
+    8628,
+    8649
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 9236,
+   "letters": "T",
+   "sites": [
+    9209,
+    9227
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 9552,
+   "letters": "GWV",
+   "sites": [
+    9491,
+    9521,
+    9535,
+    9546
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 10053,
+   "letters": "OAT",
+   "sites": [
+    9950,
+    10003,
+    10015,
+    10048
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 10566,
+   "letters": "B",
+   "sites": [
+    10545,
+    10554
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 11057,
+   "letters": "T",
+   "sites": [
+    11034,
+    11047
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 11346,
+   "letters": "YN",
+   "sites": [
+    11239,
+    11275,
+    11289,
+    11336
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 11582,
+   "letters": "LI",
+   "sites": [
+    11490,
+    11554,
+    11564
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 11694,
+   "letters": "T",
+   "sites": [
+    11586,
+    11637,
+    11650
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 12447,
+   "letters": "I",
+   "sites": [
+    12400,
+    12414
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 12552,
+   "letters": "ANT",
+   "sites": [
+    12486,
+    12509,
+    12530,
+    12547
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 12677,
+   "letters": "A",
+   "sites": [
+    12608,
+    12630
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 13526,
+   "letters": "T",
+   "sites": [
+    13403,
+    13473,
+    13491
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 13995,
+   "letters": "OB",
+   "sites": [
+    13909,
+    13969,
+    13982
+   ]
+  },
+  {
+   "area": "collects",
+   "kind": "dropcap-mismatch",
+   "rawLine": 14421,
+   "letters": "T",
+   "sites": [
+    14349,
+    14366,
+    14418
+   ]
+  },
+  {
+   "area": "source",
+   "kind": "reading-preserved",
+   "text": "In Quires an Places",
+   "note": "Probably 'and' lost in extraction or print; preserved.",
+   "rawLine": 1209
+  },
+  {
+   "area": "source",
+   "kind": "reading-preserved",
+   "text": "who has made all men",
+   "note": "Good Friday third collect reads 'has' where later printings read 'hast'; preserved.",
+   "rawLine": 7556
+  },
+  {
+   "area": "source",
+   "kind": "reading-preserved",
+   "text": "relfect",
+   "note": "Apparent transposition of 'reflect'; preserved.",
+   "rawLine": 33044
+  },
+  {
+   "area": "source",
+   "kind": "reading-preserved",
+   "text": "throug-out",
+   "note": "Hyphenation or letter loss; preserved.",
+   "rawLine": 1056
+  },
+  {
+   "area": "source",
+   "kind": "reading-preserved",
+   "text": "Laudamuſ",
+   "note": "Long s at word end; preserved.",
+   "rawLine": 1061
+  },
+  {
+   "area": "content",
+   "kind": "not-extracted",
+   "note": "Calendar, Tables of Lessons, Proper Lessons, Proper Psalms and the tables of movable feasts are absent from the supplied text extraction; they need the PDF."
+  },
+  {
+   "area": "content",
+   "kind": "not-extracted",
+   "note": "Epistles and Gospels are located but not yet extracted."
+  }
+ ]
+}

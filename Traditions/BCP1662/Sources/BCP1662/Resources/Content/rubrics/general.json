@@ -1,0 +1,163 @@
+{
+ "schemaVersion": 1,
+ "source": "bcp1662-baskerville1762-satucket",
+ "id": "general-rubrics",
+ "title": "The Order how the Psalter and the rest of holy Scripture is appointed to be read",
+ "units": [
+  {
+   "id": "rules.psalter.title",
+   "kind": "heading",
+   "text": "The Order how the PSALTER is appointed to be read.",
+   "provenance": {
+    "rawLines": [
+     794,
+     794
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.psalter.monthly",
+   "kind": "rubric",
+   "text": "THE Pſalter ſhall be read through once every Month, as it is there appointed, both for Morning and Evening Prayer. But in February it ſhall be read only to the twenty-eighth, or twenty-ninth day of the month. And, whereas January, March, May, July, Auguſt, October,and December have one-and-thirty days apiece; It is ordered, that the ſame Pſalms ſhall be read the laſt day of the ſaid Months, which were read the day before: ſo that the Pſalter may begin again the firſt day of the next Month enſuing.",
+   "provenance": {
+    "rawLines": [
+     795,
+     812
+    ],
+    "extractionPages": [
+     8
+    ],
+    "dropcap": "restored-from-unflagged-orphan-line"
+   }
+  },
+  {
+   "id": "rules.psalter.ps119",
+   "kind": "rubric",
+   "text": "And, whereas the CXIX Pſalm is divided into XXII Portions, and is over-long to be read at one time; It is ſo ordered, that at one time ſhall not be read above four or five of the ſaid Portions.",
+   "provenance": {
+    "rawLines": [
+     813,
+     818
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.psalter.gloria",
+   "kind": "rubric",
+   "text": "And at the end of every Pſalm, and of every ſuch part of the CXIX Pſalm, ſhall be repeated this Hymn, Glory be to the Father, and to the Son: and to the Holy Ghoſt; As it was in the beginning, is now, and ever ſhall be; world without end. Amen.",
+   "provenance": {
+    "rawLines": [
+     819,
+     828
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.psalter.translation",
+   "kind": "rubric",
+   "text": "Note, that the Pſalter followeth the diviſion of the Hebrews, and the tranſlation of the great Engliſh Bible, ſet forth and uſed in the time of King Henry the Eighth, and Edward the Sixth.",
+   "provenance": {
+    "rawLines": [
+     831,
+     839
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.scripture.title",
+   "kind": "heading",
+   "text": "The Order how the reſt of holy Scripture is appointed to be read.",
+   "provenance": {
+    "rawLines": [
+     840,
+     841
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.scripture.old-testament",
+   "kind": "rubric",
+   "text": "THE Old Teſtament is appointed for the firſt Leſſons at Morning and Evening Prayer, ſo as the moſt part thereof will be read every year once, as in the Calendar is appointed.",
+   "provenance": {
+    "rawLines": [
+     842,
+     850
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.scripture.new-testament",
+   "kind": "rubric",
+   "text": "The New Teſtament is appointed for the ſecond Leſſons at Morning and Evening Prayer, and ſhall be read over orderly every year thrice, beſides the Epiſtles and Goſpels; except the Apocalyps, out of which there are only certain proper Leſſons appointed upon divers Feaſts.",
+   "provenance": {
+    "rawLines": [
+     848,
+     858
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.lessons.calendar",
+   "kind": "rubric",
+   "text": "And to know what Leſſons ſhall be read every day, look for the day of the Month in the Calendar following, and there ye ſhall find the Chapters that ſhall be read for the Leſſons both at Morning and Evening Prayer; except only the Moveable Feats, which are not in the Calendar, and the Immovable, where there is a Blank left in the Column of Leſſons, the Proper Leſſons for all which days are to be found in the Table of the Proper Leſſons.",
+   "provenance": {
+    "rawLines": [
+     859,
+     866
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.proper-psalms-and-lessons",
+   "kind": "rubric",
+   "text": "And note, That whenſoever Proper Pſalms or Leſſons are appointed; then the Pſalms and Leſſons of ordinary courſe appointed in the Pſalter and Calendar (if they be different) ſhall be omitted for that time.",
+   "provenance": {
+    "rawLines": [
+     869,
+     878
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  },
+  {
+   "id": "rules.sunday-collect-serves-week",
+   "kind": "rubric",
+   "text": "Note alſo, That the Collect, Epiſtle, and Goſpel appointed for the Sunday ſhall ſerve all the Week after, where it is not in this book otherwiſe ordered.",
+   "provenance": {
+    "rawLines": [
+     879,
+     887
+    ],
+    "extractionPages": [
+     8
+    ]
+   }
+  }
+ ]
+}

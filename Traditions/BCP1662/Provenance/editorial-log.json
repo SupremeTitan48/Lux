@@ -1,0 +1,38 @@
+{
+ "schemaVersion": 1,
+ "source": "bcp1662-baskerville1762-satucket",
+ "policy": "Documentation/TRANSCRIPTION_POLICY.md",
+ "editsByRule": {
+  "dropcap-line-split": 14,
+  "ligature": 1058,
+  "line-join": 207,
+  "word-space": 23
+ },
+ "detail": "transcription/edits.jsonl",
+ "decisionTables": {
+  "ligatures": {
+   "entries": 122,
+   "byBasis": {
+    "lexicon": 103,
+    "reviewed": 19
+   }
+  },
+  "joins": {
+   "entries": 1617,
+   "byBasis": {
+    "lexicon": 1422,
+    "reviewed": 195
+   }
+  },
+  "dropcaps": {
+   "entries": 43,
+   "byBasis": {
+    "context": 34,
+    "orphan-line": 9
+   }
+  },
+  "spaces": {
+   "entries": 23
+  }
+ }
+}

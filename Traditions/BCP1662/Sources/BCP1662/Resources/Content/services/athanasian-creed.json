@@ -1,0 +1,250 @@
+{
+ "schemaVersion": 1,
+ "source": "bcp1662-baskerville1762-satucket",
+ "id": "athanasian-creed",
+ "title": "Quicunque vult, commonly called the Creed of Saint Athanasius",
+ "units": [
+  {
+   "id": "ath.rubric",
+   "kind": "rubric",
+   "text": "Upon theſe Feasts, Christmas-day, the Epiphany, St. Matthias, Easter-day, Aſcenſion-day, Whitſunday, St. John Baptist, St. James, St. Bartholomew, St. Matthew, St. Simon and St. Jude, St. Andrew, and upon Trinity-ſunday, ſhall be ſung or ſaid at Morning Prayer, instead of the Apostles Creed, this Confeſſion of our Christian Faith, commonly called the Creed of St. Athanaſius, by the Minister and people standing.",
+   "provenance": {
+    "rawLines": [
+     1471,
+     1494
+    ],
+    "extractionPages": [
+     24
+    ],
+    "review": "reading-order-reconstructed",
+    "editorial": [
+     "'day,ſhall' -> 'day, ſhall'",
+     "'thisConfeſſion' -> 'this Confeſſion'",
+     "'St.Athanaſius' -> 'St. Athanaſius'"
+    ]
+   }
+  },
+  {
+   "id": "ath.title",
+   "kind": "heading",
+   "latin": "Quicunque vult.",
+   "text": "Quicunque vult.",
+   "provenance": {
+    "rawLines": [
+     1511,
+     1511
+    ],
+    "extractionPages": [
+     24
+    ],
+    "review": "reading-order-reconstructed"
+   }
+  },
+  {
+   "id": "ath.creed",
+   "kind": "canticle",
+   "role": "all",
+   "verses": [
+    {
+     "first": "WHOSOEVER will be ſaved",
+     "second": "before all things it is neceſſary that he hold the Catholick Faith."
+    },
+    {
+     "first": "Which Faith except every one do keep whole and undefiled",
+     "second": "without doubt he ſhall periſh everlastingly."
+    },
+    {
+     "first": "And the Catholick Faith is this",
+     "second": "That we worſhip one God in Trinity, and Trinity in Unity;"
+    },
+    {
+     "first": "Neither confounding the Perſons",
+     "second": "nor dividing the Substance."
+    },
+    {
+     "first": "For there is one Perſon of the Father, another of the Son",
+     "second": "and another of the Holy Ghost."
+    },
+    {
+     "first": "But the Godhead of the Father, of the Son, and of the Holy Ghost, is all one",
+     "second": "the Glory equal, the Majesty co-eternal."
+    },
+    {
+     "first": "Such as the Father is, ſuch is the Son",
+     "second": "and ſuch is the Holy Ghost."
+    },
+    {
+     "first": "The Father uncreate, the Son uncreate",
+     "second": "and the Holy Ghost uncreate."
+    },
+    {
+     "first": "The Father incomprehenſible, the Son incomprehenſible",
+     "second": "and the Holy Ghost incomprehenſible."
+    },
+    {
+     "first": "The Father eternal, the Son eternal",
+     "second": "and the Holy Ghost eternal."
+    },
+    {
+     "first": "And yet there are not three eternals",
+     "second": "but one eternal."
+    },
+    {
+     "first": "As alſo there are not three incomprehenſibles, nor three uncreated",
+     "second": "but one uncreated and one incomprehenſible."
+    },
+    {
+     "first": "So likewiſe the Father is Almighty, the Son Almighty",
+     "second": "and the Holy Ghost Almighty."
+    },
+    {
+     "first": "And yet there are not three Almighties",
+     "second": "but one Almighty."
+    },
+    {
+     "first": "So the Father is God, the Son is God",
+     "second": "and the Holy Ghost is God."
+    },
+    {
+     "first": "And yet there are not three Gods",
+     "second": "but one God."
+    },
+    {
+     "first": "So likewiſe the Father is Lord, the Son Lord",
+     "second": "and the Holy Ghost Lord."
+    },
+    {
+     "first": "And yet not three Lords",
+     "second": "but one Lord."
+    },
+    {
+     "first": "For like as we are compelled by the Christian verity",
+     "second": "to acknowledge every Perſon by himſelf to be God and Lord;"
+    },
+    {
+     "first": "So are we forbidden by the Catholick Religion",
+     "second": "to ſay there be three Gods, or three Lords."
+    },
+    {
+     "first": "The Father is made of none",
+     "second": "neither created, nor begotten."
+    },
+    {
+     "first": "The Son is of the Father alone",
+     "second": "not made, nor created, but begotten."
+    },
+    {
+     "first": "The Holy Ghost is of the Father and of the Son",
+     "second": "neither made, nor created, nor begotten, but proceeding."
+    },
+    {
+     "first": "So there is one Father, not three Fathers; one Son, not three Sons",
+     "second": "one Holy Ghost, not three Holy Ghosts."
+    },
+    {
+     "first": "And in this Trinity none is afore or after other",
+     "second": "none is greater, or leſs than another;"
+    },
+    {
+     "first": "But the whole three Perſons are co-eternal together",
+     "second": "and co-equal."
+    },
+    {
+     "first": "So that in all things, as is aforeſaid",
+     "second": "the Unity in Trinity, and the Trinity in Unity is to be worſhipped."
+    },
+    {
+     "first": "He therefore that will be ſaved",
+     "second": "must thus think of the Trinity."
+    },
+    {
+     "first": "Furthermore, it is neceſſary to everlasting ſalvation",
+     "second": "that he alſo believe rightly the Incarnation of our Lord Jeſus Christ."
+    },
+    {
+     "first": "For the right Faith is, that we believe and confeſs",
+     "second": "that our Lord Jeſus Christ, the Son of God, is God and Man;"
+    },
+    {
+     "first": "God, of the Substance of the Father, begotten before the worlds",
+     "second": "and Man, of the ſubstance of his Mother, born in the world;"
+    },
+    {
+     "first": "Perfect God, and perfect Man",
+     "second": "of a reaſonable ſoul and human fleſh ſubſisting;"
+    },
+    {
+     "first": "Equal to the Father, as touching his Godhead",
+     "second": "and inferior to the Father, as touching his Manhood;"
+    },
+    {
+     "first": "Who although he be God and Man",
+     "second": "yet he is not two, but one Christ;"
+    },
+    {
+     "first": "One; not by converſion of the Godhead into fleſh",
+     "second": "but by taking of the Manhood into God;"
+    },
+    {
+     "first": "One altogether; not by confuſion of Sub-stance",
+     "second": "but by unity of Perſon."
+    },
+    {
+     "first": "For as the reaſonable ſoul and fleſh is one man",
+     "second": "ſo God and Man is one Christ;"
+    },
+    {
+     "first": "Who ſuffered for our ſalvation",
+     "second": "deſcended into hell; roſe again the third day from the dead;"
+    },
+    {
+     "first": "He aſcended into heaven, he ſitteth on the right hand of the Father, God Almighty",
+     "second": "from whence He ſhall come to judge the quick and the dead."
+    },
+    {
+     "first": "At whoſe coming all men ſhall riſe again with their bodies",
+     "second": "and ſhall give account for their own works."
+    },
+    {
+     "first": "And they that have done good ſhall go into life everlasting",
+     "second": "and they that have done evil, into everlasting fire."
+    },
+    {
+     "first": "This is the Catholick Faith",
+     "second": "which except a man believe faithfully, he cannot be ſaved."
+    }
+   ],
+   "gloria": [
+    {
+     "first": "Glory be to the Father and to the Son",
+     "second": "and to the Holy Ghost;"
+    },
+    {
+     "first": "As it was in the beginning, is now, and ever ſhall be",
+     "second": "world without end. Amen."
+    }
+   ],
+   "provenance": {
+    "rawLines": [
+     1462,
+     1700
+    ],
+    "extractionPages": [
+     24,
+     25
+    ],
+    "review": "reading-order-reconstructed",
+    "editorial": [
+     "'Sub stance' -> 'Substance'",
+     "'Per ſon' -> 'Perſon'",
+     "'Gho st' -> 'Ghost'",
+     "'Son,and' -> 'Son, and'",
+     "'Gloryequal' -> 'Glory equal'",
+     "'Christianverity' -> 'Christian verity'",
+     "'himſelfto' -> 'himſelf to'",
+     "'created,nor' -> 'created, nor'"
+    ]
+   }
+  }
+ ]
+}

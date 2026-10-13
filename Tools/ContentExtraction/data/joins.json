@@ -1,0 +1,8269 @@
+{
+ "aba|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10931"
+ },
+ "abhorre|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 27098",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "abje|#s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22792"
+ },
+ "aboli|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16480"
+ },
+ "aboli|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 191"
+ },
+ "abu|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20161"
+ },
+ "ab|sence": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6921"
+ },
+ "ab|sent": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23641"
+ },
+ "ab|solution": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15208"
+ },
+ "ab|solve": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12183"
+ },
+ "ab|solved": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20380"
+ },
+ "ab|stain": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5381"
+ },
+ "ab|stinence": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5237"
+ },
+ "acce|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3985"
+ },
+ "accompli|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11761"
+ },
+ "accompli|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3903"
+ },
+ "accur|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10766"
+ },
+ "accu|sation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6081"
+ },
+ "accu|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7298"
+ },
+ "accu|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5971"
+ },
+ "accu|ser": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14170"
+ },
+ "accu|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18832"
+ },
+ "accu|stomed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 723"
+ },
+ "addi|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 712"
+ },
+ "admini|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15049"
+ },
+ "admini|stration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2403"
+ },
+ "admini|strations": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10774"
+ },
+ "admoni|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19990"
+ },
+ "admoni|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4544"
+ },
+ "adver|saries": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 473"
+ },
+ "adver|sary": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6635"
+ },
+ "adver|sities": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2019"
+ },
+ "adver|sity": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2228"
+ },
+ "advi|sedly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 114"
+ },
+ "affe|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1909"
+ },
+ "affe|#ioned": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4190",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "affe|#ions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7906"
+ },
+ "affli|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2511"
+ },
+ "affli|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6197"
+ },
+ "affli|#ions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2193"
+ },
+ "affli|ctions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2057"
+ },
+ "afore|said": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1622"
+ },
+ "against|him": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 927"
+ },
+ "against|sin": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16442"
+ },
+ "against|sinners": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 20013"
+ },
+ "against|spiritual": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11880"
+ },
+ "against|such": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11229"
+ },
+ "again|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 161"
+ },
+ "alaba|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6273"
+ },
+ "almost|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 25859"
+ },
+ "almo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6862"
+ },
+ "al|so": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 187"
+ },
+ "ami|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7484"
+ },
+ "among|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 184"
+ },
+ "anabapti|sm": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 386",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ance|stors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33879"
+ },
+ "and|such": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1592"
+ },
+ "angui|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8856"
+ },
+ "answere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6542"
+ },
+ "an|swer": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3267"
+ },
+ "an|swerably": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 17453",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "an|swere": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6541",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "an|swered": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3176"
+ },
+ "an|swereth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5634"
+ },
+ "an|swering": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6675"
+ },
+ "an|swers": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4129"
+ },
+ "apostle|ship": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 13054"
+ },
+ "apo|stle": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 701"
+ },
+ "apo|stles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3945"
+ },
+ "apo|stolick": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 14857",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "appea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 613"
+ },
+ "appea|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 628"
+ },
+ "apprehen|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 414"
+ },
+ "archbi|shop": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 640"
+ },
+ "archbi|shops": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34981"
+ },
+ "ardne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2815",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ari|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 608"
+ },
+ "ari|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28345"
+ },
+ "aro|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3688"
+ },
+ "ascen|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1476"
+ },
+ "assist|our": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2018"
+ },
+ "astoni|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4127"
+ },
+ "astoni|shment": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33051"
+ },
+ "athana|sius": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1494"
+ },
+ "athir|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23452",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "augustine|saith": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 34858"
+ },
+ "a|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33049"
+ },
+ "a|#s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24747"
+ },
+ "a|#ual": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16934"
+ },
+ "a|ct": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32037"
+ },
+ "a|cts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32106"
+ },
+ "a|scen": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1475",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "a|scend": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9089"
+ },
+ "a|scended": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1678"
+ },
+ "a|scending": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14493"
+ },
+ "a|scribe": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22227"
+ },
+ "a|scribed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32144"
+ },
+ "a|ser": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 12949",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "a|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5121"
+ },
+ "a|shamed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6629"
+ },
+ "a|shes": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5765"
+ },
+ "a|sia": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9332"
+ },
+ "a|side": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11006"
+ },
+ "a|sk": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3256"
+ },
+ "a|sked": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3260"
+ },
+ "a|sketh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8918"
+ },
+ "a|sking": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4122"
+ },
+ "a|sleep": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3468"
+ },
+ "a|sps": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21145"
+ },
+ "a|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2944"
+ },
+ "a|stoni": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4126",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "a|stonished": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9478"
+ },
+ "a|stray": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8683"
+ },
+ "a|sunder": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13008"
+ },
+ "baptize|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3287"
+ },
+ "bapti|sm": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 381"
+ },
+ "bapti|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1481"
+ },
+ "barbarou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32944"
+ },
+ "bare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6257"
+ },
+ "bar|sabas": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13039",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ba|san": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 21791"
+ },
+ "ba|skets": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5734"
+ },
+ "ba|stards": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18763"
+ },
+ "beare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5639"
+ },
+ "bea|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6225"
+ },
+ "bea|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2189"
+ },
+ "becau|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 554"
+ },
+ "beholde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10191"
+ },
+ "believe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13447"
+ },
+ "benedi|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2234"
+ },
+ "benefa|#ors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7001"
+ },
+ "betraye|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7105"
+ },
+ "be|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2248"
+ },
+ "be|seech": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1824"
+ },
+ "be|seeching": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2684"
+ },
+ "be|seeeh": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 14780",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "be|side": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8293"
+ },
+ "be|sides": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 854"
+ },
+ "be|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2493"
+ },
+ "be|sought": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4489"
+ },
+ "be|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 316"
+ },
+ "be|stow": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5010"
+ },
+ "be|stowed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4616"
+ },
+ "bitterne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11704"
+ },
+ "bi|shop": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 624"
+ },
+ "bi|shoprick": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13021",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "bi|shops": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1231"
+ },
+ "blamele|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11578"
+ },
+ "blasphemou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7183"
+ },
+ "bla|spheme": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20562"
+ },
+ "bla|sphemed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26016"
+ },
+ "bla|sphemer": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15181"
+ },
+ "bla|sphemers": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29714"
+ },
+ "bla|sphemeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11725"
+ },
+ "bla|sphemou": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 7182",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "bla|sphemous": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34895"
+ },
+ "bla|sphemy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6566"
+ },
+ "bla|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13230"
+ },
+ "bla|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21403"
+ },
+ "blemi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18503"
+ },
+ "blessedne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3821"
+ },
+ "blesse|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25026"
+ },
+ "ble|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1856"
+ },
+ "blindne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1729"
+ },
+ "bli|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19798"
+ },
+ "bloodthir|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20626"
+ },
+ "boa|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20930"
+ },
+ "boa|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27658"
+ },
+ "boldne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3983"
+ },
+ "bo|som": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9856"
+ },
+ "brake|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25992"
+ },
+ "bra|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5003"
+ },
+ "brea|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3597"
+ },
+ "brea|stplate": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11888"
+ },
+ "brea|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5174"
+ },
+ "brightne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3328"
+ },
+ "brim|stone": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21041"
+ },
+ "bringe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13621"
+ },
+ "broughte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25108"
+ },
+ "brui|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20508"
+ },
+ "brui|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19219"
+ },
+ "builde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6088"
+ },
+ "bur|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13007"
+ },
+ "busine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 199"
+ },
+ "bu|shes": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22254"
+ },
+ "bu|sine": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 198",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "bu|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22797"
+ },
+ "b|stance": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1550"
+ },
+ "cae|sar": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7300"
+ },
+ "called|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14244"
+ },
+ "came|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9054"
+ },
+ "canst|say": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 17722"
+ },
+ "can|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4300"
+ },
+ "carca|se": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4700",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "carefulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19932"
+ },
+ "carele|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32181"
+ },
+ "care|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12147"
+ },
+ "catechi|sm": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16549"
+ },
+ "causele|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33966"
+ },
+ "cau|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 519"
+ },
+ "cau|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3008"
+ },
+ "cau|sele": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33965",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "cau|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18086"
+ },
+ "ca|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 253"
+ },
+ "ca|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2866"
+ },
+ "ca|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5532"
+ },
+ "ca|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5524"
+ },
+ "ca|stle": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18974"
+ },
+ "ca|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21816"
+ },
+ "cea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2374"
+ },
+ "cea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7588"
+ },
+ "cea|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13771"
+ },
+ "cele|stial": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19585"
+ },
+ "ce|sar": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7758"
+ },
+ "chastene|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27688"
+ },
+ "cha|ste": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18594"
+ },
+ "cha|sten": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19384"
+ },
+ "cha|stene": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 27687",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "cha|stened": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5285"
+ },
+ "cha|steneth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18752"
+ },
+ "cha|stening": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18756"
+ },
+ "cha|stise": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7371"
+ },
+ "cha|stisement": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18748"
+ },
+ "cha|stity": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17704"
+ },
+ "cheapne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2205"
+ },
+ "cheerfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4187"
+ },
+ "cheri|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18177"
+ },
+ "cheri|sheth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18507"
+ },
+ "cheri|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18443"
+ },
+ "chiefe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 152"
+ },
+ "childi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5040"
+ },
+ "choose|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24984"
+ },
+ "choo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12974"
+ },
+ "cho|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11520"
+ },
+ "cho|sen": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4838"
+ },
+ "christ|imputed": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 3852"
+ },
+ "christ|jo": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 3794"
+ },
+ "christ|our": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2181"
+ },
+ "christ|saith": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 15504"
+ },
+ "christ|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5521"
+ },
+ "christ|should": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 4010"
+ },
+ "christ|sitteth": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 8096"
+ },
+ "chri|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 269"
+ },
+ "chri|stened": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34788"
+ },
+ "chri|stian": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 729"
+ },
+ "chri|stianly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 18401",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "chri|stians": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2497"
+ },
+ "chri|stmas": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1472"
+ },
+ "chri|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4671"
+ },
+ "chryso|stom": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1240"
+ },
+ "chry|so": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1239",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "circumci|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13655"
+ },
+ "circumci|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3808"
+ },
+ "circumci|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3905"
+ },
+ "circumci|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1801"
+ },
+ "circumspe|#ly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11770",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "circum|spe": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11769",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "cleanne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21426"
+ },
+ "clean|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 961"
+ },
+ "clean|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3184"
+ },
+ "clean|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3568"
+ },
+ "clo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21792"
+ },
+ "clo|set": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5176"
+ },
+ "coa|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3703"
+ },
+ "collect|appointed": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5148"
+ },
+ "colle|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 881"
+ },
+ "colle|ct": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2471"
+ },
+ "colle|cts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2884"
+ },
+ "come|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7488"
+ },
+ "comfortle|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 9215",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "commanded|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13741"
+ },
+ "commande|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8871"
+ },
+ "compari|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25907"
+ },
+ "compa|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13293"
+ },
+ "compa|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6648"
+ },
+ "concupi|scence": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 5387",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "conde|scend": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 247"
+ },
+ "condu|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32225"
+ },
+ "confe|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 956"
+ },
+ "confu|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1660"
+ },
+ "confu|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 178"
+ },
+ "consented|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24065"
+ },
+ "constru|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 311"
+ },
+ "continue|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21756"
+ },
+ "contrariwi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10226"
+ },
+ "contra|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19170"
+ },
+ "controver|sies": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34625"
+ },
+ "conver|sation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8757"
+ },
+ "conver|sations": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15142"
+ },
+ "conver|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1656"
+ },
+ "convi|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19985"
+ },
+ "con|science": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 297"
+ },
+ "con|sciences": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 233"
+ },
+ "con|scientious": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 434"
+ },
+ "con|secrated": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7675"
+ },
+ "con|secration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34980"
+ },
+ "con|sent": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9958"
+ },
+ "con|sented": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18234"
+ },
+ "con|sequence": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 259"
+ },
+ "con|sequent": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33382"
+ },
+ "con|sider": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7692"
+ },
+ "con|sideration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32257"
+ },
+ "con|siderations": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 131"
+ },
+ "con|sidered": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 528"
+ },
+ "con|sidereth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22587"
+ },
+ "con|sidering": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15366"
+ },
+ "con|solation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3028"
+ },
+ "con|spirac": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1773",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "con|spiracies": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32129"
+ },
+ "con|spiracy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32141"
+ },
+ "con|spirators": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32439"
+ },
+ "con|spire": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22393"
+ },
+ "con|spired": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32548"
+ },
+ "con|stancy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3650"
+ },
+ "con|stant": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32707"
+ },
+ "con|stantly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13563"
+ },
+ "con|stituted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14143"
+ },
+ "con|stitutions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34168"
+ },
+ "con|strain": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11297"
+ },
+ "con|strained": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8331"
+ },
+ "con|stru": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 310",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "con|sultation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6667"
+ },
+ "con|sume": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2731"
+ },
+ "con|sumed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19381"
+ },
+ "con|sumeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26804"
+ },
+ "con|suming": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21374"
+ },
+ "con|summation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19797"
+ },
+ "corre|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 933"
+ },
+ "corre|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18768"
+ },
+ "corre|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18676"
+ },
+ "coulde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6431"
+ },
+ "coun|sel": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5922"
+ },
+ "coun|sellors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29639"
+ },
+ "coun|sels": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3160"
+ },
+ "cour|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 188"
+ },
+ "cou|sin": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13207"
+ },
+ "cou|sins": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13649"
+ },
+ "covered|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28289"
+ },
+ "covetousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5475"
+ },
+ "covetou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 5474",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "co|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14912"
+ },
+ "craftine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13287"
+ },
+ "cre|scens": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 14289",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "crowne|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25046"
+ },
+ "cro|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1808"
+ },
+ "cry|stal": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9645"
+ },
+ "cur|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4206"
+ },
+ "cur|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20024"
+ },
+ "cur|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20025"
+ },
+ "cur|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20003"
+ },
+ "cutte|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 24229",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "cu|stom": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4097"
+ },
+ "cu|stoms": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 713"
+ },
+ "cæ|sar": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33565",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "dama|scus": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12638"
+ },
+ "dam|sels": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25300"
+ },
+ "darkne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2867"
+ },
+ "da|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5319"
+ },
+ "da|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31968"
+ },
+ "deadly|sin": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1741"
+ },
+ "decke|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28273"
+ },
+ "declare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10836"
+ },
+ "decrea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28914"
+ },
+ "defende|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20656"
+ },
+ "defen|sible": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 301"
+ },
+ "delighte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20318"
+ },
+ "delivere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22761"
+ },
+ "depo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34777"
+ },
+ "deri|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20488"
+ },
+ "desired|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12078"
+ },
+ "desire|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7561"
+ },
+ "despise|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2011"
+ },
+ "despitefulne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30326",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "despi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 918"
+ },
+ "despi|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10905"
+ },
+ "despi|sers": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8462",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "despi|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5399"
+ },
+ "destroye|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6087"
+ },
+ "destru|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12117"
+ },
+ "destru|#ions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20860"
+ },
+ "devi|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 439"
+ },
+ "de|scend": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2700"
+ },
+ "de|scended": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1673"
+ },
+ "de|sert": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4688"
+ },
+ "de|serts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13727"
+ },
+ "de|serve": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5614"
+ },
+ "de|served": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2168"
+ },
+ "de|serveth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34363"
+ },
+ "de|serving": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27646"
+ },
+ "de|servings": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34407"
+ },
+ "de|signs": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32170"
+ },
+ "de|sire": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 394"
+ },
+ "de|sired": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6702"
+ },
+ "de|sires": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1251"
+ },
+ "de|sireth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18928"
+ },
+ "de|siring": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9852"
+ },
+ "de|sirous": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7338"
+ },
+ "de|solate": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1946"
+ },
+ "de|solation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5541"
+ },
+ "de|speration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34572"
+ },
+ "de|spi": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 917",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "de|spightfully": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33042",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "de|spitefully": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 22415"
+ },
+ "de|spitefulne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30325",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "de|stitute": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13483"
+ },
+ "de|stroy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2163"
+ },
+ "de|stroye": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6086",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "de|stroyed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10355"
+ },
+ "de|stroyer": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10655"
+ },
+ "de|stroyeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27478"
+ },
+ "de|stroying": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2373"
+ },
+ "de|stru": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 12116",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "didst|safely": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16141"
+ },
+ "didst|san": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16149"
+ },
+ "didst|save": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2344"
+ },
+ "didst|send": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2325"
+ },
+ "didst|slay": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2337"
+ },
+ "didst|suddenly": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2218"
+ },
+ "didst|suffer": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 12511"
+ },
+ "did|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2045"
+ },
+ "dige|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3014"
+ },
+ "dile|cta": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26827",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "dimini|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34755"
+ },
+ "dioce|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 625"
+ },
+ "dire#|w": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11643"
+ },
+ "dire|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2445"
+ },
+ "dire|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 342"
+ },
+ "disaffe|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 201"
+ },
+ "disclo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18128"
+ },
+ "disea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23165"
+ },
+ "disea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5676"
+ },
+ "disea|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14259"
+ },
+ "dishone|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14067"
+ },
+ "dispen|sation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3934"
+ },
+ "disper|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2033"
+ },
+ "displea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16218"
+ },
+ "displea|sure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19223"
+ },
+ "dispo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14775"
+ },
+ "dispo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14940"
+ },
+ "dispo|sest": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33803"
+ },
+ "disquietne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23171",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "distin|#ly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34955"
+ },
+ "distin|ctly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32036"
+ },
+ "distre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3078"
+ },
+ "diver|sities": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10777"
+ },
+ "diver|sity": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 589"
+ },
+ "divi|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 833"
+ },
+ "divi|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7226"
+ },
+ "di|saffe": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 200",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|sannul": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11063",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|sappoint": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21307"
+ },
+ "di|sappointed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26326"
+ },
+ "di|sappointeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21193"
+ },
+ "di|scerned": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34428"
+ },
+ "di|scerning": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7278"
+ },
+ "di|scharge": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 404"
+ },
+ "di|sciple": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3592"
+ },
+ "di|sciples": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2939"
+ },
+ "di|scipline": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19980"
+ },
+ "di|sclo": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 18127",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|scomfit": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21473"
+ },
+ "di|scomfited": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25236"
+ },
+ "di|scomfort": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22772"
+ },
+ "di|scontinued": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 179"
+ },
+ "di|scover": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32280"
+ },
+ "di|scovered": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 165"
+ },
+ "di|scovereth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22252"
+ },
+ "di|scovering": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32213"
+ },
+ "di|screet": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15203"
+ },
+ "di|screetly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18082"
+ },
+ "di|scretion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 626"
+ },
+ "di|sdainfully": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22414"
+ },
+ "di|sea": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 5675"
+ },
+ "di|sfigure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5193"
+ },
+ "di|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6364"
+ },
+ "di|shone": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 14066"
+ },
+ "di|shonour": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5283"
+ },
+ "di|smal": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33620"
+ },
+ "di|sobedience": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5491"
+ },
+ "di|sobedient": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3130"
+ },
+ "di|spen": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3933",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|sper": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2032",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|splea": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 16217",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|spleasure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26165"
+ },
+ "di|spo": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 14774",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|squiet": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33896"
+ },
+ "di|squieted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23474"
+ },
+ "di|squieteth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19376"
+ },
+ "di|squietne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23170",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|stempers": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19217"
+ },
+ "di|stin": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34954",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|stre": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3077",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "di|stressed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2512"
+ },
+ "di|stresses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5269"
+ },
+ "di|stribute": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14956"
+ },
+ "di|stributed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5718"
+ },
+ "di|stributing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4198"
+ },
+ "di|sturb": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33962"
+ },
+ "doer|s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27710"
+ },
+ "doe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9697"
+ },
+ "dost|promi": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 1247",
+  "note": "word space missing in the extraction"
+ },
+ "dost|promise": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1449"
+ },
+ "dost|set": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 25872"
+ },
+ "dost|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 18919"
+ },
+ "doubtfulne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 15215",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "doubtle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6240"
+ },
+ "do|#ors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4121"
+ },
+ "do|#rine": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 265"
+ },
+ "do|ctrine": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34160"
+ },
+ "do|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1246"
+ },
+ "dried|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26002"
+ },
+ "drop|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11497"
+ },
+ "dro|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29989"
+ },
+ "drunkenne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2920"
+ },
+ "dur|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11630",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "dust|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 21873"
+ },
+ "du|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19736"
+ },
+ "dwelle|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30305"
+ },
+ "earne|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10132"
+ },
+ "earne|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7079"
+ },
+ "easine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 111"
+ },
+ "ea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 232"
+ },
+ "ea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26671"
+ },
+ "ea|sier": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11730"
+ },
+ "ea|sily": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 402"
+ },
+ "ea|sine": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 110"
+ },
+ "ea|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3992"
+ },
+ "ea|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1474"
+ },
+ "ea|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 540"
+ },
+ "ecclesia|stical": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 35018"
+ },
+ "eccle|sia": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 35017",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "effe|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3871"
+ },
+ "effe|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33607"
+ },
+ "effe|#ual": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3957"
+ },
+ "effe|#ually": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12103"
+ },
+ "ele|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4524"
+ },
+ "ele|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34537"
+ },
+ "ele|ction": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34501"
+ },
+ "eli|sabeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13208"
+ },
+ "eli|sha": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2216"
+ },
+ "el|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 270"
+ },
+ "endle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15417"
+ },
+ "endued|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30843"
+ },
+ "engli|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 835"
+ },
+ "enterpri|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33891"
+ },
+ "en|sample": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8634",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "en|samples": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 10658",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "en|sue": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10235"
+ },
+ "en|sued": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 119"
+ },
+ "en|suing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 812"
+ },
+ "ephe|sians": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18484"
+ },
+ "ephe|sus": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14294"
+ },
+ "epi|stle": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 882"
+ },
+ "epi|stles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 363"
+ },
+ "erne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2329",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "eru|ctavit": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23657",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "espou|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3755"
+ },
+ "establi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7629"
+ },
+ "establi|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 116"
+ },
+ "establi|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34142"
+ },
+ "evangeli|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3489"
+ },
+ "evangeli|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13262"
+ },
+ "everla|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1227"
+ },
+ "everla|stingly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1530",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "exce|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11779"
+ },
+ "excu|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9959"
+ },
+ "excu|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9965"
+ },
+ "excu|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15266"
+ },
+ "exerci|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6996"
+ },
+ "exerci|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23070"
+ },
+ "expe|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 418"
+ },
+ "expe|#ation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10133"
+ },
+ "expe|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 240"
+ },
+ "expe|#ing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7648"
+ },
+ "expe|ctans": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23286",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "expe|ctavi": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23287",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "expo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33884"
+ },
+ "expre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3330"
+ },
+ "extin|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29489"
+ },
+ "e|saias": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3056",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|same": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2239"
+ },
+ "e|scape": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10672"
+ },
+ "e|scaped": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30354"
+ },
+ "e|schew": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8734"
+ },
+ "e|schewed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21440"
+ },
+ "e|seech": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2400",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|server": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2479"
+ },
+ "e|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1527"
+ },
+ "e|sp": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2429"
+ },
+ "e|spceially": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 15035",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|special": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32936"
+ },
+ "e|speciall": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2489",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|specially": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 365"
+ },
+ "e|spou": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3754",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5200"
+ },
+ "e|stabli": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 115",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "e|state": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2491"
+ },
+ "e|states": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7544"
+ },
+ "e|sus": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2269",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "faile|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9904"
+ },
+ "faithfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20637"
+ },
+ "faithle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12579"
+ },
+ "fal|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1776"
+ },
+ "fal|sehood": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25749"
+ },
+ "fal|sely": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14608"
+ },
+ "fal|seswearers": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 12864",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "fal|shood": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23413",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "fatherle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1944"
+ },
+ "fatne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24871"
+ },
+ "favoure|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23435"
+ },
+ "fa|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32294"
+ },
+ "fa|#ious": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 419",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "fa|ction": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34154"
+ },
+ "fa|shion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5902"
+ },
+ "fa|shioned": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12133"
+ },
+ "fa|shioneth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22589"
+ },
+ "fa|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3016"
+ },
+ "fa|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5295"
+ },
+ "fa|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1804"
+ },
+ "fa|stings": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4907"
+ },
+ "fearfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24365"
+ },
+ "fea|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4094"
+ },
+ "fea|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 858"
+ },
+ "feede|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26591"
+ },
+ "fellow|ship": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1262"
+ },
+ "fiercene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26110"
+ },
+ "fille|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21318"
+ },
+ "filthine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5479"
+ },
+ "fine|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26717"
+ },
+ "fini|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7861"
+ },
+ "first|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 9961"
+ },
+ "first|say": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 14335"
+ },
+ "first|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 12792"
+ },
+ "fir|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 104"
+ },
+ "fir|stfruits": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3678",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "fi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8497"
+ },
+ "fi|shermen": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10256"
+ },
+ "fi|shers": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12493"
+ },
+ "fi|shes": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2191"
+ },
+ "fledde|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 29290",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "fle|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1648"
+ },
+ "fle|shly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8751"
+ },
+ "flouri|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25709"
+ },
+ "flouri|sheth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28233"
+ },
+ "flouri|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23097"
+ },
+ "foolishne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23157"
+ },
+ "fooli|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5480"
+ },
+ "fooli|shne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23156",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "foot|steps": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21278"
+ },
+ "foot|stool": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27954"
+ },
+ "fora|smuch": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 604"
+ },
+ "fore|sight": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32142"
+ },
+ "fore|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24029"
+ },
+ "forgave|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22493"
+ },
+ "forgette|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 23645",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "forgivene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 925"
+ },
+ "fortre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31200"
+ },
+ "for|sake": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14053"
+ },
+ "for|saken": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6130"
+ },
+ "for|saketh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23057"
+ },
+ "for|saking": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7694"
+ },
+ "for|sook": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6489"
+ },
+ "four|score": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10725"
+ },
+ "frailne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 18934",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "frankincen|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4048"
+ },
+ "fre|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27039"
+ },
+ "friendle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20998"
+ },
+ "frowardne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21457"
+ },
+ "fro|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26385"
+ },
+ "fulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3731"
+ },
+ "fun|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2308"
+ },
+ "furiousne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26394",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "furiou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20471"
+ },
+ "furiou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26393",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "furni|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6345"
+ },
+ "gain|saying": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12484"
+ },
+ "garni|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5587"
+ },
+ "gathere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14988"
+ },
+ "gave|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21686"
+ },
+ "ga|speth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31157"
+ },
+ "genne|saret": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 10252",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "gentlene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11225"
+ },
+ "gerge|senes": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4478",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "geth|semane": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6407"
+ },
+ "ge|sture": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16238"
+ },
+ "ghost|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 13196"
+ },
+ "gho|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1264"
+ },
+ "gho|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15209"
+ },
+ "gho|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1616"
+ },
+ "give|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26593"
+ },
+ "gladne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3365"
+ },
+ "gla|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5043"
+ },
+ "gna|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29236"
+ },
+ "gna|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22799"
+ },
+ "gna|sheth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22991"
+ },
+ "gna|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4369"
+ },
+ "godline|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 453"
+ },
+ "goe|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8919",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "goodline|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13609",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "goodne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 975"
+ },
+ "governe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33843"
+ },
+ "go|s": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 14929"
+ },
+ "go|spel": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 883"
+ },
+ "go|spels": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 364"
+ },
+ "graciou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 246"
+ },
+ "gra|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5711"
+ },
+ "gra|sshopper": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29071"
+ },
+ "greate|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 456"
+ },
+ "greatne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6167"
+ },
+ "greedine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11667"
+ },
+ "grievou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4326"
+ },
+ "gue|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6339"
+ },
+ "gue|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11828"
+ },
+ "guiltine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20301"
+ },
+ "guiltle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14697"
+ },
+ "gu|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30052"
+ },
+ "gu|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13011"
+ },
+ "g|sacrifice": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2747"
+ },
+ "had|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7621"
+ },
+ "happine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2459"
+ },
+ "hardne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 517"
+ },
+ "harve|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4586"
+ },
+ "hast|appointed": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2389"
+ },
+ "hast|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 21208"
+ },
+ "hast|saved": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 31835"
+ },
+ "hast|scattered": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 23594"
+ },
+ "hast|searched": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 30882"
+ },
+ "hast|seen": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 12589"
+ },
+ "hast|sent": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5868"
+ },
+ "hast|served": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 30824"
+ },
+ "hast|set": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 19438"
+ },
+ "hast|shewed": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 24714"
+ },
+ "hast|since": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 32179"
+ },
+ "hast|slandered": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 24080"
+ },
+ "hast|smitten": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 23622"
+ },
+ "hast|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 31805"
+ },
+ "hast|subdued": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 27168"
+ },
+ "hast|such": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 31206"
+ },
+ "hast|sucked": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5607"
+ },
+ "hate|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5129"
+ },
+ "ha|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1242"
+ },
+ "ha|ste": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3883"
+ },
+ "ha|sten": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19793"
+ },
+ "ha|stily": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24414"
+ },
+ "hearde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22449"
+ },
+ "heare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5977"
+ },
+ "heavine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19881"
+ },
+ "helli|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32437"
+ },
+ "helple|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29043"
+ },
+ "here|sies": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7230"
+ },
+ "here|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1778"
+ },
+ "her|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12264"
+ },
+ "he|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16435"
+ },
+ "hide|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20923"
+ },
+ "hierome|saith": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 34305",
+  "note": "word space missing in the extraction"
+ },
+ "highest|seat": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11527"
+ },
+ "highest|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 13199"
+ },
+ "highe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2982"
+ },
+ "highne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1860"
+ },
+ "him|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1572"
+ },
+ "him|strength": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 19214"
+ },
+ "his|sickne": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 19276",
+  "note": "word space missing in the extraction"
+ },
+ "his|sins": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16182"
+ },
+ "his|soul": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 19079"
+ },
+ "his|sureties": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16304"
+ },
+ "holde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26143"
+ },
+ "holie|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7671"
+ },
+ "holine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1838"
+ },
+ "hone|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4281"
+ },
+ "hone|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2918"
+ },
+ "hone|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2789"
+ },
+ "hor|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6220"
+ },
+ "hor|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21660"
+ },
+ "hou|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2769"
+ },
+ "hou|sehold": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4518"
+ },
+ "hou|seholder": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4570"
+ },
+ "hou|seholds": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28926"
+ },
+ "hou|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3208"
+ },
+ "hou|shold": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11975",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "hou|sholder": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32859",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ho|sanna": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2979"
+ },
+ "ho|spitality": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4201"
+ },
+ "ho|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11157"
+ },
+ "ho|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12836"
+ },
+ "humblene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4526"
+ },
+ "hu|sband": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3763"
+ },
+ "hu|sbandman": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13305",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "hu|sbandmen": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32863",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "hu|sbands": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18479"
+ },
+ "hypocri|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33956"
+ },
+ "impri|sono": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 5271",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ina|smuch": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11998"
+ },
+ "incen|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25126"
+ },
+ "inclo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10277"
+ },
+ "incomprehen|sibl": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1469",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "incomprehen|sible": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1463"
+ },
+ "incomprehen|sibles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1503"
+ },
+ "increa|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1907"
+ },
+ "increa|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4156"
+ },
+ "increa|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26039"
+ },
+ "increa|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12232"
+ },
+ "ine|stimable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2604"
+ },
+ "infe|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34364"
+ },
+ "infe|ctious": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19247"
+ },
+ "injun|#ions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34166"
+ },
+ "inqui|sition": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20888"
+ },
+ "instru|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18583"
+ },
+ "instru|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13224"
+ },
+ "instru|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17489"
+ },
+ "instru|ct": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17866"
+ },
+ "instru|cted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16909"
+ },
+ "insurre|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6705"
+ },
+ "interce|ssions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33680"
+ },
+ "intere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 203"
+ },
+ "intere|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 167"
+ },
+ "interpo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32167"
+ },
+ "invi|sible": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14824"
+ },
+ "invi|sibly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34695"
+ },
+ "in|serted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 361"
+ },
+ "in|somuch": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4451",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "in|spiration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8976"
+ },
+ "in|spire": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15022"
+ },
+ "in|stance": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32328"
+ },
+ "in|stant": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4197"
+ },
+ "in|stantly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24422"
+ },
+ "in|stead": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1491"
+ },
+ "in|stitute": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15719"
+ },
+ "in|stituted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15413"
+ },
+ "in|stitution": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 680"
+ },
+ "in|stru": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13223",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "in|strument": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19085"
+ },
+ "in|struments": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20758"
+ },
+ "in|surre": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6704",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "it|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 318"
+ },
+ "i|saac": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4361"
+ },
+ "i|scariot": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6913"
+ },
+ "i|sles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25725"
+ },
+ "i|srael": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4352"
+ },
+ "i|sraelites": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4874"
+ },
+ "ja|sper": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9630"
+ },
+ "jealou|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12467"
+ },
+ "jeru|salem": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2934"
+ },
+ "jesu|s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7969"
+ },
+ "je|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25410"
+ },
+ "je|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5481"
+ },
+ "je|su": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3117"
+ },
+ "je|sus": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1236"
+ },
+ "john|saith": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 34470"
+ },
+ "joyfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12236"
+ },
+ "jo|seph": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3757"
+ },
+ "judge|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20852"
+ },
+ "jurisdi|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7328"
+ },
+ "juri|sdi": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 7327",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "justly|suffer": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2200"
+ },
+ "just|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 31036"
+ },
+ "ju|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 143"
+ },
+ "ju|stice": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1887"
+ },
+ "ju|stification": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8535"
+ },
+ "ju|stified": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 951"
+ },
+ "ju|stifieth": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6631",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ju|stify": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11130"
+ },
+ "ju|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2199"
+ },
+ "ju|stus": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 13041",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "kille|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3501"
+ },
+ "kindne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 923"
+ },
+ "kin|sfolk": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4111",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "kin|smen": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23185"
+ },
+ "ki|son": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26790",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ki|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6461"
+ },
+ "knewe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10819"
+ },
+ "knowe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4380"
+ },
+ "k|sgiving": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2847",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "laide|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25111"
+ },
+ "lasciviousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11212"
+ },
+ "lasciviou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11211",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "last|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 4832"
+ },
+ "last|state": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5594"
+ },
+ "la|sciviou": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 11210",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "la|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 368"
+ },
+ "la|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20154"
+ },
+ "la|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32173"
+ },
+ "leade|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26570"
+ },
+ "leanne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28638"
+ },
+ "lea|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20567"
+ },
+ "lea|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 710"
+ },
+ "ledde|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26200",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "lei|sure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22174"
+ },
+ "lepro|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4305"
+ },
+ "lette|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 12913",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "le|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1618"
+ },
+ "le|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 720"
+ },
+ "licentiousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 388"
+ },
+ "licentiou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 387",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "lifte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20895"
+ },
+ "likene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5897"
+ },
+ "likewi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1516"
+ },
+ "likwi|se": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32223",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "live|s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18382"
+ },
+ "live|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3139"
+ },
+ "li|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9727"
+ },
+ "long|suffering": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11485"
+ },
+ "loo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2542"
+ },
+ "loo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11017"
+ },
+ "loo|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31383"
+ },
+ "lord|ship": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6997"
+ },
+ "lost|sheep": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5428"
+ },
+ "lovingkindne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 27121",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "lowe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11534"
+ },
+ "lowline|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11482"
+ },
+ "lo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10061"
+ },
+ "lo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5427"
+ },
+ "lu|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5386"
+ },
+ "lu|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10634"
+ },
+ "lu|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11196"
+ },
+ "lu|stily": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22547"
+ },
+ "lu|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2930"
+ },
+ "lu|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25807"
+ },
+ "madest|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 26631"
+ },
+ "made|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3645"
+ },
+ "madne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25013"
+ },
+ "magi|strate": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34934"
+ },
+ "magi|strates": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1885"
+ },
+ "maje|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 181"
+ },
+ "make|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2758"
+ },
+ "maledi|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20226"
+ },
+ "malefa|#ors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7441"
+ },
+ "maliciousne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8785",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "maliciou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24358"
+ },
+ "maliciou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8784",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "manife|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3158"
+ },
+ "manife|station": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10135"
+ },
+ "manife|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3537"
+ },
+ "manife|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15606"
+ },
+ "man|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13412"
+ },
+ "mayest|save": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 22334"
+ },
+ "mayest|still": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 32264"
+ },
+ "maye|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6323"
+ },
+ "ma|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5440"
+ },
+ "ma|sters": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11338"
+ },
+ "ma|stery": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4754"
+ },
+ "meane|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17777"
+ },
+ "mea|sure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4085"
+ },
+ "mea|sured": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10178"
+ },
+ "mea|sures": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10712"
+ },
+ "meekne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4527"
+ },
+ "melchi|sedech": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 29132",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "merchandi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11810"
+ },
+ "mercile|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31852"
+ },
+ "me|sech": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30228",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "me|sopotamia": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9330"
+ },
+ "mid|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2737"
+ },
+ "mightest|still": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 20797"
+ },
+ "mighte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12730"
+ },
+ "mightie|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26408"
+ },
+ "mightine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31319"
+ },
+ "mill|stone": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14219"
+ },
+ "mini|shed": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 21052"
+ },
+ "mini|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3043"
+ },
+ "mini|stered": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5348"
+ },
+ "mini|stereth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 662"
+ },
+ "mini|stering": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4181"
+ },
+ "mini|sters": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 463"
+ },
+ "mini|stration": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10973"
+ },
+ "mini|stry": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2303"
+ },
+ "min|strels": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12277"
+ },
+ "miraculou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32433"
+ },
+ "misconstru|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 356"
+ },
+ "miscon|stru": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 355",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "mistre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30315"
+ },
+ "mi|scarry": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21704"
+ },
+ "mi|schief": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1719"
+ },
+ "mi|schievous": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 169"
+ },
+ "mi|scon": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 354",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "mi|sdeeds": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19439"
+ },
+ "mi|sdoings": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15466"
+ },
+ "mi|serable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1725"
+ },
+ "mi|serably": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32900"
+ },
+ "mi|series": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19784"
+ },
+ "mi|sery": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19690"
+ },
+ "mi|sfortune": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22686"
+ },
+ "mi|stake": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24479"
+ },
+ "mi|stre": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30314",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "moi|sture": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4936"
+ },
+ "mon|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18981"
+ },
+ "mor|sels": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31465"
+ },
+ "most|expedient": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1255"
+ },
+ "most|holy": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 986"
+ },
+ "most|merci": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 2804",
+  "note": "word space missing in the extraction"
+ },
+ "most|strong": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 19050"
+ },
+ "most|suitable": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 33005"
+ },
+ "most|surely": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 16296"
+ },
+ "mo|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2333"
+ },
+ "mo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 325"
+ },
+ "must|suffer": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 12720"
+ },
+ "mu|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23890"
+ },
+ "mu|sick": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25658"
+ },
+ "mu|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23240"
+ },
+ "mu|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 556"
+ },
+ "my|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3154"
+ },
+ "my|steries": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3126"
+ },
+ "my|stery": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1798"
+ },
+ "my|stical": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14475"
+ },
+ "nakedne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4908"
+ },
+ "naughtine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8906"
+ },
+ "ncomprehen|sible": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1510",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "neede|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9050"
+ },
+ "negle|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15315"
+ },
+ "negle|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 479"
+ },
+ "nethermo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26990"
+ },
+ "neverthele|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5656"
+ },
+ "newne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10344"
+ },
+ "ne|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26844"
+ },
+ "ne|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28327"
+ },
+ "nightsea|son": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 21227",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ni|shments": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2806",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "noi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12278"
+ },
+ "noi|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9321"
+ },
+ "noi|some": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27457"
+ },
+ "notwith|standing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 159"
+ },
+ "nouri|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10445"
+ },
+ "no|cturn": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 512",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "no|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 29323"
+ },
+ "obje|#ions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 216"
+ },
+ "ob|serve": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 249"
+ },
+ "ob|served": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17916"
+ },
+ "ob|stinate": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2330"
+ },
+ "occa|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 330"
+ },
+ "occa|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 132"
+ },
+ "offen|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1788"
+ },
+ "opene|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28373"
+ },
+ "oppo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 304"
+ },
+ "oppo|sition": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32333"
+ },
+ "oppre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2022"
+ },
+ "or|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1490"
+ },
+ "otherwi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 337"
+ },
+ "our|selves": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2742"
+ },
+ "ousne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 22897",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "outca|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21770"
+ },
+ "ou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 22896",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "overpa|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32956",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "over|shadow": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13200"
+ },
+ "owe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10709"
+ },
+ "o|#ober": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33717"
+ },
+ "o|ctober": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 96"
+ },
+ "o|se": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2535"
+ },
+ "o|st": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1564"
+ },
+ "painfulne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4904",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "pal|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4325"
+ },
+ "paradi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7495"
+ },
+ "pari|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 663"
+ },
+ "pari|shchurch": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 671",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "paul|saith": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 34733"
+ },
+ "pa|schal": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15586"
+ },
+ "pa|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3088"
+ },
+ "pa|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3322"
+ },
+ "pa|stime": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28363"
+ },
+ "pa|stors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2294"
+ },
+ "pa|sture": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9586"
+ },
+ "peevi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 421"
+ },
+ "penteco|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9302"
+ },
+ "perceive|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10193"
+ },
+ "perfe#ne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4537",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "perfe#|charity": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 15380"
+ },
+ "perfe#|remission": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5141"
+ },
+ "perfe#|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 10188"
+ },
+ "perfe|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 358"
+ },
+ "perfe|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7650"
+ },
+ "perfe|#ing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13266"
+ },
+ "perfe|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4970"
+ },
+ "perfe|#ly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12517"
+ },
+ "perfe|#ne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4536",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "performe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33009"
+ },
+ "peri|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1528"
+ },
+ "peri|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4502"
+ },
+ "peri|sheth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13394"
+ },
+ "peri|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16138"
+ },
+ "persecute|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12647"
+ },
+ "persua|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 244"
+ },
+ "perver|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 422"
+ },
+ "per|secute": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3483"
+ },
+ "per|secuted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5652"
+ },
+ "per|secution": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11302"
+ },
+ "per|secutions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2036"
+ },
+ "per|secutors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1954"
+ },
+ "per|severance": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11904"
+ },
+ "per|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1571"
+ },
+ "per|sons": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 274"
+ },
+ "per|sua": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 243",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "per|suaded": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 287"
+ },
+ "pe|stilence": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1759"
+ },
+ "phari|see": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10907"
+ },
+ "phari|sees": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3282"
+ },
+ "phili|stia": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 24737",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "phili|stines": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26780"
+ },
+ "phra|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 346"
+ },
+ "phy|sician": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14132"
+ },
+ "pitifulne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2541",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "plainne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 585"
+ },
+ "plea|sant": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12852"
+ },
+ "plea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 417"
+ },
+ "plea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2444"
+ },
+ "plea|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25256"
+ },
+ "plea|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9938"
+ },
+ "plea|sure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7613"
+ },
+ "plea|sures": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4968"
+ },
+ "plenteousne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26595",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "plenteou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12293"
+ },
+ "plenteou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 26594",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "plucke|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25980"
+ },
+ "poi|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21143"
+ },
+ "poli|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31252"
+ },
+ "popi|sh": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32134",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "posse|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5383"
+ },
+ "posse|ssion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25848"
+ },
+ "pot|sherd": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21801"
+ },
+ "po|session": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33069"
+ },
+ "po|sterities": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 25775",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "po|sterity": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23940"
+ },
+ "prai|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2178"
+ },
+ "prai|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13671"
+ },
+ "prai|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6185"
+ },
+ "prai|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24873"
+ },
+ "prai|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2748"
+ },
+ "pra|#ice": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 266"
+ },
+ "pra|#ices": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33462"
+ },
+ "pra|#ise": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24929"
+ },
+ "prede|stination": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34535"
+ },
+ "prepare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21008"
+ },
+ "pre|scribed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16608"
+ },
+ "pre|sence": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6200"
+ },
+ "pre|sent": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 349"
+ },
+ "pre|sentation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12802"
+ },
+ "pre|sented": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 428"
+ },
+ "pre|sents": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25320"
+ },
+ "pre|serv": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2601",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "pre|servation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 326"
+ },
+ "pre|serve": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1857"
+ },
+ "pre|served": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2264"
+ },
+ "pre|server": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18207"
+ },
+ "pre|serveth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19886"
+ },
+ "pre|serving": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32320"
+ },
+ "pre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6174"
+ },
+ "pre|sume": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15123"
+ },
+ "pre|suming": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32182"
+ },
+ "pre|sumption": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26038"
+ },
+ "pre|sumptuous": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21627"
+ },
+ "prie#|alone": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 999",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "priest|say": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 15805"
+ },
+ "priest|shall": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14998"
+ },
+ "priest|standeth": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 7637"
+ },
+ "priest|standing": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 14637"
+ },
+ "priest|stood": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 6533"
+ },
+ "prie|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4314"
+ },
+ "prie|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 654"
+ },
+ "prince|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1861"
+ },
+ "pri|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3166"
+ },
+ "pri|soner": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3930"
+ },
+ "pri|soners": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1939"
+ },
+ "pri|sons": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4886"
+ },
+ "profanene|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33957",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "profe|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 289"
+ },
+ "profe|ssion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33416"
+ },
+ "promi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2162"
+ },
+ "promi|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2137"
+ },
+ "promi|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3046"
+ },
+ "promi|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20165"
+ },
+ "promi|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33435"
+ },
+ "prophete|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12947"
+ },
+ "prophe|sied": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13685"
+ },
+ "prophe|sy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4177"
+ },
+ "propo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 255"
+ },
+ "prote|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32337"
+ },
+ "prote|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32300"
+ },
+ "prote|#ing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33952"
+ },
+ "prote|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4392"
+ },
+ "prote|#or": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10106"
+ },
+ "prote|ction": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33872"
+ },
+ "prote|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19539"
+ },
+ "provide|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25033"
+ },
+ "provi|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2928"
+ },
+ "pro|selytes": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9338"
+ },
+ "pro|sper": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2446"
+ },
+ "pro|sperity": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18104"
+ },
+ "pro|sperous": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33833"
+ },
+ "publi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18030"
+ },
+ "publi|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 213"
+ },
+ "punished|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27971"
+ },
+ "puni|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2258"
+ },
+ "puni|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2226"
+ },
+ "puni|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2375"
+ },
+ "puni|shment": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2174"
+ },
+ "purcha|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2280"
+ },
+ "purcha|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13006"
+ },
+ "purene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2090"
+ },
+ "purpo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 276"
+ },
+ "purpo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3979"
+ },
+ "purpo|sely": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34930"
+ },
+ "purpo|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 170"
+ },
+ "purpo|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17861"
+ },
+ "pur|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7037"
+ },
+ "putte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23573"
+ },
+ "p|sal": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32077"
+ },
+ "p|salm": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 814"
+ },
+ "p|salms": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 803"
+ },
+ "p|salter": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 796"
+ },
+ "que|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17832"
+ },
+ "que|stion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11593"
+ },
+ "que|stioned": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7348"
+ },
+ "que|stions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4124"
+ },
+ "quietne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10217"
+ },
+ "quinquage|sima": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4975",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "rai|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1924"
+ },
+ "rai|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3186"
+ },
+ "ran|som": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13965"
+ },
+ "ravi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20964"
+ },
+ "ra|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 35083"
+ },
+ "ra|sor": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 24231",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "reade|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11116"
+ },
+ "readine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 535"
+ },
+ "rea|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 401"
+ },
+ "rea|sonable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 129"
+ },
+ "rea|sonably": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 239"
+ },
+ "rea|soned": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8255"
+ },
+ "received|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9869"
+ },
+ "receive|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24986"
+ },
+ "recompen|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4279"
+ },
+ "refreshed|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25228"
+ },
+ "refre|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2573"
+ },
+ "refre|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22984"
+ },
+ "refre|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17848"
+ },
+ "refu|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13138"
+ },
+ "refu|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15287"
+ },
+ "refu|seth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24592"
+ },
+ "refu|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 109"
+ },
+ "regarde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12149"
+ },
+ "rehear|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17534"
+ },
+ "reigne|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3140"
+ },
+ "reje|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 256"
+ },
+ "relea|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5987"
+ },
+ "relea|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6042"
+ },
+ "relfe|#": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 33046",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "religiou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15095"
+ },
+ "remaine|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3372"
+ },
+ "remembere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10421"
+ },
+ "repleni|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2406"
+ },
+ "repre|sented": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18432"
+ },
+ "repre|senteth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17457"
+ },
+ "reque|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11988"
+ },
+ "reque|sts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1250"
+ },
+ "require|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20263"
+ },
+ "requi|site": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 231"
+ },
+ "resist|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 4411"
+ },
+ "resist|stedfa": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 10033",
+  "note": "word space missing in the extraction"
+ },
+ "respe#|how": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 718"
+ },
+ "respe|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 717"
+ },
+ "respe|#er": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8199",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "respe|ct": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31642"
+ },
+ "respe|ctively": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34202"
+ },
+ "respon|sive": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 148"
+ },
+ "rest|said": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 6140"
+ },
+ "resurre|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1813"
+ },
+ "resurre|ction": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34263"
+ },
+ "revi|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 226"
+ },
+ "rewarde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24845"
+ },
+ "re|scue": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33486"
+ },
+ "re|scued": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32469"
+ },
+ "re|scuing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31772"
+ },
+ "re|served": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14398"
+ },
+ "re|sidue": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16493"
+ },
+ "re|sist": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2255"
+ },
+ "re|sisteth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4407"
+ },
+ "re|sisting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32711"
+ },
+ "re|solution": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 617"
+ },
+ "re|sort": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 623"
+ },
+ "re|spe": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8198",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "re|spon": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 147",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "re|sponds": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 481"
+ },
+ "re|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 484"
+ },
+ "re|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14712"
+ },
+ "re|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30559"
+ },
+ "re|stitution": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 211"
+ },
+ "re|storation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 182"
+ },
+ "re|store": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2830"
+ },
+ "re|stored": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15593"
+ },
+ "re|storing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33405"
+ },
+ "re|strain": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 35050"
+ },
+ "re|strained": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6239"
+ },
+ "re|surre": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1812",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "righteousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1837"
+ },
+ "righteou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2083"
+ },
+ "righteou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1836",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "righteou|sness": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14600"
+ },
+ "ri|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1686"
+ },
+ "ri|sen": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6389"
+ },
+ "ri|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12935"
+ },
+ "romi|sh": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34654",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ro|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1675"
+ },
+ "rule|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27161"
+ },
+ "ru|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9308"
+ },
+ "ru|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5218"
+ },
+ "r|selves": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2623"
+ },
+ "r|son": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1558"
+ },
+ "said|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27220"
+ },
+ "saint|s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32647"
+ },
+ "san|#": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 5768"
+ },
+ "san|#ification": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5376"
+ },
+ "san|#ified": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7542"
+ },
+ "san|#ifieth": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 17570",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "san|#ify": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5164"
+ },
+ "san|#uary": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6254"
+ },
+ "sate|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24075"
+ },
+ "satisfa|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 237"
+ },
+ "sati|sfa": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 236",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "sati|sfied": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 426"
+ },
+ "sati|sfieth": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 28194",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "sati|sfy": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10512"
+ },
+ "save|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23572"
+ },
+ "sawe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24063"
+ },
+ "saye|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3270"
+ },
+ "scarcene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25206"
+ },
+ "scattere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19427"
+ },
+ "schi|sm": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1781"
+ },
+ "schi|sms": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33964"
+ },
+ "se#|which": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 34596"
+ },
+ "sea|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2649"
+ },
+ "sea|son": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2173"
+ },
+ "sea|sonable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2231"
+ },
+ "sea|sons": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9131"
+ },
+ "see|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4847"
+ },
+ "selle|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23597"
+ },
+ "sende|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25037"
+ },
+ "sente|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25225"
+ },
+ "sen|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2612"
+ },
+ "sen|sible": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31825"
+ },
+ "sen|suality": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34372"
+ },
+ "septuage|sima": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4730"
+ },
+ "seriousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18684"
+ },
+ "seriou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19188"
+ },
+ "seriou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 18683",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "sexage|sima": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 4841",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "se|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34595"
+ },
+ "shewe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8726"
+ },
+ "shortne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 584"
+ },
+ "shoulde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4337"
+ },
+ "sickne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 658"
+ },
+ "simplene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25380"
+ },
+ "sinfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15148"
+ },
+ "sitte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15922"
+ },
+ "si|sera": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 26788"
+ },
+ "si|ster": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 35125"
+ },
+ "sleepe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5517"
+ },
+ "smite|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20547"
+ },
+ "smote|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25995"
+ },
+ "soberne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 17703"
+ },
+ "sowe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19561"
+ },
+ "spakest|sometime": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 27215"
+ },
+ "spake|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24077"
+ },
+ "spare|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20425"
+ },
+ "speake|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7741"
+ },
+ "speechle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11837"
+ },
+ "spende|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11160"
+ },
+ "spe|#acles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19183"
+ },
+ "spie|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30890",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "spou|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18440"
+ },
+ "spreade|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28277"
+ },
+ "stabli|sh": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 10044",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "stande|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3429"
+ },
+ "steadfa|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15377"
+ },
+ "stedfa|st": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 9610",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "stedfa|stly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3417"
+ },
+ "steepe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6429"
+ },
+ "steward|ship": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10687"
+ },
+ "stiffne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 107"
+ },
+ "stille|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2771"
+ },
+ "stone|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3503"
+ },
+ "stronge|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21417"
+ },
+ "stubbornne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20119"
+ },
+ "subje#|unto": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 4152"
+ },
+ "subje|#": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4151"
+ },
+ "subje|#ed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10143"
+ },
+ "subje|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4761"
+ },
+ "subje|#s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 242"
+ },
+ "subje|ct": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19238"
+ },
+ "subje|cts": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34162"
+ },
+ "subver|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32218"
+ },
+ "sub|sisting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1650"
+ },
+ "sub|stance": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1640"
+ },
+ "succe|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33943"
+ },
+ "suffered|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25114"
+ },
+ "sumptuou|sly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 9849",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "super|scription": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6759",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "super|stition": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 684"
+ },
+ "super|stitions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34838"
+ },
+ "super|stitious": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 574"
+ },
+ "suppo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3635"
+ },
+ "suppo|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4810"
+ },
+ "suppo|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4109"
+ },
+ "surest|foundatio": {
+  "decision": "space",
+  "basis": "reviewed",
+  "example": "raw line 2457",
+  "note": "word space missing in the extraction"
+ },
+ "sure|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2456"
+ },
+ "su|stained": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20538"
+ },
+ "su|stenance": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2143"
+ },
+ "sware|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27344"
+ },
+ "take|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1975"
+ },
+ "tar|sus": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 12697",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ta|ste": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5826"
+ },
+ "ta|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4247"
+ },
+ "teache|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12145"
+ },
+ "telle|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24497"
+ },
+ "tempest|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 24000"
+ },
+ "tempe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1757"
+ },
+ "terre|strial": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19587"
+ },
+ "te|stament": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 843"
+ },
+ "te|stator": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 6837",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "te|stified": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5393"
+ },
+ "te|stifieth": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3623",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "te|stify": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8236"
+ },
+ "te|stimonies": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22003"
+ },
+ "te|stimony": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3414"
+ },
+ "thankfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 12620"
+ },
+ "thank|sgiving": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2715"
+ },
+ "thank|sgivings": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 373"
+ },
+ "thar|sis": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 25724"
+ },
+ "their|seat": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 1326"
+ },
+ "their|sins": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 17010"
+ },
+ "them|selves": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 206"
+ },
+ "the|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 475"
+ },
+ "the|second": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 8626"
+ },
+ "the|seventeenth": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11467"
+ },
+ "the|seventh": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 10440"
+ },
+ "the|sixteenth": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 11393"
+ },
+ "the|sixth": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 10310"
+ },
+ "thievi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20954"
+ },
+ "thinke|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11164"
+ },
+ "thir|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4289"
+ },
+ "thir|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24852"
+ },
+ "thir|sty": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22079"
+ },
+ "thi|stles": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10587"
+ },
+ "thoughte|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 24086"
+ },
+ "thou|sand": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2341"
+ },
+ "thou|sands": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14693"
+ },
+ "tho|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 120"
+ },
+ "three|score": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2340"
+ },
+ "thrust|sore": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 29495"
+ },
+ "thru|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10262"
+ },
+ "thur|sday": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7164"
+ },
+ "thy|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2282"
+ },
+ "transgre|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21974"
+ },
+ "transgre|ssions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2734"
+ },
+ "transgre|ssors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7059"
+ },
+ "transub|stantiation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34832"
+ },
+ "tran|sformed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4076"
+ },
+ "tran|sgr": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2812",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "tran|sgre": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2733",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "tran|sgresseth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4635"
+ },
+ "tran|sgression": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4639"
+ },
+ "tran|sgressions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 906"
+ },
+ "tran|sgressors": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6768"
+ },
+ "tran|sitory": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15067"
+ },
+ "tran|slation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 370"
+ },
+ "tran|slations": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 317"
+ },
+ "tran|sub": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34831"
+ },
+ "travaile|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5641"
+ },
+ "treati|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9095"
+ },
+ "trea|sons": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32339"
+ },
+ "trea|sure": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21319"
+ },
+ "trea|sures": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4045"
+ },
+ "trea|sury": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5946"
+ },
+ "trespa|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2002"
+ },
+ "tre|spa": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2001",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "tre|spasses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2000"
+ },
+ "trouble|some": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16169"
+ },
+ "trust|shall": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 24457"
+ },
+ "tru|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2073"
+ },
+ "tru|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5571"
+ },
+ "tru|steth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22648"
+ },
+ "tru|sting": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 15676"
+ },
+ "tue|sday": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6608"
+ },
+ "turne|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19410"
+ },
+ "tu|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20943"
+ },
+ "unadvi|sedly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 18072",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "uncharitablene|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 1731",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "uncircumci|sed": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3844",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "uncircumci|sion": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3824",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "uncleanne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5395"
+ },
+ "understande|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30887"
+ },
+ "under|stand": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 496"
+ },
+ "under|stande": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30886",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "under|standed": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34682",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "under|standeth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 22591"
+ },
+ "under|standing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 580"
+ },
+ "under|standings": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 323"
+ },
+ "under|stood": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 541"
+ },
+ "unde|served": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 32184"
+ },
+ "unfaithfulne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28014"
+ },
+ "ungodline|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 20185",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "unhappine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21154"
+ },
+ "univer|sal": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1828"
+ },
+ "unjust|steward": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 10728"
+ },
+ "unju|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7927"
+ },
+ "unle|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 192"
+ },
+ "unloo|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3297"
+ },
+ "unperfe|#": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30943",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "unrea|sonable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 320"
+ },
+ "unrighteousne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 963"
+ },
+ "unrighteou|sly": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 30962",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "unrighteou|sne": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 962",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "unwi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11776"
+ },
+ "un|#ion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34708"
+ },
+ "un|searchable": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3965",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "un|seemly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5017"
+ },
+ "un|shaken": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 158"
+ },
+ "un|speakable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14484"
+ },
+ "un|spotted": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 9011"
+ },
+ "un|stable": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 13379"
+ },
+ "upholde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23439"
+ },
+ "up|side": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 31392"
+ },
+ "use|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30037"
+ },
+ "utmo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 210"
+ },
+ "uttermo|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9140"
+ },
+ "u|sage": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 347"
+ },
+ "u|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 171"
+ },
+ "u|sed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 126"
+ },
+ "u|seful": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 392"
+ },
+ "u|sing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8782"
+ },
+ "u|surpation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33476"
+ },
+ "u|surped": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 197"
+ },
+ "u|sury": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 21195"
+ },
+ "vani|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5027"
+ },
+ "vani|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8344"
+ },
+ "vani|sheth": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25183"
+ },
+ "variablene|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8888",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "ver|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14807"
+ },
+ "ver|ses": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 482"
+ },
+ "ve|sture": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3375",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "vilene|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20409"
+ },
+ "virtuou|sly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16523"
+ },
+ "visite|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20807"
+ },
+ "vi|#ory": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1851"
+ },
+ "vi|#uals": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 30602"
+ },
+ "vi|sible": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14823"
+ },
+ "vi|sibly": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 34801"
+ },
+ "vi|sion": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 8307"
+ },
+ "vi|sions": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 27216"
+ },
+ "vi|sit": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2872"
+ },
+ "vi|sitation": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2735"
+ },
+ "vi|site": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2355"
+ },
+ "vi|sited": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11464"
+ },
+ "vouch|safe": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2064"
+ },
+ "vouch|safed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16259"
+ },
+ "wantonne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2922"
+ },
+ "watere|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25035"
+ },
+ "wa|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5202"
+ },
+ "wa|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6031"
+ },
+ "wa|shing": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10258"
+ },
+ "wa|shpot": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 28968",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "wa|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6584"
+ },
+ "wa|ste": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6283"
+ },
+ "wa|sted": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10683"
+ },
+ "weakne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 9780"
+ },
+ "wealthie|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 26330"
+ },
+ "wearine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4902"
+ },
+ "wedne|sday": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5123"
+ },
+ "wente|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25208"
+ },
+ "we|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4357"
+ },
+ "what|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4233"
+ },
+ "when|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 870"
+ },
+ "wherein|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4869"
+ },
+ "where|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4699"
+ },
+ "whil|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6843"
+ },
+ "whither|soever": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3675",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "whit|sun": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 33169"
+ },
+ "whit|sunday": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1477"
+ },
+ "whi|sper": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23417"
+ },
+ "whole|some": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 471"
+ },
+ "whol|some": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34411",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "whom|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 6459"
+ },
+ "whoprofe|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 2495",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "whose|soever": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8617",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "who|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1684"
+ },
+ "who|so": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 8993"
+ },
+ "who|soever": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3193"
+ },
+ "wickedne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 900"
+ },
+ "wilderne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3199"
+ },
+ "wiline|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 20928"
+ },
+ "withdrawe|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 25978"
+ },
+ "withe|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 8565",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "with|stand": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11557"
+ },
+ "with|stood": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 14302"
+ },
+ "witne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2897"
+ },
+ "wit|s": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 28868"
+ },
+ "wi|sd": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 32604"
+ },
+ "wi|sdom": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 102"
+ },
+ "wi|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 3012"
+ },
+ "wi|sely": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2299"
+ },
+ "wi|semen": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 3705"
+ },
+ "wi|ser": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 10736"
+ },
+ "wi|sh": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 23367"
+ },
+ "wi|shed": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19997"
+ },
+ "wi|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4141"
+ },
+ "worke|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1229"
+ },
+ "worthine|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 16011"
+ },
+ "wor|se": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4257"
+ },
+ "wor|ship": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 124"
+ },
+ "wor|shipped": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1624"
+ },
+ "wor|shippers": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 7591"
+ },
+ "wor|shipping": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 1835"
+ },
+ "wouldest|send": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 9881"
+ },
+ "woulde|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 2442"
+ },
+ "wretchedne|ss": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 5138"
+ },
+ "wretchlessne|ss": {
+  "decision": "join",
+  "basis": "reviewed",
+  "example": "raw line 34573",
+  "note": "Reviewed 2026-10-13: word continues across the line break (not in word lists)."
+ },
+ "wre|stle": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11870"
+ },
+ "write|st": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 19202"
+ },
+ "ye|sterday": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 11952"
+ },
+ "your|self": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 18742"
+ },
+ "your|selves": {
+  "decision": "join",
+  "basis": "lexicon",
+  "example": "raw line 4285"
+ },
+ "y|servants": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2591"
+ },
+ "y|serve": {
+  "decision": "space",
+  "basis": "lexicon",
+  "example": "raw line 2412"
+ }
+}
