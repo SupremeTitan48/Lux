@@ -1,0 +1,48 @@
+{
+ "schemaVersion": 1,
+ "id": "easter-anthems",
+ "title": "Easter Day: Anthems sung or said at Morning Prayer instead of the Venite",
+ "section": {
+  "start": "¶ At Morning Prayer, instead of the Pſalm, [O come",
+  "end": "world without end. Amen."
+ },
+ "units": [
+  {
+   "id": "easter.anthems.rubric",
+   "kind": "rubric",
+   "start": "¶ At Morning Prayer, instead of the Pſalm",
+   "end": "ſhall be ſung or ſaid."
+  },
+  {
+   "id": "easter.anthem.1-cor-5-7",
+   "kind": "sentence",
+   "start": "H R I S T our paſſover",
+   "end": "1 Cor. 5. 7.",
+   "citation": "1 Cor. 5. 7.",
+   "dropcap": "C"
+  },
+  {
+   "id": "easter.anthem.rom-6-9",
+   "kind": "sentence",
+   "start": "HRIST being raiſed",
+   "end": "Rom. 6. 9, 10, 11.",
+   "citation": "Rom. 6. 9, 10, 11.",
+   "dropcap": "C"
+  },
+  {
+   "id": "easter.anthem.1-cor-15-20",
+   "kind": "sentence",
+   "start": "H R I S T is riſen",
+   "end": "1 Cor. 15. 20, 21, 22.",
+   "citation": "1 Cor. 15. 20, 21, 22.",
+   "dropcap": "C"
+  },
+  {
+   "id": "easter.anthems.gloria",
+   "kind": "versicles",
+   "speaker": "minister",
+   "start": "Glory be to the Father",
+   "end": "world without end. Amen."
+  }
+ ]
+}

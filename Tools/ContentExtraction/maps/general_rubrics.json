@@ -1,0 +1,25 @@
+{
+ "schemaVersion": 1,
+ "id": "general-rubrics",
+ "title": "The Order how the Psalter and the rest of holy Scripture is appointed to be read",
+ "section": {
+  "start": "¶ The Order how the PSALTER",
+  "end": "otherwiſe ordered."
+ },
+ "units": [
+  {"id": "rules.psalter.title", "kind": "heading", "start": "¶ The Order how the PSALTER", "end": "appointed to be read."},
+  {"id": "rules.psalter.monthly", "kind": "rubric", "start": "HE Pſalter ſhall be read", "end": "the next Month enſuing.", "dropcap": "T", "dropcapBasis": "unflagged-orphan"},
+  {"id": "rules.psalter.ps119", "kind": "rubric", "start": "And, whereas the CXIX", "end": "of the ſaid Portions."},
+  {"id": "rules.psalter.gloria", "kind": "rubric", "start": "And at the end of every Pſalm", "end": "without end. Amen."},
+  {"id": "artifact.dropcap-t", "kind": "artifact", "start": "T", "end": "T", "note": "Orphan drop capital of 'THE Psalter', not flagged by the extractor."},
+  {"id": "artifact.running-head", "kind": "artifact", "start": "The Order how the holy Scripture is to be read.", "end": "to be read.", "note": "Running head of the facing page."},
+  {"id": "rules.psalter.translation", "kind": "rubric", "start": "Note, that the Pſalter followeth", "end": "Edward the Sixth."},
+  {"id": "rules.scripture.title", "kind": "heading", "start": "¶ The Order how the reſt of holy Scripture", "end": "appointed to be read."},
+  {"id": "rules.scripture.old-testament", "kind": "rubric", "start": "H E Old Teſtament", "end": "as in the Calendar is appointed.", "dropcap": "T"},
+  {"id": "rules.scripture.new-testament", "kind": "rubric", "start": "The New Teſtament is appointed", "end": "upon divers Feaſts."},
+  {"id": "rules.lessons.calendar", "kind": "rubric", "start": "And to know what Leſſons", "end": "Table of the Proper Leſſons."},
+  {"id": "artifact.table-heading", "kind": "artifact", "start": "Table of Leſſons from the four Goſpels.", "end": "four Goſpels.", "note": "A line whose place on the page is unclear (possibly a heading from another page); review against the PDF."},
+  {"id": "rules.proper-psalms-and-lessons", "kind": "rubric", "start": "And note, That whenſoever Proper", "end": "omitted for that time."},
+  {"id": "rules.sunday-collect-serves-week", "kind": "rubric", "start": "Note alſo, That the Collect", "end": "otherwiſe ordered."}
+ ]
+}

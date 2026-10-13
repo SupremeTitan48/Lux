@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  content:
+    name: Content pipeline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pipeline tests
+        working-directory: Tools/ContentExtraction
+        run: python -m unittest discover -s tests -t . -v
+      - name: Committed content is current
+        working-directory: Tools/ContentExtraction
+        run: python -m lux_extract check
+
+  packages-linux:
+    name: Swift packages (Linux)
+    runs-on: ubuntu-latest
+    container: swift:6.1
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift test --package-path Packages/LuxCore
+      - run: swift test --package-path Packages/LuxDesignSystem
+      - run: swift test --package-path Traditions/BCP1662
+
+  apple:
+    name: Apple platforms
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Swift packages (macOS)
+        run: |
+          swift test --package-path Packages/LuxCore
+          swift test --package-path Traditions/BCP1662
+      - name: Generate Xcode project
+        run: |
+          brew install xcodegen
+          xcodegen generate --spec Apps/Lux/project.yml
+      - name: Build for iOS Simulator
+        run: xcodebuild -project Apps/Lux/Lux.xcodeproj -scheme Lux -destination 'generic/platform=iOS Simulator' build CODE_SIGNING_ALLOWED=NO
+      - name: Build for macOS
+        run: xcodebuild -project Apps/Lux/Lux.xcodeproj -scheme Lux -destination 'generic/platform=macOS' build CODE_SIGNING_ALLOWED=NO
+      - name: Build for watchOS Simulator
+        run: xcodebuild -project Apps/Lux/Lux.xcodeproj -scheme LuxWatch -destination 'generic/platform=watchOS Simulator' build CODE_SIGNING_ALLOWED=NO

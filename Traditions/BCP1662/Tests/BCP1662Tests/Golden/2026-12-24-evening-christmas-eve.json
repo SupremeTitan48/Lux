@@ -1,0 +1,1896 @@
+{
+  "date" : "2026-12-24",
+  "day" : {
+    "concurrent" : [
+
+    ],
+    "observanceID" : "advent-4",
+    "season" : "advent",
+    "title" : "Thursday after the Fourth Sunday in Advent"
+  },
+  "diagnostics" : [
+    {
+      "code" : "calendar-editorial",
+      "message" : "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables.",
+      "severity" : "info"
+    },
+    {
+      "code" : "lessons-unavailable",
+      "elementID" : "ep.lesson.first",
+      "message" : "The first lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
+      "severity" : "warning"
+    },
+    {
+      "code" : "lessons-unavailable",
+      "elementID" : "ep.lesson.second",
+      "message" : "The second lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
+      "severity" : "warning"
+    },
+    {
+      "code" : "eve-of-holy-day",
+      "message" : "The collect of the holy day is said at Evening Prayer on its eve. The Table of Vigils is not in the supplied text; Lux applies the eve rule to every holy day except the Monday and Tuesday in Easter and Whitsun weeks.",
+      "severity" : "info"
+    },
+    {
+      "code" : "eve-collect",
+      "elementID" : "collect.of-the-day",
+      "message" : "The collect of the following day is said at this Evening Prayer (the eve rule printed at the head of the Collects).",
+      "severity" : "info"
+    },
+    {
+      "code" : "state-prayers-as-printed",
+      "message" : "The prayers for the King and the Royal Family are given as printed in 1762.",
+      "severity" : "info"
+    }
+  ],
+  "office" : "evening-prayer",
+  "sections" : [
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.sentences.rubric",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1274,
+                1276
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "At the beginning of Evening Prayer the Minister ſhall read with a loud voice one or more of theſe Sentences of the Scriptures that follow; and then he ſhall ſay that which is written after the ſaid Sentences."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Ezek. 18. 27.",
+            "id" : "ep.sentence.ezek-18-27",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1277,
+                1278
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "WHEN the wicked man turneth away from his wickedneſs that he hath committed, and doeth that which is lawful and right, he ſhall ſave his ſoul alive."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Pſalm 51. 3.",
+            "id" : "ep.sentence.ps-51-3",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1281,
+                1281
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "I acknowledge my tranſgreſſions; and my ſin is ever before me."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Pſalm 51. 9.",
+            "id" : "ep.sentence.ps-51-9",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1283,
+                1283
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "Hide thy face from my ſins, and blot out all mine iniquities."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Pſalm 51. 17.",
+            "id" : "ep.sentence.ps-51-17",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1289,
+                1289
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "The ſacrifices of God are a broken ſpirit: a broken and a contrite heart, O God, thou wilt not deſpiſe."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Joel 2. 13.",
+            "id" : "ep.sentence.joel-2-13",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1290,
+                1290
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "Rend your heart, and not your garments, and turn unto the Lord your God: for he is gracious and merciful, ſlow to anger, and of great kindneſs, and repenteth him of the evil."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Dan. 9. 9, 10.",
+            "id" : "ep.sentence.dan-9-9",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1292,
+                1292
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "To the Lord our God belong mercies and forgiveneſs, though we have rebelled against him: neither have we obeyed the voice of the Lord our God, to walk in his laws which he ſet before us."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Jer. 10. 24. Pſalm 6.1.",
+            "id" : "ep.sentence.jer-10-24",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1269,
+                1269
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "O Lord, correct me, but with judgment; not in thine anger, lest thou bring me to nothing."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "S. Matt. 3.2.",
+            "id" : "ep.sentence.matt-3-2",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1270,
+                1270
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "Repent ye; for the Kingdom of heaven is at hand."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "S. Luke 15. 18, 19.",
+            "id" : "ep.sentence.luke-15-18",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1271,
+                1271
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "I will ariſe and go to my father; and will ſay unto him, Father, I have ſinned against heaven, and before thee, and am no more worthy to be called thy ſon."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "Pſalm 143. 2.",
+            "id" : "ep.sentence.ps-143-2",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1276,
+                1277
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "Enter not into judgment with thy ſervant, O Lord; for in thy ſight ſhall no man living be juſtified."
+          }
+        },
+        {
+          "text" : {
+            "citation" : "1 S. John 1. 8, 9.",
+            "id" : "ep.sentence.1john-1-8",
+            "kind" : "sentence",
+            "source" : {
+              "pages" : [
+                18
+              ],
+              "rawLines" : [
+                1279,
+                1279
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "If we ſay that we have no ſin, we deceive ourſelves, and the truth is not in us: But if we confeſs our ſins, God is faithful and just to forgive us our ſins, and to cleanſe us from all unrighteouſneſs."
+          }
+        }
+      ],
+      "id" : "sentences",
+      "title" : "The Sentences"
+    },
+    {
+      "elements" : [
+        {
+          "text" : {
+            "id" : "ep.exhortation",
+            "kind" : "exhortation",
+            "source" : {
+              "pages" : [
+                18,
+                19
+              ],
+              "rawLines" : [
+                1285,
+                1298
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "DEARLY beloved brethren, the Scripture moveth us, in ſundry places, to acknowledge and confeſs our manifold ſins and wickedneſs; and that we ſhould not diſſemble nor cloke them before the face of Almighty God our heavenly Father; but confeſs them with an humble, lowly, penitent, and obedient heart; to the end that we may obtain forgiveneſs of the ſame, by his infinite goodneſs and mercy. And although we ought, at all times, humbly to acknowledge our ſins before God; yet ought we most chiefly ſo to do, when we aſſemble and meet together, to render thanks for the great benefits that we have received at his hands, to ſet forth his most worthy praiſe, to hear his most holy Word, and to aſk thoſe things that are requiſite and neceſſary, as well for the body as the ſoul. Wherefore I pray and beſeech you, as many as are here preſent, to accompany me, with a pure heart, and humble voice, unto the throne of the heavenly grace, ſaying after me:"
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.confession.rubric",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1309,
+                1309
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "A general Confeſſion to be ſaid of the whole Congregation, after the Minister, all kneeling."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.confession",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1311,
+                1311
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "all",
+            "text" : "ALMIGHTY and most merciful Father, We have erred and strayed from thy ways like lost ſheep: We have followed too much the devices and deſires of our own hearts: We have offended against thy holy laws: We have left undone thoſe things which we ought to have done; And we have done thoſe things which we ought not to have done; And there is no health in us. But thou, O Lord, have mercy upon us, miſerable offenders: Spare thou them, O God, which confeſs their fault: Restore thou them that are penitent; According to thy promiſes declared unto mankind in Christ Jeſu our Lord. And grant, O most merciful Father, for his ſake, That we may hereafter live a godly, righteous, and ſober life, To the glory of thy holy Name. Amen."
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.absolution.rubric",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1300,
+                1301
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "The Abſolution or Remiſſion of ſins, to be pronounced by the Priest alone, standing; the People still kneeling."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.absolution",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1302,
+                1302
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "priest",
+            "text" : "ALMIGHTY God, the Father of our Lord Jeſus Christ, who deſireth not the death of a ſinner, but rather that he may turn from his wickedneſs and live; and hath given power and commandment, to his Ministers, to declare and pronounce to his people, being penitent, the abſolution and remiſſion of their ſins: He pardoneth and abſolveth all them that truly repent, and unfeignedly believe his holy Goſpel. Wherefore let us beſeech him to grant us true repentance, and his Holy Spirit; that thoſe things may pleaſe him which we do at this preſent, and that the reſt of our life hereafter may be pure and holy; ſo that at the last we may come to his eternal joy; through Jeſus Christ our Lord."
+          }
+        }
+      ],
+      "id" : "confession",
+      "title" : "Confession and Absolution"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.lordsprayer.rubric",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1317,
+                1317
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then, the Minister ſhall kneel, and ſay the Lord’s Prayer with an audible voice: the people alſo kneeling, and repeating it with him, both here, and whereſoever elſe it is uſed in Divine Service."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.lordsprayer",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                19
+              ],
+              "rawLines" : [
+                1319,
+                1320
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "all",
+            "text" : "OUR Father, which art in heaven, Hallowed be thy Name; Thy kingdom come; Thy will be done in earth, as it is in heaven: Give us this day our daily bread; And forgive us our treſpaſſes, as we forgive them that treſpaſs againſt us; And lead us not into temptation, But deliver us from evil. For thine is the kingdom, the power, and the glory, forever and ever. Amen."
+          }
+        }
+      ],
+      "id" : "lords-prayer",
+      "title" : "The Lord’s Prayer"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.preces.rubric",
+            "source" : {
+              "pages" : [
+                20
+              ],
+              "rawLines" : [
+                1327,
+                1327
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then likewiſe he ſhall ſay,"
+          }
+        },
+        {
+          "versicles" : {
+            "id" : "ep.preces",
+            "lines" : [
+              {
+                "speaker" : "priest",
+                "text" : "O Lord, open thou our lips;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And our mouth ſhall ſhew forth thy praiſe."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "O God, make ſpeed to ſave us."
+              },
+              {
+                "speaker" : "people",
+                "text" : "O Lord, make haste to help us."
+              }
+            ],
+            "source" : {
+              "pages" : [
+                20
+              ],
+              "rawLines" : [
+                1328,
+                1332
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            }
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.gloria.rubric",
+            "source" : {
+              "pages" : [
+                20
+              ],
+              "rawLines" : [
+                1334,
+                1334
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Here all standing up, the Priest ſhall ſay,"
+          }
+        },
+        {
+          "versicles" : {
+            "id" : "ep.gloria",
+            "lines" : [
+              {
+                "speaker" : "priest",
+                "text" : "Glory be to the Father, and to the Son: and to the Holy Ghost;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "As it was in the beginning, is now, and ever ſhall be: world without end. Amen."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "Praiſe ye the Lord."
+              },
+              {
+                "speaker" : "people",
+                "text" : "The Lord’s Name be praiſed."
+              }
+            ],
+            "source" : {
+              "pages" : [
+                20
+              ],
+              "rawLines" : [
+                1335,
+                1339
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            }
+          }
+        }
+      ],
+      "id" : "preces"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.psalms-lesson.rubric",
+            "source" : {
+              "pages" : [
+                20
+              ],
+              "rawLines" : [
+                1340,
+                1341
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then ſhall be ſaid or ſung the Pſalms in order as they be appointed. Then a Leſſon of the Old Testament, as is appointed; and after that, Magnificat (or the ſong of the Bleſſed Virgin Mary) in Engliſh, as followeth."
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.119.1",
+            "latin" : "Beati immaculati.",
+            "source" : {
+              "pages" : [
+                287,
+                288
+              ],
+              "rawLines" : [
+                29548,
+                29582
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 119, verses 1–8",
+            "verses" : [
+              {
+                "first" : "BLESSED are thoſe that are undefiled in the way",
+                "number" : 1,
+                "second" : "and walk in the law of the Lord."
+              },
+              {
+                "first" : "Bleſſed are they that keep his teſtimonies",
+                "number" : 2,
+                "second" : "and ſeek him with their whole heart."
+              },
+              {
+                "first" : "For they who do no wickedneſs",
+                "number" : 3,
+                "second" : "walk in his ways."
+              },
+              {
+                "first" : "Thou haſt charged",
+                "number" : 4,
+                "second" : "that we ſhall diligently keep thy commandments."
+              },
+              {
+                "first" : "O that my ways were made ſo direct",
+                "number" : 5,
+                "second" : "that I might keep thy ſtatutes!"
+              },
+              {
+                "first" : "So ſhall I not be confounded",
+                "number" : 6,
+                "second" : "while I have reſpect unto all thy commandments."
+              },
+              {
+                "first" : "I will thank thee with an unfeigned heart",
+                "number" : 7,
+                "second" : "when I ſhall have learned the judgments of thy righteouſneſs."
+              },
+              {
+                "first" : "I will keep thy ceremonies",
+                "number" : 8,
+                "second" : "O forſake me not utterly."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.119.2",
+            "latin" : "In quo corriget?",
+            "source" : {
+              "pages" : [
+                288
+              ],
+              "rawLines" : [
+                29583,
+                29608
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 119, verses 9–16",
+            "verses" : [
+              {
+                "first" : "WHEREWITHAL ſhall a young man cleanſe his way",
+                "number" : 1,
+                "second" : "even by ruling himſelf after thy word."
+              },
+              {
+                "first" : "With my whole heart have I ſought thee",
+                "number" : 2,
+                "second" : "O let me not go wrong out of thy commandments."
+              },
+              {
+                "first" : "Thy words have I hid within my heart",
+                "number" : 3,
+                "second" : "that I ſhould not ſin againſt thee."
+              },
+              {
+                "first" : "Bleſſed art thou, O Lord",
+                "number" : 4,
+                "second" : "O teach me thy ſtatutes."
+              },
+              {
+                "first" : "With my lips have I been telling",
+                "number" : 5,
+                "second" : "of all the judgments of thy mouth."
+              },
+              {
+                "first" : "I have had as great delight in the way of thy teſtimonies",
+                "number" : 6,
+                "second" : "as in all manner of riches."
+              },
+              {
+                "first" : "I will talk of thy commandments",
+                "number" : 7,
+                "second" : "and have reſpect unto thy ways."
+              },
+              {
+                "first" : "My delight ſhall be in thy ſtatutes",
+                "number" : 8,
+                "second" : "and I will not forget thy word."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.119.3",
+            "latin" : "Retribue ſervo tuo.",
+            "source" : {
+              "pages" : [
+                288
+              ],
+              "rawLines" : [
+                29609,
+                29639
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 119, verses 17–24",
+            "verses" : [
+              {
+                "first" : "O Do well unto thy ſervant",
+                "number" : 1,
+                "second" : "that I may live, and keep thy word."
+              },
+              {
+                "first" : "Open thou mine eyes",
+                "number" : 2,
+                "second" : "that I may ſee the wondrous things of thy law."
+              },
+              {
+                "first" : "I am a ſtranger upon earth",
+                "number" : 3,
+                "second" : "O hide not thy commandments from me."
+              },
+              {
+                "first" : "My ſoul breaketh out for the very fervent deſire",
+                "number" : 4,
+                "second" : "that it hath alway unto thy judgments."
+              },
+              {
+                "first" : "Thou haſt rebuked the proud",
+                "number" : 5,
+                "second" : "and curſed are they that do err from thy commandments."
+              },
+              {
+                "first" : "O turn from me ſhame and rebuke",
+                "number" : 6,
+                "second" : "for I have kept thy teſtimonies."
+              },
+              {
+                "first" : "Princes alſo did ſit and ſpeak againſt me",
+                "number" : 7,
+                "second" : "but thy ſervant is occupied in thy ſtatutes."
+              },
+              {
+                "first" : "For thy teſtimonies are my delight",
+                "number" : 8,
+                "second" : "and my counſellors."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.119.4",
+            "latin" : "Adhæſit pavimento.",
+            "source" : {
+              "pages" : [
+                288,
+                289
+              ],
+              "rawLines" : [
+                29640,
+                29674
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 119, verses 25–32",
+            "verses" : [
+              {
+                "first" : "MY ſoul cleaveth to the duſt",
+                "number" : 1,
+                "second" : "O quicken thou me, according to thy word."
+              },
+              {
+                "first" : "I have acknowledged my ways, and thou heardeſt me",
+                "number" : 2,
+                "second" : "O teach me thy ſtatutes."
+              },
+              {
+                "first" : "Make me to underſtand the way of thy commandments",
+                "number" : 3,
+                "second" : "and ſo ſhall I talk of thy wondrous works."
+              },
+              {
+                "first" : "My ſoul melteth away for very heavineſs",
+                "number" : 4,
+                "second" : "comfort thou me according unto thy word."
+              },
+              {
+                "first" : "Take from me the way of lying",
+                "number" : 5,
+                "second" : "and cauſe thou me to make much of thy law."
+              },
+              {
+                "first" : "I have choſen the way of truth",
+                "number" : 6,
+                "second" : "and thy judgments have I laid before me."
+              },
+              {
+                "first" : "I have ſtuck unto thy teſtimonies",
+                "number" : 7,
+                "second" : "O Lord, confound me not."
+              },
+              {
+                "first" : "I will run the way of thy commandments",
+                "number" : 8,
+                "second" : "when thou haſt ſet my heart at liberty."
+              }
+            ]
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "ep.lesson.first",
+            "kind" : "lesson",
+            "label" : "The First Lesson",
+            "reason" : "The Table of Lessons is not in the supplied source."
+          }
+        }
+      ],
+      "id" : "psalms",
+      "title" : "The Psalms"
+    },
+    {
+      "elements" : [
+        {
+          "alternatives" : {
+            "id" : "ep.first-canticle",
+            "label" : "Magnificat or Cantate Domino.",
+            "options" : [
+              {
+                "elements" : [
+                  {
+                    "heading" : {
+                      "id" : "ep.magnificat.title",
+                      "latin" : "Magnificat",
+                      "reference" : "Luke 1:46",
+                      "source" : {
+                        "pages" : [
+                          20
+                        ],
+                        "rawLines" : [
+                          1341,
+                          1341
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Magnificat S. LUKE 1. 46"
+                    }
+                  },
+                  {
+                    "psalm" : {
+                      "gloria" : [
+                        {
+                          "first" : "Glory be to the Father and to the Son",
+                          "second" : "and to the Holy Ghost;"
+                        },
+                        {
+                          "first" : "As it was in the beginning, is now, and ever ſhall be",
+                          "second" : "world without end. Amen."
+                        }
+                      ],
+                      "id" : "ep.magnificat",
+                      "source" : {
+                        "pages" : [
+                          20
+                        ],
+                        "rawLines" : [
+                          1325,
+                          1346
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "verses" : [
+                        {
+                          "first" : "MY ſoul doth magnify the Lord",
+                          "second" : "and my ſpirit hath rejoiced in God my Saviour."
+                        },
+                        {
+                          "first" : "For he hath regarded",
+                          "second" : "the lowlineſs of his hand-maiden."
+                        },
+                        {
+                          "first" : "For, behold, from henceforth",
+                          "second" : "all generations ſhall call me bleſſed."
+                        },
+                        {
+                          "first" : "For he that is mighty hath magnified me",
+                          "second" : "and holy is his name."
+                        },
+                        {
+                          "first" : "And his mercy is on them that fear him",
+                          "second" : "throughout all generations."
+                        },
+                        {
+                          "first" : "He hath ſhowed strength with his arm",
+                          "second" : "he hath ſcattered the proud in the imagination of their hearts."
+                        },
+                        {
+                          "first" : "He hath put down the mighty from their ſeat",
+                          "second" : "and hath exalted the humble and meek."
+                        },
+                        {
+                          "first" : "He hath filled the hungry with good things",
+                          "second" : "and the rich he hath ſent empty away."
+                        },
+                        {
+                          "first" : "He remembering of his mercy hath holpen his ſervant Iſrael",
+                          "second" : "as he promiſed to our forefathers, Abraham and his ſeed, for ever."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "label" : "Magnificat"
+              },
+              {
+                "elements" : [
+                  {
+                    "rubric" : {
+                      "id" : "ep.cantate.rubric",
+                      "source" : {
+                        "pages" : [
+                          20
+                        ],
+                        "rawLines" : [
+                          1338,
+                          1338
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Or elſe this Pſalm: Except it be on the nineteenth day of the month, when it is read in the ordinary courſe of Pſalms."
+                    }
+                  },
+                  {
+                    "heading" : {
+                      "id" : "ep.cantate.title",
+                      "latin" : "Cantate Domino.",
+                      "reference" : "Psalm 98",
+                      "source" : {
+                        "pages" : [
+                          20
+                        ],
+                        "rawLines" : [
+                          1339,
+                          1339
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Cantate Domino. PſAL. 98."
+                    }
+                  },
+                  {
+                    "psalm" : {
+                      "gloria" : [
+                        {
+                          "first" : "Glory be to the Father and to the Son",
+                          "second" : "and to the Holy Ghost;"
+                        },
+                        {
+                          "first" : "As it was in the beginning, is now, and ever ſhall be",
+                          "second" : "world without end. Amen."
+                        }
+                      ],
+                      "id" : "ep.cantate",
+                      "source" : {
+                        "editorial" : [
+                          "'OSing' -> 'O Sing'"
+                        ],
+                        "pages" : [
+                          20,
+                          21
+                        ],
+                        "rawLines" : [
+                          1340,
+                          1367
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "verses" : [
+                        {
+                          "first" : "O Sing unto the Lord a new ſong",
+                          "second" : "for he hath done marvellous things."
+                        },
+                        {
+                          "first" : "With his own right hand, and with his holy arm",
+                          "second" : "hath he gotten himſelf the victory."
+                        },
+                        {
+                          "first" : "The Lord declared his ſalvation",
+                          "second" : "his righteouſneſs hath he openly ſhowed in the ſight of the nations."
+                        },
+                        {
+                          "first" : "He hath remembered his mercy and truth toward the houſe of Iſrael",
+                          "second" : "and all the ends of the world have ſeen the ſalvation of our God."
+                        },
+                        {
+                          "first" : "Shew yourſelves joyful unto the Lord, all ye lands",
+                          "second" : "ſing, rejoice, and give thanks."
+                        },
+                        {
+                          "first" : "Praiſe the Lord upon the harp",
+                          "second" : "ſing to the harp with a pſalm of thankſgiving."
+                        },
+                        {
+                          "first" : "With trumpets alſo and ſhawms",
+                          "second" : "O ſhew yourſelves joyful before the Lord, the King."
+                        },
+                        {
+                          "first" : "Let the ſea make a noiſe, and all that therein is",
+                          "second" : "the round world, and they that dwell therein."
+                        },
+                        {
+                          "first" : "Let the floods clap their hands, and let the hills be joyful together before the Lord",
+                          "second" : "for he cometh to judge the earth."
+                        },
+                        {
+                          "first" : "With righteouſneſs ſhall he judge the world",
+                          "second" : "and the peoples with equity."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "label" : "Cantate Domino."
+              }
+            ]
+          }
+        }
+      ],
+      "id" : "first-canticle",
+      "title" : "Magnificat"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.nt-lesson.rubric",
+            "source" : {
+              "pages" : [
+                21
+              ],
+              "rawLines" : [
+                1369,
+                1370
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then a Leſſon of the New Testament, as it is appointed. And after that, Nunc dimittis (or the Song of Simeon) in Engliſh, as followeth."
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "ep.lesson.second",
+            "kind" : "lesson",
+            "label" : "The Second Lesson",
+            "reason" : "The Table of Lessons is not in the supplied source."
+          }
+        }
+      ],
+      "id" : "second-lesson",
+      "title" : "The Second Lesson"
+    },
+    {
+      "elements" : [
+        {
+          "alternatives" : {
+            "id" : "ep.second-canticle",
+            "label" : "Nunc dimittis or Deus miſereatur.",
+            "options" : [
+              {
+                "elements" : [
+                  {
+                    "heading" : {
+                      "id" : "ep.nuncdimittis.title",
+                      "latin" : "Nunc dimittis",
+                      "reference" : "Luke 2:29",
+                      "source" : {
+                        "pages" : [
+                          21
+                        ],
+                        "rawLines" : [
+                          1374,
+                          1374
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Nunc dimittis S. Luke 2.29"
+                    }
+                  },
+                  {
+                    "psalm" : {
+                      "gloria" : [
+                        {
+                          "first" : "Glory be to the Father and to the Son",
+                          "second" : "and to the Holy Ghost;"
+                        },
+                        {
+                          "first" : "As it was in the beginning, is now, and ever ſhall be",
+                          "second" : "world without end. Amen."
+                        }
+                      ],
+                      "id" : "ep.nuncdimittis",
+                      "source" : {
+                        "pages" : [
+                          21
+                        ],
+                        "rawLines" : [
+                          1374,
+                          1387
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "verses" : [
+                        {
+                          "first" : "LORD, now lettest thou thy ſervant depart in peace",
+                          "second" : "according to thy Word."
+                        },
+                        {
+                          "first" : "For mine eyes have ſeen",
+                          "second" : "thy ſalvation,"
+                        },
+                        {
+                          "first" : "Which thou hast prepared",
+                          "second" : "before the face of all peoples;"
+                        },
+                        {
+                          "first" : "To be a light to lighten the Gentiles",
+                          "second" : "and the glory of thy people Iſrael."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "label" : "Nunc dimittis"
+              },
+              {
+                "elements" : [
+                  {
+                    "rubric" : {
+                      "id" : "ep.deus.rubric",
+                      "source" : {
+                        "pages" : [
+                          21
+                        ],
+                        "rawLines" : [
+                          1388,
+                          1388
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Or elſe this Pſalm: Except it be on the twelfth day of the month."
+                    }
+                  },
+                  {
+                    "heading" : {
+                      "id" : "ep.deus.title",
+                      "latin" : "Deus miſereatur.",
+                      "reference" : "Psalm 67",
+                      "source" : {
+                        "pages" : [
+                          21
+                        ],
+                        "rawLines" : [
+                          1389,
+                          1389
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "text" : "Deus miſereatur. PſAL. 67."
+                    }
+                  },
+                  {
+                    "psalm" : {
+                      "gloria" : [
+                        {
+                          "first" : "Glory be to the Father and to the Son",
+                          "second" : "and to the Holy Ghost;"
+                        },
+                        {
+                          "first" : "As it was in the beginning, is now, and ever ſhall be",
+                          "second" : "world without end. Amen."
+                        }
+                      ],
+                      "id" : "ep.deus",
+                      "source" : {
+                        "pages" : [
+                          21
+                        ],
+                        "rawLines" : [
+                          1351,
+                          1391
+                        ],
+                        "review" : "reading-order-reconstructed",
+                        "sourceID" : "bcp1662-baskerville1762-satucket"
+                      },
+                      "verses" : [
+                        {
+                          "first" : "GOD be merciful unto us, and bleſs us",
+                          "second" : "and ſhow us the light of his countenance, and be merciful unto us;"
+                        },
+                        {
+                          "first" : "That thy way may be known upon earth",
+                          "second" : "thy ſaving-health among all nations."
+                        },
+                        {
+                          "first" : "Let the peoples praiſe thee, O God",
+                          "second" : "yea, let all the peoples praiſe thee."
+                        },
+                        {
+                          "first" : "O let the nations rejoice and be glad",
+                          "second" : "for thou ſhalt judge the folk righteouſly, and govern the nations upon earth."
+                        },
+                        {
+                          "first" : "Let the peoples praiſe thee, O God",
+                          "second" : "yea, let all the peoples praiſe thee."
+                        },
+                        {
+                          "first" : "Then ſhall the earth bring forth her increaſe",
+                          "second" : "and God, even our own God, ſhall give us his bleſſing."
+                        },
+                        {
+                          "first" : "God ſhall bleſs us",
+                          "second" : "and all the ends of the world ſhall fear him."
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "label" : "Deus miſereatur."
+              }
+            ]
+          }
+        }
+      ],
+      "id" : "second-canticle",
+      "title" : "Nunc dimittis"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.creed.rubric",
+            "source" : {
+              "pages" : [
+                21
+              ],
+              "rawLines" : [
+                1378,
+                1378
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then ſhall be ſaid or ſung the Apostles Creed, by the Minister and the people standing."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.creed",
+            "kind" : "creed",
+            "source" : {
+              "editorial" : [
+                "'IBelieve' -> 'I Believe'"
+              ],
+              "pages" : [
+                21,
+                22
+              ],
+              "rawLines" : [
+                1379,
+                1396
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "all",
+            "text" : "I Believe in God the Father Almighty, Maker of heaven and earth: And in Jeſus Christ his only Son, our Lord; Who was conceived by the Holy Ghost, Born of the Virgin Mary, Suffered under Pontius Pilate, Was crucified, dead, and buried; He deſcended into hell; The third day he roſe again from the dead, He aſcended into heaven, And ſitteth on the right hand of God the Father Almighty; From thence he ſhall come to judge the quick and the dead. I believe in the Holy Ghost; The holy Catholick Church; The Communion of Saints; The Forgiveneſs of ſins; The Reſurrection of the body, And the Life everlasting. Amen."
+          }
+        }
+      ],
+      "id" : "creed",
+      "title" : "The Creed"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.prayers.rubric",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1402,
+                1402
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "And after that theſe Prayers following, all devoutly kneeling; the Minister first pronouncing with a loud voice,"
+          }
+        },
+        {
+          "versicles" : {
+            "id" : "ep.salutation",
+            "lines" : [
+              {
+                "speaker" : "minister",
+                "text" : "The Lord be with you;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And with thy ſpirit."
+              }
+            ],
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1406,
+                1406
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            }
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.letuspray.rubric",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1408,
+                1408
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Minister."
+          }
+        },
+        {
+          "versicles" : {
+            "id" : "ep.letuspray",
+            "lines" : [
+              {
+                "speaker" : "minister",
+                "text" : "Let us pray."
+              }
+            ],
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1409,
+                1409
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            }
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.kyrie",
+            "kind" : "lines",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1412,
+                1414
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Lord, have mercy upon us;\nChrist, have mercy upon us.\nLord, have mercy upon us;"
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.lordsprayer2.rubric",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1415,
+                1416
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then the Minister, Clerks, and People, ſhall ſay the Lord’s Prayer with a loud voice."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.lordsprayer2",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1421,
+                1422
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "all",
+            "text" : "OUR Father, which art in heaven, Hallowed be thy Name; Thy kingdom come; Thy will be done, in earth as it is in heaven: Give us this day our daily bread; And forgive us our treſpaſſes, as we forgive them that treſpaſs against us; And lead us not into temptation, But deliver us from evil. Amen."
+          }
+        },
+        {
+          "rubric" : {
+            "id" : "ep.suffrages.rubric",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1424,
+                1424
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then the Priest standing up, ſhall ſay,"
+          }
+        },
+        {
+          "versicles" : {
+            "id" : "ep.suffrages",
+            "lines" : [
+              {
+                "speaker" : "priest",
+                "text" : "O Lord, ſhow thy mercy upon us;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And grant us thy ſalvation."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "O Lord, ſave the King."
+              },
+              {
+                "speaker" : "people",
+                "text" : "And mercifully hear us, when we call upon thee."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "Endue thy Ministers with righteouſneſs;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And make thy choſen people joyful."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "O Lord, ſave thy people;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And bleſs thine inheritance."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "Give peace in our time, O Lord;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "Becauſe there is none other that fighteth for us, but only thou, O God."
+              },
+              {
+                "speaker" : "priest",
+                "text" : "O God, make clean our hearts within us;"
+              },
+              {
+                "speaker" : "people",
+                "text" : "And take not thy Holy Spirit from us."
+              }
+            ],
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1394,
+                1432
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            }
+          }
+        }
+      ],
+      "id" : "prayers",
+      "title" : "The Prayers"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.collects.rubric",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1409,
+                1411
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Then ſhall follow three Collects: The first of the day: The ſecond for Peace: The third for Aid against all Perils, as hereafter followeth: Which two last Collects ſhall be ſaid at Evening Prayer without alteration."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "collect.christmas.heading",
+            "text" : "The Collect of the Day (said on the eve): Christmas Day"
+          }
+        },
+        {
+          "text" : {
+            "id" : "collect.christmas.1",
+            "kind" : "collect",
+            "source" : {
+              "pages" : [
+                40
+              ],
+              "rawLines" : [
+                3307,
+                3316
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "ALMIGHTY God, who haſt given us thy only-begotten Son to take our nature upon him, and as at this time to be born of a pure Virgin; Grant that we being regenerate, and made thy children by adoption and grace, may daily be renewed by thy Holy Spirit, through the ſame our Lord Jeſus Chriſt, who liveth and reigneth with thee and the ſame Spirit, ever one God, world without end. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.collect.peace.title",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1415,
+                1415
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "The Second Collect at Evening Prayer."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.collect.peace",
+            "kind" : "prayer",
+            "source" : {
+              "editorial" : [
+                "'OGod' -> 'O God'"
+              ],
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1416,
+                1417
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "O God, from whom all holy deſires, all good counſels, and all just works do proceed: Give unto thy ſervants that peace which the world cannot give; that our hearts may be ſet to obey thy commandments, and alſo that by thee we being defended from the fear of our enemies may paſs our time in rest and quietneſs; through the merits of Jeſus Christ our Saviour. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.collect.aid.title",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1425,
+                1425
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "The Third Collect, for Aid against all Perils."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.collect.aid",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                22
+              ],
+              "rawLines" : [
+                1426,
+                1427
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "LIGHTEN our darkneſs, we beſeech thee, O Lord; and by thy great mercy defend us from all perils and dangers of this night, for the love of thy only Son, our Saviour Jeſus Christ. Amen."
+          }
+        }
+      ],
+      "id" : "collects",
+      "title" : "The Collects"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.anthem.rubric",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1435,
+                1435
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "In Quires an Places where they ſing, here followeth the Anthem."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.prayer.king.title",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1439,
+                1439
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "A Prayer for the King’s Majesty"
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.prayer.king",
+            "kind" : "prayer",
+            "source" : {
+              "editorial" : [
+                "'OLord' -> 'O Lord'"
+              ],
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1440,
+                1440
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "O Lord, our heavenly Father, high and mighty, King of kings, Lord of lords, the only Ruler of princes, who dost from thy throne behold all the dwellers upon earth; Most heartily we beſeech thee, with thy favor to behold our moſt gracious Sovereign Lord, King G EOR G E ; and ſo repleniſh him with the grace of thy Holy Spirit, that he may alway incline to thy will, and walk in thy way: Endue him plenteouſly with heavenly gifts; grant him in health and wealth long to live; strengthen him that he may vanquiſh and overcome all his enemies, and finally, after this life he may attain everlasting joy and felicity; through Jeſus Christ our Lord. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.prayer.royalfamily.title",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1451,
+                1451
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "A Prayer for the Royal Family"
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.prayer.royalfamily",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1452,
+                1452
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "ALMIGHTY God, the fountain of all goodneſs, we humbly beſeech thee to bleſs our gracious Queen C HAR L OTTE , her Royal Highneſs the Princeſs Dowager of Wales, and all the Royal Family: Endue them with thy Holy Spirit; enrich them with thy heavenly grace; proſper them with all happineſs; and bring them to thine everlaſting kingdom; through Jeſus Christ our Lord. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.prayer.clergy.title",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1435,
+                1435
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "A Prayer for the Clergy and People."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.prayer.clergy",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1436,
+                1436
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "ALMIGHTY and everlaſting God, who alone workest great marvels; Send down upon our Biſhops and Curates, and all Congregations committed to their charge, the healthful Spirit of thy grace; and that they may truly pleaſe thee, pour upon them the continual dew of thy bleſſing: Grant this, O Lord, for the honour of our Advocate and Mediator, Jeſus Christ. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.prayer.chrysostom.title",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1446,
+                1446
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "A Prayer of Saint Chryſostom."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.prayer.chrysostom",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1447,
+                1447
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "ALMIGHTY God, who hast given us grace at this time with one accord to make our common ſupplications unto thee; and dost promiſe that when two or three are gathered together in thy Name thou wilt grant their requests; Fulfill now, O Lord, the deſires and petitions of thy ſervants, as may be most expedient for them; granting us in this world knowledge of thy truth, and in the world to come life everlasting. Amen."
+          }
+        },
+        {
+          "heading" : {
+            "id" : "ep.grace.reference",
+            "reference" : "2 Corinthians 13:14",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1456,
+                1456
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "2 COR. 13. 14."
+          }
+        },
+        {
+          "text" : {
+            "id" : "ep.grace",
+            "kind" : "prayer",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1457,
+                1457
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "speaker" : "minister",
+            "text" : "THE grace of our Lord Jeſus Christ, and the love of God, and the fellowſhip of the Holy Ghost, be with us all evermore. Amen."
+          }
+        }
+      ],
+      "id" : "intercessions"
+    },
+    {
+      "elements" : [
+        {
+          "rubric" : {
+            "id" : "ep.colophon",
+            "source" : {
+              "pages" : [
+                23
+              ],
+              "rawLines" : [
+                1459,
+                1459
+              ],
+              "review" : "reading-order-reconstructed",
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "text" : "Here endeth the Order of Evening Prayer throughout the Year."
+          }
+        }
+      ],
+      "id" : "ending"
+    }
+  ],
+  "title" : "Evening Prayer",
+  "traditionID" : "bcp1662"
+}

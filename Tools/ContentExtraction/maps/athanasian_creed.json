@@ -1,0 +1,1044 @@
+{
+ "schemaVersion": 1,
+ "id": "athanasian-creed",
+ "title": "Quicunque vult, commonly called the Creed of Saint Athanasius",
+ "section": {
+  "start": "St. ATHANASIUS’s Creed. St. ATHANASIUS’s Creed.",
+  "end": "world without end. Amen."
+ },
+ "ignore": [
+  {
+   "raw": 1461,
+   "text": "St. ATHANASIUS’s Creed. St. ATHANASIUS’s Creed."
+  },
+  {
+   "raw": 1609,
+   "text": "St. ATHANASIUS’s Creed."
+  },
+  {
+   "raw": 1652,
+   "text": "St. ATHANASIUS’s Creed."
+  }
+ ],
+ "units": [
+  {
+   "id": "ath.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1471,
+     "from": "¶ Upon theſe Feasts, Christmas-day, the Epiphany, St. Matthias,",
+     "to": "¶ Upon theſe Feasts, Christmas-day, the Epiphany, St. Matthias,"
+    },
+    {
+     "raw": 1473,
+     "from": "Easter-day, Aſcenſion-day, Whitſunday, St. J",
+     "to": "Easter-day, Aſcenſion-day, Whitſunday, St. J",
+     "join": " "
+    },
+    {
+     "raw": 1478,
+     "from": "o",
+     "to": "o",
+     "join": ""
+    },
+    {
+     "raw": 1479,
+     "from": "h",
+     "to": "h",
+     "join": ""
+    },
+    {
+     "raw": 1480,
+     "from": "n Baptist,",
+     "to": "n Baptist,",
+     "join": ""
+    },
+    {
+     "raw": 1482,
+     "from": "St. James, St. Barth",
+     "to": "St. James, St. Barth",
+     "join": " "
+    },
+    {
+     "raw": 1483,
+     "from": "olomew, St. Matthew, St. Sim",
+     "to": "olomew, St. Matthew, St. Sim",
+     "join": ""
+    },
+    {
+     "raw": 1484,
+     "from": "on and St.",
+     "to": "on and St.",
+     "join": ""
+    },
+    {
+     "raw": 1485,
+     "from": "Jude, St. A",
+     "to": "Jude, St. A",
+     "join": " "
+    },
+    {
+     "raw": 1486,
+     "from": "ndre",
+     "to": "ndre",
+     "join": ""
+    },
+    {
+     "raw": 1487,
+     "from": "w, and upon Trinity-ſun",
+     "to": "w, and upon Trinity-ſun",
+     "join": ""
+    },
+    {
+     "raw": 1488,
+     "from": "day,ſhall be ſung or ſaid at Morning Prayer, instead of the Apostles Creed, this",
+     "to": "day,ſhall be ſung or ſaid at Morning Prayer, instead of the Apostles Creed, this",
+     "join": ""
+    },
+    {
+     "raw": 1492,
+     "from": "Confeſſion of our Christian Faith, commonly called the Creed of St.",
+     "to": "Confeſſion of our Christian Faith, commonly called the Creed of St.",
+     "join": ""
+    },
+    {
+     "raw": 1493,
+     "from": "Athanaſius, by the Minister and people standing.",
+     "to": "Athanaſius, by the Minister and people standing.",
+     "join": ""
+    }
+   ],
+   "replace": [
+    [
+     "day,ſhall",
+     "day, ſhall"
+    ],
+    [
+     "thisConfeſſion",
+     "this Confeſſion"
+    ],
+    [
+     "St.Athanaſius",
+     "St. Athanaſius"
+    ]
+   ]
+  },
+  {
+   "id": "ath.title",
+   "kind": "heading",
+   "latin": "Quicunque vult.",
+   "fragments": [
+    {
+     "raw": 1511,
+     "from": "Quicunque vult.",
+     "to": "Quicunque vult."
+    }
+   ]
+  },
+  {
+   "id": "ath.creed",
+   "kind": "canticle",
+   "role": "all",
+   "fragments": [
+    {
+     "raw": 1512,
+     "from": "WHOSOEVER will be ſaved: before all",
+     "to": "WHOSOEVER will be ſaved: before all"
+    },
+    {
+     "raw": 1514,
+     "from": "things it is neceſſary that he hold the",
+     "to": "things it is neceſſary that he hold the",
+     "join": " "
+    },
+    {
+     "raw": 1515,
+     "from": "Catholick Faith.",
+     "to": "Catholick Faith.",
+     "join": " "
+    },
+    {
+     "raw": 1520,
+     "from": "Which F",
+     "to": "Which F",
+     "join": "\n "
+    },
+    {
+     "raw": 1522,
+     "from": "aith except every one do keep whole",
+     "to": "aith except every one do keep whole",
+     "join": ""
+    },
+    {
+     "raw": 1523,
+     "from": "and u",
+     "to": "and u",
+     "join": " "
+    },
+    {
+     "raw": 1524,
+     "from": "ndefil",
+     "to": "ndefil",
+     "join": ""
+    },
+    {
+     "raw": 1525,
+     "from": "ed: without doubt h",
+     "to": "ed: without doubt h",
+     "join": ""
+    },
+    {
+     "raw": 1526,
+     "from": "e ſhall periſh",
+     "to": "e ſhall periſh",
+     "join": ""
+    },
+    {
+     "raw": 1529,
+     "from": "everlastingly.",
+     "to": "everlastingly.",
+     "join": " "
+    },
+    {
+     "raw": 1538,
+     "from": "And the Catholick F",
+     "to": "And the Catholick F",
+     "join": "\n "
+    },
+    {
+     "raw": 1539,
+     "from": "aith is this: That we",
+     "to": "aith is this: That we",
+     "join": ""
+    },
+    {
+     "raw": 1540,
+     "from": "worſhip on",
+     "to": "worſhip on",
+     "join": " "
+    },
+    {
+     "raw": 1542,
+     "from": "e God in Trinity, and Trinity in",
+     "to": "e God in Trinity, and Trinity in",
+     "join": ""
+    },
+    {
+     "raw": 1543,
+     "from": "Unity;",
+     "to": "Unity;",
+     "join": " "
+    },
+    {
+     "raw": 1546,
+     "from": "Neither confounding the Perſons: nor dividing t",
+     "to": "Neither confounding the Perſons: nor dividing t",
+     "join": "\n "
+    },
+    {
+     "raw": 1548,
+     "from": "he Su",
+     "to": "he Su",
+     "join": ""
+    },
+    {
+     "raw": 1549,
+     "from": "b stance.",
+     "to": "b stance.",
+     "join": ""
+    },
+    {
+     "raw": 1553,
+     "from": "For t",
+     "to": "For t",
+     "join": "\n "
+    },
+    {
+     "raw": 1555,
+     "from": "here is one P",
+     "to": "here is one P",
+     "join": ""
+    },
+    {
+     "raw": 1556,
+     "from": "e",
+     "to": "e",
+     "join": ""
+    },
+    {
+     "raw": 1557,
+     "from": "r ſon of the Father, another",
+     "to": "r ſon of the Father, another",
+     "join": ""
+    },
+    {
+     "raw": 1559,
+     "from": "of t",
+     "to": "of t",
+     "join": " "
+    },
+    {
+     "raw": 1560,
+     "from": "he Son: and another of the Hol",
+     "to": "he Son: and another of the Hol",
+     "join": ""
+    },
+    {
+     "raw": 1561,
+     "from": "y G",
+     "to": "y G",
+     "join": ""
+    },
+    {
+     "raw": 1562,
+     "from": "h",
+     "to": "h",
+     "join": ""
+    },
+    {
+     "raw": 1563,
+     "from": "o st.",
+     "to": "o st.",
+     "join": ""
+    },
+    {
+     "raw": 1576,
+     "from": "But the Godhead of the Fat",
+     "to": "But the Godhead of the Fat",
+     "join": "\n "
+    },
+    {
+     "raw": 1577,
+     "from": "her, of the S",
+     "to": "her, of the S",
+     "join": ""
+    },
+    {
+     "raw": 1578,
+     "from": "on,",
+     "to": "on,",
+     "join": ""
+    },
+    {
+     "raw": 1579,
+     "from": "and of the Holy Ghost, is all one: the Glory",
+     "to": "and of the Holy Ghost, is all one: the Glory",
+     "join": ""
+    },
+    {
+     "raw": 1581,
+     "from": "equ",
+     "to": "equ",
+     "join": ""
+    },
+    {
+     "raw": 1582,
+     "from": "al, t",
+     "to": "al, t",
+     "join": ""
+    },
+    {
+     "raw": 1583,
+     "from": "he Majesty co-eternal.",
+     "to": "he Majesty co-eternal.",
+     "join": ""
+    },
+    {
+     "raw": 1589,
+     "from": "Such as the F",
+     "to": "Such as the F",
+     "join": "\n "
+    },
+    {
+     "raw": 1591,
+     "from": "ather is, ſuch is the Son: and ſuch is the Holy Ghost.",
+     "to": "ather is, ſuch is the Son: and ſuch is the Holy Ghost.",
+     "join": ""
+    },
+    {
+     "raw": 1594,
+     "from": "The Father u",
+     "to": "The Father u",
+     "join": "\n "
+    },
+    {
+     "raw": 1595,
+     "from": "ncreate, the S",
+     "to": "ncreate, the S",
+     "join": ""
+    },
+    {
+     "raw": 1596,
+     "from": "on u",
+     "to": "on u",
+     "join": ""
+    },
+    {
+     "raw": 1597,
+     "from": "ncreate: a",
+     "to": "ncreate: a",
+     "join": ""
+    },
+    {
+     "raw": 1598,
+     "from": "nd",
+     "to": "nd",
+     "join": ""
+    },
+    {
+     "raw": 1599,
+     "from": "the Holy Ghost unc",
+     "to": "the Holy Ghost unc",
+     "join": " "
+    },
+    {
+     "raw": 1601,
+     "from": "r",
+     "to": "r",
+     "join": ""
+    },
+    {
+     "raw": 1602,
+     "from": "e",
+     "to": "e",
+     "join": ""
+    },
+    {
+     "raw": 1603,
+     "from": "ate.",
+     "to": "ate.",
+     "join": ""
+    },
+    {
+     "raw": 1462,
+     "from": "The Father incomprehenſible, the Son incomprehenſible: and t",
+     "to": "The Father incomprehenſible, the Son incomprehenſible: and t",
+     "join": "\n "
+    },
+    {
+     "raw": 1465,
+     "from": "h",
+     "to": "h",
+     "join": ""
+    },
+    {
+     "raw": 1466,
+     "from": "e H",
+     "to": "e H",
+     "join": ""
+    },
+    {
+     "raw": 1467,
+     "from": "oly Ghost incomprehenſibl",
+     "to": "oly Ghost incomprehenſibl",
+     "join": ""
+    },
+    {
+     "raw": 1470,
+     "from": "e.",
+     "to": "e.",
+     "join": ""
+    },
+    {
+     "raw": 1495,
+     "from": "The Father etern",
+     "to": "The Father etern",
+     "join": "\n "
+    },
+    {
+     "raw": 1496,
+     "from": "al, the Son eternal: and the",
+     "to": "al, the Son eternal: and the",
+     "join": ""
+    },
+    {
+     "raw": 1497,
+     "from": "Holy Ghost eternal.",
+     "to": "Holy Ghost eternal.",
+     "join": " "
+    },
+    {
+     "raw": 1499,
+     "from": "And yet there are not three etern",
+     "to": "And yet there are not three etern",
+     "join": "\n "
+    },
+    {
+     "raw": 1500,
+     "from": "als: but one",
+     "to": "als: but one",
+     "join": ""
+    },
+    {
+     "raw": 1501,
+     "from": "eternal.",
+     "to": "eternal.",
+     "join": " "
+    },
+    {
+     "raw": 1501,
+     "from": "As alſo there are not three incomprehenſibles, nor three u",
+     "to": "As alſo there are not three incomprehenſibles, nor three u",
+     "join": "\n "
+    },
+    {
+     "raw": 1504,
+     "from": "n",
+     "to": "n",
+     "join": ""
+    },
+    {
+     "raw": 1505,
+     "from": "c",
+     "to": "c",
+     "join": ""
+    },
+    {
+     "raw": 1506,
+     "from": "reated: but one unc",
+     "to": "reated: but one unc",
+     "join": ""
+    },
+    {
+     "raw": 1507,
+     "from": "reated",
+     "to": "reated",
+     "join": ""
+    },
+    {
+     "raw": 1508,
+     "from": "and one i",
+     "to": "and one i",
+     "join": " "
+    },
+    {
+     "raw": 1509,
+     "from": "ncomprehenſible.",
+     "to": "ncomprehenſible.",
+     "join": ""
+    },
+    {
+     "raw": 1515,
+     "from": "So likewiſe the Father is Almig",
+     "to": "So likewiſe the Father is Almig",
+     "join": "\n "
+    },
+    {
+     "raw": 1517,
+     "from": "hty, the S",
+     "to": "hty, the S",
+     "join": ""
+    },
+    {
+     "raw": 1518,
+     "from": "on",
+     "to": "on",
+     "join": ""
+    },
+    {
+     "raw": 1519,
+     "from": "Almighty: and the Hol",
+     "to": "Almighty: and the Hol",
+     "join": " "
+    },
+    {
+     "raw": 1520,
+     "from": "y Ghost Almighty.",
+     "to": "y Ghost Almighty.",
+     "join": ""
+    },
+    {
+     "raw": 1531,
+     "from": "And yet there are not three Almig",
+     "to": "And yet there are not three Almig",
+     "join": "\n "
+    },
+    {
+     "raw": 1532,
+     "from": "hties: but",
+     "to": "hties: but",
+     "join": ""
+    },
+    {
+     "raw": 1533,
+     "from": "one Almighty.",
+     "to": "one Almighty.",
+     "join": " "
+    },
+    {
+     "raw": 1534,
+     "from": "So the Father is God, the Son is God: and",
+     "to": "So the Father is God, the Son is God: and",
+     "join": "\n "
+    },
+    {
+     "raw": 1535,
+     "from": "the Holy Ghost is G",
+     "to": "the Holy Ghost is G",
+     "join": " "
+    },
+    {
+     "raw": 1537,
+     "from": "o",
+     "to": "o",
+     "join": ""
+    },
+    {
+     "raw": 1538,
+     "from": "d.",
+     "to": "d.",
+     "join": ""
+    },
+    {
+     "raw": 1543,
+     "from": "And y",
+     "to": "And y",
+     "join": "\n "
+    },
+    {
+     "raw": 1544,
+     "from": "et there a",
+     "to": "et there a",
+     "join": ""
+    },
+    {
+     "raw": 1545,
+     "from": "re not three Gods: but one",
+     "to": "re not three Gods: but one",
+     "join": ""
+    },
+    {
+     "raw": 1546,
+     "from": "God.",
+     "to": "God.",
+     "join": " "
+    },
+    {
+     "raw": 1549,
+     "from": "So likewiſe the F",
+     "to": "So likewiſe the F",
+     "join": "\n "
+    },
+    {
+     "raw": 1552,
+     "from": "ather is Lord, the Son Lord:",
+     "to": "ather is Lord, the Son Lord:",
+     "join": ""
+    },
+    {
+     "raw": 1553,
+     "from": "and the Holy Ghost Lord.",
+     "to": "and the Holy Ghost Lord.",
+     "join": " "
+    },
+    {
+     "raw": 1563,
+     "from": "And yet not three Lords: but one Lord.",
+     "to": "And yet not three Lords: but one Lord.",
+     "join": "\n "
+    },
+    {
+     "raw": 1563,
+     "from": "For like as we ar",
+     "to": "For like as we ar",
+     "join": "\n "
+    },
+    {
+     "raw": 1565,
+     "from": "e compell",
+     "to": "e compell",
+     "join": ""
+    },
+    {
+     "raw": 1566,
+     "from": "ed b",
+     "to": "ed b",
+     "join": ""
+    },
+    {
+     "raw": 1567,
+     "from": "y th",
+     "to": "y th",
+     "join": ""
+    },
+    {
+     "raw": 1568,
+     "from": "e Christian",
+     "to": "e Christian",
+     "join": ""
+    },
+    {
+     "raw": 1569,
+     "from": "verity: to acknowled",
+     "to": "verity: to acknowled",
+     "join": ""
+    },
+    {
+     "raw": 1570,
+     "from": "ge every Perſon by himſelf",
+     "to": "ge every Perſon by himſelf",
+     "join": ""
+    },
+    {
+     "raw": 1573,
+     "from": "to be God a",
+     "to": "to be God a",
+     "join": ""
+    },
+    {
+     "raw": 1574,
+     "from": "nd L",
+     "to": "nd L",
+     "join": ""
+    },
+    {
+     "raw": 1575,
+     "from": "ord;",
+     "to": "ord;",
+     "join": ""
+    },
+    {
+     "raw": 1583,
+     "from": "S",
+     "to": "S",
+     "join": "\n "
+    },
+    {
+     "raw": 1585,
+     "from": "o are we forbidden b",
+     "to": "o are we forbidden b",
+     "join": ""
+    },
+    {
+     "raw": 1586,
+     "from": "y t",
+     "to": "y t",
+     "join": ""
+    },
+    {
+     "raw": 1587,
+     "from": "h",
+     "to": "h",
+     "join": ""
+    },
+    {
+     "raw": 1588,
+     "from": "e Cat",
+     "to": "e Cat",
+     "join": ""
+    },
+    {
+     "raw": 1589,
+     "from": "holick Religion: to ſay there be three Gods, or three Lords.",
+     "to": "holick Religion: to ſay there be three Gods, or three Lords.",
+     "join": ""
+    },
+    {
+     "raw": 1591,
+     "from": "The Father is made of none: neither created,",
+     "to": "The Father is made of none: neither created,",
+     "join": "\n "
+    },
+    {
+     "raw": 1594,
+     "from": "nor begotten.",
+     "to": "nor begotten.",
+     "join": ""
+    },
+    {
+     "raw": 1603,
+     "from": "The S",
+     "to": "The S",
+     "join": "\n "
+    },
+    {
+     "raw": 1604,
+     "from": "on is of the Fat",
+     "to": "on is of the Fat",
+     "join": ""
+    },
+    {
+     "raw": 1605,
+     "from": "her alone: not made, nor",
+     "to": "her alone: not made, nor",
+     "join": ""
+    },
+    {
+     "raw": 1606,
+     "from": "cre",
+     "to": "cre",
+     "join": " "
+    },
+    {
+     "raw": 1607,
+     "from": "ated, but begotten.",
+     "to": "ated, but begotten.",
+     "join": ""
+    },
+    {
+     "raw": 1610,
+     "from": "The Holy Ghost is of the Father and of the",
+     "to": "The Holy Ghost is of the Father and of the",
+     "join": "\n "
+    },
+    {
+     "raw": 1612,
+     "from": "Son: neither made, nor created, nor begotten, but proceeding.",
+     "to": "Son: neither made, nor created, nor begotten, but proceeding.",
+     "join": " "
+    },
+    {
+     "raw": 1613,
+     "from": "So there is one Father, not three Fathers; one Son, not three Sons: one Holy Ghost, not three",
+     "to": "So there is one Father, not three Fathers; one Son, not three Sons: one Holy Ghost, not three",
+     "join": "\n "
+    },
+    {
+     "raw": 1615,
+     "from": "Holy Ghosts.",
+     "to": "Holy Ghosts.",
+     "join": " "
+    },
+    {
+     "raw": 1617,
+     "from": "And in this Trinity none is afore or after other: none is greater, or leſs than another;",
+     "to": "And in this Trinity none is afore or after other: none is greater, or leſs than another;",
+     "join": "\n "
+    },
+    {
+     "raw": 1619,
+     "from": "But the whole three Perſons are co-eternal",
+     "to": "But the whole three Perſons are co-eternal",
+     "join": "\n "
+    },
+    {
+     "raw": 1621,
+     "from": "together: and co-equal.",
+     "to": "together: and co-equal.",
+     "join": " "
+    },
+    {
+     "raw": 1621,
+     "from": "So that in all things, as is aforeſaid: the Unity",
+     "to": "So that in all things, as is aforeſaid: the Unity",
+     "join": "\n "
+    },
+    {
+     "raw": 1623,
+     "from": "in Trinity, and the Trinity in Unity is to be worſhipped.",
+     "to": "in Trinity, and the Trinity in Unity is to be worſhipped.",
+     "join": " "
+    },
+    {
+     "raw": 1625,
+     "from": "He therefore that will be ſaved: must thus",
+     "to": "He therefore that will be ſaved: must thus",
+     "join": "\n "
+    },
+    {
+     "raw": 1628,
+     "from": "think of the Trinity.",
+     "to": "think of the Trinity.",
+     "join": " "
+    },
+    {
+     "raw": 1628,
+     "from": "Furthermore, it is neceſſary to everlasting ſalvation: that he alſo believe rightly the Incarnation of our Lord Jeſus Christ.",
+     "to": "Furthermore, it is neceſſary to everlasting ſalvation: that he alſo believe rightly the Incarnation of our Lord Jeſus Christ.",
+     "join": "\n "
+    },
+    {
+     "raw": 1634,
+     "from": "For the right Faith is, that we believe and confeſs: that our Lord Jeſus Christ, the Son of",
+     "to": "For the right Faith is, that we believe and confeſs: that our Lord Jeſus Christ, the Son of",
+     "join": "\n "
+    },
+    {
+     "raw": 1638,
+     "from": "God, is God and Man;",
+     "to": "God, is God and Man;",
+     "join": " "
+    },
+    {
+     "raw": 1639,
+     "from": "God, of the Substance of the Father, begotten before the worlds: and Man, of the ſubstance of his Mother, born in the world;",
+     "to": "God, of the Substance of the Father, begotten before the worlds: and Man, of the ſubstance of his Mother, born in the world;",
+     "join": "\n "
+    },
+    {
+     "raw": 1643,
+     "from": "Perfect God, and perfect Man: of a reaſonable ſoul and human fleſh ſubſisting;",
+     "to": "Perfect God, and perfect Man: of a reaſonable ſoul and human fleſh ſubſisting;",
+     "join": "\n "
+    },
+    {
+     "raw": 1651,
+     "from": "Equal to the Father, as touching his Godhead: and inferior to the Father, as touching his Manhood;",
+     "to": "Equal to the Father, as touching his Godhead: and inferior to the Father, as touching his Manhood;",
+     "join": "\n "
+    },
+    {
+     "raw": 1653,
+     "from": "Who although he be God and Man: yet he is not two, but one Christ;",
+     "to": "Who although he be God and Man: yet he is not two, but one Christ;",
+     "join": "\n "
+    },
+    {
+     "raw": 1655,
+     "from": "One; not by converſion of the Godhead into",
+     "to": "One; not by converſion of the Godhead into",
+     "join": "\n "
+    },
+    {
+     "raw": 1657,
+     "from": "fleſh: but by taking of the Manhood into God;",
+     "to": "fleſh: but by taking of the Manhood into God;",
+     "join": " "
+    },
+    {
+     "raw": 1659,
+     "from": "One altogether; not by confuſion of Sub-stance: but by unity of Perſon.",
+     "to": "One altogether; not by confuſion of Sub-stance: but by unity of Perſon.",
+     "join": "\n "
+    },
+    {
+     "raw": 1663,
+     "from": "For as the reaſonable ſoul and fleſh is one",
+     "to": "For as the reaſonable ſoul and fleſh is one",
+     "join": "\n "
+    },
+    {
+     "raw": 1667,
+     "from": "man: ſo God and Man is one Christ;",
+     "to": "man: ſo God and Man is one Christ;",
+     "join": " "
+    },
+    {
+     "raw": 1670,
+     "from": "Who ſuffered for our ſalvation: deſcended",
+     "to": "Who ſuffered for our ſalvation: deſcended",
+     "join": "\n "
+    },
+    {
+     "raw": 1674,
+     "from": "into hell; roſe again the third day from the",
+     "to": "into hell; roſe again the third day from the",
+     "join": " "
+    },
+    {
+     "raw": 1676,
+     "from": "dead;",
+     "to": "dead;",
+     "join": " "
+    },
+    {
+     "raw": 1677,
+     "from": "He aſcended into heaven, he ſitteth on the",
+     "to": "He aſcended into heaven, he ſitteth on the",
+     "join": "\n "
+    },
+    {
+     "raw": 1680,
+     "from": "right hand of the Father, God Almighty: from whence He ſhall come to judge the quick and",
+     "to": "right hand of the Father, God Almighty: from whence He ſhall come to judge the quick and",
+     "join": " "
+    },
+    {
+     "raw": 1682,
+     "from": "the dead.",
+     "to": "the dead.",
+     "join": " "
+    },
+    {
+     "raw": 1683,
+     "from": "At whoſe coming all men ſhall riſe again with",
+     "to": "At whoſe coming all men ſhall riſe again with",
+     "join": "\n "
+    },
+    {
+     "raw": 1687,
+     "from": "their bodies: and ſhall give account for their",
+     "to": "their bodies: and ſhall give account for their",
+     "join": " "
+    },
+    {
+     "raw": 1689,
+     "from": "own works.",
+     "to": "own works.",
+     "join": " "
+    },
+    {
+     "raw": 1690,
+     "from": "And they that have done good ſhall go into",
+     "to": "And they that have done good ſhall go into",
+     "join": "\n "
+    },
+    {
+     "raw": 1692,
+     "from": "life everlasting: and they that have done evil,",
+     "to": "life everlasting: and they that have done evil,",
+     "join": " "
+    },
+    {
+     "raw": 1694,
+     "from": "into everlasting fire.",
+     "to": "into everlasting fire.",
+     "join": " "
+    },
+    {
+     "raw": 1696,
+     "from": "This is the Catholick Faith: which except a man believe faithfully, he cannot be ſaved.",
+     "to": "This is the Catholick Faith: which except a man believe faithfully, he cannot be ſaved.",
+     "join": "\n "
+    },
+    {
+     "raw": 1698,
+     "from": "Glory be to the Father and to the Son: and to the Holy Ghost;",
+     "to": "Glory be to the Father and to the Son: and to the Holy Ghost;",
+     "join": "\n "
+    },
+    {
+     "raw": 1700,
+     "from": "As it was in the beginning, is now, and ever ſhall be: world without end. Amen.",
+     "to": "As it was in the beginning, is now, and ever ſhall be: world without end. Amen.",
+     "join": "\n "
+    }
+   ],
+   "replace": [
+    [
+     "Sub stance",
+     "Substance"
+    ],
+    [
+     "Per ſon",
+     "Perſon"
+    ],
+    [
+     "Gho st",
+     "Ghost"
+    ],
+    [
+     "Son,and",
+     "Son, and"
+    ],
+    [
+     "Gloryequal",
+     "Glory equal"
+    ],
+    [
+     "Christianverity",
+     "Christian verity"
+    ],
+    [
+     "himſelfto",
+     "himſelf to"
+    ],
+    [
+     "created,nor",
+     "created, nor"
+    ]
+   ]
+  }
+ ]
+}

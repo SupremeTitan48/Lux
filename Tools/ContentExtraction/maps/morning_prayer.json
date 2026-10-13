@@ -1,0 +1,519 @@
+{
+ "schemaVersion": 1,
+ "id": "morning-prayer",
+ "title": "The Order for Morning Prayer, Daily throughout the Year.",
+ "section": {
+  "start": "The O R D E R for",
+  "end": "Here endeth the Order of Morning Prayer throughout the Year."
+ },
+ "units": [
+  {
+   "id": "mp.title",
+   "kind": "title",
+   "start": "The O R D E R for",
+   "end": "Daily throughout the Year."
+  },
+  {
+   "id": "mp.sentences.rubric",
+   "kind": "rubric",
+   "start": "¶ At the beginning of Morning Prayer",
+   "end": "Sentences."
+  },
+  {
+   "id": "mp.sentence.ezek-18-27",
+   "kind": "sentence",
+   "start": "H E N the wicked",
+   "end": "Ezek. 18. 27.",
+   "role": "minister",
+   "citation": "Ezek. 18. 27.",
+   "dropcap": "W"
+  },
+  {
+   "id": "mp.sentence.ps-51-3",
+   "kind": "sentence",
+   "start": "I acknowledge my",
+   "end": "Pſalm 51. 3.",
+   "role": "minister",
+   "citation": "Pſalm 51. 3."
+  },
+  {
+   "id": "mp.sentence.ps-51-9",
+   "kind": "sentence",
+   "start": "Hide thy face",
+   "end": "Pſalm 51. 9.",
+   "role": "minister",
+   "citation": "Pſalm 51. 9."
+  },
+  {
+   "id": "mp.sentence.ps-51-17",
+   "kind": "sentence",
+   "start": "The ſacrifices of God",
+   "end": "Pſalm 51. 17.",
+   "role": "minister",
+   "citation": "Pſalm 51. 17."
+  },
+  {
+   "id": "mp.sentence.joel-2-13",
+   "kind": "sentence",
+   "start": "Rend your heart",
+   "end": "Joel 2. 13.",
+   "role": "minister",
+   "citation": "Joel 2. 13."
+  },
+  {
+   "id": "mp.sentence.dan-9-9",
+   "kind": "sentence",
+   "start": "To the Lord our God belong",
+   "end": "Dan. 9. 9, 10.",
+   "role": "minister",
+   "citation": "Dan. 9. 9, 10."
+  },
+  {
+   "id": "mp.sentence.jer-10-24",
+   "kind": "sentence",
+   "start": "O Lord, correct me",
+   "end": "Pſalm 6.1.",
+   "role": "minister",
+   "citation": "Jer. 10. 24. Pſalm 6.1."
+  },
+  {
+   "id": "mp.sentence.matt-3-2",
+   "kind": "sentence",
+   "start": "Repent ye;",
+   "end": "S. Matt. 3.2.",
+   "role": "minister",
+   "citation": "S. Matt. 3.2."
+  },
+  {
+   "id": "mp.sentence.luke-15-18",
+   "kind": "sentence",
+   "start": "I will ariſe",
+   "end": "S. Luke 15. 18, 19.",
+   "role": "minister",
+   "citation": "S. Luke 15. 18, 19."
+  },
+  {
+   "id": "mp.sentence.ps-143-2",
+   "kind": "sentence",
+   "start": "Enter not into judgment",
+   "end": "Pſalm 143. 2.",
+   "role": "minister",
+   "citation": "Pſalm 143. 2."
+  },
+  {
+   "id": "mp.sentence.1john-1-8",
+   "kind": "sentence",
+   "start": "If we ſay that we have no ſin",
+   "end": "1 S. John 1. 8, 9.",
+   "role": "minister",
+   "citation": "1 S. John 1. 8, 9."
+  },
+  {
+   "id": "mp.exhortation",
+   "kind": "exhortation",
+   "start": "EARLY beloved",
+   "end": "ſaying after me:",
+   "role": "minister",
+   "dropcap": "D"
+  },
+  {
+   "id": "mp.confession.rubric",
+   "kind": "rubric",
+   "start": "¶ A general Confeſſion",
+   "end": "all kneeling."
+  },
+  {
+   "id": "mp.confession",
+   "kind": "prayer",
+   "start": "L M I G H T Y and most merciful",
+   "end": "thy holy Name. Amen.",
+   "role": "all",
+   "dropcap": "A"
+  },
+  {
+   "id": "mp.absolution.rubric",
+   "kind": "rubric",
+   "start": "¶ The Absolution",
+   "end": "still kneeling."
+  },
+  {
+   "id": "mp.absolution",
+   "kind": "prayer",
+   "start": "L M I G H T Y God, the Father",
+   "end": "Jeſus Christ our Lord.",
+   "role": "priest",
+   "dropcap": "A"
+  },
+  {
+   "id": "mp.amen.rubric",
+   "kind": "rubric",
+   "start": "¶ The people ſhall anſwer here",
+   "end": "other prayers,"
+  },
+  {
+   "id": "mp.amen",
+   "kind": "versicles",
+   "start": "Amen.",
+   "end": "Amen.",
+   "speaker": "people"
+  },
+  {
+   "id": "mp.lordsprayer.rubric",
+   "kind": "rubric",
+   "start": "¶ Then, the Minister ſhall kneel",
+   "end": "Divine Service."
+  },
+  {
+   "id": "mp.lordsprayer",
+   "kind": "prayer",
+   "start": "U R Father",
+   "end": "for ever and ever. Amen.",
+   "role": "all",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.preces.rubric",
+   "kind": "rubric",
+   "start": "¶ Then likewiſe he ſhall ſay,",
+   "end": "ſay,"
+  },
+  {
+   "id": "mp.preces",
+   "kind": "versicles",
+   "start": "O Lord, open thou our lips;",
+   "end": "make haste to help us.",
+   "speaker": "priest"
+  },
+  {
+   "id": "mp.gloria.rubric",
+   "kind": "rubric",
+   "start": "¶ Here all standing up",
+   "end": "Priest ſhall ſay,"
+  },
+  {
+   "id": "mp.gloria",
+   "kind": "versicles",
+   "start": "Glory be to the Father, and to the Son",
+   "end": "The Lord’s Name be praiſed.",
+   "speaker": "priest"
+  },
+  {
+   "id": "mp.venite.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall be ſaid or ſung this Pſalm",
+   "end": "ordinary courſe of the Pſalms."
+  },
+  {
+   "id": "mp.venite.title",
+   "kind": "heading",
+   "start": "Venite, exultemus Domino.",
+   "end": "PSAL. 95",
+   "latin": "Venite, exultemus Domino.",
+   "reference": "Psalm 95"
+  },
+  {
+   "id": "mp.venite",
+   "kind": "canticle",
+   "start": "Come, let us ſing",
+   "end": "world without end. Amen.",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.psalms.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall follow the Pſalms",
+   "end": "ſhall be repeated,"
+  },
+  {
+   "id": "mp.psalms.gloria",
+   "kind": "versicles",
+   "start": "Glory be to the Father and to the Son :",
+   "end": "ever ſhall be : world without end. Amen.",
+   "speaker": "minister"
+  },
+  {
+   "id": "mp.firstlesson.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall be read distinctly",
+   "end": "throug-out the year."
+  },
+  {
+   "id": "mp.lessons.note",
+   "kind": "rubric",
+   "start": "¶ Note, That before every Leſſon",
+   "end": "the Second Leſſon."
+  },
+  {
+   "id": "mp.tedeum.title",
+   "kind": "heading",
+   "start": "Te Deum Laudamuſ",
+   "end": "Te Deum Laudamuſ",
+   "latin": "Te Deum Laudamus"
+  },
+  {
+   "id": "mp.tedeum",
+   "kind": "canticle",
+   "start": "E praiſe thee, O God",
+   "end": "let me never be confounded.",
+   "dropcap": "W"
+  },
+  {
+   "id": "mp.benedicite.rubric",
+   "kind": "rubric",
+   "start": "¶ Or this Canticle",
+   "end": "Canticle"
+  },
+  {
+   "id": "mp.benedicite.title",
+   "kind": "heading",
+   "start": "Benedicite, omnia opera.",
+   "end": "Benedicite, omnia opera.",
+   "latin": "Benedicite, omnia opera."
+  },
+  {
+   "id": "mp.benedicite",
+   "kind": "canticle",
+   "start": "All ye Works of the Lord",
+   "end": "world without end. Amen.",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.secondlesson.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall be read in like manner the Second Leſſon",
+   "end": "St. John Baptist’s Day."
+  },
+  {
+   "id": "mp.benedictus.title",
+   "kind": "heading",
+   "start": "Benedictus. S. LUKE 1. 68",
+   "end": "Benedictus. S. LUKE 1. 68",
+   "latin": "Benedictus.",
+   "reference": "Luke 1:68"
+  },
+  {
+   "id": "mp.benedictus",
+   "kind": "canticle",
+   "start": "L E S S E D be the Lord God",
+   "end": "world without end. Amen.",
+   "dropcap": "B"
+  },
+  {
+   "id": "mp.jubilate.rubric",
+   "kind": "rubric",
+   "start": "¶ Or this Pſalm.",
+   "end": "¶ Or this Pſalm."
+  },
+  {
+   "id": "mp.jubilate.title",
+   "kind": "heading",
+   "start": "Jubilate Deo.",
+   "end": "PſAL. 100.",
+   "latin": "Jubilate Deo.",
+   "reference": "Psalm 100"
+  },
+  {
+   "id": "mp.jubilate",
+   "kind": "canticle",
+   "start": "Be joyful in the Lord",
+   "end": "world without end. Amen.",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.creed.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall be ſung or ſaid the Apostles Creed",
+   "end": "appointed to be read."
+  },
+  {
+   "id": "mp.creed",
+   "kind": "creed",
+   "start": "Believe in God the Father",
+   "end": "And the Life everlasting. Amen.",
+   "role": "all",
+   "dropcap": "I"
+  },
+  {
+   "id": "mp.prayers.rubric",
+   "kind": "rubric",
+   "start": "¶ And after that theſe Prayers",
+   "end": "with a loud voice,"
+  },
+  {
+   "id": "mp.salutation",
+   "kind": "versicles",
+   "start": "The Lord be with you;",
+   "end": "And with thy ſpirit.",
+   "speaker": "minister"
+  },
+  {
+   "id": "mp.letuspray.rubric",
+   "kind": "rubric",
+   "start": "¶ Minister.",
+   "end": "¶ Minister."
+  },
+  {
+   "id": "mp.letuspray",
+   "kind": "versicles",
+   "start": "Let us pray.",
+   "end": "Let us pray.",
+   "speaker": "minister"
+  },
+  {
+   "id": "mp.kyrie",
+   "kind": "lines",
+   "start": "Lord, have mercy upon us;",
+   "end": "Christ, have mercy upon us.\n Lord, have mercy upon us;"
+  },
+  {
+   "id": "mp.lordsprayer2.rubric",
+   "kind": "rubric",
+   "start": "¶ Then the Minister, Clerks, and People",
+   "end": "with a loud voice."
+  },
+  {
+   "id": "mp.lordsprayer2",
+   "kind": "prayer",
+   "start": "UR Father",
+   "end": "deliver us from evil. Amen.",
+   "role": "all",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.suffrages.rubric",
+   "kind": "rubric",
+   "start": "¶ Then the Priest standing up",
+   "end": "ſhall ſay,"
+  },
+  {
+   "id": "mp.suffrages",
+   "kind": "versicles",
+   "start": "O Lord, ſhow thy mercy upon us;",
+   "end": "take not thy Holy Spirit from us.",
+   "speaker": "priest"
+  },
+  {
+   "id": "mp.collects.rubric",
+   "kind": "rubric",
+   "start": "¶ Then ſhall follow three Collects",
+   "end": "all kneeling."
+  },
+  {
+   "id": "mp.collect.peace.title",
+   "kind": "heading",
+   "start": "The Second Collect, for Peace.",
+   "end": "The Second Collect, for Peace."
+  },
+  {
+   "id": "mp.collect.peace",
+   "kind": "prayer",
+   "start": "God, who art the author of peace",
+   "end": "Christ our Lord. Amen.",
+   "role": "minister",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.collect.grace.title",
+   "kind": "heading",
+   "start": "The Third Collect, for Grace.",
+   "end": "The Third Collect, for Grace."
+  },
+  {
+   "id": "mp.collect.grace",
+   "kind": "prayer",
+   "start": "Lord, our heavenly Father, Almighty",
+   "end": "Lord. Amen.",
+   "role": "minister",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.anthem.rubric",
+   "kind": "rubric",
+   "start": "¶ In Quires an Places",
+   "end": "followeth the Anthem."
+  },
+  {
+   "id": "mp.prayers5.rubric",
+   "kind": "rubric",
+   "start": "¶ Then theſe five Prayers",
+   "end": "as they are there placed."
+  },
+  {
+   "id": "mp.prayer.king.title",
+   "kind": "heading",
+   "start": "¶ A Prayer for the King’s Majesty",
+   "end": "¶ A Prayer for the King’s Majesty"
+  },
+  {
+   "id": "mp.prayer.king",
+   "kind": "prayer",
+   "start": "Lord, our heavenly Father, high and mighty",
+   "end": "through Jeſus Christ our Lord. Amen.",
+   "role": "minister",
+   "dropcap": "O"
+  },
+  {
+   "id": "mp.prayer.royalfamily.title",
+   "kind": "heading",
+   "start": "¶ A Prayer for the Royal Family",
+   "end": "¶ A Prayer for the Royal Family"
+  },
+  {
+   "id": "mp.prayer.royalfamily",
+   "kind": "prayer",
+   "start": "LMIGHTY God, the fountain",
+   "end": "Amen.",
+   "role": "minister",
+   "dropcap": "A"
+  },
+  {
+   "id": "mp.prayer.clergy.title",
+   "kind": "heading",
+   "start": "¶ A Prayer for the Clergy and People.",
+   "end": "¶ A Prayer for the Clergy and People."
+  },
+  {
+   "id": "mp.prayer.clergy",
+   "kind": "prayer",
+   "start": "L M I G H T Y and everlaſting God",
+   "end": "Jeſus Christ. Amen.",
+   "role": "minister",
+   "dropcap": "A"
+  },
+  {
+   "id": "mp.prayer.chrysostom.title",
+   "kind": "heading",
+   "start": "A Prayer of Saint Chryſostom.",
+   "end": "A Prayer of Saint Chryſostom."
+  },
+  {
+   "id": "mp.prayer.chrysostom",
+   "kind": "prayer",
+   "start": "LMIGHTY God, who hast given us grace",
+   "end": "life everlasting. Amen.",
+   "role": "minister",
+   "dropcap": "A"
+  },
+  {
+   "id": "mp.grace.reference",
+   "kind": "heading",
+   "start": "2 COR. 13. 14.",
+   "end": "2 COR. 13. 14.",
+   "reference": "2 Corinthians 13:14"
+  },
+  {
+   "id": "mp.grace",
+   "kind": "prayer",
+   "start": "H E grace of our Lord",
+   "end": "evermore. Amen.",
+   "role": "minister",
+   "dropcap": "T"
+  },
+  {
+   "id": "mp.colophon",
+   "kind": "colophon",
+   "start": "Here endeth the Order of Morning Prayer",
+   "end": "throughout the Year."
+  }
+ ]
+}

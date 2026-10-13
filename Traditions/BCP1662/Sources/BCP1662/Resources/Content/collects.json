@@ -1,0 +1,1673 @@
+{
+ "schemaVersion": 1,
+ "source": "bcp1662-baskerville1762-satucket",
+ "notes": [
+  {
+   "id": "eve-rule",
+   "text": "Note, that the Collect appointed for every Sunday, or for any Holyday that hath a Vigil or Eve, ſhall be ſaid at the Evening Service next before.",
+   "provenance": {
+    "rawLines": [
+     2859,
+     2862
+    ],
+    "extractionPages": [
+     36
+    ]
+   }
+  }
+ ],
+ "observances": [
+  {
+   "id": "advent-1",
+   "title": "The first Sunday in Advent.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, give us grace that we may caſt away the works of darkneſs, and put upon us the armour of light, now in the time of this mortal life, in which thy Son Jeſus Chriſt came to viſit us in great humility; that in the laſt day, when he ſhall come again in his glorious Majeſty, to judge both the quick and the dead, we may riſe to the life immortal, through him who liveth and reigneth with thee and the Holy Ghoſt, now and ever. Amen.",
+     "provenance": {
+      "rawLines": [
+       2865,
+       2881
+      ],
+      "extractionPages": [
+       36
+      ]
+     }
+    }
+   ],
+   "rubrics": [
+    {
+     "text": "This Collect is to be repeated every day with the other Collects in Advent, until Christmas Eve.",
+     "provenance": {
+      "rawLines": [
+       2882,
+       2885
+      ],
+      "extractionPages": [
+       36
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "advent-2",
+   "title": "The ſecond Sunday in Advent.",
+   "collects": [
+    {
+     "text": "BLESSED Lord, who haſt cauſed all holy Scriptures to be written for our learning: Grant that we may in ſuch wiſe hear them, read, mark, learn, and inwardly digeſt them, that by patience, and comfort of thy holy Word, we may embrace, and ever hold faſt the bleſſed hope of everlaſting life, which thou haſt given us in our Saviour Jeſus Chriſt. Amen.",
+     "provenance": {
+      "rawLines": [
+       3006,
+       3024
+      ],
+      "extractionPages": [
+       37
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "advent-3",
+   "title": "The third Sunday in Advent.",
+   "collects": [
+    {
+     "text": "O Lord Jeſu Chriſt, who at thy firſt coming didſt ſend thy meſſenger to prepare the way before thee; Grant that the Miniſters and Stewards of thy myſteries may likewiſe ſo prepare and make ready thy way, by turning the hearts of the diſobedient to the wiſdom of the juſt; that at thy ſecond coming to judge the world, we may be found an acceptable people in thy ſight, who liveſt and reigneſt with the Father and the Holy Spirit, ever one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       3116,
+       3141
+      ],
+      "extractionPages": [
+       38
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "advent-4",
+   "title": "The fourth Sunday in Advent.",
+   "collects": [
+    {
+     "text": "O Lord, raiſe up (we pray thee) thy power, and come among us, and with great might ſuccour us; that whereas, through our ſins and wickedneſs, we are ſore let and hindered in running the race that is ſet before us, thy bountiful grace and mercy may ſpeedily help and deliver us, through the ſatisfaction of thy Son our Lord, to whom, with thee and the Holy Ghoſt, be honour and glory, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       3218,
+       3235
+      ],
+      "extractionPages": [
+       39
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "christmas",
+   "title": "The Nativity of our Lord, or the Birth-Day of CHRIST, commonly called Chriſtmas-day.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who haſt given us thy only-begotten Son to take our nature upon him, and as at this time to be born of a pure Virgin; Grant that we being regenerate, and made thy children by adoption and grace, may daily be renewed by thy Holy Spirit, through the ſame our Lord Jeſus Chriſt, who liveth and reigneth with thee and the ſame Spirit, ever one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       3307,
+       3316
+      ],
+      "extractionPages": [
+       40
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "stephen",
+   "title": "Saint Stephen's Day.",
+   "collects": [
+    {
+     "text": "GRANT, O Lord, that in all our ſufferings here upon earth, for the teſtimony of thy truth, we may ſtedfaſtly look up to heaven, and by faith behold the glory that ſhall be revealed; and, being filled with the Holy Ghoſt, may learn to love and bleſs our perſecutors by the example of thy firſt Martyr Saint Stephen, who prayed for his murderers to thee, O bleſſed Jeſus, who ſtandeſt at the right hand of God to ſuccour all thoſe that G St. STEPHEN ’s Day.ſuffer for thee, our only Mediator and Advocate. Amen.",
+     "provenance": {
+      "rawLines": [
+       3412,
+       3435
+      ],
+      "extractionPages": [
+       41
+      ]
+     }
+    }
+   ],
+   "rubrics": [
+    {
+     "text": "Then ſhall follow the Collect of the Nativity, which ſhall be ſaid continually unto New-year's Eve.",
+     "provenance": {
+      "rawLines": [
+       3436,
+       3436
+      ],
+      "extractionPages": [
+       41
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "john-evangelist",
+   "title": "Saint John the Evangelist’s Day.",
+   "collects": [
+    {
+     "text": "MERCIFUL Lord, we beſeech thee to caſt thy bright beams of light upon thy Church, that it being enlightened by the doctrine of thy bleſſed Apoſtle and Evangeliſt Saint John, may ſo walk in the light of thy truth, that it may at length attain to the light of everlaſting life; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       3519,
+       3532
+      ],
+      "extractionPages": [
+       42
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "innocents",
+   "title": "The Innocents Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, who out of the mouths of babes and ſucklings haſt ordained ſtrength, and madeſt infants to glorify thee by their deaths: Mortify and kill all vices in us, and ſo ſtrengthen us by thy grace, that by the innocency of our lives, and conſtancy of our faith, even unto death, we may glorify thy holy Name; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       3641,
+       3653
+      ],
+      "extractionPages": [
+       43
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "christmas-1",
+   "title": "The Sunday after Christmas-Day.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who haſt given us thy only-begotten Son to take our nature upon him, and as at this time to be born of a pure Virgin; Grant that we being regenerate, and made thy children by adoption and grace, may daily be renewed by thy Holy Spirit, through our Lord Jeſus Chriſt, who liveth and reigneth with thee, and the ſame Spirit, ever, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       3714,
+       3722
+      ],
+      "extractionPages": [
+       44
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "circumcision",
+   "title": "The Circumciſion of Christ.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who madeſt thy bleſſed Son to be circumciſed, and obedient to the law for man; Grant us the true circumciſion of the Spirit; that, our hearts, and all our members, being mortified from all worldly and carnal luſts, we may in all things obey thy bleſſed will; through the ſame thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       3805,
+       3817
+      ],
+      "extractionPages": [
+       45
+      ]
+     }
+    }
+   ],
+   "rubrics": [
+    {
+     "text": "The ſame Collect, Epistle, and Goſpel ſhall ſerve for every day after unto the Epiphany.",
+     "position": "after-gospel",
+     "provenance": {
+      "rawLines": [
+       3912,
+       3913
+      ],
+      "extractionPages": [
+       46
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany",
+   "title": "The E PIPHANY , or the Manifestation of Chriſt to the Gentiles.",
+   "collects": [
+    {
+     "text": "O God, who by the leading of a ſtar didſt manifeſt thy only-begotten Son to the Gentiles; Mercifully grant that we, who know thee now by faith, may after this life have the fruition of thy glorious Godhead; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       3919,
+       3926
+      ],
+      "extractionPages": [
+       46
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-1",
+   "title": "The first Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee mercifully to receive the prayers of thy people who call upon thee; and grant that they may both EPIPHANY . perceive and know what things they ought to do, and alſo may have grace and power faithfully to fulfill the ſame; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4052,
+       4064
+      ],
+      "extractionPages": [
+       47
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-2",
+   "title": "The ſecond Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, who doſt govern all things in heaven and earth: Mercifully hear the ſupplications of thy people, and grant us thy peace all the days of our life, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4162,
+       4173
+      ],
+      "extractionPages": [
+       48
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-3",
+   "title": "The third Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, mercifully look upon our infirmities; and in all our dangers and neceſſities ſtretch forth thy right hand to help and defend us, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4266,
+       4275
+      ],
+      "extractionPages": [
+       49
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-4",
+   "title": "The fourth Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "O God, who knoweſt us to be ſet in the midſt of ſo many and great dangers, that by reaſon of the frailty of our nature we cannot always ſtand upright: Grant to us ſuch ſtrength and protection, as may ſupport us in all dangers, and carry us through all temptations; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4379,
+       4399
+      ],
+      "extractionPages": [
+       50
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-5",
+   "title": "The fifth Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee to keep thy Church and houſehold continually in thy true re-ligion; that they who do lean only upon the hope of thy heavenly grace, may evermore be defended by thy mighty power, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4515,
+       4521
+      ],
+      "extractionPages": [
+       51
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epiphany-6",
+   "title": "The ſixth Sunday after the Epiphany.",
+   "collects": [
+    {
+     "text": "O God, whoſe bleſſed Son was manifeſted that he might deſtroy the works of the devil, and make us the ſons of God, and heirs of eternal life; Grant us, we beſeech thee, that having this hope, we may purify ourſelves, even as he is pure; that, when he ſhall appear again with power and great glory, we may be made like unto him in his eternal and glorious kingdom; where with thee, O Father, and thee, O Holy Ghoſt, he liveth and reigneth, ever, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       4595,
+       4613
+      ],
+      "extractionPages": [
+       52
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "septuagesima",
+   "title": "The Sunday called Septuageſima or the third Sunday before Lent.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee favourably to hear the prayers of thy people; that we, who are juſtly puniſhed for our offences, may be mercifully delivered by thy goodneſs, for the glory of thy Name, through Jeſus Chriſt our Saviour, who liveth and reigneth with thee and the Holy Ghoſt, ever, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       4734,
+       4749
+      ],
+      "extractionPages": [
+       53
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "sexagesima",
+   "title": "The Sunday called Sexageſima or the ſecond Sunday before Lent.",
+   "collects": [
+    {
+     "text": "O Lord God, who ſeeſt that we put not our truſt in any thing that we do: Mercifully grant that by thy power we may be defended againſt all adverſity; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       4845,
+       4855
+      ],
+      "extractionPages": [
+       54
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "quinquagesima",
+   "title": "The Sunday called Quinquageſima or the next Sunday before Lent.",
+   "collects": [
+    {
+     "text": "O Lord, who haſt taught us, that all our doings without love are nothing worth; Send thy Holy Ghoſt, and pour into our hearts that moſt excellent gift of charity, the very bond of peace and of all virtues, without which whoſoever lives is counted dead before thee: Grant this for thy only Son Jeſus Chriſt's ſake. Amen.",
+     "provenance": {
+      "rawLines": [
+       4979,
+       4996
+      ],
+      "extractionPages": [
+       55,
+       56
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ash-wednesday",
+   "title": "The first Day of Lent commonly called Aſh Wedneſday.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, who hateſt nothing that thou haſt made, and doſt forgive all the ſins of thoſe who are penitent; Create and make in us new and contrite hearts, that we worthily lamenting our ſins, and acknowledging our wretchedneſs, may obtain of thee, the God of all mercy, perfect remiſſion and forgiveneſs; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       5126,
+       5145
+      ],
+      "extractionPages": [
+       57
+      ]
+     }
+    }
+   ],
+   "rubrics": [
+    {
+     "text": "This Collect is to be read every day in Lent after the Collect appointed for the day.",
+     "provenance": {
+      "rawLines": [
+       5146,
+       5148
+      ],
+      "extractionPages": [
+       57
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "lent-1",
+   "title": "The first Sunday in Lent.",
+   "collects": [
+    {
+     "text": "O Lord, who for our ſake didſt faſt forty days and forty nights: Give us grace to uſe ſuch abſtinence, that our fleſh being ſubdued to the Spirit, we may ever obey thy godly motions in righteouſneſs and true holineſs, to thy honour and glory, who liveſt and reigneſt with the Father and the Holy Ghoſt, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       5229,
+       5249
+      ],
+      "extractionPages": [
+       58
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "lent-2",
+   "title": "The ſecond Sunday in Lent.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who ſeeſt that we have no power of ourſelves to help ourſelves; Keep us both outwardly in our bodies, and inwardly in our ſouls; that we may be defended from all adverſities which may happen to the body, and from all evil thoughts which may aſſault and hurt the ſoul, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       5351,
+       5363
+      ],
+      "extractionPages": [
+       59
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "lent-3",
+   "title": "The third Sunday in Lent.",
+   "collects": [
+    {
+     "text": "WE beſeech thee, Almighty God, look upon the hearty deſires of thy humble ſervants, and ſtretch forth the right hand of thy Majeſty, to be our defence againſt our enemies, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       5451,
+       5462
+      ],
+      "extractionPages": [
+       60
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "lent-4",
+   "title": "The fourth Sunday in Lent.",
+   "collects": [
+    {
+     "text": "GRANT, we beſeech thee, Almighty God, that we, who for our evil deeds do worthily deſerve to be puniſhed, by the comfort of thy grace may mercifully be relieved, through our Lord and Saviour Jeſus Chriſt. Amen.",
+     "provenance": {
+      "rawLines": [
+       5611,
+       5618
+      ],
+      "extractionPages": [
+       61
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "lent-5",
+   "title": "The fifth Sunday in Lent.",
+   "collects": [
+    {
+     "text": "WE beſeech thee, Almighty God, mercifully to look upon thy people: that by thy great goodneſs they may be governed and preſerved evermore, both in body and ſoul, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       5746,
+       5755
+      ],
+      "extractionPages": [
+       62
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "palm-sunday",
+   "title": "The Sunday next before Easter.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, who of thy tender love towards mankind, haſt ſent thy Son our Saviour Jeſus Chriſt, to take upon him our fleſh, and to ſuffer death upon the croſs, that all mankind ſhould follow the example of his great humility; Mercifully grant, that we may both follow the example of his patience, and alſo be made partakers of his reſurrection, through the ſame Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       5864,
+       5885
+      ],
+      "extractionPages": [
+       63
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "good-friday",
+   "title": "Good Friday.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, we beſeech thee graciouſly to behold this thy family, for which our Lord Jeſus Chriſt was contented to be betrayed, and given up into the hands of wicked men, and to ſuffer death upon the croſs; who now liveth and reigneth with thee and the Holy Ghoſt, ever one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       7523,
+       7535
+      ],
+      "extractionPages": [
+       78
+      ]
+     }
+    },
+    {
+     "text": "ALMIGHTY and everlaſting God, by whoſe Spirit the whole body of the Church is governed and ſanctified; Receive our ſupplications and prayers, which we offer before thee, for all eſtates of men in thy holy Church, that every member of the ſame, in his vocation and miniſtry, may truly and godly ſerve thee, through our Lord and Saviour Jeſus Chriſt. Amen.",
+     "provenance": {
+      "rawLines": [
+       7536,
+       7555
+      ],
+      "extractionPages": [
+       78,
+       79
+      ]
+     }
+    },
+    {
+     "text": "O Merciful God, who has made all men, and hateſt nothing that thou haſt made, nor deſireſt the death of a ſinner, but rather that he ſhould be converted and live: Have mercy upon all Jews, Turks, Infidels, and Hereticks, and take from them all ignorance, hardneſs of heart, and contempt of thy Word; and ſo fetch them home, bleſſed Lord, to thy flock, that they may be ſaved among the remnant of the true Iſraelites, and be made one fold under one ſhepherd, Jeſus Chriſt our Lord; who liveth and reigneth with thee and the Holy Spirit, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       7556,
+       7577
+      ],
+      "extractionPages": [
+       79
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-even",
+   "title": "Eaſter Even.",
+   "collects": [
+    {
+     "text": "GRANT, O Lord, that as we are baptized into the death of thy bleſſed Son, our Saviour Jeſus Chriſt; ſo by continual mortifying our corrupt affections, we may be buried with him; and that through the grave and gate of death, we may paſs to our joyful reſurrection, for his merits who died, and was buried, and roſe again for us, thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       7902,
+       7915
+      ],
+      "extractionPages": [
+       82
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter",
+   "title": "EASTER-DAY.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who through thine only-begotten Son Jeſus Chriſt haſt overcome death, and opened unto us the gate of everlaſting life: We humbly beſeech thee, that as by thy ſpecial grace preventing us, thou doſt put into our minds good deſires; ſo by thy continual help we may bring the ſame to good effect, through Jeſus Chriſt our Lord, who liveth and reigneth with thee and the Holy Ghoſt, ever, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       8067,
+       8088
+      ],
+      "extractionPages": [
+       83
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-monday",
+   "title": "Monday in Easter Week.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who through thy only-begotten Son Jeſus Chriſt haſt overcome death, and opened unto us the gate of everlaſting life; We humbly beſeech thee, that as by thy ſpecial grace preventing us, thou doſt put into our minds good deſires; ſo by thy continual help we may bring the ſame to good effect, through Jeſus Chriſt our Lord, who liveth and reigneth with thee and the Holy Ghoſt, ever one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       8174,
+       8193
+      ],
+      "extractionPages": [
+       84
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-tuesday",
+   "title": "Tueſday in Easter Week.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who through thy only-begotten Son Jeſus Chriſt haſt overcome death, and opened unto us the gate of everlaſting life; We humbly beſeech thee, that as by thy ſpecial grace preventing us, thou doſt put into our minds good deſires, ſo by thy continual help we may bring the ſame to good effect; through Jeſus Chriſt our Lord, who liveth and reigneth with thee and the Holy Ghoſt, ever one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       8360,
+       8379
+      ],
+      "extractionPages": [
+       86
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-1",
+   "title": "The firſt Sunday after Easter.",
+   "collects": [
+    {
+     "text": "ALMIGHTY Father, who haſt given thine only Son to die for our ſins, and to riſe again for our juſtification; Grant us ſo to put away the leaven of malice and wickedneſs, that we may alway ſerve thee in pureneſs of living and truth, through the merits of the ſame thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       8529,
+       8544
+      ],
+      "extractionPages": [
+       87
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-2",
+   "title": "The ſecond Sunday after Easter.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who haſt given thine only Son to be unto us both a ſacrifice for ſin, and alſo an enſample of godly life: Give us grace that we may always moſt thankfully receive that his ineſtimable benefit, and alſo daily endeavour ourſelves to follow the bleſſed ſteps of his moſt holy life, through the ſame Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       8628,
+       8647
+      ],
+      "extractionPages": [
+       88
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-3",
+   "title": "The third Sunday after Easter.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who ſheweſt to them that be in error, the light of thy truth, to the intent that they may return into the way of righteouſneſs: Grant unto all them that are admitted into the fellowſhip of Chriſt’s religion, that they may eſchew thoſe things that are contrary to their profeſſion, and follow all ſuch things as are agreeable to the ſame; through our Lord Jeſus Chriſt. Amen.",
+     "provenance": {
+      "rawLines": [
+       8724,
+       8745
+      ],
+      "extractionPages": [
+       89
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-4",
+   "title": "The fourth Sunday after Easter.",
+   "collects": [
+    {
+     "text": "O Almighty God, who alone canſt order the unruly wills and affections of ſinful men; Grant unto thy people, that they may love the things which thou commandeſt, and deſire that which thou doſt promiſe; that ſo among the ſundry and manifold changes of the world, our hearts may ſurely be fixed, where true joys are to be found, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       8865,
+       8882
+      ],
+      "extractionPages": [
+       90
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "easter-5",
+   "title": "The fifth Sunday after Eaſter.",
+   "collects": [
+    {
+     "text": "O Lord, from whom all good things do come: Grant to us thy humble ſervants, that by thy holy inſpiration, we may think thoſe things that be good, and by thy merciful guiding may perform the ſame, through our Lord Jeſus Chriſt. Amen.",
+     "provenance": {
+      "rawLines": [
+       8973,
+       8983
+      ],
+      "extractionPages": [
+       91
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ascension",
+   "title": "The Aſcenſion-day.",
+   "collects": [
+    {
+     "text": "GRANT, we beſeech thee, Almighty God, that ſince we do believe thy only-begotten Son our Lord Jeſus Chriſt to have aſcended into the Heavens; ſo we may alſo in heart and mind thither aſcend, and with him continually dwell, who liveth and reigneth with thee and the Holy Ghoſt, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9078,
+       9092
+      ],
+      "extractionPages": [
+       92
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ascension-sunday",
+   "title": "Sunday after Aſcenſion-Day.",
+   "collects": [
+    {
+     "text": "O God, the King of glory, who haſt exalted thine only Son Jeſus Chriſt with great triumph unto thy kingdom in heaven: We beſeech thee leave us not comfortleſs; but ſend to us thine Holy Ghoſt to comfort us; and exalt us unto the ſame place whither our Saviour Chriſt is gone before; who liveth and reigneth with thee and the Holy Ghoſt, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9209,
+       9225
+      ],
+      "extractionPages": [
+       93
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "whitsunday",
+   "title": "W H I T - S U N D A Y .",
+   "collects": [
+    {
+     "text": "GOD, who as at this time didſt teach the hearts of thy faithful people, by the ſending to them the light of thy Holy Spirit; Grant us by the ſame Spirit to have a right judgment in all things, and evermore to rejoice in his holy comfort, through the merits of Chriſt Jeſus our Saviour, who liveth and reigneth with thee, in the unity of the ſame Spirit, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9286,
+       9299
+      ],
+      "extractionPages": [
+       93,
+       94
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "whit-monday",
+   "title": "Monday in Whitſun-week.",
+   "collects": [
+    {
+     "text": "GOD, who as at this time didſt teach the hearts of thy faithful people, by the ſending to them the light of thy Holy Spirit; Grant us by the ſame Spirit to have a right judgement in all things, and evermore to rejoice in his holy comfort; through the merits of Chriſt Jeſus our Saviour; who liveth and reigneth with thee, in the unity of the ſame Spirit, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9410,
+       9425
+      ],
+      "extractionPages": [
+       95
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "whit-tuesday",
+   "title": "Tueſday in Whitſun Week.",
+   "collects": [
+    {
+     "text": "GOD, who as at this time didſt teach the hearts of thy faithful people, by the ſending to them the light of thy Holy Spirit; Grant us by the ſame Spirit to have a right judgement in all things, and evermore to rejoice in his holy comfort, through the merits of Chriſt Jeſus our Saviour; who liveth and reigneth with thee, in the unity of the ſame Spirit, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9521,
+       9533
+      ],
+      "extractionPages": [
+       96
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity",
+   "title": "T R I N I T Y - S U N D A Y .",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, who haſt given unto us thy ſervants grace, by the confeſſion of a true faith, to acknowledge the glory of the eternal Trinity, and in the power of the Divine Majeſty to worſhip the Unity; We beſeech thee, that thou wouldeſt keep us ſtedfaſt in this faith, and evermore defend us from all adverſities; who liveſt and reigneſt, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       9594,
+       9615
+      ],
+      "extractionPages": [
+       97
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-1",
+   "title": "The firſt Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, the ſtrength of all them that put their truſt in thee, Mercifully accept our prayers; and becauſe through the weakneſs of our mortal nature we can do no good thing without thee, grant us the help of thy grace, that in keeping of thy commandments, we may pleaſe thee, both in will and deed, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       9774,
+       9790
+      ],
+      "extractionPages": [
+       98,
+       99
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-2",
+   "title": "The ſecond Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O Lord, who never faileſt to help and govern them whom thou doſt bring up in thy ſtedfaſt fear and love; Keep us, we beſeech thee, under the protection of thy good providence, and make us to have a perpetual fear and love of thy holy Name, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       9903,
+       9915
+      ],
+      "extractionPages": [
+       100
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-3",
+   "title": "The third Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee mercifully to hear us; and grant that we, to whom thou haſt given an hearty deſire to pray, may by thy mighty aid be defended and comforted in all dangers and adverſities, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10003,
+       10013
+      ],
+      "extractionPages": [
+       101
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-4",
+   "title": "The fourth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, the protector of all that truſt in thee, without whom nothing is ſtrong, nothing is holy: Increaſe and multiply upon us thy mercy; that thou being our ruler and guide, we may ſo paſs through things temporal, that we finally loſe not the things eternal: Grant this, O heavenly Father, for Jeſus Chriſt’s ſake our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10105,
+       10123
+      ],
+      "extractionPages": [
+       102
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-5",
+   "title": "The fifth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "GRANT, O Lord, we beſeech thee, that the courſe of this world may be ſo peaceably ordered by thy governance, that thy Church may joyfully ſerve thee in all godly quietneſs, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10210,
+       10220
+      ],
+      "extractionPages": [
+       103
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-6",
+   "title": "The ſixth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, who haſt prepared for them that love thee, ſuch good things as paſs man’s underſtanding; Pour into our hearts ſuch love toward thee, that we loving thee above all things, may obtain thy promiſes, which exceed all that we can deſire, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10312,
+       10326
+      ],
+      "extractionPages": [
+       104
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-7",
+   "title": "The ſeventh Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "LORD of all power and might, who art the author and giver of all good things; Graft in our hearts the love of thy Name, increaſe in us true religion, nouriſh us with all goodneſs, and of thy great mercy keep us in the ſame, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10442,
+       10451
+      ],
+      "extractionPages": [
+       105
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-8",
+   "title": "The eighth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, whoſe never-failing providence ordereth all things both in heaven and earth; We humbly beſeech thee to put away from us all hurtful things, and to give us thoſe things which be profitable for us, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10545,
+       10552
+      ],
+      "extractionPages": [
+       106
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-9",
+   "title": "The ninth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "GRANT to us, Lord, we beſeech thee, the Spirit to think and do always ſuch things as be rightful; that we, who cannot do any thing that is good without thee, may by thee be enabled to live according to thy will, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10599,
+       10608
+      ],
+      "extractionPages": [
+       106,
+       107
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-10",
+   "title": "The tenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "LET thy merciful ears, O Lord, be open to the prayers of thy humble ſervants; and, that they may obtain their petitions make them to aſk ſuch things as ſhall pleaſe thee, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10745,
+       10754
+      ],
+      "extractionPages": [
+       108
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-11",
+   "title": "The eleventh Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, who declareſt thy almighty power moſt chiefly in ſhewing mercy and pity; Mercifully grant unto us ſuch a meaſure of thy grace, that we, running the way of thy commandments, may obtain thy gracious promiſes, and be made partakers of thy heavenly treaſure; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10835,
+       10847
+      ],
+      "extractionPages": [
+       109
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-12",
+   "title": "The twelfth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, who art always more ready to hear than we are to pray, and art wont to give more than either we deſire, or deſerve; Pour down upon us the abundance of thy mercy; forgiving us thoſe things whereof our conſcience is afraid, and giving us thoſe good things which we are not worthy to aſk, but through the merits and mediation of Jeſus Chriſt thy Son, our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       10937,
+       10957
+      ],
+      "extractionPages": [
+       109,
+       110
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-13",
+   "title": "The thirteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and merciful God, of whoſe only gift it cometh that thy faithful people do unto thee true and laudable ſervice: Grant, we beſeech thee, that we may ſo faithfully ſerve thee in this life, that we fail not finally to attain thy heavenly promiſes, through the merits of Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11034,
+       11045
+      ],
+      "extractionPages": [
+       110
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-14",
+   "title": "The fourteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everlaſting God, give unto us the increaſe of faith, hope, and charity; and, that we may obtain that which thou doſt promiſe, make us to love that which thou doſt command, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11176,
+       11187
+      ],
+      "extractionPages": [
+       112
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-15",
+   "title": "The fifteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "KEEP, we beſeech thee, O Lord, thy Church with thy perpetual mercy; and becauſe the frailty of man without thee cannot but fall, keep us ever by thy help from all things hurtful, and lead us to all things proAK fitable for our ſalvation; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11275,
+       11287
+      ],
+      "extractionPages": [
+       112,
+       113
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-16",
+   "title": "The ſixteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee, let thy continual pity cleanſe and defend thy Church; and becauſe it cannot continue in ſafety without thy ſuccour, preſerve it evermore by thy help and goodneſs; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11395,
+       11409
+      ],
+      "extractionPages": [
+       114
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-17",
+   "title": "The ſeventeenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "LORD, we pray thee, that thy grace may always prevent and follow us; and make us continually to be given to all good works, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11469,
+       11472
+      ],
+      "extractionPages": [
+       114
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-18",
+   "title": "The eighteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "LORD, we beſeech thee, grant thy people grace to withſtand the temptations of the world, the fleſh, and the devil; and with pure hearts and minds to follow thee the only God, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11554,
+       11562
+      ],
+      "extractionPages": [
+       115
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-19",
+   "title": "The nineteenth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, foraſmuch as without thee we are not able to pleaſe thee; Mercifully grant, that thy Holy Spirit may in all things direct W O and rule our hearts; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11637,
+       11648
+      ],
+      "extractionPages": [
+       116
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-20",
+   "title": "The twentieth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O Almighty and moſt merciful God, of thy bountiful goodneſs keep us, we beſeech thee, from all things that may hurt us; that we being ready both in body and ſoul, may cheerfully accompliſh thoſe things that thou wouldeſt have done, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11754,
+       11766
+      ],
+      "extractionPages": [
+       117
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-21",
+   "title": "The twenty-firſt Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "GRANT, we beſeech thee, merciful Lord, to thy faithful people pardon and peace; that they may be cleanſed from all their ſins, and ſerve thee with a quiet mind, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11852,
+       11862
+      ],
+      "extractionPages": [
+       118
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-22",
+   "title": "The twentyſecond Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "LORD, we beſeech thee to keep thy houſhold the Church in continual godlineſs; that through thy protection it may be free from all adverſities, and devoutly given to ſerve thee in good works, to the glory of thy Name, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       11973,
+       11984
+      ],
+      "extractionPages": [
+       119
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-23",
+   "title": "The twenty-third Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O God, our refuge and ſtrength, who art the author of all godlineſs: Be ready, we beſeech thee, to hear the devout prayers of thy Church; and grant that thoſe things which we aſk faithfully we may obtain effectually, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12093,
+       12106
+      ],
+      "extractionPages": [
+       120
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-24",
+   "title": "The twenty-fourth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "O Lord, we beſeech thee, abſolve thy people from their offences; that through thy bountiful goodneſs we may all be delivered from the bands of thoſe ſins, which by our frailty we have committed: Grant this, O heavenly Father, for Jeſus Chriſt’s ſake, our bleſſed Lord and Saviour. Amen.",
+     "provenance": {
+      "rawLines": [
+       12181,
+       12194
+      ],
+      "extractionPages": [
+       121
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "trinity-25",
+   "title": "The Twenty-Fifth Sunday after Trinity.",
+   "collects": [
+    {
+     "text": "STIR up, we beſeech thee, O Lord, the wills of thy faithful people; that they, plenteouſly bringing forth the fruit of good works, may of thee be plenteouſly rewarded, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12289,
+       12298
+      ],
+      "extractionPages": [
+       122
+      ]
+     }
+    }
+   ],
+   "rubrics": [
+    {
+     "text": "If there be any more Sundays before Advent Sunday, the Service of ſome of thoſe Sundays that were omitted after the Epiphany. ſhall be taken in to ſupply ſo many as are here wanting. And if there be fewer, the overplus may be omitted: Provided that this last Collect, Epistle, and Goſpel ſhall always be uſed upon the Sunday next before Advent.",
+     "position": "after-gospel",
+     "provenance": {
+      "rawLines": [
+       12391,
+       12395
+      ],
+      "extractionPages": [
+       123
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "andrew",
+   "title": "St. Andrew’s Day.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who didſt give ſuch grace unto thy holy Apoſtle Saint Andrew, that he readily obeyed the calling of thy Son Jeſus Chriſt, and followed him without delay; Grant unto us all, that we, being called by thy holy Word, may forthwith give up ourſelves obediently to fulfil thy holy commandments; through the ſame Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12400,
+       12412
+      ],
+      "extractionPages": [
+       123
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "thomas",
+   "title": "St. Thomas the Apoſtle.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everliving God, who for the more confirmation of the Faith didſt ſuffer thy holy Apoſtle Thomas to be doubtful in thy Son’s reſurrection; Grant us ſo perfectly, and without all doubt, to believe in thy Son Jeſus Chriſt, that our faith in thy ſight may never be reproved. Hear us, O Lord, through the ſame Jeſus Chriſt, to whom, with thee and the Holy Ghoſt, be all honour and glory, now and for evermore. Amen.",
+     "provenance": {
+      "rawLines": [
+       12509,
+       12528
+      ],
+      "extractionPages": [
+       124
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "conversion-of-paul",
+   "title": "The Converſion of St. Paul.",
+   "collects": [
+    {
+     "text": "O God, who, through the preaching of the bleſſed Apoſtle Saint Paul, haſt cauſed the light of the Goſpel to ſhine throughout the world; Grant, we beſeech thee, that we, having his wonderful converſion in remembrance, may ſhew forth our thankfulneſs unto thee for the O The Converſion of St. P A U L .ſame, by following the holy doctrine which he taught; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12608,
+       12628
+      ],
+      "extractionPages": [
+       125
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "purification",
+   "title": "The Preſentation of CHRIST in the Temple, commonly called, the Purification of St. MARY the Virgin.",
+   "collects": [
+    {
+     "text": "ALMIGHTY and everliving God, we humbly beſeech thy Majeſty, that as thy only-begotten Son was this day preſented in the temple in ſubſtance of our fleſh; ſo we may be preſented unto thee with pure and clean hearts, by the ſame thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12806,
+       12822
+      ],
+      "extractionPages": [
+       127
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "matthias",
+   "title": "St. Matthias’s Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, who into the place of the traitor Judas didſt chooſe thy faithful ſervant Matthias to be of the number of the twelve Apoſtles; Grant that thy Church being alway preſerved from falſe Apoſtles, may be ordered and guided by faithful and true Paſtors; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       12972,
+       12987
+      ],
+      "extractionPages": [
+       128
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "annunciation",
+   "title": "The Annunciation of the Bleſſed Virgin Mary.",
+   "collects": [
+    {
+     "text": "WE beſeech thee, O Lord, pour thy grace into our hearts; that, as we have known the incarnation of thy Son Jeſus Chriſt by the meſſage of an angel; ſo by his croſs and paſſion we may be brought unto the glory of his reſurrection; through the ſame Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13094,
+       13108
+      ],
+      "extractionPages": [
+       129
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "mark",
+   "title": "St. Mark’s Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, who haſt inſtructed thy holy Church with the heavenly doctrine of thy Evangeliſt Saint Mark; Give us grace, that, being not like children carried away with every blaſt of vain doctrine, we may be eſtabliſhed in the truth of thy holy Goſpel, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13221,
+       13237
+      ],
+      "extractionPages": [
+       130
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "philip-and-james",
+   "title": "St. Philip and St. James’s Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, whom truly to know is everlaſting life: Grant us perfectly to know thy Son Jeſus Chriſt to be the way, the truth, and the life; that, following the ſteps of thy holy Apoſtles, Saint Philip and Saint James, we may ſtedfaſtly walk in the way that Ieadeth to eternal life, through the ſame thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13336,
+       13353
+      ],
+      "extractionPages": [
+       131
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "barnabas",
+   "title": "St. Barnabas the Apostle.",
+   "collects": [
+    {
+     "text": "O Lord God Almighty, who didſt endue thy holy Apoſtle Barnabas with ſingular gifts of the Holy Ghoſt: Leave us not, we beO St. B A R N A B A S the Apostle.ſeech thee, deſtitute of thy manifold gifts, nor yet of grace to uſe them alway to thy honour and glory, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13473,
+       13489
+      ],
+      "extractionPages": [
+       132,
+       133
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "john-baptist",
+   "title": "St. John Baptiſt’s Day.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, by whoſe providence thy ſervant John Baptiſt was wonderfully born, and ſent to prepare the way of they Son our Saviour, by preaching of repentance; Make us ſo to follow his doctrine and holy life, that we may truly repent according to his preaching, and after his example, conſtantly ſpeak the truth, boldly rebuke vice, and patiently ſuffer for the truth’s ſake, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13552,
+       13571
+      ],
+      "extractionPages": [
+       133
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "peter",
+   "title": "St. Peter’s Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, who by thy Son Jeſus Chriſt didſt give to thy Apoſtle Saint Peter many excellent gifts, and commandedſt him earneſtly to feed thy flock: Make, we beſeech thee, all Biſhops and Paſtors diligently to preach thy holy Word, and the people obediently to follow the ſame, that they may receive the crown of everlaſting glory, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13734,
+       13751
+      ],
+      "extractionPages": [
+       135
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "james",
+   "title": "St. James the Apostle.",
+   "collects": [
+    {
+     "text": "GRANT, O merciful God, that as thine holy Apoſtle Saint James, leaving his father and all that he had, without delay was obedient unto the calling of thy Son Jeſus Chriſt, and followed him; ſo we, forſaking all worldly and carnal affections, may be evermore ready to follow thy holy commandments, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13864,
+       13876
+      ],
+      "extractionPages": [
+       136
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "bartholomew",
+   "title": "St. Bartholomew the Apostle.",
+   "collects": [
+    {
+     "text": "O Almighty and everlaſting God, who didſt give to thine Apoſtle Bartholomew grace truly to believe and to preach thy Word; Grant, we beſeech thee, unto thy Church, to love that Word which he believed, and both to preach and receive the ſame, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       13969,
+       13980
+      ],
+      "extractionPages": [
+       137
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "matthew",
+   "title": "St. Matthew the Apoſtle.",
+   "collects": [
+    {
+     "text": "O Almighty God, who by thy bleſſed Son didſt call Matthew from the receipt of cuſtom, to be an Apoſtle and Evangeliſt; Grant us grace to forſake all covetous deſires, and inordinate love of riches, and to follow the ſame thy Son Jeſus Chriſt; who liveth and reigneth with thee and the Holy Ghoſt, one God, world without end. Amen.",
+     "provenance": {
+      "rawLines": [
+       14044,
+       14060
+      ],
+      "extractionPages": [
+       138
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "michael",
+   "title": "St. Michael and All Angels.",
+   "collects": [
+    {
+     "text": "O Everlasting God, who haſt ordained and conſtituted the ſervices of Angels and men in a wonderful order; Mercifully grant, that, as thy holy Angels alway do thee ſervice in heaven; ſo by thy appointment they may ſuccour and defend us on earth, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       14140,
+       14152
+      ],
+      "extractionPages": [
+       139
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "luke",
+   "title": "St. Luke the Evangelist.",
+   "collects": [
+    {
+     "text": "ALMIGHTY God, who calledſt Luke the phyſician, whoſe praiſe is in the Goſpel, to be an Evangeliſt, and Phyſician of the ſoul; May it pleaſe thee, that by the wholeſome medicines of the doctrine delivered by him, all the diſeaſes of our ſouls may be healed, through the merits of thy Son Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       14243,
+       14264
+      ],
+      "extractionPages": [
+       140
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "simon-and-jude",
+   "title": "St. Simon and St. Jude, Apostles.",
+   "collects": [
+    {
+     "text": "O Almighty God, who haſt built thy Church upon the foundation of the Apoſtles and Prophets, Jeſus Chriſt himſelf being the head cornerſtone: Grant us ſo to be joined together in unity of ſpirit by their doctrine, that we may be made an holy temple acceptable unto thee, through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       14349,
+       14364
+      ],
+      "extractionPages": [
+       141
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "all-saints",
+   "title": "All Saints Day.",
+   "collects": [
+    {
+     "text": "O Almighty God, who haſt knit together thine elect in one communion and fellowſhip, in the myſtical body of thy Son Chriſt our Lord: Grant us grace ſo to follow thy bleſſed Saints in all virtuous and godly living, that we may come to thoſe unſpeakable joys, which thou haſt prepared for them that unfeignedly love thee; through Jeſus Chriſt our Lord. Amen.",
+     "provenance": {
+      "rawLines": [
+       14470,
+       14489
+      ],
+      "extractionPages": [
+       142
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

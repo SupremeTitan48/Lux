@@ -1,0 +1,419 @@
+{
+ "schemaVersion": 1,
+ "section": {
+  "firstRaw": 2855,
+  "lastRaw": 14630
+ },
+ "extraDropcapSites": [
+  8024,
+  8031,
+  8045
+ ],
+ "observances": [
+  {
+   "id": "advent-1",
+   "heading": 2863
+  },
+  {
+   "id": "advent-2",
+   "heading": 3004
+  },
+  {
+   "id": "advent-3",
+   "heading": 3114
+  },
+  {
+   "id": "advent-4",
+   "heading": 3216
+  },
+  {
+   "id": "christmas",
+   "heading": 3305,
+   "titleRaw": [
+    3302,
+    3303
+   ]
+  },
+  {
+   "id": "stephen",
+   "heading": 3410
+  },
+  {
+   "id": "john-evangelist",
+   "heading": 3517
+  },
+  {
+   "id": "innocents",
+   "heading": 3639
+  },
+  {
+   "id": "christmas-1",
+   "heading": 3712
+  },
+  {
+   "id": "circumcision",
+   "heading": 3803
+  },
+  {
+   "id": "epiphany",
+   "heading": 3917,
+   "titleRaw": [
+    3914,
+    3916
+   ]
+  },
+  {
+   "id": "epiphany-1",
+   "heading": 4050
+  },
+  {
+   "id": "epiphany-2",
+   "heading": 4160
+  },
+  {
+   "id": "epiphany-3",
+   "heading": 4264
+  },
+  {
+   "id": "epiphany-4",
+   "heading": 4377
+  },
+  {
+   "id": "epiphany-5",
+   "heading": 4513
+  },
+  {
+   "id": "epiphany-6",
+   "heading": 4593
+  },
+  {
+   "id": "septuagesima",
+   "heading": 4732,
+   "titleRaw": [
+    4729,
+    4731
+   ]
+  },
+  {
+   "id": "sexagesima",
+   "heading": 4843,
+   "titleRaw": [
+    4840,
+    4842
+   ]
+  },
+  {
+   "id": "quinquagesima",
+   "heading": 4977,
+   "titleRaw": [
+    4974,
+    4976
+   ]
+  },
+  {
+   "id": "ash-wednesday",
+   "heading": 5124,
+   "titleRaw": [
+    5120,
+    5122
+   ]
+  },
+  {
+   "id": "lent-1",
+   "heading": 5227
+  },
+  {
+   "id": "lent-2",
+   "heading": 5349
+  },
+  {
+   "id": "lent-3",
+   "heading": 5449
+  },
+  {
+   "id": "lent-4",
+   "heading": 5609
+  },
+  {
+   "id": "lent-5",
+   "heading": 5744
+  },
+  {
+   "id": "palm-sunday",
+   "heading": 5862
+  },
+  {
+   "id": "good-friday",
+   "heading": 7521,
+   "collects": 3
+  },
+  {
+   "id": "easter-even",
+   "heading": 7899
+  },
+  {
+   "id": "easter",
+   "heading": 8065,
+   "titleRaw": [
+    8022,
+    8022
+   ]
+  },
+  {
+   "id": "easter-monday",
+   "heading": 8172
+  },
+  {
+   "id": "easter-tuesday",
+   "heading": 8357
+  },
+  {
+   "id": "easter-1",
+   "heading": 8526
+  },
+  {
+   "id": "easter-2",
+   "heading": 8625
+  },
+  {
+   "id": "easter-3",
+   "heading": 8722
+  },
+  {
+   "id": "easter-4",
+   "heading": 8863
+  },
+  {
+   "id": "easter-5",
+   "heading": 8971
+  },
+  {
+   "id": "ascension",
+   "heading": 9074
+  },
+  {
+   "id": "ascension-sunday",
+   "heading": 9207
+  },
+  {
+   "id": "whitsunday",
+   "heading": 9284
+  },
+  {
+   "id": "whit-monday",
+   "heading": 9408
+  },
+  {
+   "id": "whit-tuesday",
+   "heading": 9518
+  },
+  {
+   "id": "trinity",
+   "heading": 9592
+  },
+  {
+   "id": "trinity-1",
+   "heading": 9771
+  },
+  {
+   "id": "trinity-2",
+   "heading": 9900
+  },
+  {
+   "id": "trinity-3",
+   "heading": 10001
+  },
+  {
+   "id": "trinity-4",
+   "heading": 10103
+  },
+  {
+   "id": "trinity-5",
+   "heading": 10208
+  },
+  {
+   "id": "trinity-6",
+   "heading": 10309
+  },
+  {
+   "id": "trinity-7",
+   "heading": 10439
+  },
+  {
+   "id": "trinity-8",
+   "heading": 10543
+  },
+  {
+   "id": "trinity-9",
+   "heading": 10597
+  },
+  {
+   "id": "trinity-10",
+   "heading": 10743
+  },
+  {
+   "id": "trinity-11",
+   "heading": 10833
+  },
+  {
+   "id": "trinity-12",
+   "heading": 10935
+  },
+  {
+   "id": "trinity-13",
+   "heading": 11032
+  },
+  {
+   "id": "trinity-14",
+   "heading": 11174
+  },
+  {
+   "id": "trinity-15",
+   "heading": 11273
+  },
+  {
+   "id": "trinity-16",
+   "heading": 11392
+  },
+  {
+   "id": "trinity-17",
+   "heading": 11466
+  },
+  {
+   "id": "trinity-18",
+   "heading": 11552
+  },
+  {
+   "id": "trinity-19",
+   "heading": 11635
+  },
+  {
+   "id": "trinity-20",
+   "heading": 11752
+  },
+  {
+   "id": "trinity-21",
+   "heading": 11849
+  },
+  {
+   "id": "trinity-22",
+   "heading": 11971,
+   "titleRaw": [
+    11970,
+    11970
+   ]
+  },
+  {
+   "id": "trinity-23",
+   "heading": 12091
+  },
+  {
+   "id": "trinity-24",
+   "heading": 12179,
+   "titleRaw": [
+    12178,
+    12178
+   ]
+  },
+  {
+   "id": "trinity-25",
+   "heading": 12287
+  },
+  {
+   "id": "andrew",
+   "heading": 12398
+  },
+  {
+   "id": "thomas",
+   "heading": 12507
+  },
+  {
+   "id": "conversion-of-paul",
+   "heading": 12605
+  },
+  {
+   "id": "purification",
+   "heading": 12804,
+   "titleRaw": [
+    12801,
+    12803
+   ]
+  },
+  {
+   "id": "matthias",
+   "heading": 12970
+  },
+  {
+   "id": "annunciation",
+   "heading": 13092,
+   "titleRaw": [
+    13091,
+    13091
+   ]
+  },
+  {
+   "id": "mark",
+   "heading": 13219
+  },
+  {
+   "id": "philip-and-james",
+   "heading": 13334
+  },
+  {
+   "id": "barnabas",
+   "heading": 13471
+  },
+  {
+   "id": "john-baptist",
+   "heading": 13549
+  },
+  {
+   "id": "peter",
+   "heading": 13732
+  },
+  {
+   "id": "james",
+   "heading": 13862
+  },
+  {
+   "id": "bartholomew",
+   "heading": 13967
+  },
+  {
+   "id": "matthew",
+   "heading": 14042
+  },
+  {
+   "id": "michael",
+   "heading": 14138
+  },
+  {
+   "id": "luke",
+   "heading": 14241
+  },
+  {
+   "id": "simon-and-jude",
+   "heading": 14347
+  },
+  {
+   "id": "all-saints",
+   "heading": 14468
+  }
+ ],
+ "notes": [
+  {
+   "id": "eve-rule",
+   "raw": 2859
+  }
+ ],
+ "trailingRubrics": [
+  {
+   "observance": "circumcision",
+   "raw": 3912
+  },
+  {
+   "observance": "trinity-25",
+   "raw": 12391
+  }
+ ]
+}

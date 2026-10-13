@@ -1,0 +1,1299 @@
+{
+ "schemaVersion": 1,
+ "id": "evening-prayer",
+ "title": "The Order for Evening Prayer, Daily throughout the Year.",
+ "section": {
+  "start": "The O R D E R for EVENING PRAYER.",
+  "end": "Here endeth the Order of Evening Prayer throughout the Year."
+ },
+ "readingOrder": "reconstructed",
+ "units": [
+  {
+   "id": "ep.title",
+   "kind": "title",
+   "fragments": [
+    {
+     "raw": 1268,
+     "from": "The O R D E R for",
+     "to": "for"
+    },
+    {
+     "raw": 1269,
+     "from": "EVENING PRAYER,"
+    },
+    {
+     "raw": 1270,
+     "from": "Daily throughout",
+     "to": "the Year."
+    }
+   ]
+  },
+  {
+   "id": "ep.sentences.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": [
+      1274,
+      1275
+     ]
+    },
+    {
+     "raw": 1276,
+     "from": "Sentences.",
+     "to": "Sentences."
+    }
+   ]
+  },
+  {
+   "id": "ep.sentence.ezek-18-27",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": 1277,
+     "from": "W tified",
+     "to": "W"
+    },
+    {
+     "raw": 1277,
+     "from": "H E N the wicked",
+     "join": ""
+    },
+    {
+     "raw": 1278,
+     "to": "Ezek. 18. 27."
+    }
+   ],
+   "role": "minister",
+   "citation": "Ezek. 18. 27.",
+   "closeUp": true
+  },
+  {
+   "id": "ep.sentence.ps-51-3",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1281,
+      1282
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "Pſalm 51. 3."
+  },
+  {
+   "id": "ep.sentence.ps-51-9",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1283,
+      1284
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "Pſalm 51. 9."
+  },
+  {
+   "id": "ep.sentence.ps-51-17",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1289,
+      1289
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "Pſalm 51. 17."
+  },
+  {
+   "id": "ep.sentence.joel-2-13",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1290,
+      1291
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "Joel 2. 13."
+  },
+  {
+   "id": "ep.sentence.dan-9-9",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1292,
+      1293
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "Dan. 9. 9, 10."
+  },
+  {
+   "id": "ep.sentence.jer-10-24",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": 1269,
+     "from": "O Lord, correct me",
+     "to": "Pſalm 6.1."
+    }
+   ],
+   "role": "minister",
+   "citation": "Jer. 10. 24. Pſalm 6.1."
+  },
+  {
+   "id": "ep.sentence.matt-3-2",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": 1270,
+     "from": "Repent ye;",
+     "to": "is at"
+    },
+    {
+     "raw": 1270,
+     "from": "hand.",
+     "to": "S. Matt. 3.2."
+    }
+   ],
+   "role": "minister",
+   "citation": "S. Matt. 3.2."
+  },
+  {
+   "id": "ep.sentence.luke-15-18",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1271,
+      1273
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "S. Luke 15. 18, 19."
+  },
+  {
+   "id": "ep.sentence.ps-143-2",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": 1276,
+     "from": "Enter not",
+     "to": "O"
+    },
+    {
+     "raw": 1277,
+     "from": "Lord;",
+     "to": "juſ"
+    },
+    {
+     "raw": 1277,
+     "from": "tified.",
+     "to": "Pſalm 143. 2.",
+     "join": ""
+    }
+   ],
+   "role": "minister",
+   "citation": "Pſalm 143. 2."
+  },
+  {
+   "id": "ep.sentence.1john-1-8",
+   "kind": "sentence",
+   "fragments": [
+    {
+     "raw": [
+      1279,
+      1280
+     ]
+    }
+   ],
+   "role": "minister",
+   "citation": "1 S. John 1. 8, 9."
+  },
+  {
+   "id": "ep.exhortation",
+   "kind": "exhortation",
+   "fragments": [
+    {
+     "raw": [
+      1285,
+      1288
+     ]
+    },
+    {
+     "raw": [
+      1297,
+      1299
+     ]
+    }
+   ],
+   "role": "minister",
+   "closeUp": true
+  },
+  {
+   "id": "ep.confession.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": [
+      1309,
+      1310
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep.confession",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1311,
+      1316
+     ]
+    }
+   ],
+   "role": "all"
+  },
+  {
+   "id": "ep.absolution.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": [
+      1300,
+      1300
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep.absolution",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1302,
+      1308
+     ]
+    }
+   ],
+   "role": "priest",
+   "closeUp": true
+  },
+  {
+   "id": "ep.lordsprayer.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": [
+      1317,
+      1318
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep.lordsprayer",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": 1319,
+     "from": "OUR Father",
+     "to": "Hal"
+    },
+    {
+     "raw": 1319,
+     "from": "lowed be",
+     "join": ""
+    },
+    {
+     "raw": [
+      1320,
+      1322
+     ]
+    }
+   ],
+   "role": "all"
+  },
+  {
+   "id": "ep.preces.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1327
+    }
+   ]
+  },
+  {
+   "id": "ep.preces",
+   "kind": "versicles",
+   "fragments": [
+    {
+     "raw": 1328,
+     "from": "O Lord, open thou our lips;",
+     "to": "lips;"
+    },
+    {
+     "raw": 1329,
+     "from": "Anſw. And our mouth",
+     "to": "praiſe."
+    },
+    {
+     "raw": [
+      1332,
+      1333
+     ]
+    }
+   ],
+   "speaker": "priest"
+  },
+  {
+   "id": "ep.gloria.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1334,
+     "from": "¶ Here all standing up",
+     "to": "ſhall ſay,"
+    }
+   ]
+  },
+  {
+   "id": "ep.gloria",
+   "kind": "versicles",
+   "fragments": [
+    {
+     "raw": 1335
+    },
+    {
+     "raw": 1337,
+     "from": "Anſw. As it was",
+     "to": "is now, and"
+    },
+    {
+     "raw": 1338,
+     "from": "ever ſhall be:",
+     "to": "Amen."
+    },
+    {
+     "raw": 1338,
+     "from": "Priest. Praiſe ye the Lord.",
+     "to": "Lord."
+    },
+    {
+     "raw": 1339,
+     "from": "Anſw. The Lord’s Name",
+     "to": "praiſed."
+    }
+   ],
+   "speaker": "priest"
+  },
+  {
+   "id": "ep.psalms-lesson.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1340,
+     "from": "¶ Then ſhall be ſaid or ſung the Pſalms"
+    },
+    {
+     "raw": 1341,
+     "from": "as followeth.",
+     "to": "as followeth."
+    }
+   ]
+  },
+  {
+   "id": "ep.magnificat.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1341,
+     "from": "Magnificat",
+     "to": "LUKE 1. 46"
+    }
+   ],
+   "latin": "Magnificat",
+   "reference": "Luke 1:46"
+  },
+  {
+   "id": "ep.magnificat",
+   "kind": "canticle",
+   "fragments": [
+    {
+     "raw": 1341,
+     "from": "M the nations",
+     "to": "M"
+    },
+    {
+     "raw": 1341,
+     "from": "Y ſoul doth magnify",
+     "to": "my Saviour.",
+     "join": ""
+    },
+    {
+     "raw": 1341,
+     "from": "For he hath regarded:",
+     "to": "of his"
+    },
+    {
+     "raw": 1342,
+     "to": "hand-maiden.",
+     "join": " "
+    },
+    {
+     "raw": 1343,
+     "from": "For, behold,",
+     "to": "genera"
+    },
+    {
+     "raw": 1343,
+     "from": "tions ſhall call me bleſſed.",
+     "to": "bleſſed.",
+     "join": ""
+    },
+    {
+     "raw": 1343,
+     "from": "For he that is mighty",
+     "to": "his name."
+    },
+    {
+     "raw": 1344,
+     "from": "And his mercy is on them",
+     "to": "generations."
+    },
+    {
+     "raw": 1345,
+     "from": "He hath ſhowed strength",
+     "to": "imagination of"
+    },
+    {
+     "raw": 1346,
+     "join": " "
+    },
+    {
+     "raw": 1325
+    },
+    {
+     "raw": 1328,
+     "from": "He hath filled the hungry",
+     "to": "good things:"
+    },
+    {
+     "raw": 1329,
+     "from": "and the rich",
+     "to": "empty away.",
+     "join": " "
+    },
+    {
+     "raw": 1329,
+     "from": "He remembering of his mercy",
+     "to": "holpen"
+    },
+    {
+     "raw": 1330,
+     "join": " "
+    },
+    {
+     "raw": 1331,
+     "join": " "
+    },
+    {
+     "raw": 1334,
+     "from": "Glory be to the Father and to the Son: and",
+     "to": "Son: and"
+    },
+    {
+     "raw": 1336,
+     "from": "to the Holy Ghost;",
+     "to": "Ghost;",
+     "join": " "
+    },
+    {
+     "raw": 1336,
+     "from": "As it was in the beginning, is now, and ever",
+     "to": "and ever"
+    },
+    {
+     "raw": 1337,
+     "from": "ſhall be: world without end. Amen.",
+     "to": "Amen.",
+     "join": " "
+    }
+   ]
+  },
+  {
+   "id": "ep.cantate.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1338,
+     "from": "¶ Or elſe this Pſalm: Except it be on the nineteenth",
+     "to": "month,"
+    },
+    {
+     "raw": 1338,
+     "from": "when it is read",
+     "to": "courſe of Pſalms."
+    }
+   ]
+  },
+  {
+   "id": "ep.cantate.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1339,
+     "from": "Cantate Domino.",
+     "to": "PſAL. 98."
+    }
+   ],
+   "latin": "Cantate Domino.",
+   "reference": "Psalm 98"
+  },
+  {
+   "id": "ep.cantate",
+   "kind": "canticle",
+   "fragments": [
+    {
+     "raw": 1340,
+     "from": "OSing unto the Lord",
+     "to": "marvellous things."
+    },
+    {
+     "raw": 1341,
+     "from": "With his own right hand",
+     "to": "the victory."
+    },
+    {
+     "raw": 1341,
+     "from": "The Lord declared his ſalvation:",
+     "to": "in the ſight of"
+    },
+    {
+     "raw": 1341,
+     "from": "the nations.",
+     "to": "the nations.",
+     "join": " "
+    },
+    {
+     "raw": 1342,
+     "from": "He hath remembered his mercy",
+     "to": "all the ends of"
+    },
+    {
+     "raw": 1343,
+     "from": "the world have ſeen",
+     "to": "of our God.",
+     "join": " "
+    },
+    {
+     "raw": 1343,
+     "from": "Shew yourſelves joyful",
+     "to": "give thanks."
+    },
+    {
+     "raw": 1343,
+     "from": "Praiſe the Lord upon the harp:",
+     "to": "ſing to the"
+    },
+    {
+     "raw": 1344,
+     "from": "harp with a pſalm",
+     "to": "thankſgiving.",
+     "join": " "
+    },
+    {
+     "raw": 1344,
+     "from": "With trumpets alſo",
+     "to": "O ſhew"
+    },
+    {
+     "raw": 1345,
+     "from": "yourſelves joyful",
+     "to": "the King.",
+     "join": " "
+    },
+    {
+     "raw": [
+      1349,
+      1350
+     ]
+    },
+    {
+     "raw": [
+      1353,
+      1354
+     ]
+    },
+    {
+     "raw": [
+      1360,
+      1361
+     ]
+    },
+    {
+     "raw": [
+      1362,
+      1363
+     ]
+    },
+    {
+     "raw": 1366
+    }
+   ],
+   "replace": [
+    [
+     "OSing",
+     "O Sing"
+    ]
+   ]
+  },
+  {
+   "id": "ep.nt-lesson.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1369,
+     "from": "¶ Then a Leſſon of the New Testament",
+     "to": "And after"
+    },
+    {
+     "raw": 1370
+    }
+   ]
+  },
+  {
+   "id": "ep.nuncdimittis.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1374,
+     "from": "Nunc dimittis",
+     "to": "2.29"
+    }
+   ],
+   "latin": "Nunc dimittis",
+   "reference": "Luke 2:29"
+  },
+  {
+   "id": "ep.nuncdimittis",
+   "kind": "canticle",
+   "fragments": [
+    {
+     "raw": 1374,
+     "from": "LO R D , now lettest",
+     "to": "thy Word."
+    },
+    {
+     "raw": 1375
+    },
+    {
+     "raw": 1378,
+     "from": "or mine eyes have ſeen:",
+     "to": "thy ſalvation,",
+     "join": ""
+    },
+    {
+     "raw": 1378,
+     "from": "Which thou hast",
+     "to": "Which thou hast"
+    },
+    {
+     "raw": 1378,
+     "from": "prepared:",
+     "to": "all peoples;",
+     "join": " "
+    },
+    {
+     "raw": 1379,
+     "from": "To be a light",
+     "to": "Iſrael."
+    },
+    {
+     "raw": [
+      1380,
+      1381
+     ]
+    },
+    {
+     "raw": 1386
+    }
+   ],
+   "closeUp": true
+  },
+  {
+   "id": "ep.deus.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1388
+    }
+   ]
+  },
+  {
+   "id": "ep.deus.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1389
+    }
+   ],
+   "latin": "Deus miſereatur.",
+   "reference": "Psalm 67"
+  },
+  {
+   "id": "ep.deus",
+   "kind": "canticle",
+   "fragments": [
+    {
+     "raw": 1390
+    },
+    {
+     "raw": 1391,
+     "join": " "
+    },
+    {
+     "raw": 1351
+    },
+    {
+     "raw": [
+      1355,
+      1356
+     ]
+    },
+    {
+     "raw": 1357
+    },
+    {
+     "raw": 1358,
+     "join": " "
+    },
+    {
+     "raw": 1359,
+     "join": " "
+    },
+    {
+     "raw": [
+      1364,
+      1365
+     ]
+    },
+    {
+     "raw": 1368
+    },
+    {
+     "raw": 1369,
+     "from": "and God, even our own God",
+     "to": "his bleſſing.",
+     "join": " "
+    },
+    {
+     "raw": [
+      1371,
+      1372
+     ]
+    },
+    {
+     "raw": [
+      1373,
+      1373
+     ]
+    },
+    {
+     "raw": 1374,
+     "from": "to the Holy Ghost;",
+     "to": "Ghost;",
+     "join": " "
+    },
+    {
+     "raw": 1376
+    }
+   ],
+   "closeUp": true
+  },
+  {
+   "id": "ep.creed.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1378,
+     "from": "¶ Then ſhall be ſaid or ſung the Apostles Creed",
+     "to": "Minister and the"
+    },
+    {
+     "raw": 1378,
+     "from": "people standing.",
+     "to": "standing."
+    }
+   ]
+  },
+  {
+   "id": "ep.creed",
+   "kind": "creed",
+   "fragments": [
+    {
+     "raw": 1379,
+     "from": "IBelieve",
+     "to": "heaven and earth:"
+    },
+    {
+     "raw": [
+      1382,
+      1385
+     ]
+    },
+    {
+     "raw": 1394,
+     "from": "I believe in the Holy Ghost;",
+     "to": "The holy Ca"
+    },
+    {
+     "raw": 1395,
+     "join": ""
+    },
+    {
+     "raw": 1396
+    }
+   ],
+   "role": "all",
+   "replace": [
+    [
+     "IBelieve",
+     "I Believe"
+    ]
+   ]
+  },
+  {
+   "id": "ep.prayers.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": [
+      1402,
+      1403
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep.salutation",
+   "kind": "versicles",
+   "fragments": [
+    {
+     "raw": [
+      1406,
+      1407
+     ]
+    }
+   ],
+   "speaker": "minister"
+  },
+  {
+   "id": "ep.letuspray.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1408,
+     "from": "¶ Mini",
+     "to": "Mini"
+    },
+    {
+     "raw": 1408,
+     "from": "ster.",
+     "to": "ster.",
+     "join": ""
+    }
+   ]
+  },
+  {
+   "id": "ep.letuspray",
+   "kind": "versicles",
+   "fragments": [
+    {
+     "raw": 1409,
+     "from": "Let us pray.",
+     "to": "pray."
+    }
+   ],
+   "speaker": "minister"
+  },
+  {
+   "id": "ep.kyrie",
+   "kind": "lines",
+   "fragments": [
+    {
+     "raw": 1412
+    },
+    {
+     "raw": 1413
+    },
+    {
+     "raw": 1414
+    }
+   ]
+  },
+  {
+   "id": "ep.lordsprayer2.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1415,
+     "from": "¶ Then the Minister, Clerks",
+     "to": "Lord’s Prayer"
+    },
+    {
+     "raw": 1416,
+     "from": "with a loud voice.",
+     "to": "voice."
+    }
+   ]
+  },
+  {
+   "id": "ep.lordsprayer2",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": 1421,
+     "from": "OU R Father",
+     "to": "Hal"
+    },
+    {
+     "raw": 1421,
+     "from": "lowed be",
+     "join": ""
+    },
+    {
+     "raw": [
+      1422,
+      1423
+     ]
+    }
+   ],
+   "role": "all",
+   "closeUp": true
+  },
+  {
+   "id": "ep.suffrages.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1424
+    }
+   ]
+  },
+  {
+   "id": "ep.suffrages",
+   "kind": "versicles",
+   "fragments": [
+    {
+     "raw": 1425,
+     "from": "O Lord, ſhow thy mercy upon us;",
+     "to": "upon us;"
+    },
+    {
+     "raw": 1426,
+     "from": "Anſw. And grant us",
+     "to": "ſalvation."
+    },
+    {
+     "raw": [
+      1429,
+      1431
+     ]
+    },
+    {
+     "raw": 1432
+    },
+    {
+     "raw": 1394,
+     "from": "Anſw. And make thy choſen",
+     "to": "joyful."
+    },
+    {
+     "raw": [
+      1397,
+      1401
+     ]
+    },
+    {
+     "raw": 1404
+    },
+    {
+     "raw": 1405
+    },
+    {
+     "raw": 1408,
+     "from": "Anſw. And take not",
+     "to": "from us."
+    }
+   ],
+   "speaker": "priest"
+  },
+  {
+   "id": "ep.collects.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1409,
+     "from": "¶ Then ſhall follow three Collects",
+     "to": "ſecond for"
+    },
+    {
+     "raw": 1410
+    },
+    {
+     "raw": 1411
+    }
+   ]
+  },
+  {
+   "id": "ep.collect.peace.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1415,
+     "from": "¶ The Second Collect at Evening Prayer.",
+     "to": "Evening Prayer."
+    }
+   ]
+  },
+  {
+   "id": "ep.collect.peace",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": 1416,
+     "from": "OGod, from whom"
+    },
+    {
+     "raw": [
+      1417,
+      1420
+     ]
+    }
+   ],
+   "role": "minister",
+   "replace": [
+    [
+     "OGod",
+     "O God"
+    ]
+   ]
+  },
+  {
+   "id": "ep.collect.aid.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1425,
+     "from": "¶ The Third Collect",
+     "to": "Perils."
+    }
+   ]
+  },
+  {
+   "id": "ep.collect.aid",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": 1426,
+     "from": "LI G H T E N our darkneſs"
+    },
+    {
+     "raw": [
+      1427,
+      1428
+     ]
+    }
+   ],
+   "role": "minister",
+   "closeUp": true
+  },
+  {
+   "id": "ep.anthem.rubric",
+   "kind": "rubric",
+   "fragments": [
+    {
+     "raw": 1435,
+     "from": "¶ In Quires",
+     "to": "the Anthem."
+    }
+   ]
+  },
+  {
+   "id": "ep.prayer.king.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1439
+    }
+   ]
+  },
+  {
+   "id": "ep.prayer.king",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1440,
+      1445
+     ]
+    }
+   ],
+   "role": "minister",
+   "replace": [
+    [
+     "OLord",
+     "O Lord"
+    ]
+   ]
+  },
+  {
+   "id": "ep.prayer.royalfamily.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1451
+    }
+   ]
+  },
+  {
+   "id": "ep.prayer.royalfamily",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1452,
+      1455
+     ]
+    }
+   ],
+   "role": "minister"
+  },
+  {
+   "id": "ep.prayer.clergy.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1435,
+     "from": "¶ A Prayer for the Clergy",
+     "to": "People."
+    }
+   ]
+  },
+  {
+   "id": "ep.prayer.clergy",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1436,
+      1438
+     ]
+    }
+   ],
+   "role": "minister",
+   "closeUp": true
+  },
+  {
+   "id": "ep.prayer.chrysostom.title",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1446
+    }
+   ]
+  },
+  {
+   "id": "ep.prayer.chrysostom",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1447,
+      1450
+     ]
+    }
+   ],
+   "role": "minister"
+  },
+  {
+   "id": "ep.grace.reference",
+   "kind": "heading",
+   "fragments": [
+    {
+     "raw": 1456
+    }
+   ],
+   "reference": "2 Corinthians 13:14"
+  },
+  {
+   "id": "ep.grace",
+   "kind": "prayer",
+   "fragments": [
+    {
+     "raw": [
+      1457,
+      1458
+     ]
+    }
+   ],
+   "role": "minister",
+   "closeUp": true
+  },
+  {
+   "id": "ep.colophon",
+   "kind": "colophon",
+   "fragments": [
+    {
+     "raw": 1459
+    }
+   ]
+  }
+ ],
+ "ignore": [
+  {
+   "raw": 1268,
+   "text": "EVENING PRAYER.",
+   "reason": "running head of the facing book page"
+  },
+  {
+   "raw": 1277,
+   "text": "-",
+   "reason": "line-end hyphen of the printed page (juſ-tified)"
+  },
+  {
+   "raw": 1319,
+   "text": "-",
+   "reason": "line-end hyphen of the printed page (Hal-lowed)"
+  },
+  {
+   "raw": 1343,
+   "text": "-",
+   "reason": "line-end hyphen of the printed page (genera-tions)"
+  },
+  {
+   "raw": 1394,
+   "text": "-",
+   "reason": "line-end hyphen of the printed page (Ca-tholick)"
+  },
+  {
+   "raw": 1421,
+   "text": "-",
+   "reason": "line-end hyphen of the printed page (Hal-lowed)"
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "_comment": "Word spaces lost by the extractor on pages whose two book pages it interleaved (Evening Prayer, extraction pages 18-23). Each entry restores one space; the printed page has it. Reviewed 2026-10-13 against the parallel Morning Prayer text; verify against the PDF.",
+ "edits": {
+  "1275": [
+   {
+    "before": "thatfollow",
+    "after": "that follow"
+   }
+  ],
+  "1286": [
+   {
+    "before": "ourheavenly",
+    "after": "our heavenly"
+   }
+  ],
+  "1287": [
+   {
+    "before": "theſame",
+    "after": "the ſame"
+   },
+   {
+    "before": "wemost",
+    "after": "we most"
+   }
+  ],
+  "1289": [
+   {
+    "before": "wiltnot",
+    "after": "wilt not"
+   }
+  ],
+  "1293": [
+   {
+    "before": "theLord",
+    "after": "the Lord"
+   }
+  ],
+  "1299": [
+   {
+    "before": "asmany",
+    "after": "as many"
+   },
+   {
+    "before": "thethrone",
+    "after": "the throne"
+   }
+  ],
+  "1306": [
+   {
+    "before": "thatthoſe",
+    "after": "that thoſe"
+   }
+  ],
+  "1307": [
+   {
+    "before": "lifehereafter",
+    "after": "life hereafter"
+   }
+  ],
+  "1314": [
+   {
+    "before": "isno",
+    "after": "is no"
+   }
+  ],
+  "1318": [
+   {
+    "before": "him,both",
+    "after": "him, both"
+   }
+  ],
+  "1343": [
+   {
+    "before": "yelands",
+    "after": "ye lands"
+   }
+  ],
+  "1383": [
+   {
+    "before": "Bornof",
+    "after": "Born of"
+   },
+   {
+    "before": "Hedeſcended",
+    "after": "He deſcended"
+   }
+  ],
+  "1418": [
+   {
+    "before": "ſetto",
+    "after": "ſet to"
+   }
+  ],
+  "1427": [
+   {
+    "before": "forthe",
+    "after": "for the"
+   }
+  ],
+  "1437": [
+   {
+    "before": "thehealthful",
+    "after": "the healthful"
+   }
+  ],
+  "1445": [
+   {
+    "before": "Enduehim",
+    "after": "Endue him"
+   },
+   {
+    "before": "hisenemies",
+    "after": "his enemies"
+   }
+  ],
+  "1448": [
+   {
+    "before": "theirrequests",
+    "after": "their requests"
+   }
+  ],
+  "1450": [
+   {
+    "before": "mostexpedient",
+    "after": "most expedient"
+   },
+   {
+    "before": "tocome",
+    "after": "to come"
+   }
+  ]
+ }
+}

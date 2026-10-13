@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "sources": [
+  {
+   "id": "bcp1662-baskerville1762-satucket",
+   "file": "bcp1662-baskerville1762.txt",
+   "sha256": "b14a04a52f638571c748b091f4f02b8f8339112203ee6d39b4010dd46a0ecee5",
+   "bytes": 976467,
+   "description": "Text-layer extraction of the Satucket Software PDF reproduction of the 1662 Book of Common Prayer as printed by John Baskerville, Cambridge, 1762 (Griffiths 1762/4; Gaskell 19).",
+   "reproducer": "Satucket Software (Charles Wohlers)",
+   "witness": "Book of Common Prayer, Cambridge: John Baskerville, 1762",
+   "format": "UTF-8 text, CRLF line endings, LF-only lines at page boundaries",
+   "obtained": "2026-10-13, uploaded to the Lux project by Jackson",
+   "pdfAvailable": false,
+   "termsVerbatim": "You may redistribute this document electronically provided no fee is charged and this header remains part of the document.",
+   "notes": "The PDF itself has not been supplied; only this extraction. Page numbers derived from it are extraction pages, unverified against PDF page indices."
+  }
+ ]
+}
