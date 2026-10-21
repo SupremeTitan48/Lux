@@ -20,6 +20,9 @@ public struct ContentManifest: Hashable, Sendable, Codable {
     public var contentVersion: String
     public var title: String
     public var source: Source
+    /// Further witnesses used for parts the primary source lacks (for
+    /// example a lectionary taken from another printing).
+    public var additionalSources: [Source]?
     public var files: [File]
 
     public enum IntegrityError: Error, Hashable, Sendable {

@@ -13,6 +13,7 @@ struct Composer {
     let calendar: BCP1662Calendar
 
     private var source: String { content.sourceID }
+    private var lectionary: Lectionary { Lectionary(lessons: content.lessons, calendar: calendar) }
 
     // MARK: Sections
 
@@ -72,7 +73,9 @@ struct Composer {
 
         var context = Context(office: office, date: date, day: describe(date))
         context.diagnostics.append(Diagnostic(.info, code: "calendar-editorial",
-            message: "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables."))
+            message: "The Tables and Rules for the Feasts are not in the supplied source text. Lux places the movable feasts by the 1662 rules as editorially encoded; the dates of the holy days agree with the Kalendar of the 1693 printing."))
+        context.diagnostics.append(Diagnostic(.info, code: "lectionary-1693",
+            message: "The Kalendar, the Proper Lessons and the Proper Psalms are not in the supplied text of the Baskerville printing. They are taken from the London printing of 1693 (Text Creation Partnership transcription A28758), pending comparison with the Baskerville pages."))
 
         var sections: [ServiceSection] = []
         for (index, spec) in specs.enumerated() {
@@ -136,8 +139,8 @@ struct Composer {
         switch section {
         case "invitatory": return invitatory(units, context: &context)
         case "psalms": return try psalms(units, context: &context)
-        case "first-lesson": return units.map(element) + [lessonPlaceholder("first", context: &context)]
-        case "second-lesson": return units.map(element) + [lessonPlaceholder("second", context: &context)]
+        case "first-lesson": return units.map(element) + lessonElements(.first, context: &context)
+        case "second-lesson": return units.map(element) + lessonElements(.second, context: &context)
         case "first-canticle", "second-canticle": return canticles(section, units, context: &context)
         case "creed": return creed(units, context: &context)
         case "collects": return try collects(units, context: &context)
@@ -177,12 +180,20 @@ struct Composer {
         out += units.filter { $0.kind == "rubric" }.map(element)
         let gloria = glorias.first.map(gloriaVerses) ?? morningGloria()
         let today = keptToday(context.date)
-        if let day = today.first(where: { BCP1662Calendar.properPsalmDays.contains($0) }) {
-            context.diagnostics.append(Diagnostic(.warning, code: "proper-psalms-unavailable",
-                message: "Proper Psalms are appointed for \(ObservanceNames.name(day)), and the psalms of the ordinary course are then omitted. The Table of Proper Psalms is not in the supplied source, so the psalms cannot be given.",
-                elementID: "\(context.prefix).psalms.proper"))
-            out.append(.placeholder(id: "\(context.prefix).psalms.proper", kind: "proper-psalms", label: "The Proper Psalms",
-                                    reason: "The Table of Proper Psalms is not in the supplied source."))
+        if let proper = lectionary.properPsalms(on: context.date, observances: today, office: context.office) {
+            let id = "\(context.prefix).psalms.proper"
+            let name = ObservanceNames.name(proper.id)
+            context.diagnostics.append(Diagnostic(.info, code: "proper-psalms",
+                message: "Proper Psalms are appointed for \(name) (Table of Proper Psalms, “\(proper.cell.printed)”), so the psalms of the ordinary course are omitted.",
+                elementID: id))
+            if proper.cell.provenance.review != nil {
+                context.diagnostics.append(Diagnostic(.warning, code: "proper-psalms-review",
+                    message: (proper.cell.provenance.editorial ?? []).joined(separator: " "), elementID: id))
+            }
+            out.append(.heading(id: id, text: "The Proper Psalms for \(name)", latin: nil, reference: proper.cell.printed, source: nil))
+            for number in proper.cell.psalms {
+                out.append(try psalmElement(PsalterFile.Reference(psalm: number, portion: nil, verses: nil), gloria: gloria))
+            }
         } else {
             let courseDay = min(context.date.day, 30)
             guard let day = content.psalter.course.first(where: { $0.day == courseDay }) else {
@@ -198,7 +209,7 @@ struct Composer {
             }
         }
         if context.office == .eveningPrayer {
-            out.append(lessonPlaceholder("first", context: &context))
+            out += lessonElements(.first, context: &context)
         }
         return out
     }
@@ -235,13 +246,55 @@ struct Composer {
                       gloria: gloria, source: provenance?.reference(source: source))
     }
 
-    private func lessonPlaceholder(_ which: String, context: inout Context) -> ServiceElement {
-        let id = "\(context.prefix).lesson.\(which)"
-        context.diagnostics.append(Diagnostic(.warning, code: "lessons-unavailable",
-            message: "The \(which) lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-            elementID: id))
-        return .placeholder(id: id, kind: "lesson", label: which == "first" ? "The First Lesson" : "The Second Lesson",
-                            reason: "The Table of Lessons is not in the supplied source.")
+    /// The lesson appointed for a slot: its reference, then a placeholder for
+    /// its text (Lux does not yet include a text of the Scriptures).
+    private func lessonElements(_ which: Lectionary.Which, context: inout Context) -> [ServiceElement] {
+        let id = "\(context.prefix).lesson.\(which.rawValue)"
+        let title = which == .first ? "The First Lesson" : "The Second Lesson"
+        let slot = lectionary.slot(which, office: context.office, on: context.date)
+        context.diagnostics += slot.diagnostics.map { d in
+            var d = d
+            d.elementID = d.elementID ?? id
+            return d
+        }
+        guard !slot.options.isEmpty else {
+            context.diagnostics.append(Diagnostic(.warning, code: "lesson-not-appointed",
+                message: "Neither the Kalendar nor the Table of Proper Lessons appoints \(title.lowercased()) for this day (the Kalendar leaves it blank for a holy day kept on another date in this year). The source does not say what is read.",
+                elementID: id))
+            return [.placeholder(id: id, kind: "lesson", label: title, reason: "No lesson is appointed in the tables for this day.")]
+        }
+        func elements(_ lesson: LessonsFile.Lesson, id: String) -> [ServiceElement] {
+            let reference = lesson.provenance.reference(source: content.lessons.source)
+            if lesson.provenance.review != nil {
+                context.diagnostics.append(Diagnostic(.info, code: "lesson-reference-review",
+                    message: "\(title) (“\(lesson.printed)”): " + (lesson.provenance.editorial ?? []).filter { !$0.hasPrefix("Book named") }.joined(separator: " "),
+                    elementID: id))
+            }
+            context.diagnostics.append(Diagnostic(.warning, code: "lesson-text-unavailable",
+                message: "\(title) is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+                elementID: id + ".text"))
+            let label = lesson.references.map(\.description).joined(separator: "; ")
+            return [.lesson(id: id, printed: lesson.printed, references: lesson.references, source: reference),
+                    .placeholder(id: id + ".text", kind: "lesson-text", label: label,
+                                 reason: "The text of the Scriptures is not yet included in Lux.")]
+        }
+        if slot.options.count == 1 { return elements(slot.options[0].lesson, id: id) }
+        let options = slot.options.enumerated().map { n, option in
+            ServiceElement.Option(label: option.label, elements: elements(option.lesson, id: "\(id).\(n + 1)"))
+        }
+        return [.alternatives(id: id, label: title, options: options)]
+    }
+
+    /// Whether the second lesson at Morning Prayer includes the Benedictus
+    /// (Luke 1:68–79).
+    private func benedictusInSecondLesson(_ date: CivilDate) -> Bool {
+        guard let lesson = lectionary.slot(.second, office: .morningPrayer, on: date).options.first?.lesson else { return false }
+        return lesson.references.contains { r in
+            guard r.book == "Luke" else { return false }
+            let start = (r.startChapter, r.startVerse ?? 1)
+            let end = (r.endChapter ?? r.startChapter, r.endVerse ?? Int.max)
+            return start <= (1, 68) && (1, 68) <= end
+        }
     }
 
     /// A pair of canticles, the second introduced by its "Or …" rubric.
@@ -266,9 +319,12 @@ struct Composer {
                 options.reverse()
                 context.diagnostics.append(Diagnostic(.info, code: "jubilate-on-john-baptist",
                     message: "On St John Baptist’s Day the Benedictus is read in the Gospel, so the Jubilate is said.", elementID: id))
-            } else {
-                context.diagnostics.append(Diagnostic(.info, code: "benedictus-lesson-unknown",
-                    message: "The Jubilate is said instead of the Benedictus when the Benedictus is read in the second lesson. The lessons are not available, so this cannot be checked.", elementID: id))
+            } else if benedictusInSecondLesson(context.date) {
+                // Source: the Benedictus is said "except when that shall
+                // happen to be read in the Chapter for the day".
+                options.reverse()
+                context.diagnostics.append(Diagnostic(.info, code: "jubilate-benedictus-in-lesson",
+                    message: "The Benedictus is read in the second lesson today, so the Jubilate is said.", elementID: id))
             }
         case (.eveningPrayer, "first-canticle") where context.date.day == 19:
             options.removeLast()

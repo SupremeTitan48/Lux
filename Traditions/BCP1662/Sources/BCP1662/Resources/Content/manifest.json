@@ -8,10 +8,22 @@
   "file": "bcp1662-baskerville1762.txt",
   "sha256": "b14a04a52f638571c748b091f4f02b8f8339112203ee6d39b4010dd46a0ecee5"
  },
+ "additionalSources": [
+  {
+   "id": "bcp1662-london1693-tcp",
+   "file": "bcp1662-london1693-tcp-A28758.xml",
+   "sha256": "d197a9961c29c4b011d8e5d17ac6dfac8e6f3e03ef51ca440091b49fef5e4aaa",
+   "role": "lectionary"
+  }
+ ],
  "files": [
   {
    "path": "collects.json",
    "sha256": "f4d96cebc0f3dc97c454d4c5553997a2cea4a895983ea8798f02eed109f91eca"
+  },
+  {
+   "path": "lectionary/lessons.json",
+   "sha256": "1c8511578881d55465c862fd8f6fbebab0d303a5ac0b4b0086f260f9095bf787"
   },
   {
    "path": "propers/easter-anthems.json",
@@ -45,7 +57,7 @@
   },
   {
    "path": "Provenance/review-queue.json",
-   "sha256": "75ec9267b230aee52b815f9855c70af26f80debfcae107a18af015977dabc459"
+   "sha256": "3bd5c4396c25391d58cabd937f680eec625c87e9e686792009743a11423d493e"
   },
   {
    "path": "Provenance/transcription/edits.jsonl",

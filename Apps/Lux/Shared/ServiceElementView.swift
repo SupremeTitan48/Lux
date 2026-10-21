@@ -106,6 +106,19 @@ struct ServiceElementView: View {
                 }
             }
 
+        case let .lesson(_, printed, references, source):
+            VStack(alignment: .leading, spacing: Spacing.xs) {
+                Text(references.map(\.description).joined(separator: "; "))
+                    .font(TypeRole.heading.font)
+                    .foregroundStyle(colors.textPrimary)
+                    .accessibilityAddTraits(.isHeader)
+                Text("As printed: \(render(printed))")
+                    .font(TypeRole.caption.font)
+                    .foregroundStyle(colors.textSecondary)
+                provenance(source)
+            }
+            .padding(.top, Spacing.s)
+
         case let .placeholder(_, _, label, reason):
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Label(label, systemImage: "book.closed").font(TypeRole.heading.font)
@@ -129,7 +142,8 @@ struct ServiceElementView: View {
     }
 
     private func provenanceText(_ source: SourceReference) -> String {
-        var parts = ["Source lines \(source.rawLines.lowerBound)–\(source.rawLines.upperBound)",
+        var parts = [source.sourceID,
+                     "lines \(source.rawLines.lowerBound)–\(source.rawLines.upperBound)",
                      "page \(source.pages.map(String.init).joined(separator: ", "))"]
         if let review = source.review { parts.append("review: \(review)") }
         return parts.joined(separator: " · ")

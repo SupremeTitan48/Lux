@@ -53,7 +53,7 @@ import Testing
         #expect(!all.contains("ath.creed"))
         #expect(all.contains("collect.trinity-19.1"))
         #expect(all.contains("mp.lesson.first") && all.contains("mp.lesson.second"))
-        #expect(doc.diagnostics.contains { $0.code == "lessons-unavailable" && $0.severity == .warning })
+        #expect(doc.diagnostics.contains { $0.code == "lesson-text-unavailable" && $0.severity == .warning })
         // Order of the office as printed.
         let order = ["mp.sentences.rubric", "mp.confession", "mp.absolution", "mp.lordsprayer", "mp.venite", "psalm.68",
                      "mp.lesson.first", "mp.tedeum", "mp.lesson.second", "mp.benedictus", "mp.creed", "mp.suffrages",
@@ -113,8 +113,8 @@ import Testing
         #expect(all.contains("ath.creed"))
         #expect(!all.contains("mp.creed"))
         #expect(all.contains("mp.psalms.proper"))
-        #expect(psalms(doc).isEmpty)
-        #expect(doc.diagnostics.contains { $0.code == "proper-psalms-unavailable" })
+        #expect(psalms(doc) == ["psalm.2", "psalm.57", "psalm.111"])
+        #expect(doc.diagnostics.contains { $0.code == "proper-psalms" })
     }
 
     @Test func athanasianCreedOnlyAtMorningPrayer() throws {
@@ -164,7 +164,9 @@ import Testing
             case let .alternatives(_, _, options):
                 options.forEach { $0.elements.forEach(check) }
             case let .heading(id, _, _, _, source):
-                #expect(source != nil || id.hasPrefix("collect."), "\(id) has no source")
+                #expect(source != nil || id.hasPrefix("collect.") || id.hasSuffix(".psalms.proper"), "\(id) has no source")
+            case let .lesson(id, _, _, source):
+                #expect(source != nil, "\(id) has no source")
             case .placeholder:
                 break
             }

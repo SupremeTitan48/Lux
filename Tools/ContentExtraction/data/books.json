@@ -1,0 +1,616 @@
+{
+ "_comment": "Books of the Bible as the 1693 lectionary tables abbreviate them. 'chapters' is the chapter count of the King James Version (with the Apocrypha), used only to validate references. Printed forms are exact cell text (with long s). 'course' is the Kalendar course a book is read in: the Old Testament and Apocrypha as first lessons, the Gospels and Acts as second lessons at Morning Prayer, the Epistles at Evening Prayer (from 'The Order how the rest of holy Scripture is appointed to be read' and the Kalendar itself).",
+ "books": [
+  {
+   "book": "Genesis",
+   "chapters": 50,
+   "printed": [
+    "Gen."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Exodus",
+   "chapters": 40,
+   "printed": [
+    "Exod."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Leviticus",
+   "chapters": 27,
+   "printed": [
+    "Levit.",
+    "Lev."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Numbers",
+   "chapters": 36,
+   "printed": [
+    "Numb.",
+    "Num."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Deuteronomy",
+   "chapters": 34,
+   "printed": [
+    "Deut.",
+    "Deut"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Joshua",
+   "chapters": 24,
+   "printed": [
+    "Joſh."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Judges",
+   "chapters": 21,
+   "printed": [
+    "Judges"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Ruth",
+   "chapters": 4,
+   "printed": [
+    "Ruth",
+    "Ruth."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "1 Samuel",
+   "chapters": 31,
+   "printed": [
+    "1 Sam."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "2 Samuel",
+   "chapters": 24,
+   "printed": [
+    "2 Sam."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "1 Kings",
+   "chapters": 22,
+   "printed": [
+    "1 King.",
+    "1 King",
+    "1 Kings"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "2 Kings",
+   "chapters": 25,
+   "printed": [
+    "2 King.",
+    "2 Kings"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "1 Chronicles",
+   "chapters": 29,
+   "printed": [],
+   "course": "old"
+  },
+  {
+   "book": "2 Chronicles",
+   "chapters": 36,
+   "printed": [],
+   "course": "old"
+  },
+  {
+   "book": "Ezra",
+   "chapters": 10,
+   "printed": [
+    "Ezra"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Nehemiah",
+   "chapters": 13,
+   "printed": [
+    "Neh."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Esther",
+   "chapters": 10,
+   "printed": [
+    "Eſther"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Job",
+   "chapters": 42,
+   "printed": [
+    "Job"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Proverbs",
+   "chapters": 31,
+   "printed": [
+    "Prov."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Ecclesiastes",
+   "chapters": 12,
+   "printed": [
+    "Eccleſ."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Song of Solomon",
+   "chapters": 8,
+   "printed": [],
+   "course": "old"
+  },
+  {
+   "book": "Isaiah",
+   "chapters": 66,
+   "printed": [
+    "Iſaiah",
+    "Iſai.",
+    "Iſai",
+    "Iſa."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Jeremiah",
+   "chapters": 52,
+   "printed": [
+    "Jerem.",
+    "Jer."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Lamentations",
+   "chapters": 5,
+   "printed": [
+    "Lam."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Ezekiel",
+   "chapters": 48,
+   "printed": [
+    "Ezek."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Daniel",
+   "chapters": 12,
+   "printed": [
+    "Dan."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Hosea",
+   "chapters": 14,
+   "printed": [
+    "Hoſ.",
+    "Hoſea"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Joel",
+   "chapters": 3,
+   "printed": [
+    "Joel"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Amos",
+   "chapters": 9,
+   "printed": [
+    "Amos"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Obadiah",
+   "chapters": 1,
+   "printed": [
+    "Obadiah"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Jonah",
+   "chapters": 4,
+   "printed": [
+    "Jon.",
+    "Jonah"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Micah",
+   "chapters": 7,
+   "printed": [
+    "Micah",
+    "Mich."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Nahum",
+   "chapters": 3,
+   "printed": [
+    "Nah."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Habakkuk",
+   "chapters": 3,
+   "printed": [
+    "Habak.",
+    "Hab."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Zephaniah",
+   "chapters": 3,
+   "printed": [
+    "Zeph.",
+    "Zeph"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Haggai",
+   "chapters": 2,
+   "printed": [
+    "Hagg."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Zechariah",
+   "chapters": 14,
+   "printed": [
+    "Zec.",
+    "Zech.",
+    "Zcc."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Malachi",
+   "chapters": 4,
+   "printed": [
+    "Malach.",
+    "Mal."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Tobit",
+   "chapters": 14,
+   "printed": [
+    "Tob.",
+    "Tobit",
+    "Tobit."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Judith",
+   "chapters": 16,
+   "printed": [
+    "Judeth."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Wisdom",
+   "chapters": 19,
+   "printed": [
+    "Wiſd.",
+    "Wiſ.",
+    "wiſd."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Ecclesiasticus",
+   "chapters": 51,
+   "printed": [
+    "Ecclus"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Baruch",
+   "chapters": 6,
+   "printed": [
+    "Baruch"
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Susanna",
+   "chapters": 1,
+   "printed": [
+    "H. of suſ."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Bel and the Dragon",
+   "chapters": 1,
+   "printed": [
+    "Bel & D."
+   ],
+   "course": "old"
+  },
+  {
+   "book": "Matthew",
+   "chapters": 28,
+   "printed": [
+    "Matth.",
+    "Mat."
+   ],
+   "course": "gospels"
+  },
+  {
+   "book": "Mark",
+   "chapters": 16,
+   "printed": [
+    "Mark"
+   ],
+   "course": "gospels"
+  },
+  {
+   "book": "Luke",
+   "chapters": 24,
+   "printed": [
+    "Luke",
+    "Luk.",
+    "Lu."
+   ],
+   "course": "gospels"
+  },
+  {
+   "book": "John",
+   "chapters": 21,
+   "printed": [
+    "John",
+    "Joh."
+   ],
+   "course": "gospels"
+  },
+  {
+   "book": "Acts",
+   "chapters": 28,
+   "printed": [
+    "Acts",
+    "Acts.",
+    "Act."
+   ],
+   "course": "gospels"
+  },
+  {
+   "book": "Romans",
+   "chapters": 16,
+   "printed": [
+    "Rom."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "1 Corinthians",
+   "chapters": 16,
+   "printed": [
+    "1 Cor.",
+    "1 Cor"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "2 Corinthians",
+   "chapters": 13,
+   "printed": [
+    "2 Cor.",
+    "2 Cor"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Galatians",
+   "chapters": 6,
+   "printed": [
+    "Galat."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Ephesians",
+   "chapters": 6,
+   "printed": [
+    "Epheſ.",
+    "Eph."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Philippians",
+   "chapters": 4,
+   "printed": [
+    "Philip.",
+    "Philip"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Colossians",
+   "chapters": 4,
+   "printed": [
+    "Coloſ.",
+    "Coloſ",
+    "Col."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "1 Thessalonians",
+   "chapters": 5,
+   "printed": [
+    "1 Theſ.",
+    "1 Theſſ."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "2 Thessalonians",
+   "chapters": 3,
+   "printed": [
+    "2 Theſ."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "1 Timothy",
+   "chapters": 6,
+   "printed": [
+    "1 Tim."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "2 Timothy",
+   "chapters": 4,
+   "printed": [
+    "2 Tim."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Titus",
+   "chapters": 3,
+   "printed": [
+    "Titus"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Philemon",
+   "chapters": 1,
+   "printed": [
+    "Philem."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Hebrews",
+   "chapters": 13,
+   "printed": [
+    "Hebr.",
+    "Heb."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "James",
+   "chapters": 5,
+   "printed": [
+    "James"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "1 Peter",
+   "chapters": 5,
+   "printed": [
+    "1 Pet."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "2 Peter",
+   "chapters": 3,
+   "printed": [
+    "2 Pet."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "1 John",
+   "chapters": 5,
+   "printed": [
+    "1 John",
+    "1. John"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "2 John",
+   "chapters": 1,
+   "printed": [
+    "2 John"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "3 John",
+   "chapters": 1,
+   "printed": [
+    "3 John"
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Jude",
+   "chapters": 1,
+   "printed": [
+    "Jude",
+    "Jude.",
+    "Iude.",
+    "Jud."
+   ],
+   "course": "epistles"
+  },
+  {
+   "book": "Revelation",
+   "chapters": 22,
+   "printed": [
+    "Apoc."
+   ],
+   "course": "revelation"
+  }
+ ]
+}

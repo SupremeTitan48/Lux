@@ -7,11 +7,13 @@ public enum ObservanceNames {
     static let ordinals = ["", "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth",
                            "Tenth", "Eleventh", "Twelfth", "Thirteenth", "Fourteenth", "Fifteenth", "Sixteenth",
                            "Seventeenth", "Eighteenth", "Nineteenth", "Twentieth", "Twenty-first", "Twenty-second",
-                           "Twenty-third", "Twenty-fourth", "Twenty-fifth"]
+                           "Twenty-third", "Twenty-fourth", "Twenty-fifth", "Twenty-sixth"]
 
     static let fixed: [String: String] = [
         "christmas": "Christmas Day", "stephen": "Saint Stephen’s Day", "john-evangelist": "Saint John the Evangelist’s Day",
         "innocents": "The Innocents’ Day", "christmas-1": "The Sunday after Christmas Day",
+        "christmas-2": "The Second Sunday after Christmas Day",
+        "wednesday-before-easter": "Wednesday before Easter", "thursday-before-easter": "Thursday before Easter",
         "circumcision": "The Circumcision of Christ", "epiphany": "The Epiphany",
         "septuagesima": "Septuagesima Sunday", "sexagesima": "Sexagesima Sunday", "quinquagesima": "Quinquagesima Sunday",
         "ash-wednesday": "Ash Wednesday", "palm-sunday": "The Sunday next before Easter", "good-friday": "Good Friday",

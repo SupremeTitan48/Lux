@@ -6,10 +6,12 @@
   "dropcap-mismatch": 30,
   "dropcap-restored": 43,
   "dropcap-restored-from-unflagged-orphan-line": 1,
+  "kalendar-day-number-missing": 1,
   "not-extracted": 2,
   "reading-order-reconstructed": 67,
-  "reading-preserved": 5,
+  "reading-preserved": 7,
   "running-head-removed": 5,
+  "tcp-reading-corrected": 7,
   "verse-number-misprinted": 1,
   "verse-pointing": 11
  },
@@ -1431,6 +1433,83 @@
    ]
   },
   {
+   "area": "lectionary",
+   "kind": "kalendar-day-number-missing",
+   "day": "12-08",
+   "xmlLine": 10609,
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). The TCP has an empty cell where the day number 8 should be (dominical letter f, 'Concept'); the day is placed by its letter and its place between the 7th and 9th."
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "01-30",
+   "xmlLine": 2532,
+   "printed": "0",
+   "readAs": "6"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "08-31",
+   "xmlLine": 8031,
+   "printed": "Rom. ␣",
+   "readAs": "Rom. 1"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "09-01",
+   "xmlLine": 8088,
+   "printed": "Hoſ. 1",
+   "readAs": "Hoſ. 14"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "09-02",
+   "xmlLine": 8112,
+   "printed": "Joel ␣",
+   "readAs": "Joel 2"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "09-16",
+   "xmlLine": 8458,
+   "printed": "1",
+   "readAs": "17"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "10-07",
+   "xmlLine": 9015,
+   "printed": "␣",
+   "readAs": "6"
+  },
+  {
+   "area": "lectionary",
+   "kind": "tcp-reading-corrected",
+   "day": "10-15",
+   "xmlLine": 9212,
+   "printed": "139",
+   "readAs": "1. 39"
+  },
+  {
+   "area": "lectionary",
+   "kind": "reading-preserved",
+   "xmlLine": 1776,
+   "text": "civ. cxiv.",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). Evensong on Whitsunday: Psalms civ and cxiv as printed or keyed. Psalm cxiv is also appointed on Easter Day, and later printings of the 1662 table read civ, cxlv here, so this may be a misprint in 1693 or a keying error. Preserved as printed; Lux appoints Psalms 104 and 114 until the Baskerville page is checked."
+  },
+  {
+   "area": "lectionary",
+   "kind": "reading-preserved",
+   "xmlLine": 8780,
+   "text": "2",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). St Michael (29 September): the Kalendar prints second lessons for the day (Mark 2 and 1 Corinthians 14 by the course) although the Table of Proper Lessons appoints proper second lessons. Every other holy day leaves the Kalendar blank exactly where a proper lesson is appointed. Lux follows the Preface rule that proper lessons displace those of the ordinary course."
+  },
+  {
    "area": "source",
    "kind": "reading-preserved",
    "text": "In Quires an Places",
@@ -1468,7 +1547,7 @@
   {
    "area": "content",
    "kind": "not-extracted",
-   "note": "Calendar, Tables of Lessons, Proper Lessons, Proper Psalms and the tables of movable feasts are absent from the supplied text extraction; they need the PDF."
+   "note": "The Calendar with the Table of Lessons, the Proper Lessons and Proper Psalms, the tables of movable feasts and the Table of Vigils are absent from the supplied text extraction. The lessons and Proper Psalms are taken from the 1693 printing (TCP A28758) and need checking against the Baskerville pages; the feast tables and the Table of Vigils are not yet used."
   },
   {
    "area": "content",

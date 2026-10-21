@@ -11,7 +11,12 @@
   "diagnostics" : [
     {
       "code" : "calendar-editorial",
-      "message" : "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables.",
+      "message" : "The Tables and Rules for the Feasts are not in the supplied source text. Lux places the movable feasts by the 1662 rules as editorially encoded; the dates of the holy days agree with the Kalendar of the 1693 printing.",
+      "severity" : "info"
+    },
+    {
+      "code" : "lectionary-1693",
+      "message" : "The Kalendar, the Proper Lessons and the Proper Psalms are not in the supplied text of the Baskerville printing. They are taken from the London printing of 1693 (Text Creation Partnership transcription A28758), pending comparison with the Baskerville pages.",
       "severity" : "info"
     },
     {
@@ -20,28 +25,22 @@
       "severity" : "info"
     },
     {
-      "code" : "proper-psalms-unavailable",
+      "code" : "proper-psalms",
       "elementID" : "mp.psalms.proper",
-      "message" : "Proper Psalms are appointed for Easter Day, and the psalms of the ordinary course are then omitted. The Table of Proper Psalms is not in the supplied source, so the psalms cannot be given.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.first",
-      "message" : "The first lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.second",
-      "message" : "The second lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "benedictus-lesson-unknown",
-      "elementID" : "mp.second-canticle",
-      "message" : "The Jubilate is said instead of the Benedictus when the Benedictus is read in the second lesson. The lessons are not available, so this cannot be checked.",
+      "message" : "Proper Psalms are appointed for Easter Day (Table of Proper Psalms, “Pſal. ii. lvii. cxi.”), so the psalms of the ordinary course are omitted.",
       "severity" : "info"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.first.text",
+      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.second.text",
+      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
     },
     {
       "code" : "athanasian-creed",
@@ -702,11 +701,269 @@
           }
         },
         {
-          "placeholder" : {
+          "heading" : {
             "id" : "mp.psalms.proper",
-            "kind" : "proper-psalms",
-            "label" : "The Proper Psalms",
-            "reason" : "The Table of Proper Psalms is not in the supplied source."
+            "reference" : "Pſal. ii. lvii. cxi.",
+            "text" : "The Proper Psalms for Easter Day"
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.2",
+            "latin" : "Quare fremuerunt?",
+            "source" : {
+              "pages" : [
+                197
+              ],
+              "rawLines" : [
+                20468,
+                20521
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 2",
+            "verses" : [
+              {
+                "first" : "WHY do the heathen ſo furiouſly rage together",
+                "number" : 1,
+                "second" : "and why do the people imagine a vain thing?"
+              },
+              {
+                "first" : "The kings of the earth ſtand up, and the rulers take counſel together",
+                "number" : 2,
+                "second" : "againſt the Lord, and againſt his Anointed."
+              },
+              {
+                "first" : "Let us break their bonds aſunder",
+                "number" : 3,
+                "second" : "and caſt away their cords from us."
+              },
+              {
+                "first" : "He that dwelleth in heaven ſhall laugh them to ſcorn",
+                "number" : 4,
+                "second" : "the Lord ſhall have them in deriſion."
+              },
+              {
+                "first" : "Then ſhall he ſpeak unto them in his wrath",
+                "number" : 5,
+                "second" : "and vex them in his ſore diſpleaſure."
+              },
+              {
+                "first" : "Yet I have ſet my King",
+                "number" : 6,
+                "second" : "upon my holy hill of Sion."
+              },
+              {
+                "first" : "I will preach the law, whereof the Lord hath ſaid unto me",
+                "number" : 7,
+                "second" : "Thou art my Son, this day have I begotten thee."
+              },
+              {
+                "first" : "Deſire of me, and I ſhall give thee the heathen for thine inheritance",
+                "number" : 8,
+                "second" : "and the utmoſt parts of the earth for thy poſſeſſion."
+              },
+              {
+                "first" : "Thou ſhalt bruiſe them with a rod of iron",
+                "number" : 9,
+                "second" : "and break them in pieces like a potter’s veſſel."
+              },
+              {
+                "first" : "Be wiſe now therefore, O ye kings",
+                "number" : 10,
+                "second" : "be learned, ye that are judges of the earth."
+              },
+              {
+                "first" : "Serve the Lord in fear",
+                "number" : 11,
+                "second" : "and rejoice unto him with reverence."
+              },
+              {
+                "first" : "Kiſs the Son, leſt he be angry, and ſo ye periſh from the right way",
+                "number" : 12,
+                "second" : "if his wrath be kindled, (yea, but a little,) bleſſed are all they that put their truſt in him."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.57",
+            "latin" : "Miſerere mei, Deus.",
+            "source" : {
+              "pages" : [
+                237,
+                238
+              ],
+              "rawLines" : [
+                24515,
+                24567
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 57",
+            "verses" : [
+              {
+                "first" : "BE merciful unto me, O God, be merciful unto me, for my ſoul truſteth in thee",
+                "number" : 1,
+                "second" : "and under the ſhadow of thy wings ſhall be my refuge, until this tyranny be over-paſt."
+              },
+              {
+                "first" : "I will call unto the moſt high God",
+                "number" : 2,
+                "second" : "even unto the God that ſhall perform the cauſe which I have in hand."
+              },
+              {
+                "first" : "He ſhall ſend from heaven",
+                "number" : 3,
+                "second" : "and ſave me from the reproof of him that would eat me up."
+              },
+              {
+                "first" : "God ſhall ſend forth his mercy and truth",
+                "number" : 4,
+                "second" : "my ſoul is among lions."
+              },
+              {
+                "first" : "And I lie even among the children of men, that are ſet on fire",
+                "number" : 5,
+                "second" : "whoſe teeth are ſpears and arrows, and their tongue a ſharp ſword."
+              },
+              {
+                "first" : "Set up thyſelf, O God, above the heavens",
+                "number" : 6,
+                "second" : "and thy glory above all the earth."
+              },
+              {
+                "first" : "They have laid a net for my feet, and preſſed down my ſoul",
+                "number" : 7,
+                "second" : "they have digged a pit before me, and are fallen into the midſt of it themſelves."
+              },
+              {
+                "first" : "My heart is fixed, O God, my heart is fixed",
+                "number" : 8,
+                "second" : "I will ſing, and give praiſe."
+              },
+              {
+                "first" : "Awake up, my glory; awake, lute and harp",
+                "number" : 9,
+                "second" : "I myſelf will awake right early."
+              },
+              {
+                "first" : "I will give thanks unto thee, O Lord, among the people",
+                "number" : 10,
+                "second" : "and I will ſing unto thee among the nations."
+              },
+              {
+                "first" : "For the greatneſs of thy mercy reacheth unto the heavens",
+                "number" : 11,
+                "second" : "and thy truth unto the clouds."
+              },
+              {
+                "first" : "Set up thyſelf, O God, above the heavens",
+                "number" : 12,
+                "second" : "and thy glory above all the earth."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.111",
+            "latin" : "Confitebor tibi.",
+            "source" : {
+              "pages" : [
+                283,
+                284
+              ],
+              "rawLines" : [
+                29147,
+                29181
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 111",
+            "verses" : [
+              {
+                "first" : "I Will give thanks unto the Lord with my whole heart",
+                "number" : 1,
+                "second" : "ſecretly among the faithful, and in the congregation."
+              },
+              {
+                "first" : "The works of the Lord are great",
+                "number" : 2,
+                "second" : "ſought out of all of them that have pleaſure therein."
+              },
+              {
+                "first" : "His work is worthy to be praiſed and had in honour",
+                "number" : 3,
+                "second" : "and his righteouſneſs endureth for ever."
+              },
+              {
+                "first" : "The merciful and gracious Lord hath ſo done his marvellous works",
+                "number" : 4,
+                "second" : "that they ought to be had in remembrance."
+              },
+              {
+                "first" : "He hath given meat unto them that fear him",
+                "number" : 5,
+                "second" : "he ſhall ever be mindful of his covenant."
+              },
+              {
+                "first" : "He hath ſhewed his people the power of his works",
+                "number" : 6,
+                "second" : "that he may give them the heritage of the heathen."
+              },
+              {
+                "first" : "The works of his hands are verity and judgment",
+                "number" : 7,
+                "second" : "all his commandments are true."
+              },
+              {
+                "first" : "They ſtand faſt for ever and ever",
+                "number" : 8,
+                "second" : "and are done in truth and equity."
+              },
+              {
+                "first" : "He ſent redemption unto his people",
+                "number" : 9,
+                "second" : "he hath commanded his covenant for ever; holy and reverend is his Name."
+              },
+              {
+                "first" : "The fear of the Lord is the beginning of wiſdom",
+                "number" : 10,
+                "second" : "a good underſtanding have all they that do thereafter; the praiſe of it endureth for ever."
+              }
+            ]
           }
         }
       ],
@@ -748,11 +1005,33 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.first",
-            "kind" : "lesson",
-            "label" : "The First Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "Exod. 12.",
+            "references" : [
+              {
+                "book" : "Exodus",
+                "startChapter" : 12
+              }
+            ],
+            "source" : {
+              "pages" : [
+                6
+              ],
+              "rawLines" : [
+                571,
+                571
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.first.text",
+            "kind" : "lesson-text",
+            "label" : "Exodus 12",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],
@@ -1144,11 +1423,33 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.second",
-            "kind" : "lesson",
-            "label" : "The Second Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "Rom. 6.",
+            "references" : [
+              {
+                "book" : "Romans",
+                "startChapter" : 6
+              }
+            ],
+            "source" : {
+              "pages" : [
+                6
+              ],
+              "rawLines" : [
+                580,
+                580
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.second.text",
+            "kind" : "lesson-text",
+            "label" : "Romans 6",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],

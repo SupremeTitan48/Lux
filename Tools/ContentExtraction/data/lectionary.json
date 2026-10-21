@@ -1,0 +1,78 @@
+{
+ "_comment": "Reviewed decisions for reading the lectionary tables of the 1693 printing (TCP A28758). Every entry records its basis and a note. 'kalendarCells' are keyed by the XML line of the TCP cell; 'reading' is how Lux reads the cell, in the table's own notation, and the printed text is kept alongside it.",
+ "conventions": {
+  "bareNumber": {
+   "decision": "continues-book-above",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). In the Kalendar and the Tables of Proper Lessons a cell giving only a chapter number continues the book last named above it in the same column (for example 'Gen. 1' on 2 January, then '3' on 3 January). This is how the tables are set throughout: a book is named only where it changes or at the head of a page."
+  },
+  "toVerse": {
+   "decision": "exclusive",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 'to v. 20' and 'to be read only to verse 14' are read as stopping before the verse named. In every case the verse named opens a new paragraph of the narrative: Gen. 22 to v. 20 (v. 20 begins the descendants of Nahor), Luke 2 to v. 15 (v. 15 begins 'when the angels were gone away'), Isa. 7 v. 10 to v. 17, Titus 3 v. 4 to v. 9 (v. 9 'But avoid foolish questions'), Matt. 14 to v. 13, Acts 22 to v. 22, Luke 3 to v. 23 (v. 23 begins the genealogy), Deut. 16 to v. 18. The printed form is kept with every reference, so this decision can be revisited without re-reading the tables."
+  }
+ },
+ "kalendarDays": {
+  "12-08": {
+   "issue": "kalendar-day-number-missing",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). The TCP has an empty cell where the day number 8 should be (dominical letter f, 'Concept'); the day is placed by its letter and its place between the 7th and 9th."
+  }
+ },
+ "kalendarCells": {
+  "2532": {
+   "text": "0",
+   "reading": "6",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 30 January, first lesson at Morning Prayer. The TCP keys the chapter as '0'; the cell carries the footnote 'Note, That Exodus 6. is to be read only to verſe 14', and the course runs Exod. 5 (29 January) to Exod. 7 (the same evening). Read as Exodus 6."
+  },
+  "8031": {
+   "text": "Rom. ␣",
+   "reading": "Rom. 1",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 31 August, second lesson at Evening Prayer. The chapter is illegible (blotted) in the TCP's copy; the next day reads Rom. 2. Read as Romans 1."
+  },
+  "8088": {
+   "text": "Hoſ. 1",
+   "reading": "Hoſ. 14",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 1 September, first lesson at Morning Prayer. Printed or keyed 'Hoſ. 1', but Hosea 12 and 13 are read on 31 August and Joel 1 the same evening. Read as Hosea 14."
+  },
+  "8112": {
+   "text": "Joel ␣",
+   "reading": "Joel 2",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 2 September, first lesson at Morning Prayer. The chapter is illegible (faint) in the TCP's copy; Joel 1 is read the evening before and '3' the same evening. Read as Joel 2."
+  },
+  "8458": {
+   "text": "1",
+   "reading": "17",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 16 September, second lesson at Morning Prayer. Printed or keyed '1', but Matthew 16 is read on 15 September and '18' on 17 September. Read as Matthew 17."
+  },
+  "9015": {
+   "text": "␣",
+   "reading": "6",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 7 October, first lesson at Evening Prayer. Illegible (faint) in the TCP's copy; Judith 5 is read that morning and Judith 7 the next. Read as Judith 6."
+  },
+  "9212": {
+   "text": "139",
+   "reading": "1. 39",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). 15 October, second lesson at Morning Prayer. Keyed '139'; Luke 1 to v. 39 is read on 14 October and Luke 2 on 16 October, and the same division is printed '1. 39' on 18 February. Read as Luke 1 from verse 39."
+  }
+ },
+ "readingsPreserved": {
+  "1776": {
+   "text": "civ. cxiv.",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). Evensong on Whitsunday: Psalms civ and cxiv as printed or keyed. Psalm cxiv is also appointed on Easter Day, and later printings of the 1662 table read civ, cxlv here, so this may be a misprint in 1693 or a keying error. Preserved as printed; Lux appoints Psalms 104 and 114 until the Baskerville page is checked."
+  },
+  "8780": {
+   "text": "2",
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude, from the TCP transcription only; confirm against the Baskerville page). St Michael (29 September): the Kalendar prints second lessons for the day (Mark 2 and 1 Corinthians 14 by the course) although the Table of Proper Lessons appoints proper second lessons. Every other holy day leaves the Kalendar blank exactly where a proper lesson is appointed. Lux follows the Preface rule that proper lessons displace those of the ordinary course."
+  }
+ }
+}

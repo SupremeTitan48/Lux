@@ -12,9 +12,13 @@ lux_extract/
   psalter.py    the Psalter and the thirty-day course
   offices.py    services from editorial maps (span and fragment modes)
   collects.py   the collects and their governing rubrics
+  tcp.py        table cells from the TCP transcription of the 1693 printing
+  lectionary.py the Kalendar's lessons, the Proper Lessons and Proper Psalms
   build.py      writes the content package, transcription, edit log, review queue
-data/           reviewed decision tables (ligatures, joins, drop capitals, spaces)
+data/           reviewed decision tables (ligatures, joins, drop capitals, spaces;
+                books.json and lectionary.json for the lectionary)
 maps/           service maps and the scripts that generate the complex ones
+                (proper_lessons.json from build_proper_lessons_map.py)
 tests/          unit tests and content invariants
 ```
 
