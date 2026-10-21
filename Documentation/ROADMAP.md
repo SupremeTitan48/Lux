@@ -11,12 +11,19 @@ Done in this foundation:
 - Calendar of Sundays and holy days; collect, psalter, canticle, creed and
   invitatory rules; golden tests.
 
-Blocked on the PDF (the tables are not in the text layer):
+Done from the 1693 printing (the tables are not in the Baskerville text layer):
 
-- Calendar with the Table of Lessons, Proper Lessons, Proper Psalms; the
-  Tables and Rules for the Moveable Feasts; the Table of Vigils. With these,
-  verify the editorial calendar rules and add the lectionary as canonical
-  references.
+- The Kalendar's lessons for every day, the Proper Lessons and the Proper
+  Psalms, as canonical references with provenance (2026-10-21). The dates of
+  the immovable holy days are checked against the Kalendar.
+
+Blocked on the PDF:
+
+- Compare the lectionary with the Baskerville pages (the review queue lists
+  every corrected or doubtful cell).
+- The Tables and Rules for the Moveable Feasts and the Table of Vigils (also
+  in the 1693 transcription, not yet used) to verify the editorial calendar
+  rules.
 
 Blocked on a decision:
 

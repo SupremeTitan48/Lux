@@ -145,3 +145,88 @@ struct ServiceFile: Decodable, Sendable {
     var title: String
     var units: [Unit]
 }
+
+/// The lectionary: the Kalendar's lessons for every day, the Proper Lessons
+/// for Sundays and holy days, and the Proper Psalms. Taken from another
+/// printing than the primary witness (see `source`).
+struct LessonsFile: Decodable, Sendable {
+    struct Provenance: Decodable, Hashable, Sendable {
+        var xmlLine: Int
+        var page: String
+        var readAs: String?
+        var review: String?
+        var editorial: [String]?
+
+        func reference(source: String) -> SourceReference {
+            // TCP page references read "tcp:48041:6"; the last part is the image.
+            let image = page.split(separator: ":").last.flatMap { Int($0) }
+            return SourceReference(sourceID: source, rawLines: xmlLine...xmlLine, pages: image.map { [$0] } ?? [],
+                                   review: review, editorial: editorial ?? [])
+        }
+    }
+
+    struct Lesson: Decodable, Hashable, Sendable {
+        var printed: String
+        var references: [ScriptureReference]
+        var footnotes: [String]?
+        var provenance: Provenance
+    }
+
+    /// The lessons of one office. A key absent from a Proper Lessons row
+    /// means the table appoints nothing there; `nil` means a blank cell.
+    struct Office: Decodable, Sendable {
+        var first: Lesson??
+        var second: Lesson??
+
+        enum CodingKeys: String, CodingKey { case first, second }
+
+        init(from decoder: Decoder) throws {
+            let c = try decoder.container(keyedBy: CodingKeys.self)
+            first = c.contains(.first) ? .some(try c.decodeIfPresent(Lesson.self, forKey: .first)) : .none
+            second = c.contains(.second) ? .some(try c.decodeIfPresent(Lesson.self, forKey: .second)) : .none
+        }
+    }
+
+    struct KalendarDay: Decodable, Sendable {
+        var month: Int
+        var day: Int
+        var printedName: String?
+        var morning: Office
+        var evening: Office
+        var provenance: Provenance
+    }
+
+    struct ProperDay: Decodable, Sendable {
+        var observance: String
+        var label: String
+        var morning: Office
+        var evening: Office
+        var provenance: Provenance
+    }
+
+    struct PsalmCell: Decodable, Sendable {
+        var printed: String
+        var psalms: [Int]
+        var provenance: Provenance
+    }
+
+    struct ProperPsalms: Decodable, Sendable {
+        var observance: String
+        var label: String
+        var morning: PsalmCell
+        var evening: PsalmCell
+    }
+
+    struct Convention: Decodable, Sendable {
+        var decision: String
+        var note: String
+    }
+
+    var schemaVersion: Int
+    var source: String
+    var conventions: [String: Convention]
+    var kalendar: [KalendarDay]
+    var sundays: [ProperDay]
+    var holyDays: [ProperDay]
+    var properPsalms: [ProperPsalms]
+}

@@ -37,8 +37,9 @@ public struct BCP1662Calendar: Sendable {
 
     // MARK: Fixed and movable holy days
 
-    /// Immovable holy days with their own collects (editorial: from the
-    /// Calendar, which is not in the supplied text).
+    /// Immovable holy days with their own collects. The Calendar is not in the
+    /// supplied text; a test checks these dates against the Kalendar of the
+    /// 1693 printing, which leaves its lessons blank on each of them.
     static let fixedHolyDays: [(month: Int, day: Int, id: String)] = [
         (1, 1, "circumcision"), (1, 6, "epiphany"), (1, 25, "conversion-of-paul"), (2, 2, "purification"),
         (2, 24, "matthias"), (3, 25, "annunciation"), (4, 25, "mark"), (5, 1, "philip-and-james"),
@@ -68,8 +69,9 @@ public struct BCP1662Calendar: Sendable {
         "bartholomew", "matthew", "simon-and-jude", "andrew", "trinity",
     ].map { ObservanceID($0) })
 
-    /// Days for which a Table of Proper Psalms appoints psalms in place of the
-    /// ordinary course (editorial: the table is not in the supplied text).
+    /// Days for which the Table of Proper Psalms appoints psalms in place of
+    /// the ordinary course (the table of the 1693 printing; a test checks this
+    /// set against it).
     public static let properPsalmDays: Set<ObservanceID> = Set([
         "christmas", "ash-wednesday", "good-friday", "easter", "ascension", "whitsunday",
     ].map { ObservanceID($0) })

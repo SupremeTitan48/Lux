@@ -12,6 +12,7 @@ public struct BCP1662Content: Sendable {
     let athanasianCreed: ServiceFile
     let easterAnthems: ServiceFile
     let generalRubrics: ServiceFile
+    let lessons: LessonsFile
 
     public var sourceID: String { manifest.source.id }
 
@@ -43,6 +44,7 @@ public struct BCP1662Content: Sendable {
         athanasianCreed = try load(ServiceFile.self, "services/athanasian-creed.json")
         easterAnthems = try load(ServiceFile.self, "propers/easter-anthems.json")
         generalRubrics = try load(ServiceFile.self, "rubrics/general.json")
+        lessons = try load(LessonsFile.self, "lectionary/lessons.json")
     }
 
     func observance(_ id: ObservanceID) -> CollectsFile.Observance? {

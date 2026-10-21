@@ -11,25 +11,30 @@
   "diagnostics" : [
     {
       "code" : "calendar-editorial",
-      "message" : "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables.",
+      "message" : "The Tables and Rules for the Feasts are not in the supplied source text. Lux places the movable feasts by the 1662 rules as editorially encoded; the dates of the holy days agree with the Kalendar of the 1693 printing.",
       "severity" : "info"
     },
     {
-      "code" : "proper-psalms-unavailable",
+      "code" : "lectionary-1693",
+      "message" : "The Kalendar, the Proper Lessons and the Proper Psalms are not in the supplied text of the Baskerville printing. They are taken from the London printing of 1693 (Text Creation Partnership transcription A28758), pending comparison with the Baskerville pages.",
+      "severity" : "info"
+    },
+    {
+      "code" : "proper-psalms",
       "elementID" : "ep.psalms.proper",
-      "message" : "Proper Psalms are appointed for Ash Wednesday, and the psalms of the ordinary course are then omitted. The Table of Proper Psalms is not in the supplied source, so the psalms cannot be given.",
+      "message" : "Proper Psalms are appointed for Ash Wednesday (Table of Proper Psalms, “cii. cxxx. cxliii.”), so the psalms of the ordinary course are omitted.",
+      "severity" : "info"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "ep.lesson.first.text",
+      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
       "severity" : "warning"
     },
     {
-      "code" : "lessons-unavailable",
-      "elementID" : "ep.lesson.first",
-      "message" : "The first lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "ep.lesson.second",
-      "message" : "The second lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
+      "code" : "lesson-text-unavailable",
+      "elementID" : "ep.lesson.second.text",
+      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
       "severity" : "warning"
     },
     {
@@ -550,19 +555,373 @@
           }
         },
         {
-          "placeholder" : {
+          "heading" : {
             "id" : "ep.psalms.proper",
-            "kind" : "proper-psalms",
-            "label" : "The Proper Psalms",
-            "reason" : "The Table of Proper Psalms is not in the supplied source."
+            "reference" : "cii. cxxx. cxliii.",
+            "text" : "The Proper Psalms for Ash Wednesday"
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.102",
+            "latin" : "Domine, exaudi.",
+            "source" : {
+              "pages" : [
+                272,
+                273
+              ],
+              "rawLines" : [
+                28054,
+                28172
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 102",
+            "verses" : [
+              {
+                "first" : "HEAR my prayer, O Lord",
+                "number" : 1,
+                "second" : "and let my crying come unto thee."
+              },
+              {
+                "first" : "Hide not thy face from me in the time of my trouble",
+                "number" : 2,
+                "second" : "incline thine ear unto me when I call; O hear me, and that right ſoon."
+              },
+              {
+                "first" : "For my days are conſumed away like ſmoke",
+                "number" : 3,
+                "second" : "and my bones are burnt up as it were a firebrand."
+              },
+              {
+                "first" : "My heart is ſmitten down, and withered liked graſs",
+                "number" : 4,
+                "second" : "ſo that I forget to eat my bread."
+              },
+              {
+                "first" : "For the voice of my groaning",
+                "number" : 5,
+                "second" : "my bones will ſcarce cleave to my fleſh."
+              },
+              {
+                "first" : "I am become like a pelican in the wilderneſs",
+                "number" : 6,
+                "second" : "and like an owl that is in the deſert."
+              },
+              {
+                "first" : "I have watched, and am even as it were a ſparrow",
+                "number" : 7,
+                "second" : "that ſitteth alone upon the houſe-top."
+              },
+              {
+                "first" : "Mine enemies revile me all the day long",
+                "number" : 8,
+                "second" : "and they that are mad upon me are ſworn together againſt me."
+              },
+              {
+                "first" : "For I have eaten aſhes as it were bread",
+                "number" : 9,
+                "second" : "and mingled my drink with weeping."
+              },
+              {
+                "first" : "And that becauſe of thine indignation and wrath",
+                "number" : 10,
+                "second" : "for thou haſt taken me up, and caſt me down."
+              },
+              {
+                "first" : "My days are gone like a ſhadow",
+                "number" : 11,
+                "second" : "and I am withered like graſs."
+              },
+              {
+                "first" : "But thou, O Lord, ſhalt endure for ever",
+                "number" : 12,
+                "second" : "and thy remembrance throughout all generations."
+              },
+              {
+                "first" : "Thou ſhalt ariſe, and have mercy upon Sion",
+                "number" : 13,
+                "second" : "for it is time that thou have mercy upon her, yea, the time is come."
+              },
+              {
+                "first" : "And why? thy ſervants think upon her ſtones",
+                "number" : 14,
+                "second" : "and it pitieth them to ſee her in the duſt."
+              },
+              {
+                "first" : "The heathen ſhall fear thy Name, O Lord",
+                "number" : 15,
+                "second" : "and all the kings of the earth thy Majeſty;"
+              },
+              {
+                "first" : "When the Lord ſhall build up Sion",
+                "number" : 16,
+                "second" : "and when his glory ſhall appear;"
+              },
+              {
+                "first" : "When he turneth him unto the prayer of the poor deſtitute",
+                "number" : 17,
+                "second" : "and deſpiſeth not their deſire."
+              },
+              {
+                "first" : "This ſhall be written for thoſe that come after",
+                "number" : 18,
+                "second" : "and the people which ſhall be born, ſhall praiſe the Lord."
+              },
+              {
+                "first" : "For he hath looked down from his ſanctuary",
+                "number" : 19,
+                "second" : "out of the heaven did the Lord behold the earth;"
+              },
+              {
+                "first" : "That he might hear the mournings of ſuch as are in captivity",
+                "number" : 20,
+                "second" : "and deliver the children appointed unto death;"
+              },
+              {
+                "first" : "That they may declare the Name of the Lord in Sion",
+                "number" : 21,
+                "second" : "and his worſhip at Jeruſalem;"
+              },
+              {
+                "first" : "When the people are gathered together",
+                "number" : 22,
+                "second" : "and the kingdoms alſo, to ſerve the Lord."
+              },
+              {
+                "first" : "He brought down my ſtrength in my journey",
+                "number" : 23,
+                "second" : "and ſhortened my days."
+              },
+              {
+                "first" : "But I ſaid, O my God, take me not away in the midſt of mine age",
+                "number" : 24,
+                "second" : "as for thy years, they endure throughout all generations."
+              },
+              {
+                "first" : "Thou, Lord, in the beginning haſt laid the foundation of the earth",
+                "number" : 25,
+                "second" : "and the heavens are the work of thy hands."
+              },
+              {
+                "first" : "They ſhall periſh, but thou ſhalt endure",
+                "number" : 26,
+                "second" : "they all ſhall wax old as doth a garment;"
+              },
+              {
+                "first" : "And as a veſture ſhalt thou change them, and they ſhall be changed",
+                "number" : 27,
+                "second" : "but thou art the ſame, and thy years ſhall not fail."
+              },
+              {
+                "first" : "The children of thy ſervants ſhall continue",
+                "number" : 28,
+                "second" : "and their ſeed ſhall ſtand faſt in thy ſight."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.130",
+            "latin" : "De profundis.",
+            "source" : {
+              "pages" : [
+                297,
+                298
+              ],
+              "rawLines" : [
+                30492,
+                30518
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 130",
+            "verses" : [
+              {
+                "first" : "OUT of the deep have I called unto thee, O Lord",
+                "number" : 1,
+                "second" : "Lord, hear my voice."
+              },
+              {
+                "first" : "O let thine ears conſider well",
+                "number" : 2,
+                "second" : "the voice of my complaint."
+              },
+              {
+                "first" : "If thou, Lord, wilt be extreme to mark what is done amiſs",
+                "number" : 3,
+                "second" : "O Lord, who may abide it?"
+              },
+              {
+                "first" : "For there is mercy with thee",
+                "number" : 4,
+                "second" : "therefore ſhalt thou be feared."
+              },
+              {
+                "first" : "I look for the Lord; my ſoul doth wait for him",
+                "number" : 5,
+                "second" : "in his word is my truſt."
+              },
+              {
+                "first" : "My ſoul fleeth unto the Lord",
+                "number" : 6,
+                "second" : "before the morning watch, I ſay, before the morning watch."
+              },
+              {
+                "first" : "O Iſrael, truſt in the Lord, for with the Lord there is mercy",
+                "number" : 7,
+                "second" : "and with him is plenteous redemption."
+              },
+              {
+                "first" : "And he ſhall redeem Iſrael",
+                "number" : 8,
+                "second" : "from all his ſins."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.143",
+            "latin" : "Domine, exaudi.",
+            "source" : {
+              "pages" : [
+                304,
+                305
+              ],
+              "rawLines" : [
+                31120,
+                31190
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 143",
+            "verses" : [
+              {
+                "first" : "HEAR my prayer, O Lord, and conſider my deſire",
+                "number" : 1,
+                "second" : "hearken unto me for thy truth and righteouſneſs ſake."
+              },
+              {
+                "first" : "And enter not into judgment with thy ſervant",
+                "number" : 2,
+                "second" : "for in thy ſight ſhall no man living be juſtified."
+              },
+              {
+                "first" : "For the enemy hath perſecuted my ſoul; he hath ſmitten my life down to the ground",
+                "number" : 3,
+                "second" : "he hath laid me in the darkneſs, as the men that have been long dead."
+              },
+              {
+                "first" : "Therefore is my ſpirit vexed within me",
+                "number" : 4,
+                "second" : "and my heart within me is deſolate."
+              },
+              {
+                "first" : "Yet do I remember the time paſt; I muſe upon all thy works",
+                "number" : 5,
+                "second" : "yea, I exerciſe myſelf in the works of thy hands."
+              },
+              {
+                "first" : "I ſtretch forth my hands unto thee",
+                "number" : 6,
+                "second" : "my ſoul gaſpeth unto thee as a thirſty land."
+              },
+              {
+                "first" : "Hear me, O Lord, and that ſoon, for my ſpirit waxeth faint",
+                "number" : 7,
+                "second" : "hide not thy face from me, leſt I be like unto them that go down into the pit."
+              },
+              {
+                "first" : "O let me hear thy loving-kindneſs betimes in the morning, for in thee is my truſt",
+                "number" : 8,
+                "second" : "ſhew thou me the way that I ſhould walk in, for I lift up my ſoul unto thee."
+              },
+              {
+                "first" : "Deliver me, O Lord, from mine enemies",
+                "number" : 9,
+                "second" : "for I flee unto thee to hide me."
+              },
+              {
+                "first" : "Teach me to do a thing that pleaſeth thee, for thou art my God",
+                "number" : 10,
+                "second" : "let thy loving Spirit lead me forth into the land of righteouſneſs."
+              },
+              {
+                "first" : "Quicken me, O Lord, for thy Name’s ſake",
+                "number" : 11,
+                "second" : "and for thy righteouſneſs ſake bring my ſoul out of trouble;"
+              },
+              {
+                "first" : "And of thy goodneſs ſlay mine enemies",
+                "number" : 12,
+                "second" : "and deſtroy all them that vex my ſoul, for I am thy ſervant."
+              }
+            ]
+          }
+        },
+        {
+          "lesson" : {
+            "id" : "ep.lesson.first",
+            "printed" : "25",
+            "references" : [
+              {
+                "book" : "Numbers",
+                "startChapter" : 25
+              }
+            ],
+            "source" : {
+              "editorial" : [
+                "Book named in the cell above (XML line 2918), as the table is set."
+              ],
+              "pages" : [
+                7
+              ],
+              "rawLines" : [
+                3035,
+                3035
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
           }
         },
         {
           "placeholder" : {
-            "id" : "ep.lesson.first",
-            "kind" : "lesson",
-            "label" : "The First Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "id" : "ep.lesson.first.text",
+            "kind" : "lesson-text",
+            "label" : "Numbers 25",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],
@@ -804,11 +1163,33 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "ep.lesson.second",
-            "kind" : "lesson",
-            "label" : "The Second Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "Galat. 1",
+            "references" : [
+              {
+                "book" : "Galatians",
+                "startChapter" : 1
+              }
+            ],
+            "source" : {
+              "pages" : [
+                7
+              ],
+              "rawLines" : [
+                3038,
+                3038
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "ep.lesson.second.text",
+            "kind" : "lesson-text",
+            "label" : "Galatians 1",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],

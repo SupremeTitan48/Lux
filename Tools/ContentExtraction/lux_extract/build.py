@@ -11,6 +11,9 @@ with the Swift package, under ``Sources/BCP1662/Resources/Content``::
     services/athanasian-creed.json  Quicunque vult, for its appointed feasts
     propers/easter-anthems.json   the Easter Day anthems (instead of Venite)
     rubrics/general.json          how the Psalter and Scripture are read
+    lectionary/lessons.json       the Kalendar's lessons, the Proper Lessons and
+                                  Proper Psalms (from the 1693 printing, see
+                                  lectionary.py)
 
 Provenance, kept in the repository but not shipped, under ``Provenance``::
 
@@ -33,6 +36,7 @@ from pathlib import Path
 
 from . import decisions as dec
 from .collects import extract_collects, extract_notes
+from .lectionary import build_lectionary
 from .normalize import normalize
 from .offices import extract_service
 from .psalter import parse_psalter
@@ -40,6 +44,7 @@ from .psalter import parse_psalter
 TOOL_DIR = Path(__file__).resolve().parent.parent
 MAPS = TOOL_DIR / "maps"
 DATA = TOOL_DIR / "data"
+WITNESS = TOOL_DIR.parents[1] / "Traditions" / "BCP1662" / "Witness"
 
 CONTENT_SCHEMA_VERSION = 1
 CONTENT_VERSION = "0.1.0"
@@ -162,6 +167,12 @@ def build(source, meta: dict, root: Path) -> dict:
                 continue
         review.append({"area": "collects", **i})
 
+    sources = json.loads((WITNESS / "sources.json").read_text(encoding="utf-8"))["sources"]
+    lectionary_source = next(s for s in sources if s.get("role") == "lectionary")
+    lectionary, issues = build_lectionary(lectionary_source, WITNESS / lectionary_source["file"], MAPS)
+    _dump(out / "lectionary" / "lessons.json", {"schemaVersion": CONTENT_SCHEMA_VERSION, **lectionary})
+    review += issues
+
     # Transcription with line-level traceability.
     with_marks = []
     for line in text.lines:
@@ -203,7 +214,7 @@ def build(source, meta: dict, root: Path) -> dict:
                 review.append({"area": "decision-table", "kind": f"{name}-{entry['basis']}", "key": key,
                                "decision": entry["decision"], "example": entry.get("example", "")})
     review.append({"area": "content", "kind": "not-extracted",
-                   "note": "Calendar, Tables of Lessons, Proper Lessons, Proper Psalms and the tables of movable feasts are absent from the supplied text extraction; they need the PDF."})
+                   "note": "The Calendar with the Table of Lessons, the Proper Lessons and Proper Psalms, the tables of movable feasts and the Table of Vigils are absent from the supplied text extraction. The lessons and Proper Psalms are taken from the 1693 printing (TCP A28758) and need checking against the Baskerville pages; the feast tables and the Table of Vigils are not yet used."})
     review.append({"area": "content", "kind": "not-extracted",
                    "note": "Epistles and Gospels are located but not yet extracted."})
     _dump(prov_out / "review-queue.json", {"schemaVersion": CONTENT_SCHEMA_VERSION, "source": source_id,
@@ -218,6 +229,8 @@ def build(source, meta: dict, root: Path) -> dict:
         "contentVersion": CONTENT_VERSION,
         "title": "The Book of Common Prayer (1662), Baskerville printing of 1762",
         "source": {"id": source_id, "file": meta["file"], "sha256": meta["sha256"]},
+        "additionalSources": [{"id": lectionary_source["id"], "file": lectionary_source["file"],
+                               "sha256": lectionary_source["sha256"], "role": lectionary_source["role"]}],
         "files": [{"path": str(p.relative_to(out)), "sha256": hashlib.sha256(p.read_bytes()).hexdigest()} for p in files],
         "provenance": [{"path": str(PROVENANCE_DIR / p.relative_to(prov_out)), "sha256": hashlib.sha256(p.read_bytes()).hexdigest()}
                        for p in provenance_files],
@@ -229,6 +242,8 @@ def build(source, meta: dict, root: Path) -> dict:
         "psalms": len({b.psalm for b in psalter.blocks}),
         "collectObservances": len(observances),
         "serviceUnits": {k: len(v["units"]) for k, v in services.items()},
+        "kalendarDays": len(lectionary["kalendar"]),
+        "properLessonDays": len(lectionary["sundays"]) + len(lectionary["holyDays"]),
         "reviewItems": len(review),
         "reviewByKind": dict(sorted(collections.Counter(r["kind"] for r in review).items())),
     }

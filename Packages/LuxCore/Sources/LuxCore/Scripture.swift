@@ -1,5 +1,10 @@
 /// A Scripture reference as a lectionary gives it: a book and a range of
-/// chapters and verses.
+/// chapters and verses, inclusive.
+///
+/// A missing `startVerse` means from the start of `startChapter`. A missing
+/// `endVerse` means to the end of `endChapter` (or of `startChapter` when
+/// `endChapter` is missing). So `Acts 2:22` to the end of the chapter is
+/// `startChapter: 2, startVerse: 22`.
 public struct ScriptureReference: Hashable, Sendable, Codable, CustomStringConvertible {
     public var book: String
     public var startChapter: Int
@@ -15,6 +20,8 @@ public struct ScriptureReference: Hashable, Sendable, Codable, CustomStringConve
         self.endVerse = endVerse
     }
 
+    /// The reference in a modern form, for example `Genesis 22:1–19`,
+    /// `Acts 2:22–end`, `Numbers 23–24` or `Acts 6:8–7:29`.
     public var description: String {
         var s = "\(book) \(startChapter)"
         if let v = startVerse { s += ":\(v)" }
@@ -23,6 +30,8 @@ public struct ScriptureReference: Hashable, Sendable, Codable, CustomStringConve
             if let ev = endVerse { s += ":\(ev)" }
         } else if let ev = endVerse {
             s += "–\(ev)"
+        } else if startVerse != nil {
+            s += "–end"
         }
         return s
     }

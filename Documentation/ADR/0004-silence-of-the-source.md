@@ -12,8 +12,10 @@ When the 1662 book (as supplied) gives no rule:
   collect between the Epiphany and its first Sunday; which omitted Epiphany
   Sundays fill surplus Sundays after Trinity), make it and state it in a
   diagnostic.
-- If text is missing (lessons, Proper Psalms), show a placeholder and a
-  warning. Never substitute the ordinary course or other text.
+- If text is missing (the text of a lesson), show a placeholder and a
+  warning. Never substitute the ordinary course or other text. The same
+  holds when a table appoints nothing (the Kalendar's blank for St Matthias
+  on 24 February in a leap year, when the feast is kept on the 25th).
 
 ## Consequences
 

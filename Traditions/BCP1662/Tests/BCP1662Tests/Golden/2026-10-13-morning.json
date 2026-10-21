@@ -11,26 +11,25 @@
   "diagnostics" : [
     {
       "code" : "calendar-editorial",
-      "message" : "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables.",
+      "message" : "The Tables and Rules for the Feasts are not in the supplied source text. Lux places the movable feasts by the 1662 rules as editorially encoded; the dates of the holy days agree with the Kalendar of the 1693 printing.",
       "severity" : "info"
     },
     {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.first",
-      "message" : "The first lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.second",
-      "message" : "The second lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "benedictus-lesson-unknown",
-      "elementID" : "mp.second-canticle",
-      "message" : "The Jubilate is said instead of the Benedictus when the Benedictus is read in the second lesson. The lessons are not available, so this cannot be checked.",
+      "code" : "lectionary-1693",
+      "message" : "The Kalendar, the Proper Lessons and the Proper Psalms are not in the supplied text of the Baskerville printing. They are taken from the London printing of 1693 (Text Creation Partnership transcription A28758), pending comparison with the Baskerville pages.",
       "severity" : "info"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.first.text",
+      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.second.text",
+      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
     },
     {
       "code" : "state-prayers-as-printed",
@@ -917,11 +916,33 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.first",
-            "kind" : "lesson",
-            "label" : "The First Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "wiſd. 1",
+            "references" : [
+              {
+                "book" : "Wisdom",
+                "startChapter" : 1
+              }
+            ],
+            "source" : {
+              "pages" : [
+                8
+              ],
+              "rawLines" : [
+                9159,
+                9159
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.first.text",
+            "kind" : "lesson-text",
+            "label" : "Wisdom 1",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],
@@ -1313,11 +1334,36 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.second",
-            "kind" : "lesson",
-            "label" : "The Second Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "16",
+            "references" : [
+              {
+                "book" : "Mark",
+                "startChapter" : 16
+              }
+            ],
+            "source" : {
+              "editorial" : [
+                "Book named in the cell above (XML line 8868), as the table is set."
+              ],
+              "pages" : [
+                8
+              ],
+              "rawLines" : [
+                9162,
+                9162
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.second.text",
+            "kind" : "lesson-text",
+            "label" : "Mark 16",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],

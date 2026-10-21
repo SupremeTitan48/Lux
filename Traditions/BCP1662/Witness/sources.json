@@ -14,6 +14,21 @@
    "pdfAvailable": false,
    "termsVerbatim": "You may redistribute this document electronically provided no fee is charged and this header remains part of the document.",
    "notes": "The PDF itself has not been supplied; only this extraction. Page numbers derived from it are extraction pages, unverified against PDF page indices."
+  },
+  {
+   "id": "bcp1662-london1693-tcp",
+   "file": "bcp1662-london1693-tcp-A28758.xml",
+   "sha256": "d197a9961c29c4b011d8e5d17ac6dfac8e6f3e03ef51ca440091b49fef5e4aaa",
+   "bytes": 1666245,
+   "role": "lectionary",
+   "description": "TEI XML keyboarding by the Text Creation Partnership (EEBO-TCP A28758) of the 1662 Book of Common Prayer as printed in London by Charles Bill and the executrix of Thomas Newcomb, 1693 (Wing B3687; ESTC R30847). Used only for the tables the Baskerville text layer lacks: the Kalendar with the Table of Lessons, the Proper Lessons and the Proper Psalms.",
+   "reproducer": "Text Creation Partnership (Ann Arbor, MI; Oxford), from Early English Books Online page images",
+   "witness": "Book of Common Prayer, London: Charles Bill and the executrix of Thomas Newcomb, 1693",
+   "format": "TEI P5 XML; tables keyed one cell per row",
+   "url": "https://raw.githubusercontent.com/textcreationpartnership/A28758/master/A28758.xml",
+   "obtained": "2026-10-20, downloaded by Claude at Jackson's direction (decision in the project's lesson-table thread)",
+   "termsVerbatim": "To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.",
+   "notes": "A different printing from the primary witness. Its tables have not been compared with the Baskerville pages, which are not available. Line numbers in Lux provenance for this source are XML lines; pages are the TCP image references (facs)."
   }
  ]
 }

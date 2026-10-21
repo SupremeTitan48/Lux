@@ -11,32 +11,31 @@
   "diagnostics" : [
     {
       "code" : "calendar-editorial",
-      "message" : "The Calendar and the Tables and Rules for the Feasts are not in the supplied source text. Lux places the holy days and movable feasts by the 1662 rules as editorially encoded, pending verification against the printed tables.",
+      "message" : "The Tables and Rules for the Feasts are not in the supplied source text. Lux places the movable feasts by the 1662 rules as editorially encoded; the dates of the holy days agree with the Kalendar of the 1693 printing.",
       "severity" : "info"
     },
     {
-      "code" : "proper-psalms-unavailable",
+      "code" : "lectionary-1693",
+      "message" : "The Kalendar, the Proper Lessons and the Proper Psalms are not in the supplied text of the Baskerville printing. They are taken from the London printing of 1693 (Text Creation Partnership transcription A28758), pending comparison with the Baskerville pages.",
+      "severity" : "info"
+    },
+    {
+      "code" : "proper-psalms",
       "elementID" : "mp.psalms.proper",
-      "message" : "Proper Psalms are appointed for Christmas Day, and the psalms of the ordinary course are then omitted. The Table of Proper Psalms is not in the supplied source, so the psalms cannot be given.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.first",
-      "message" : "The first lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "lessons-unavailable",
-      "elementID" : "mp.lesson.second",
-      "message" : "The second lesson is appointed in the Calendar with the Table of Lessons (or the Table of Proper Lessons), which is not in the supplied source. No Scripture translation has been chosen for Lux yet.",
-      "severity" : "warning"
-    },
-    {
-      "code" : "benedictus-lesson-unknown",
-      "elementID" : "mp.second-canticle",
-      "message" : "The Jubilate is said instead of the Benedictus when the Benedictus is read in the second lesson. The lessons are not available, so this cannot be checked.",
+      "message" : "Proper Psalms are appointed for Christmas Day (Table of Proper Psalms, “Pſal. xix. xlv. lxxxv.”), so the psalms of the ordinary course are omitted.",
       "severity" : "info"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.first.text",
+      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
+    },
+    {
+      "code" : "lesson-text-unavailable",
+      "elementID" : "mp.lesson.second.text",
+      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "severity" : "warning"
     },
     {
       "code" : "athanasian-creed",
@@ -691,11 +690,328 @@
           }
         },
         {
-          "placeholder" : {
+          "heading" : {
             "id" : "mp.psalms.proper",
-            "kind" : "proper-psalms",
-            "label" : "The Proper Psalms",
-            "reason" : "The Table of Proper Psalms is not in the supplied source."
+            "reference" : "Pſal. xix. xlv. lxxxv.",
+            "text" : "The Proper Psalms for Christmas Day"
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.19",
+            "latin" : "Cæli enarrant.",
+            "source" : {
+              "pages" : [
+                208,
+                209
+              ],
+              "rawLines" : [
+                21585,
+                21635
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 19",
+            "verses" : [
+              {
+                "first" : "THE heavens declare the glory of God",
+                "number" : 1,
+                "second" : "and the firmament ſheweth his handywork."
+              },
+              {
+                "first" : "One day telleth another",
+                "number" : 2,
+                "second" : "and one night certifieth another."
+              },
+              {
+                "first" : "There is neither ſpeech nor language",
+                "number" : 3,
+                "second" : "but their voices are heard among them."
+              },
+              {
+                "first" : "Their sound is gone out into all lands",
+                "number" : 4,
+                "second" : "and their words into the ends of the world."
+              },
+              {
+                "first" : "In them hath he set a tabernacle for the ſun",
+                "number" : 5,
+                "second" : "which cometh forth as a bridegroom out of his chamber, and rejoiceth as a giant to run his courſe."
+              },
+              {
+                "first" : "It goeth forth from the uttermoſt part of the heaven, and runneth about unto the end of it again",
+                "number" : 6,
+                "second" : "and there is nothing hid from the heat thereof."
+              },
+              {
+                "first" : "The law of the Lord is an undefiled law, converting the soul",
+                "number" : 7,
+                "second" : "the teſtimony of the Lord is ſure, and giveth wiſdom unto the ſimple."
+              },
+              {
+                "first" : "The ſtatutes of the Lord are right, and rejoice the heart",
+                "number" : 8,
+                "second" : "the commandment of the Lord is pure, and giveth light unto the eyes."
+              },
+              {
+                "first" : "The fear of the Lord is clean, and endureth for ever",
+                "number" : 9,
+                "second" : "the judgments of the Lord are true, and righteous altogether."
+              },
+              {
+                "first" : "More to be deſired are they than gold, yea, than much fine gold",
+                "number" : 10,
+                "second" : "ſweeter alſo than honey, and the honey-comb."
+              },
+              {
+                "first" : "Moreover, by them is thy ſervant taught",
+                "number" : 11,
+                "second" : "and in keeping of them there is great reward."
+              },
+              {
+                "first" : "Who can tell how oft he offendeth",
+                "number" : 12,
+                "second" : "O cleanſe thou me from my ſecret faults."
+              },
+              {
+                "first" : "Keep thy ſervant alſo from preſumptuous ſins, leſt they get the dominion over me",
+                "number" : 13,
+                "second" : "ſo ſhall I be undefiled, and innocent from the great offence."
+              },
+              {
+                "first" : "Let the words of my mouth, and the meditations of my heart",
+                "number" : 14,
+                "second" : "be alway acceptable in thy ſight,"
+              },
+              {
+                "first" : "O Lord",
+                "number" : 15,
+                "second" : "my ſtrength, and my redeemer."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.45",
+            "latin" : "Eructavit cor meum.",
+            "source" : {
+              "pages" : [
+                229,
+                230
+              ],
+              "rawLines" : [
+                23656,
+                23737
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 45",
+            "verses" : [
+              {
+                "first" : "MY heart is inditing of a good matter",
+                "number" : 1,
+                "second" : "I ſpeak of the thing which I have made unto the King."
+              },
+              {
+                "first" : "My tongue is the pen",
+                "number" : 2,
+                "second" : "of a ready writer."
+              },
+              {
+                "first" : "Thou art fairer than the children of men",
+                "number" : 3,
+                "second" : "full of grace are thy lips, becauſe God hath bleſſed thee for ever."
+              },
+              {
+                "first" : "Gird thee with thy ſword upon thy thigh, O thou moſt Mighty",
+                "number" : 4,
+                "second" : "according to thy worſhip and renown."
+              },
+              {
+                "first" : "Good luck have thou with thine honour",
+                "number" : 5,
+                "second" : "ride on, becauſe of the word of truth, of meekneſs, and righteouſneſs; and thy right hand ſhall teach thee terrible things."
+              },
+              {
+                "first" : "Thy arrows are very ſharp, and the people ſhall be ſubdued unto thee",
+                "number" : 6,
+                "second" : "even in the midſt among the King’s enemies."
+              },
+              {
+                "first" : "Thy ſeat, O God, endureth for ever",
+                "number" : 7,
+                "second" : "the ſceptre of thy kingdom is a right ſceptre."
+              },
+              {
+                "first" : "Thou haſt loved righteouſneſs, and hated iniquity",
+                "number" : 8,
+                "second" : "wherefore God, even thy God, hath anointed thee with the oil of gladneſs above thy fellows."
+              },
+              {
+                "first" : "All thy garments ſmell of myrrh, aloes, and caſſia",
+                "number" : 9,
+                "second" : "out of the ivory palaces, whereby they have made thee glad."
+              },
+              {
+                "first" : "Kings daughters were among thy honourable women",
+                "number" : 10,
+                "second" : "upon thy right hand did ſtand the queen in a veſture of gold, wrought about with divers colours."
+              },
+              {
+                "first" : "Hearken, O daughter, and conſider, incline thine ear; forget alſo thine own people, and thy father's houſe.",
+                "number" : 11
+              },
+              {
+                "first" : "So ſhall the King have pleaſure in thy beauty",
+                "number" : 12,
+                "second" : "for his is thy Lord God, and worſhip thou him."
+              },
+              {
+                "first" : "And the daughter of Tyre ſhall be there with a gift",
+                "number" : 13,
+                "second" : "like as the rich alſo among the people ſhall make their ſupplication before thee."
+              },
+              {
+                "first" : "The King’s daughter is all glorious within",
+                "number" : 14,
+                "second" : "her clothing is of wrought gold."
+              },
+              {
+                "first" : "She ſhall be brought unto the King in raiment of needle-work",
+                "number" : 15,
+                "second" : "the virgins that be her fellows ſhall bear her company, and ſhall be brought unto thee."
+              },
+              {
+                "first" : "With joy and gladneſs ſhall they be brought",
+                "number" : 16,
+                "second" : "and ſhall enter into the King’s palace."
+              },
+              {
+                "first" : "Inſtead of thy fathers thou ſhalt have children",
+                "number" : 17,
+                "second" : "whom thou mayeſt make princes in all lands."
+              },
+              {
+                "first" : "I will remember thy Name from one generation to another",
+                "number" : 18,
+                "second" : "therefore ſhall the people give thanks unto thee, world without end."
+              }
+            ]
+          }
+        },
+        {
+          "psalm" : {
+            "gloria" : [
+              {
+                "first" : "Glory be to the Father and to the Son",
+                "second" : "and to the Holy Ghost;"
+              },
+              {
+                "first" : "As it was in the beginning, is now, and ever ſhall be",
+                "second" : "world without end. Amen."
+              }
+            ],
+            "id" : "psalm.85",
+            "latin" : "Benedixiſti, Domine.",
+            "source" : {
+              "pages" : [
+                261
+              ],
+              "rawLines" : [
+                26885,
+                26943
+              ],
+              "sourceID" : "bcp1662-baskerville1762-satucket"
+            },
+            "title" : "Psalm 85",
+            "verses" : [
+              {
+                "first" : "LORD, thou art become gracious unto thy land",
+                "number" : 1,
+                "second" : "thou haſt turned away the captivity of Jacob."
+              },
+              {
+                "first" : "Thou haſt forgiven the offence of thy people",
+                "number" : 2,
+                "second" : "and covered all their ſins."
+              },
+              {
+                "first" : "Thou haſt taken away all thy diſpleaſure",
+                "number" : 3,
+                "second" : "and turned thyſelf from thy wrathful indignation."
+              },
+              {
+                "first" : "Turn us then, O God our Saviour",
+                "number" : 4,
+                "second" : "and let thine anger ceaſe from us."
+              },
+              {
+                "first" : "Wilt thou be diſpleaſed at us for ever",
+                "number" : 5,
+                "second" : "and wilt thou ſtretch out thy wrath from one generation to another?"
+              },
+              {
+                "first" : "Wilt thou not turn again, and quicken us",
+                "number" : 6,
+                "second" : "that thy people may rejoice in thee?"
+              },
+              {
+                "first" : "Shew us thy mercy, O Lord",
+                "number" : 7,
+                "second" : "and grant us thy ſalvation."
+              },
+              {
+                "first" : "I will hearken what the Lord God will ſay concerning me",
+                "number" : 8,
+                "second" : "for he ſhall ſpeak peace unto his people, and to his ſaints, that they turn not again."
+              },
+              {
+                "first" : "For his ſalvation is nigh them that fear him",
+                "number" : 9,
+                "second" : "that glory may dwell in our land."
+              },
+              {
+                "first" : "Mercy and truth are met together",
+                "number" : 10,
+                "second" : "righteouſneſs and peace have kiſſed each other."
+              },
+              {
+                "first" : "Truth ſhall flouriſh out of the earth",
+                "number" : 11,
+                "second" : "and righteouſneſs hath looked down from heaven."
+              },
+              {
+                "first" : "Yea, the Lord ſhall ſhew loving-kindneſs",
+                "number" : 12,
+                "second" : "and our land ſhall give her increaſe."
+              },
+              {
+                "first" : "Righteouſneſs ſhall go before him",
+                "number" : 13,
+                "second" : "and he ſhall direct his going in the way."
+              }
+            ]
           }
         }
       ],
@@ -737,11 +1053,35 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.first",
-            "kind" : "lesson",
-            "label" : "The First Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "Iſai. 9. to ver. 8.",
+            "references" : [
+              {
+                "book" : "Isaiah",
+                "endVerse" : 7,
+                "startChapter" : 9,
+                "startVerse" : 1
+              }
+            ],
+            "source" : {
+              "pages" : [
+                6
+              ],
+              "rawLines" : [
+                1016,
+                1016
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.first.text",
+            "kind" : "lesson-text",
+            "label" : "Isaiah 9:1–7",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],
@@ -1133,11 +1473,35 @@
           }
         },
         {
-          "placeholder" : {
+          "lesson" : {
             "id" : "mp.lesson.second",
-            "kind" : "lesson",
-            "label" : "The Second Lesson",
-            "reason" : "The Table of Lessons is not in the supplied source."
+            "printed" : "Luk. 2. to ver. 15",
+            "references" : [
+              {
+                "book" : "Luke",
+                "endVerse" : 14,
+                "startChapter" : 2,
+                "startVerse" : 1
+              }
+            ],
+            "source" : {
+              "pages" : [
+                6
+              ],
+              "rawLines" : [
+                1025,
+                1025
+              ],
+              "sourceID" : "bcp1662-london1693-tcp"
+            }
+          }
+        },
+        {
+          "placeholder" : {
+            "id" : "mp.lesson.second.text",
+            "kind" : "lesson-text",
+            "label" : "Luke 2:1–14",
+            "reason" : "The text of the Scriptures is not yet included in Lux."
           }
         }
       ],

@@ -114,6 +114,11 @@ public indirect enum ServiceElement: Hashable, Sendable, Codable {
     /// Something the service needs that Lux cannot supply. Never filled with
     /// substitute text.
     case placeholder(id: String, kind: String, label: String, reason: String)
+    /// A lesson appointed by the tradition's lectionary: the reference as
+    /// printed in the source (`printed`) and resolved (`references`, usually
+    /// one). The text of the lesson, when Lux has it, follows as further
+    /// elements.
+    case lesson(id: String, printed: String, references: [ScriptureReference], source: SourceReference?)
 
     public struct Option: Hashable, Sendable, Codable {
         public var label: String
@@ -128,7 +133,7 @@ public indirect enum ServiceElement: Hashable, Sendable, Codable {
         switch self {
         case let .rubric(id, _, _), let .heading(id, _, _, _, _), let .text(id, _, _, _, _, _),
              let .versicles(id, _, _), let .psalm(id, _, _, _, _, _), let .alternatives(id, _, _),
-             let .placeholder(id, _, _, _):
+             let .placeholder(id, _, _, _), let .lesson(id, _, _, _):
             return id
         }
     }
