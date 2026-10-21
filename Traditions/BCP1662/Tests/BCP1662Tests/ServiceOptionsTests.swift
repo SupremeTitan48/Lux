@@ -68,6 +68,7 @@ import Testing
             #expect(!all.contains("\(prefix).absolution") && !all.contains("\(prefix).absolution.rubric"))
             #expect(all.contains("\(prefix).confession") && all.contains("\(prefix).lordsprayer"))
             #expect(doc.diagnostics.contains { $0.code == "absolution-not-priest" })
+            #expect(doc.diagnostics.contains { $0.code == "officiant-labels" })
             #expect(doc.sections.first { $0.id == "confession" }?.title == "Confession")
             // Only the Absolution is gone; every other text is as printed.
             var expected = texts(priest)

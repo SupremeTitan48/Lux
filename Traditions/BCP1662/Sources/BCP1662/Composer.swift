@@ -166,6 +166,8 @@ struct Composer {
     /// "to be pronounced by the Priest alone".
     private func confession(_ units: [ServiceFile.Unit], context: inout Context) -> [ServiceElement] {
         guard !options.officiant.isPriest else { return units.map(element) }
+        context.diagnostics.append(Diagnostic(.info, code: "officiant-labels",
+            message: "The book assigns the versicles to “the Priest”. With a deacon or lay officiant Lux labels them the Minister’s (an editorial adaptation); the text is as printed."))
         let absolution: Set<String> = ["\(context.prefix).absolution.rubric", "\(context.prefix).absolution"]
         var out: [ServiceElement] = []
         var replaced = false

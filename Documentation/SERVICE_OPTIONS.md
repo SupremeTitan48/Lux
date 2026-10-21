@@ -48,9 +48,13 @@ practices are documented, and both are offered:
   The diagnostic `absolution-trinity-21` says it is a custom, not a rubric.
 
 Everything else is said as printed. The rubrics that name "the Priest" for
-the versicles and suffrages are kept, and so are the speaker labels the book
-prints; in practice a deacon or reader says those parts, and the book's
-wording is not changed to say so.
+the versicles and suffrages are kept word for word. The speaker labels
+over those versicles are a different matter: they are Lux's, drawn from the
+speaker the book assigns, and with a deacon or lay officiant the parts the
+book gives to "the Priest" are labelled **Minister**. This is an editorial
+adaptation (`Speaker.saidBy(_:)` in LuxCore): the composed document keeps
+the printed speaker, only the label changes, and the office notes say so
+(`officiant-labels`).
 
 Still to research: whether a lay officiant in private devotion should say
 "The Lord be with you" and its answer. Lux gives them as printed.

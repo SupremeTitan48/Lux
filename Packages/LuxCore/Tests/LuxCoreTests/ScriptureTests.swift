@@ -43,3 +43,14 @@ import Testing
         #expect(plain.segmentsWithoutParagraphMark == plain.segments)
     }
 }
+
+@Suite struct OfficiantTests {
+    @Test func priestsPartsAreTheMinistersWithoutAPriest() {
+        #expect(Speaker.priest.saidBy(.priest) == .priest)
+        #expect(Speaker.priest.saidBy(.deacon) == .minister)
+        #expect(Speaker.priest.saidBy(.layPerson) == .minister)
+        for speaker in [Speaker.minister, .people, .all] {
+            for officiant in Officiant.allCases { #expect(speaker.saidBy(officiant) == speaker) }
+        }
+    }
+}
