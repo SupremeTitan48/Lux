@@ -20,6 +20,60 @@ extension BCP1662Tradition {
     /// Observances with proper collects, in the order of the book.
     public var collectObservances: [ObservanceID] { content.collects.observances.map { ObservanceID($0.id) } }
 
+    /// A run of the Collects in the order of the book, under a heading Lux
+    /// gives it (an editorial label, not a title the book prints).
+    public struct CollectGroup: Hashable, Sendable, Identifiable {
+        public var id: String
+        public var title: String
+        /// The season it belongs to (`Season` raw value), or `saints` for the
+        /// holy days that follow the Sundays.
+        public var season: String
+        public var observances: [ObservanceID]
+    }
+
+    /// The Collects in groups: each group runs from its first observance
+    /// up to the next group's.
+    public var collectGroups: [CollectGroup] {
+        let starts: [(id: String, title: String, season: String, first: String)] = [
+            ("advent", "Advent", "advent", "advent-1"),
+            ("christmas", "Christmas", "christmas", "christmas"),
+            ("epiphany", "The Epiphany", "epiphany", "epiphany"),
+            ("before-lent", "Before Lent", "septuagesima", "septuagesima"),
+            ("lent", "Lent and Holy Week", "lent", "ash-wednesday"),
+            ("easter", "Easter and Ascension", "easter", "easter"),
+            ("whitsun", "Whitsuntide", "whitsun", "whitsunday"),
+            ("trinity", "Trinity", "trinity", "trinity"),
+            ("saints", "Saints’ Days", "saints", "andrew"),
+        ]
+        let all = collectObservances
+        var groups: [CollectGroup] = []
+        for (n, start) in starts.enumerated() {
+            guard let from = all.firstIndex(of: ObservanceID(start.first)) else { continue }
+            let to = starts.dropFirst(n + 1).lazy.compactMap { all.firstIndex(of: ObservanceID($0.first)) }.first ?? all.endIndex
+            groups.append(CollectGroup(id: start.id, title: start.title, season: start.season, observances: Array(all[from..<to])))
+        }
+        return groups
+    }
+
+    /// The psalms of a day of the monthly course (1 to 30), as the book
+    /// appoints them for Morning or Evening Prayer.
+    public func psalms(day: Int, office: Office) -> [ServiceElement] {
+        guard let course = content.psalter.course.first(where: { $0.day == day }) else { return [] }
+        let composer = Composer(content: content, calendar: calendar)
+        let half = office == .morningPrayer ? course.morning : course.evening
+        return half.psalms.compactMap { try? composer.libraryPsalm($0) }
+    }
+
+    /// The psalm numbers read on a day of the course, for an index.
+    public func psalmNumbers(day: Int, office: Office) -> [Int] {
+        guard let course = content.psalter.course.first(where: { $0.day == day }) else { return [] }
+        var numbers: [Int] = []
+        for reference in (office == .morningPrayer ? course.morning : course.evening).psalms where numbers.last != reference.psalm {
+            numbers.append(reference.psalm)
+        }
+        return numbers
+    }
+
     /// The collect (or collects) of an observance and its governing rubrics.
     public func collects(for id: ObservanceID) -> [ServiceElement] {
         guard let observance = content.observance(id) else { return [] }

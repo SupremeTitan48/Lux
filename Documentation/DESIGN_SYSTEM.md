@@ -20,7 +20,7 @@ The Lux design language is:
 
 Avoid generic dashboards, repeated cards, gratuitous gradients, crowded toolbars, decorative glass effects, and visual treatments that compete with the text.
 
-One deliberate exception (requested by the maintainer, 2026-10-21): on Today, Morning and Evening Prayer are two cards under a dawn and a dusk sky (`Sky` tokens). They are the only gradients in the app, they never appear in the reader, and their titles are tested for contrast in both appearances.
+Deliberate exceptions (requested by the maintainer, 2026-10-21): on Today and the Calendar, Morning and Evening Prayer are cards under a dawn and a dusk sky, in a carousel that moves a card at a time; the Library's folders (the Psalter, the Collects by season, the Creeds) are cards in quiet single colours (`Sky` tokens). Gradients never appear in the reader, and every card title is tested for contrast in both appearances.
 
 ## Design Principles
 
@@ -92,7 +92,7 @@ Styles should specify typeface, weight, optical size where available, line spaci
 
 ### Reading measure and rhythm
 
-Favor a comfortable line length, roughly 45–75 characters where the platform and type size permit. Use generous leading and consistent paragraph rhythm. At large Dynamic Type sizes, allow the measure and layout to adapt rather than shrinking content or clipping roles.
+Favor a comfortable line length, roughly 45–75 characters where the platform and type size permit. (The reader now fills the window with a slim margin at the maintainer's request; see READING_LAYOUT.md.) Use generous leading and consistent paragraph rhythm. At large Dynamic Type sizes, allow the measure and layout to adapt rather than shrinking content or clipping roles.
 
 Use drop capitals, small capitals, decorative initials, or ornaments only as optional enhancements. They must not damage text selection, VoiceOver order, or reflow.
 

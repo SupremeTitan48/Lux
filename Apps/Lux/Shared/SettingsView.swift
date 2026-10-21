@@ -138,7 +138,7 @@ struct SettingsView: View {
                 Slider(value: $leading, in: ReadingStyle.leadingRange, step: 0.25)
                     .accessibilityValue(Text(leading.formatted(.number.precision(.fractionLength(2)))))
             }
-            Toggle("Verse numbers in the lessons", isOn: $showVerseNumbers)
+            Toggle("Verse numbers", isOn: $showVerseNumbers)
             if let preview {
                 VStack(alignment: .leading, spacing: Spacing.s) {
                     ForEach(preview, id: \.id) { ServiceElementView(element: $0) }
@@ -155,7 +155,7 @@ struct SettingsView: View {
         } header: {
             Text("Text")
         } footer: {
-            Text("The lessons are set in paragraphs; Job, the Psalms, Proverbs, Ecclesiastes, the Song of Solomon, Wisdom and Ecclesiasticus are set in verse. The size adds to the system text size.")
+            Text("Verse numbers are hidden in the psalms, canticles and lessons unless turned on here. The lessons are set in paragraphs; Job, the Psalms, Proverbs, Ecclesiastes, the Song of Solomon, Wisdom and Ecclesiasticus are set in verse. The size adds to the system text size.")
         }
     }
 

@@ -241,9 +241,12 @@ private struct SpeakerLabel: View {
     }
 }
 
+/// A verse of a psalm or canticle, with its pointing. Verse numbers are shown
+/// only when asked for in settings, as in the lessons.
 private struct VerseView: View {
     let verse: Verse
     let render: (String) -> String
+    @AppStorage(ReaderSettingKey.showVerseNumbers) private var showVerseNumbers = false
     @Environment(\.colorScheme) private var scheme
     @Environment(\.readingStyle) private var style
     @Environment(\.dynamicTypeSize) private var dynamicType
@@ -253,11 +256,13 @@ private struct VerseView: View {
     var body: some View {
         let colors = LuxColors(scheme)
         HStack(alignment: .firstTextBaseline, spacing: Spacing.s) {
-            Text(verse.number.map(String.init) ?? "")
-                .font(typeFont(.caption).monospacedDigit())
-                .foregroundStyle(colors.textSecondary)
-                .frame(minWidth: 24, alignment: .trailing)
-                .accessibilityHidden(true)
+            if showVerseNumbers {
+                Text(verse.number.map(String.init) ?? "")
+                    .font(typeFont(.caption).monospacedDigit())
+                    .foregroundStyle(colors.textSecondary)
+                    .frame(minWidth: 24, alignment: .trailing)
+                    .accessibilityHidden(true)
+            }
             VStack(alignment: .leading, spacing: 2) {
                 Text(render(verse.first) + (verse.second == nil ? "" : " :"))
                 if let second = verse.second {

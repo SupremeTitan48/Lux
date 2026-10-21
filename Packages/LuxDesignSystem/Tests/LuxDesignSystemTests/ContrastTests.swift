@@ -45,7 +45,7 @@ import Testing
     /// and must also clear the middle stop, where a long title can reach.
     @Test(arguments: [false, true])
     func titlesAreLegible(dark: Bool) {
-        for sky in [Sky.dawn(dark: dark), Sky.dusk(dark: dark)] {
+        for sky in [Sky.dawn(dark: dark), Sky.dusk(dark: dark)] + Sky.Folder.allCases.map({ Sky.folder($0, dark: dark) }) {
             #expect(sky.text.contrast(with: sky.stops[0]) >= 4.5)
             #expect(sky.text.contrast(with: sky.stops[1]) >= 3)
         }

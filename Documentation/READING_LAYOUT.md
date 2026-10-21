@@ -33,8 +33,16 @@ When the ¶ opens a paragraph, the paragraph itself shows it, so the mark is
 not printed (`ScriptureVerse.segmentsWithoutParagraphMark`). Verse numbers are
 not shown. Both come back with **Verse numbers in the lessons** in settings.
 
-The Psalter of the offices (Coverdale's, from the prayer book) is not a
-lesson and keeps its verse numbers and pointing.
+The Psalter (Coverdale's, from the prayer book) and the canticles keep their
+lines and pointing but, like the lessons, show no verse numbers unless the
+same setting is on, so the whole office reads alike.
+
+## The page
+
+The text runs the full width of the window inside a slim margin
+(`ReaderLayout.margin`), at the maintainer's request (2026-10-21), rather than
+being held to a fixed reading measure. On a wide window the reader can narrow
+the window or enlarge the type.
 
 ## Reading style
 

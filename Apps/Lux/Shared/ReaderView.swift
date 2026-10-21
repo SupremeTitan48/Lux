@@ -38,9 +38,8 @@ struct ReaderView: View {
                         }
                         notes(document)
                     }
-                    .padding(Spacing.m)
-                    .frame(maxWidth: Spacing.readingMeasure * style.scale, alignment: .leading)
-                    .frame(maxWidth: .infinity)
+                    .padding(.horizontal, ReaderLayout.margin)
+                    .padding(.vertical, Spacing.m)
                 }
             case let .failure(error):
                 ContentUnavailableView("This office could not be composed", systemImage: "exclamationmark.triangle",
@@ -80,4 +79,14 @@ struct ReaderView: View {
         .padding(.top, Spacing.l)
         #endif
     }
+}
+
+/// The reader's page: the text runs the full width of the window, inside a
+/// slim margin.
+enum ReaderLayout {
+    #if os(macOS)
+    static let margin = Spacing.l
+    #else
+    static let margin = Spacing.m + 4
+    #endif
 }
