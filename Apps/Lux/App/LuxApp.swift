@@ -25,7 +25,7 @@ struct RootView: View {
             TodayView().tabItem { Label("Today", systemImage: "sun.max") }
             CalendarView().tabItem { Label("Calendar", systemImage: "calendar") }
             LibraryView().tabItem { Label("Library", systemImage: "books.vertical") }
-            SettingsView().tabItem { Label("Settings", systemImage: "textformat.size") }
+            SettingsView().tabItem { Label("Settings", systemImage: "gearshape") }
         }
         #endif
     }
@@ -48,11 +48,28 @@ struct MacRootView: View {
                 Label(destination.rawValue, systemImage: destination.symbol).tag(destination)
             }
             .navigationSplitViewColumnWidth(min: 160, ideal: 200)
+            .safeAreaInset(edge: .bottom) {
+                SettingsLink {
+                    Label("Settings", systemImage: "gearshape")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .buttonStyle(.borderless)
+                .padding(.horizontal, 18)
+                .padding(.vertical, 12)
+            }
         } detail: {
             switch selection ?? .today {
             case .today: TodayView()
             case .calendar: CalendarView()
             case .library: LibraryView()
+            }
+        }
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                SettingsLink {
+                    Label("Settings", systemImage: "gearshape")
+                }
+                .help("Settings")
             }
         }
     }

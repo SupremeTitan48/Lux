@@ -201,4 +201,39 @@ public enum Sky {
             ? Gradient(stops: [RGBA(hex: 0x12172E), RGBA(hex: 0x3F2549), RGBA(hex: 0x8E3F3A)], text: RGBA(hex: 0xF6EEE4))
             : Gradient(stops: [RGBA(hex: 0x3D4C8C), RGBA(hex: 0xA65A86), RGBA(hex: 0xF09A5B)], text: RGBA(hex: 0xFFFFFF))
     }
+
+    /// The covers of the Library's folders: one quiet colour each, deepening
+    /// from top to bottom, with light text at the top. In dark appearance
+    /// the same colours are dimmed.
+    public enum Folder: String, Hashable, Sendable, CaseIterable {
+        case psalter, collects, creeds
+        /// Seasons of the Collects. The 1662 book prescribes no liturgical
+        /// colours; these follow the season accents (`Palette.seasonAccent`).
+        case violet, gold, green, red, blue
+    }
+
+    public static func folder(_ folder: Folder, dark: Bool) -> Gradient {
+        let stops: [UInt32]
+        switch folder {
+        case .psalter: stops = [0x2F5D50, 0x4A7A66, 0x8DB59A]
+        case .collects: stops = [0x6B2737, 0x8E3D51, 0xC98A8F]
+        case .creeds: stops = [0x5E4614, 0x7E6224, 0xC4A766]
+        case .violet: stops = [0x3E2F63, 0x5A4785, 0xA592C9]
+        case .gold: stops = [0x6A4E10, 0x8A6A1F, 0xD8BC72]
+        case .green: stops = [0x2E5A3A, 0x467550, 0x98BE8E]
+        case .red: stops = [0x7A2420, 0x9A372D, 0xD98A6E]
+        case .blue: stops = [0x2B4166, 0x405B88, 0x93ABCF]
+        }
+        let colours = stops.map { RGBA(hex: $0) }
+        return dark
+            ? Gradient(stops: colours.map { $0.scaled(0.55) }, text: RGBA(hex: 0xF6EEE4))
+            : Gradient(stops: colours, text: RGBA(hex: 0xFFFFFF))
+    }
+}
+
+extension RGBA {
+    /// The colour with each channel multiplied by `factor`: darker below 1.
+    public func scaled(_ factor: Double) -> RGBA {
+        RGBA(red * factor, green * factor, blue * factor, alpha)
+    }
 }
