@@ -8,12 +8,16 @@ struct ReaderView: View {
     let date: CivilDate
     @Environment(AppModel.self) private var model
     @Environment(\.colorScheme) private var scheme
+    @Environment(\.readingStyle) private var style
+    @Environment(\.dynamicTypeSize) private var dynamicType
+    @AppStorage(ReaderSettingKey.officiant) private var officiant: Officiant = .priest
+    @AppStorage(ReaderSettingKey.serviceChoices) private var choices = ""
     @State private var showNotes = false
 
     var body: some View {
         let colors = LuxColors(scheme)
         Group {
-            switch model.compose(office, on: date) {
+            switch model.compose(office, on: date, officiant: officiant, choices: ServiceChoices(json: choices)) {
             case let .success(document):
                 ScrollView {
                     LazyVStack(alignment: .leading, spacing: Spacing.l) {
@@ -22,7 +26,7 @@ struct ReaderView: View {
                             VStack(alignment: .leading, spacing: Spacing.m) {
                                 if let title = section.title {
                                     Text(title.uppercased())
-                                        .font(TypeRole.caption.font)
+                                        .font(style.font(.caption, dynamicType: dynamicType))
                                         .kerning(1.5)
                                         .foregroundStyle(colors.textSecondary)
                                         .accessibilityAddTraits(.isHeader)
@@ -35,7 +39,7 @@ struct ReaderView: View {
                         notes(document)
                     }
                     .padding(Spacing.m)
-                    .frame(maxWidth: Spacing.readingMeasure, alignment: .leading)
+                    .frame(maxWidth: Spacing.readingMeasure * style.scale, alignment: .leading)
                     .frame(maxWidth: .infinity)
                 }
             case let .failure(error):
@@ -43,16 +47,15 @@ struct ReaderView: View {
                                        description: Text(String(describing: error)))
             }
         }
-        .background(colors.surfacePrimary)
         .navigationTitle(office.displayName)
     }
 
     private func header(_ document: ServiceDocument) -> some View {
         let colors = LuxColors(scheme)
         return VStack(alignment: .leading, spacing: Spacing.xs) {
-            Text(document.title).font(TypeRole.title.font).foregroundStyle(colors.textPrimary)
-            Text(document.day.title).font(TypeRole.heading.font).foregroundStyle(Palette.seasonAccent(document.day.season).color(for: scheme))
-            Text(date.formatted).font(TypeRole.caption.font).foregroundStyle(colors.textSecondary)
+            Text(document.title).font(style.font(.title, dynamicType: dynamicType)).foregroundStyle(colors.textPrimary)
+            Text(document.day.title).font(style.font(.heading, dynamicType: dynamicType)).foregroundStyle(Palette.seasonAccent(document.day.season).color(for: scheme))
+            Text(date.formatted).font(style.font(.caption, dynamicType: dynamicType)).foregroundStyle(colors.textSecondary)
         }
     }
 

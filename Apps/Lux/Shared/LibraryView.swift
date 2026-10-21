@@ -49,7 +49,6 @@ private struct PsalterIndex: View {
 struct ElementsPage: View {
     let title: String
     let elements: [ServiceElement]
-    @Environment(\.colorScheme) private var scheme
 
     var body: some View {
         ScrollView {
@@ -60,7 +59,6 @@ struct ElementsPage: View {
             .frame(maxWidth: Spacing.readingMeasure, alignment: .leading)
             .frame(maxWidth: .infinity)
         }
-        .background(LuxColors(scheme).surfacePrimary)
         .navigationTitle(title)
     }
 }
