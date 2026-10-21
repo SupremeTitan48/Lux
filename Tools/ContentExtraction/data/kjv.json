@@ -1,0 +1,58 @@
+{
+ "_comment": "Reviewed decisions for the King James Version witness (Scripture/KJV/Witness). verseCounts: chapters the witness divides differently from the edition data/kjv-verse-counts.json was counted from; the witness's division is kept. missingVerses: verses the witness lacks; they are shown as placeholders, never supplied from another edition. textOutsideVerses: headings, arguments and the prologue the witness prints before a chapter's first verse, by book, the chapter they precede (or end), the first words and the number of lines; they are not part of any verse and are not shipped. verseNotes: verses a reviewer should check; the text is not changed.",
+ "verseCounts": [
+  {
+   "book": "Ecclesiasticus",
+   "chapter": 44,
+   "verses": 23,
+   "basis": "reviewed",
+   "note": "Reviewed 2026-10-21 (Claude). The witness numbers 'And made it rest upon the head of Jacob…' as verse 23; the CrossWire KJVA prints it as the second half of verse 22. The witness's numbering is kept."
+  }
+ ],
+ "textOutsideVerses": [
+  {
+   "book": "Baruch",
+   "chapter": 5,
+   "begins": "The Epistle of Jeremy",
+   "lines": 1,
+   "note": "Reviewed 2026-10-21 (Claude). The title of the Epistle of Jeremy, printed as chapter 6 of Baruch; not shipped."
+  },
+  {
+   "book": "Baruch",
+   "chapter": 6,
+   "begins": "A copy of an epistle, which Jeremy sent ",
+   "lines": 2,
+   "note": "Reviewed 2026-10-21 (Claude). The italic argument above Baruch 6; verse 1 repeats it in roman type and is kept."
+  },
+  {
+   "book": "Bel and the Dragon",
+   "chapter": 1,
+   "begins": "The History of the Destruction of Bel an",
+   "lines": 1,
+   "note": "Reviewed 2026-10-21 (Claude). Printed before the first verse; not part of any verse, not shipped."
+  },
+  {
+   "book": "Ecclesiasticus",
+   "chapter": 1,
+   "begins": "A Prologue made by an uncertain Author",
+   "lines": 39,
+   "note": "Reviewed 2026-10-21 (Claude). The two prologues of Ecclesiasticus. The 1662 lectionary appoints chapters, not the prologue; not shipped."
+  },
+  {
+   "book": "Ecclesiasticus",
+   "chapter": 51,
+   "begins": "A Prayer of Jesus the son of Sirach.",
+   "lines": 1,
+   "note": "Reviewed 2026-10-21 (Claude). Printed before the first verse; not part of any verse, not shipped."
+  },
+  {
+   "book": "Susanna",
+   "chapter": 1,
+   "begins": "Set apart from the beginning of Daniel, ",
+   "lines": 2,
+   "note": "Reviewed 2026-10-21 (Claude). Printed before the first verse; not part of any verse, not shipped."
+  }
+ ],
+ "missingVerses": [],
+ "verseNotes": []
+}

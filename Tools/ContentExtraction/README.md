@@ -1,7 +1,8 @@
 # Content extraction
 
-Turns the source witness into Lux's structured content. Python 3.10+,
-standard library only.
+Turns the source witnesses into Lux's structured content. Python 3.10+,
+standard library only, except `pypdfium2` (pinned in `requirements.txt`) to
+read the KJV PDF.
 
 ```text
 lux_extract/
@@ -14,9 +15,11 @@ lux_extract/
   collects.py   the collects and their governing rubrics
   tcp.py        table cells from the TCP transcription of the 1693 printing
   lectionary.py the Kalendar's lessons, the Proper Lessons and Proper Psalms
+  kjv.py        the King James Version from eBible.org's PDF, into Scripture/KJV
   build.py      writes the content package, transcription, edit log, review queue
 data/           reviewed decision tables (ligatures, joins, drop capitals, spaces;
-                books.json and lectionary.json for the lectionary)
+                books.json and lectionary.json for the lectionary; kjv.json and
+                kjv-verse-counts.json for the KJV)
 maps/           service maps and the scripts that generate the complex ones
                 (proper_lessons.json from build_proper_lessons_map.py)
 tests/          unit tests and content invariants

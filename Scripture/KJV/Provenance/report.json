@@ -1,0 +1,11 @@
+{
+ "schemaVersion": 1,
+ "source": "kjv-ebible-2026-09-26",
+ "books": 72,
+ "verses": 31372,
+ "supplied": 19779,
+ "footnoteLinesOmitted": 1601,
+ "missingVerses": [],
+ "layoutIssues": [],
+ "textOutsideVerses": 6
+}

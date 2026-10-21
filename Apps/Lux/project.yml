@@ -17,6 +17,8 @@ packages:
     path: ../../Packages/LuxDesignSystem
   BCP1662:
     path: ../../Traditions/BCP1662
+  LuxKJV:
+    path: ../../Scripture/KJV
 settings:
   base:
     SWIFT_VERSION: "6.0"
@@ -34,6 +36,7 @@ targets:
       - package: LuxCore
       - package: LuxDesignSystem
       - package: BCP1662
+      - package: LuxKJV
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: org.lux.Lux
@@ -53,6 +56,7 @@ targets:
       - package: LuxCore
       - package: LuxDesignSystem
       - package: BCP1662
+      - package: LuxKJV
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: org.lux.Lux.watch

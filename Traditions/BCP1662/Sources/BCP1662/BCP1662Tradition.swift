@@ -9,14 +9,18 @@ public struct BCP1662Tradition: LiturgicalTradition {
     public let offices: [Office] = [.morningPrayer, .eveningPrayer]
     public let calendar = BCP1662Calendar()
     public let content: BCP1662Content
+    /// Editions of the Scriptures the lessons can be read from, chosen per
+    /// composition by `CompositionOptions.scriptureTranslationID`.
+    public let scripture: [any ScriptureProvider]
 
-    public init(content: BCP1662Content) {
+    public init(content: BCP1662Content, scripture: [any ScriptureProvider] = []) {
         self.content = content
+        self.scripture = scripture
     }
 
     /// The tradition with its bundled, verified content.
-    public static func bundled() throws -> BCP1662Tradition {
-        BCP1662Tradition(content: try .bundled())
+    public static func bundled(scripture: [any ScriptureProvider] = []) throws -> BCP1662Tradition {
+        BCP1662Tradition(content: try .bundled(), scripture: scripture)
     }
 
     public func describe(_ date: CivilDate) throws -> DayDescription {
@@ -27,6 +31,7 @@ public struct BCP1662Tradition: LiturgicalTradition {
     }
 
     public func compose(_ office: Office, on date: CivilDate, options: CompositionOptions = .standard) throws -> ServiceDocument {
-        try Composer(content: content, calendar: calendar).compose(office, on: date)
+        let provider = scripture.first { $0.translationID == options.scriptureTranslationID }
+        return try Composer(content: content, calendar: calendar, scripture: provider).compose(office, on: date)
     }
 }

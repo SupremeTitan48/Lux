@@ -1,0 +1,365 @@
+{
+ "schemaVersion": 1,
+ "books": [
+  {
+   "book": "Genesis",
+   "path": "books/genesis.json",
+   "chapters": 50
+  },
+  {
+   "book": "Exodus",
+   "path": "books/exodus.json",
+   "chapters": 40
+  },
+  {
+   "book": "Leviticus",
+   "path": "books/leviticus.json",
+   "chapters": 27
+  },
+  {
+   "book": "Numbers",
+   "path": "books/numbers.json",
+   "chapters": 36
+  },
+  {
+   "book": "Deuteronomy",
+   "path": "books/deuteronomy.json",
+   "chapters": 34
+  },
+  {
+   "book": "Joshua",
+   "path": "books/joshua.json",
+   "chapters": 24
+  },
+  {
+   "book": "Judges",
+   "path": "books/judges.json",
+   "chapters": 21
+  },
+  {
+   "book": "Ruth",
+   "path": "books/ruth.json",
+   "chapters": 4
+  },
+  {
+   "book": "1 Samuel",
+   "path": "books/1-samuel.json",
+   "chapters": 31
+  },
+  {
+   "book": "2 Samuel",
+   "path": "books/2-samuel.json",
+   "chapters": 24
+  },
+  {
+   "book": "1 Kings",
+   "path": "books/1-kings.json",
+   "chapters": 22
+  },
+  {
+   "book": "2 Kings",
+   "path": "books/2-kings.json",
+   "chapters": 25
+  },
+  {
+   "book": "1 Chronicles",
+   "path": "books/1-chronicles.json",
+   "chapters": 29
+  },
+  {
+   "book": "2 Chronicles",
+   "path": "books/2-chronicles.json",
+   "chapters": 36
+  },
+  {
+   "book": "Ezra",
+   "path": "books/ezra.json",
+   "chapters": 10
+  },
+  {
+   "book": "Nehemiah",
+   "path": "books/nehemiah.json",
+   "chapters": 13
+  },
+  {
+   "book": "Esther",
+   "path": "books/esther.json",
+   "chapters": 10
+  },
+  {
+   "book": "Job",
+   "path": "books/job.json",
+   "chapters": 42
+  },
+  {
+   "book": "Proverbs",
+   "path": "books/proverbs.json",
+   "chapters": 31
+  },
+  {
+   "book": "Ecclesiastes",
+   "path": "books/ecclesiastes.json",
+   "chapters": 12
+  },
+  {
+   "book": "Song of Solomon",
+   "path": "books/song-of-solomon.json",
+   "chapters": 8
+  },
+  {
+   "book": "Isaiah",
+   "path": "books/isaiah.json",
+   "chapters": 66
+  },
+  {
+   "book": "Jeremiah",
+   "path": "books/jeremiah.json",
+   "chapters": 52
+  },
+  {
+   "book": "Lamentations",
+   "path": "books/lamentations.json",
+   "chapters": 5
+  },
+  {
+   "book": "Ezekiel",
+   "path": "books/ezekiel.json",
+   "chapters": 48
+  },
+  {
+   "book": "Daniel",
+   "path": "books/daniel.json",
+   "chapters": 12
+  },
+  {
+   "book": "Hosea",
+   "path": "books/hosea.json",
+   "chapters": 14
+  },
+  {
+   "book": "Joel",
+   "path": "books/joel.json",
+   "chapters": 3
+  },
+  {
+   "book": "Amos",
+   "path": "books/amos.json",
+   "chapters": 9
+  },
+  {
+   "book": "Obadiah",
+   "path": "books/obadiah.json",
+   "chapters": 1
+  },
+  {
+   "book": "Jonah",
+   "path": "books/jonah.json",
+   "chapters": 4
+  },
+  {
+   "book": "Micah",
+   "path": "books/micah.json",
+   "chapters": 7
+  },
+  {
+   "book": "Nahum",
+   "path": "books/nahum.json",
+   "chapters": 3
+  },
+  {
+   "book": "Habakkuk",
+   "path": "books/habakkuk.json",
+   "chapters": 3
+  },
+  {
+   "book": "Zephaniah",
+   "path": "books/zephaniah.json",
+   "chapters": 3
+  },
+  {
+   "book": "Haggai",
+   "path": "books/haggai.json",
+   "chapters": 2
+  },
+  {
+   "book": "Zechariah",
+   "path": "books/zechariah.json",
+   "chapters": 14
+  },
+  {
+   "book": "Malachi",
+   "path": "books/malachi.json",
+   "chapters": 4
+  },
+  {
+   "book": "Tobit",
+   "path": "books/tobit.json",
+   "chapters": 14
+  },
+  {
+   "book": "Judith",
+   "path": "books/judith.json",
+   "chapters": 16
+  },
+  {
+   "book": "Wisdom",
+   "path": "books/wisdom.json",
+   "chapters": 19
+  },
+  {
+   "book": "Ecclesiasticus",
+   "path": "books/ecclesiasticus.json",
+   "chapters": 51
+  },
+  {
+   "book": "Baruch",
+   "path": "books/baruch.json",
+   "chapters": 6
+  },
+  {
+   "book": "Susanna",
+   "path": "books/susanna.json",
+   "chapters": 1
+  },
+  {
+   "book": "Bel and the Dragon",
+   "path": "books/bel-and-the-dragon.json",
+   "chapters": 1
+  },
+  {
+   "book": "Matthew",
+   "path": "books/matthew.json",
+   "chapters": 28
+  },
+  {
+   "book": "Mark",
+   "path": "books/mark.json",
+   "chapters": 16
+  },
+  {
+   "book": "Luke",
+   "path": "books/luke.json",
+   "chapters": 24
+  },
+  {
+   "book": "John",
+   "path": "books/john.json",
+   "chapters": 21
+  },
+  {
+   "book": "Acts",
+   "path": "books/acts.json",
+   "chapters": 28
+  },
+  {
+   "book": "Romans",
+   "path": "books/romans.json",
+   "chapters": 16
+  },
+  {
+   "book": "1 Corinthians",
+   "path": "books/1-corinthians.json",
+   "chapters": 16
+  },
+  {
+   "book": "2 Corinthians",
+   "path": "books/2-corinthians.json",
+   "chapters": 13
+  },
+  {
+   "book": "Galatians",
+   "path": "books/galatians.json",
+   "chapters": 6
+  },
+  {
+   "book": "Ephesians",
+   "path": "books/ephesians.json",
+   "chapters": 6
+  },
+  {
+   "book": "Philippians",
+   "path": "books/philippians.json",
+   "chapters": 4
+  },
+  {
+   "book": "Colossians",
+   "path": "books/colossians.json",
+   "chapters": 4
+  },
+  {
+   "book": "1 Thessalonians",
+   "path": "books/1-thessalonians.json",
+   "chapters": 5
+  },
+  {
+   "book": "2 Thessalonians",
+   "path": "books/2-thessalonians.json",
+   "chapters": 3
+  },
+  {
+   "book": "1 Timothy",
+   "path": "books/1-timothy.json",
+   "chapters": 6
+  },
+  {
+   "book": "2 Timothy",
+   "path": "books/2-timothy.json",
+   "chapters": 4
+  },
+  {
+   "book": "Titus",
+   "path": "books/titus.json",
+   "chapters": 3
+  },
+  {
+   "book": "Philemon",
+   "path": "books/philemon.json",
+   "chapters": 1
+  },
+  {
+   "book": "Hebrews",
+   "path": "books/hebrews.json",
+   "chapters": 13
+  },
+  {
+   "book": "James",
+   "path": "books/james.json",
+   "chapters": 5
+  },
+  {
+   "book": "1 Peter",
+   "path": "books/1-peter.json",
+   "chapters": 5
+  },
+  {
+   "book": "2 Peter",
+   "path": "books/2-peter.json",
+   "chapters": 3
+  },
+  {
+   "book": "1 John",
+   "path": "books/1-john.json",
+   "chapters": 5
+  },
+  {
+   "book": "2 John",
+   "path": "books/2-john.json",
+   "chapters": 1
+  },
+  {
+   "book": "3 John",
+   "path": "books/3-john.json",
+   "chapters": 1
+  },
+  {
+   "book": "Jude",
+   "path": "books/jude.json",
+   "chapters": 1
+  },
+  {
+   "book": "Revelation",
+   "path": "books/revelation.json",
+   "chapters": 22
+  }
+ ]
+}

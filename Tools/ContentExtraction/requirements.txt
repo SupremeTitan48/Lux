@@ -1,0 +1,3 @@
+# The KJV witness is a PDF, read with PDFium. Pinned: the build must give the
+# same bytes everywhere.
+pypdfium2==5.13.0

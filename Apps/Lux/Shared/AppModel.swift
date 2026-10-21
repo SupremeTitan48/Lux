@@ -1,6 +1,7 @@
 import BCP1662
 import Foundation
 import LuxCore
+import LuxKJV
 import Observation
 
 /// App-wide state: the tradition, loaded once, and the reader's settings.
@@ -12,7 +13,7 @@ final class AppModel {
 
     init() {
         do {
-            tradition = try BCP1662Tradition.bundled()
+            tradition = try BCP1662Tradition.bundled(scripture: [try KJVProvider.bundled()])
             loadError = nil
         } catch {
             tradition = nil
@@ -28,7 +29,7 @@ final class AppModel {
 
     func compose(_ office: Office, on date: CivilDate) -> Result<ServiceDocument, Error> {
         guard let tradition else { return .failure(CompositionError.contentMissing("tradition")) }
-        return Result { try tradition.compose(office, on: date, options: .standard) }
+        return Result { try tradition.compose(office, on: date, options: CompositionOptions(scriptureTranslationID: KJVProvider.identifier)) }
     }
 
     /// The office most fitting for now: Morning Prayer before noon.
