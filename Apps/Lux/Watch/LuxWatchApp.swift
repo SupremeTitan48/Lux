@@ -6,7 +6,7 @@ struct LuxWatchApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TodayView().environment(model)
+            TodayView().environment(model).readingStyleFromSettings()
         }
     }
 }

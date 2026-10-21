@@ -14,6 +14,8 @@ struct Composer {
     /// Where the text of the lessons comes from; without one, lessons are
     /// given by reference with a placeholder for their text.
     var scripture: (any ScriptureProvider)? = nil
+    /// The officiant and the choices of ``BCP1662Tradition/serviceOptions``.
+    var options: CompositionOptions = .standard
 
     private var source: String { content.sourceID }
     private var lectionary: Lectionary { Lectionary(lessons: content.lessons, calendar: calendar) }
@@ -89,7 +91,9 @@ struct Composer {
             let units = Array(file.units[start..<end])
             let elements = try build(section: spec.id, units: units, context: &context)
             if !elements.isEmpty {
-                sections.append(ServiceSection(id: spec.id, title: spec.title, elements: elements))
+                // Without the Absolution the section is the Confession alone.
+                let title = spec.id == "confession" && !options.officiant.isPriest ? "Confession" : spec.title
+                sections.append(ServiceSection(id: spec.id, title: title, elements: elements))
             }
         }
         let title = office == .morningPrayer ? "Morning Prayer" : "Evening Prayer"
@@ -140,6 +144,7 @@ struct Composer {
 
     private func build(section: String, units: [ServiceFile.Unit], context: inout Context) throws -> [ServiceElement] {
         switch section {
+        case "confession": return confession(units, context: &context)
         case "invitatory": return invitatory(units, context: &context)
         case "psalms": return try psalms(units, context: &context)
         case "first-lesson": return units.map(element) + lessonElements(.first, context: &context)
@@ -152,11 +157,67 @@ struct Composer {
                 context.diagnostics.append(Diagnostic(.info, code: "litany-not-included",
                     message: "The Litany is appointed after Morning Prayer on Sundays, Wednesdays and Fridays, when only the last two of these prayers are read here. Lux does not yet include the Litany, so the prayers are given as on other days."))
             }
+            return statePrayers(units, context: &context)
+        default: return units.map(element)
+        }
+    }
+
+    /// The Confession, and the Absolution if a priest is officiating: it is
+    /// "to be pronounced by the Priest alone".
+    private func confession(_ units: [ServiceFile.Unit], context: inout Context) -> [ServiceElement] {
+        guard !options.officiant.isPriest else { return units.map(element) }
+        let absolution: Set<String> = ["\(context.prefix).absolution.rubric", "\(context.prefix).absolution"]
+        var out: [ServiceElement] = []
+        var replaced = false
+        for unit in units {
+            guard absolution.contains(unit.id) else {
+                out.append(element(unit))
+                continue
+            }
+            guard !replaced else { continue }
+            replaced = true
+            context.diagnostics.append(Diagnostic(.info, code: "absolution-not-priest",
+                message: "The Absolution is “to be pronounced by the Priest alone”, so it is left out when a deacon or lay person says the office.",
+                elementID: "\(context.prefix).absolution"))
+            if options.choices[BCP1662Tradition.OptionID.absolution] == "trinity-21" {
+                out += trinity21Collect(context: &context)
+            }
+        }
+        return out
+    }
+
+    /// The Collect for the twenty-first Sunday after Trinity, which a deacon or
+    /// lay officiant may say where the Absolution stands. The 1662 book makes
+    /// no such provision: it is a custom, chosen in settings and reported.
+    private func trinity21Collect(context: inout Context) -> [ServiceElement] {
+        let id = ObservanceID("trinity-21")
+        guard let collect = content.observance(id)?.collects.first else {
+            context.diagnostics.append(Diagnostic(.warning, code: "absolution-substitute-missing",
+                message: "The Collect for the twenty-first Sunday after Trinity is not in the content, so nothing is said in place of the Absolution."))
+            return []
+        }
+        let elementID = "\(context.prefix).absolution.trinity-21"
+        context.diagnostics.append(Diagnostic(.info, code: "absolution-trinity-21",
+            message: "In place of the Absolution the Collect for the twenty-first Sunday after Trinity is said, as chosen in settings. This is a custom of deacons and lay readers, not a rubric of the 1662 book, which makes no provision for Morning or Evening Prayer without a priest.",
+            elementID: elementID))
+        return [.heading(id: elementID + ".heading", text: "In place of the Absolution: the Collect for the Twenty-first Sunday after Trinity",
+                         latin: nil, reference: nil, source: nil),
+                .text(id: elementID, kind: "collect", speaker: .minister, text: collect.text, citation: nil,
+                      source: collect.provenance.reference(source: source))]
+    }
+
+    /// The prayers for the King and the Royal Family, as printed in 1762, or
+    /// left out when chosen in settings.
+    private func statePrayers(_ units: [ServiceFile.Unit], context: inout Context) -> [ServiceElement] {
+        guard options.choices[BCP1662Tradition.OptionID.statePrayers] == "omit" else {
             context.diagnostics.append(Diagnostic(.info, code: "state-prayers-as-printed",
                 message: "The prayers for the King and the Royal Family are given as printed in 1762."))
             return units.map(element)
-        default: return units.map(element)
         }
+        let state = ["king", "royalfamily"].flatMap { ["\(context.prefix).prayer.\($0).title", "\(context.prefix).prayer.\($0)"] }
+        context.diagnostics.append(Diagnostic(.info, code: "state-prayers-omitted",
+            message: "The prayers for the King and the Royal Family are left out, as chosen in settings."))
+        return units.filter { !state.contains($0.id) }.map(element)
     }
 
     private func invitatory(_ units: [ServiceFile.Unit], context: inout Context) -> [ServiceElement] {
@@ -377,8 +438,12 @@ struct Composer {
             let heading = group.first { $0.kind == "heading" }
             return heading?.latin ?? heading?.text ?? ""
         }
-        var options = [ServiceElement.Option(label: label(first), elements: first.map(element)),
+        let printed = [ServiceElement.Option(label: label(first), elements: first.map(element)),
                        ServiceElement.Option(label: label(second), elements: second.map(element))]
+        // The canticles that may be said, in the order offered, as indices
+        // into `printed`; `forced` when the rubric requires the first of them.
+        var order = [0, 1]
+        var forced = false
         let id = "\(context.prefix).\(section)"
         let today = keptToday(context.date)
         switch (context.office, section) {
@@ -387,28 +452,39 @@ struct Composer {
                 // Source: Benedictus is said "except when that shall happen to
                 // be read in the Chapter for the day, or for the gospel on St.
                 // John Baptist's Day."
-                options.reverse()
+                (order, forced) = ([1, 0], true)
                 context.diagnostics.append(Diagnostic(.info, code: "jubilate-on-john-baptist",
                     message: "On St John Baptist’s Day the Benedictus is read in the Gospel, so the Jubilate is said.", elementID: id))
             } else if benedictusInSecondLesson(context.date) {
                 // Source: the Benedictus is said "except when that shall
                 // happen to be read in the Chapter for the day".
-                options.reverse()
+                (order, forced) = ([1, 0], true)
                 context.diagnostics.append(Diagnostic(.info, code: "jubilate-benedictus-in-lesson",
                     message: "The Benedictus is read in the second lesson today, so the Jubilate is said.", elementID: id))
             }
         case (.eveningPrayer, "first-canticle") where context.date.day == 19:
-            options.removeLast()
+            order = [0]
             context.diagnostics.append(Diagnostic(.info, code: "cantate-in-course",
                 message: "Cantate Domino is not said on the nineteenth day of the month, when it is read in the ordinary course of the Psalms.", elementID: id))
         case (.eveningPrayer, "second-canticle") where context.date.day == 12:
-            options.removeLast()
+            order = [0]
             context.diagnostics.append(Diagnostic(.info, code: "deus-misereatur-in-course",
                 message: "Deus misereatur is not said on the twelfth day of the month, when it is read in the ordinary course of the Psalms.", elementID: id))
         default: break
         }
-        if options.count == 1 { return options[0].elements }
-        return [.alternatives(id: id, label: options.map(\.label).joined(separator: " or "), options: options)]
+        // The canticle chosen in settings, unless the rubric requires another.
+        if let option = BCP1662Tradition.options.first(where: { $0.id == id }),
+           let choice = options.choices[id], let chosen = option.choices.prefix(2).firstIndex(where: { $0.id == choice }) {
+            let said = forced || !order.contains(chosen) ? order[0] : chosen
+            if said == chosen, order.count > 1 {
+                context.diagnostics.append(Diagnostic(.info, code: "canticle-chosen",
+                    message: "\(option.choices[said].label) is said, as chosen in settings; the book allows \(option.choices[1 - said].label) instead.", elementID: id))
+            }
+            return printed[said].elements
+        }
+        let offered = order.map { printed[$0] }
+        if offered.count == 1 { return offered[0].elements }
+        return [.alternatives(id: id, label: offered.map(\.label).joined(separator: " or "), options: offered)]
     }
 
     private func creed(_ units: [ServiceFile.Unit], context: inout Context) -> [ServiceElement] {

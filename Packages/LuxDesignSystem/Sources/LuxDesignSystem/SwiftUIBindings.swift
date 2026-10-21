@@ -32,6 +32,56 @@ extension TypeRole {
     }
 }
 
+extension ReadingStyle {
+    /// The font for a role in this style, at the given Dynamic Type size.
+    public func font(_ role: TypeRole, dynamicType: DynamicTypeSize = .large) -> Font {
+        let points = size(role) * dynamicType.scale
+        var font: Font
+        switch typeface {
+        case .systemSerif: font = .system(size: points, design: .serif)
+        case .systemSans: font = .system(size: points, design: .default)
+        default: font = .custom(typeface.familyName!, fixedSize: points)
+        }
+        if role.italic { font = font.italic() }
+        return font
+    }
+
+    /// Line spacing for a role at the given Dynamic Type size.
+    public func lineSpacing(_ role: TypeRole, dynamicType: DynamicTypeSize) -> Double {
+        lineSpacing(role) * dynamicType.scale
+    }
+}
+
+extension DynamicTypeSize {
+    /// How much this size enlarges body text relative to the default
+    /// (Large), after the body sizes of Apple's Dynamic Type table.
+    public var scale: Double {
+        let body: Double
+        switch self {
+        case .xSmall: body = 14
+        case .small: body = 15
+        case .medium: body = 16
+        case .large: body = 17
+        case .xLarge: body = 19
+        case .xxLarge: body = 21
+        case .xxxLarge: body = 23
+        case .accessibility1: body = 28
+        case .accessibility2: body = 33
+        case .accessibility3: body = 40
+        case .accessibility4: body = 47
+        case .accessibility5: body = 53
+        @unknown default: body = 17
+        }
+        return body / 17
+    }
+}
+
+extension Sky.Gradient {
+    public var linear: LinearGradient {
+        LinearGradient(colors: stops.map(\.color), startPoint: .top, endPoint: .bottom)
+    }
+}
+
 /// Reads palette colours for the current colour scheme.
 public struct LuxColors {
     public let scheme: ColorScheme

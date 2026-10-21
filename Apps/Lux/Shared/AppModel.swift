@@ -27,9 +27,15 @@ final class AppModel {
         try? tradition?.describe(date)
     }
 
-    func compose(_ office: Office, on date: CivilDate) -> Result<ServiceDocument, Error> {
+    /// The choices the tradition offers, for settings.
+    var serviceOptions: [ServiceOption] { tradition?.serviceOptions ?? [] }
+
+    func compose(_ office: Office, on date: CivilDate, officiant: Officiant = .priest,
+                 choices: ServiceChoices = ServiceChoices(json: "")) -> Result<ServiceDocument, Error> {
         guard let tradition else { return .failure(CompositionError.contentMissing("tradition")) }
-        return Result { try tradition.compose(office, on: date, options: CompositionOptions(scriptureTranslationID: KJVProvider.identifier)) }
+        let options = CompositionOptions(scriptureTranslationID: KJVProvider.identifier, officiant: officiant,
+                                         choices: choices.resolved(tradition.serviceOptions))
+        return Result { try tradition.compose(office, on: date, options: options) }
     }
 
     /// The office most fitting for now: Morning Prayer before noon.

@@ -116,3 +116,64 @@ public protocol ScriptureProvider: Sendable {
     /// the chapters the reference names.
     func passage(_ reference: ScriptureReference) throws -> ScripturePassage?
 }
+
+/// How a reading is set on the page: as prose in paragraphs, or as verse,
+/// one line to each verse.
+///
+/// The form is a property of the book, not of the edition. The verse books
+/// are the poetical books as the English Bible has grouped them since the
+/// sixteenth century (Job, the Psalms, Proverbs, Ecclesiastes and the Song of
+/// Solomon) and the two wisdom books of the Apocrypha written in the same
+/// parallel lines (Wisdom and Ecclesiasticus). Every other book is prose.
+/// See Documentation/READING_LAYOUT.md.
+public enum ScriptureForm: String, Hashable, Sendable, Codable {
+    case prose, verse
+
+    public static let verseBooks: Set<String> = [
+        "Job", "Psalms", "Proverbs", "Ecclesiastes", "Song of Solomon", "Wisdom", "Ecclesiasticus",
+    ]
+
+    /// The form of a book, by its canonical name in Lux's lectionaries.
+    public static func of(book: String) -> ScriptureForm {
+        verseBooks.contains(book) ? .verse : .prose
+    }
+}
+
+extension ScriptureVerse {
+    /// The paragraph mark (¶) with which editions of the King James Version
+    /// open a new paragraph.
+    public static let paragraphMark = "¶"
+
+    /// Whether the edition opens a paragraph at this verse.
+    public var opensParagraph: Bool {
+        text.hasPrefix(ScriptureVerse.paragraphMark)
+    }
+
+    /// The verse's segments without its opening paragraph mark, for a layout
+    /// that shows the paragraph by setting it as one. The text is otherwise
+    /// unchanged.
+    public var segmentsWithoutParagraphMark: [Segment] {
+        guard opensParagraph, var first = segments.first else { return segments }
+        first.text = String(first.text.dropFirst(ScriptureVerse.paragraphMark.count).drop { $0 == " " })
+        return first.text.isEmpty ? Array(segments.dropFirst()) : [first] + segments.dropFirst()
+    }
+}
+
+extension ScripturePassage {
+    /// The passage's form (``ScriptureForm``).
+    public var form: ScriptureForm { .of(book: reference.book) }
+
+    /// The verses in paragraphs: a paragraph begins at the first verse, at
+    /// every verse the edition marks with ¶, and at every new chapter.
+    public var paragraphs: [[ScriptureVerse]] {
+        var out: [[ScriptureVerse]] = []
+        for verse in verses {
+            if let last = out.last?.last, !verse.opensParagraph, verse.chapter == last.chapter {
+                out[out.count - 1].append(verse)
+            } else {
+                out.append([verse])
+            }
+        }
+        return out
+    }
+}

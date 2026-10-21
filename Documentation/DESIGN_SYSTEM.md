@@ -20,6 +20,8 @@ The Lux design language is:
 
 Avoid generic dashboards, repeated cards, gratuitous gradients, crowded toolbars, decorative glass effects, and visual treatments that compete with the text.
 
+One deliberate exception (requested by the maintainer, 2026-10-21): on Today, Morning and Evening Prayer are two cards under a dawn and a dusk sky (`Sky` tokens). They are the only gradients in the app, they never appear in the reader, and their titles are tested for contrast in both appearances.
+
 ## Design Principles
 
 ### The text is the interface
@@ -46,7 +48,7 @@ Dynamic Type, VoiceOver order, contrast, keyboard control, motion preferences, a
 
 Build colors as semantic tokens, not hard-coded values. Initial roles may include:
 
-- `surfacePrimary`: warm ivory in light mode; deep charcoal in dark mode.
+- `surfacePrimary`: a neutral page that matches the system surfaces (white in light mode, the system's dark grey in dark mode). The first warm ivory and charcoal read as tinted next to the rest of the interface and were made neutral on 2026-10-21 at the maintainer's request.
 - `surfaceSecondary`: a subtle tonal step for sidebars, sheets, or marginal matter.
 - `textPrimary`: near-black in light mode; warm off-white in dark mode.
 - `textSecondary`: a quieter neutral for metadata.
@@ -106,7 +108,7 @@ Present the office as one continuous document with clear sections. Use hierarchy
 
 - Restore the user's reading position reliably.
 - Allow optional navigation by service section.
-- Make typography controls easy to reach but visually secondary.
+- Make typography controls easy to reach but visually secondary. Typeface, size and line spacing are reader settings (see READING_LAYOUT.md).
 - Let navigation chrome recede during sustained reading.
 - Preserve selection, copying, and accessibility behavior where licensing permits.
 - Avoid gestures that conflict with platform navigation or assistive technologies.

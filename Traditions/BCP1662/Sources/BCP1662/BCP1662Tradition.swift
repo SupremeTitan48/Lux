@@ -32,6 +32,6 @@ public struct BCP1662Tradition: LiturgicalTradition {
 
     public func compose(_ office: Office, on date: CivilDate, options: CompositionOptions = .standard) throws -> ServiceDocument {
         let provider = scripture.first { $0.translationID == options.scriptureTranslationID }
-        return try Composer(content: content, calendar: calendar, scripture: provider).compose(office, on: date)
+        return try Composer(content: content, calendar: calendar, scripture: provider, options: options).compose(office, on: date)
     }
 }

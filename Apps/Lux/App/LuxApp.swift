@@ -6,11 +6,11 @@ struct LuxApp: App {
 
     var body: some Scene {
         WindowGroup {
-            RootView().environment(model)
+            RootView().environment(model).readingStyleFromSettings()
         }
         #if os(macOS)
         Settings {
-            SettingsView()
+            SettingsView().environment(model).readingStyleFromSettings()
         }
         #endif
     }

@@ -404,3 +404,12 @@ are not shipped.
 
 The lectionary's "to v. N" is read as stopping before verse N (see above), so
 Christmas Day's "Luk. 2. to ver. 15" gives Luke 2:1–14.
+
+## Service Options (recorded 2026-10-21)
+
+The officiant, the prayers for the King and the Royal Family, and the choice
+of canticles are settings handled by the composer; see `SERVICE_OPTIONS.md`.
+Without a priest the Absolution is left out under its own rubric ("by the
+Priest alone"); the Collect for the twenty-first Sunday after Trinity may be
+said in its place, a custom recorded there with its source. The state prayers
+can be left out but are never reworded.

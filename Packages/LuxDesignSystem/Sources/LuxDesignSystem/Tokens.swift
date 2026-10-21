@@ -45,16 +45,16 @@ public struct AdaptiveColor: Hashable, Sendable {
 }
 
 /// Semantic colours (see Documentation/DESIGN_SYSTEM.md, Color System): a
-/// printed page. Warm surfacePrimary, iron-gall textPrimary, and red for
-/// rubrics, as in the printed book.
+/// neutral page that matches the system's own surfaces, near-black text, and
+/// red for rubrics, as in the printed book.
 public enum Palette {
-    public static let surfacePrimary = AdaptiveColor(light: RGBA(hex: 0xFAF6EE), dark: RGBA(hex: 0x16140F))
-    public static let surfaceSecondary = AdaptiveColor(light: RGBA(hex: 0xFFFDF8), dark: RGBA(hex: 0x211E18))
-    public static let textPrimary = AdaptiveColor(light: RGBA(hex: 0x1F1B16), dark: RGBA(hex: 0xEDE6D8))
-    public static let textSecondary = AdaptiveColor(light: RGBA(hex: 0x5C5347), dark: RGBA(hex: 0xB4AA99))
+    public static let surfacePrimary = AdaptiveColor(light: RGBA(hex: 0xFFFFFF), dark: RGBA(hex: 0x1E1E1E))
+    public static let surfaceSecondary = AdaptiveColor(light: RGBA(hex: 0xF5F5F5), dark: RGBA(hex: 0x2A2A2A))
+    public static let textPrimary = AdaptiveColor(light: RGBA(hex: 0x1C1C1C), dark: RGBA(hex: 0xEBEBEB))
+    public static let textSecondary = AdaptiveColor(light: RGBA(hex: 0x5E5E5E), dark: RGBA(hex: 0xADADAD))
     /// Rubrics and drop capitals.
     public static let rubric = AdaptiveColor(light: RGBA(hex: 0x9B2D20), dark: RGBA(hex: 0xE38A78))
-    public static let divider = AdaptiveColor(light: RGBA(hex: 0xD9CFBD), dark: RGBA(hex: 0x3A342A))
+    public static let divider = AdaptiveColor(light: RGBA(hex: 0xDADADA), dark: RGBA(hex: 0x3A3A3A))
     /// The application accent for controls and links.
     public static let accent = AdaptiveColor(light: RGBA(hex: 0x6B3A2A), dark: RGBA(hex: 0xD9A48C))
     /// Placeholders for text Lux cannot supply.
@@ -121,4 +121,84 @@ public enum Typeface {
     /// Set when the app bundle carries the reading face. Lux does not bundle
     /// it yet: the font's licence is recorded in LICENSES.md once chosen.
     public static let isReadingFaceBundled = false
+}
+
+/// The reader's typographic preferences: typeface, size and leading. Plain
+/// values, so they can be stored and tested; the SwiftUI bindings turn them
+/// into fonts. They apply to the text of the office, not to the interface.
+public struct ReadingStyle: Hashable, Sendable, Codable {
+    public var typeface: ReadingTypeface
+    /// A multiple of the role sizes, applied on top of Dynamic Type.
+    public var scale: Double
+    /// A multiple of the role line spacing.
+    public var leading: Double
+
+    public static let scaleRange: ClosedRange<Double> = 0.8...1.8
+    public static let leadingRange: ClosedRange<Double> = 0.5...2.0
+
+    public init(typeface: ReadingTypeface = .systemSerif, scale: Double = 1, leading: Double = 1) {
+        self.typeface = typeface
+        self.scale = min(max(scale, ReadingStyle.scaleRange.lowerBound), ReadingStyle.scaleRange.upperBound)
+        self.leading = min(max(leading, ReadingStyle.leadingRange.lowerBound), ReadingStyle.leadingRange.upperBound)
+    }
+
+    public static let standard = ReadingStyle()
+
+    public func size(_ role: TypeRole) -> Double { role.size * scale }
+    public func lineSpacing(_ role: TypeRole) -> Double { role.lineSpacing * scale * leading }
+}
+
+/// Typefaces for the text of the office. Each is installed with the
+/// operating system, so Lux redistributes no font files; a face missing on
+/// a platform falls back to the system serif.
+public enum ReadingTypeface: String, Hashable, Sendable, Codable, CaseIterable {
+    /// New York on Apple platforms.
+    case systemSerif = "system-serif"
+    case baskerville = "Baskerville"
+    case georgia = "Georgia"
+    case iowan = "Iowan Old Style"
+    case palatino = "Palatino"
+    case hoefler = "Hoefler Text"
+    /// San Francisco, for readers who prefer a sans serif.
+    case systemSans = "system-sans"
+
+    public var displayName: String {
+        switch self {
+        case .systemSerif: "New York"
+        case .systemSans: "San Francisco"
+        default: rawValue
+        }
+    }
+
+    /// The PostScript family name to ask the system for, or nil for a
+    /// system design.
+    public var familyName: String? {
+        switch self {
+        case .systemSerif, .systemSans: nil
+        default: rawValue
+        }
+    }
+}
+
+/// The skies of the Today cards: dawn for Morning Prayer, dusk for Evening
+/// Prayer. Stops run from the top of the card to the bottom; the card's text
+/// sits at the top, where each sky is lightest (dawn, light) or darkest.
+public enum Sky {
+    public struct Gradient: Hashable, Sendable {
+        public var stops: [RGBA]
+        /// The colour of text set on the top of the sky.
+        public var text: RGBA
+    }
+
+    public static func dawn(dark: Bool) -> Gradient {
+        dark
+            ? Gradient(stops: [RGBA(hex: 0x1D2740), RGBA(hex: 0x463B5E), RGBA(hex: 0x9C6250)], text: RGBA(hex: 0xF6EEE4))
+            : Gradient(stops: [RGBA(hex: 0xC4DDF2), RGBA(hex: 0xF7DCB4), RGBA(hex: 0xF3AE84)], text: RGBA(hex: 0x1B2738))
+    }
+
+    public static func dusk(dark: Bool) -> Gradient {
+        dark
+            ? Gradient(stops: [RGBA(hex: 0x12172E), RGBA(hex: 0x3F2549), RGBA(hex: 0x8E3F3A)], text: RGBA(hex: 0xF6EEE4))
+            : Gradient(stops: [RGBA(hex: 0x3D4C8C), RGBA(hex: 0xA65A86), RGBA(hex: 0xF09A5B)], text: RGBA(hex: 0xFFFFFF))
+    }
 }
