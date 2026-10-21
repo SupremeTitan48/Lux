@@ -13,16 +13,17 @@ and `BCP1662_SOURCE_NOTES.md` before substantial work.
   element and a `Diagnostic`, never substitute text.
 - Every content unit keeps its provenance (raw lines, extraction page, review
   status, editorial notes).
-- LuxCore and tradition packages must not import SwiftUI, UIKit, AppKit or
-  WatchKit.
+- LuxCore, tradition and Scripture packages must not import SwiftUI, UIKit,
+  AppKit or WatchKit.
 - Licensing of texts, Scripture, fonts and the source file is tracked in
   `LICENSES.md`. Do not add a Bible translation, font or image without a
   recorded licence.
 
 ## Content pipeline
 
-- The witness file in `Traditions/BCP1662/Witness/` is never edited. Its
-  SHA-256 is checked on every run.
+- The witness files in `Traditions/BCP1662/Witness/` and
+  `Scripture/KJV/Witness/` are never edited. Their SHA-256 is checked on
+  every run.
 - Regenerate content with `cd Tools/ContentExtraction && python3 -m lux_extract build`.
   CI runs `python3 -m lux_extract check`, which fails if committed content is stale.
 - Ambiguities are settled in the reviewed tables in `Tools/ContentExtraction/data/`
@@ -33,8 +34,9 @@ and `BCP1662_SOURCE_NOTES.md` before substantial work.
 
 ## Tests
 
-- `swift test` in `Packages/LuxCore`, `Packages/LuxDesignSystem` and
-  `Traditions/BCP1662`; Python tests in `Tools/ContentExtraction/tests`.
+- `swift test` in `Packages/LuxCore`, `Packages/LuxDesignSystem`,
+  `Traditions/BCP1662` and `Scripture/KJV`; Python tests in
+  `Tools/ContentExtraction/tests` (`pip install -r requirements.txt` first).
 - Golden offices live in `Traditions/BCP1662/Tests/BCP1662Tests/Golden`.
   Regenerate with `LUX_RECORD_GOLDEN=1 swift test` only for an intended
   change, and review the diff as a change to liturgical text.

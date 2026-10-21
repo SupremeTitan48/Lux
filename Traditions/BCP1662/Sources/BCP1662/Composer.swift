@@ -11,6 +11,9 @@ import LuxCore
 struct Composer {
     let content: BCP1662Content
     let calendar: BCP1662Calendar
+    /// Where the text of the lessons comes from; without one, lessons are
+    /// given by reference with a placeholder for their text.
+    var scripture: (any ScriptureProvider)? = nil
 
     private var source: String { content.sourceID }
     private var lectionary: Lectionary { Lectionary(lessons: content.lessons, calendar: calendar) }
@@ -270,19 +273,87 @@ struct Composer {
                     message: "\(title) (“\(lesson.printed)”): " + (lesson.provenance.editorial ?? []).filter { !$0.hasPrefix("Book named") }.joined(separator: " "),
                     elementID: id))
             }
-            context.diagnostics.append(Diagnostic(.warning, code: "lesson-text-unavailable",
-                message: "\(title) is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
-                elementID: id + ".text"))
-            let label = lesson.references.map(\.description).joined(separator: "; ")
-            return [.lesson(id: id, printed: lesson.printed, references: lesson.references, source: reference),
-                    .placeholder(id: id + ".text", kind: "lesson-text", label: label,
-                                 reason: "The text of the Scriptures is not yet included in Lux.")]
+            let lessonElement = ServiceElement.lesson(id: id, printed: lesson.printed, references: lesson.references, source: reference)
+            return [lessonElement] + text(of: lesson, title: title, id: id, context: &context)
         }
         if slot.options.count == 1 { return elements(slot.options[0].lesson, id: id) }
         let options = slot.options.enumerated().map { n, option in
             ServiceElement.Option(label: option.label, elements: elements(option.lesson, id: "\(id).\(n + 1)"))
         }
         return [.alternatives(id: id, label: title, options: options)]
+    }
+
+    /// The text of a lesson from the Scripture provider: one reading per run
+    /// of verses, and a placeholder wherever the provider lacks the text.
+    private func text(of lesson: LessonsFile.Lesson, title: String, id: String, context: inout Context) -> [ServiceElement] {
+        guard let scripture else {
+            context.diagnostics.append(Diagnostic(.warning, code: "lesson-text-unavailable",
+                message: "\(title) is appointed but its text cannot be given: no text of the Scriptures was chosen for this office.",
+                elementID: id + ".text"))
+            return [.placeholder(id: id + ".text", kind: "lesson-text", label: lesson.references.map(\.description).joined(separator: "; "),
+                                 reason: "No text of the Scriptures was chosen.")]
+        }
+        var out: [ServiceElement] = []
+        for (n, reference) in lesson.references.enumerated() {
+            let part = lesson.references.count == 1 ? id + ".text" : "\(id).text.\(n + 1)"
+            let passage: ScripturePassage?
+            do {
+                passage = try scripture.passage(reference)
+            } catch {
+                passage = nil
+                context.diagnostics.append(Diagnostic(.error, code: "lesson-text-failed",
+                    message: "The \(scripture.title) could not be read for \(reference): \(error)", elementID: part))
+            }
+            guard let passage else {
+                context.diagnostics.append(Diagnostic(.warning, code: "lesson-text-missing",
+                    message: "The \(scripture.title) bundled with Lux does not contain \(reference).", elementID: part))
+                out.append(.placeholder(id: part, kind: "lesson-text", label: reference.description,
+                                        reason: "This passage is not in the bundled \(scripture.title)."))
+                continue
+            }
+            // Split the passage where verses are missing from the source.
+            var run: [ScriptureVerse] = []
+            var runs = 0
+            func flush() {
+                guard !run.isEmpty else { return }
+                runs += 1
+                var piece = passage
+                piece.verses = run
+                piece.missing = []
+                out.append(.reading(id: runs == 1 ? part : "\(part).\(runs)", passage: piece))
+                run = []
+            }
+            var gaps = passage.missing[...]
+            for verse in passage.verses {
+                let at = VerseLocation(chapter: verse.chapter, verse: verse.number)
+                if let gap = gaps.first, gap < at {
+                    flush()
+                    var group: [VerseLocation] = []
+                    while let next = gaps.first, next < at { group.append(next); gaps.removeFirst() }
+                    out.append(missingPlaceholder(group, in: reference, id: "\(part).missing.\(group[0])", context: &context))
+                }
+                if let review = verse.review {
+                    context.diagnostics.append(Diagnostic(.info, code: "lesson-text-review",
+                        message: "\(reference.book) \(at): \(review)", elementID: part))
+                }
+                run.append(verse)
+            }
+            flush()
+            if !gaps.isEmpty {
+                let group = Array(gaps)
+                out.append(missingPlaceholder(group, in: reference, id: "\(part).missing.\(group[0])", context: &context))
+            }
+        }
+        return out
+    }
+
+    private func missingPlaceholder(_ verses: [VerseLocation], in reference: ScriptureReference, id: String,
+                                    context: inout Context) -> ServiceElement {
+        let list = verses.map { "\(reference.book) \($0)" }.joined(separator: ", ")
+        context.diagnostics.append(Diagnostic(.warning, code: "lesson-verse-missing",
+            message: "\(list): the source of the \(scripture?.title ?? "Scripture text") lacks \(verses.count == 1 ? "this verse" : "these verses"); it is not supplied from elsewhere.",
+            elementID: id))
+        return .placeholder(id: id, kind: "lesson-verse", label: list, reason: "This verse is missing from the source of the bundled text.")
     }
 
     /// Whether the second lesson at Morning Prayer includes the Benedictus

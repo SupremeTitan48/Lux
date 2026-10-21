@@ -14,6 +14,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Pipeline dependencies
+        run: pip install -r Tools/ContentExtraction/requirements.txt
       - name: Pipeline tests
         working-directory: Tools/ContentExtraction
         run: python -m unittest discover -s tests -t . -v
@@ -30,6 +32,7 @@ jobs:
       - run: swift test --package-path Packages/LuxCore
       - run: swift test --package-path Packages/LuxDesignSystem
       - run: swift test --package-path Traditions/BCP1662
+      - run: swift test --package-path Scripture/KJV
 
   apple:
     name: Apple platforms
@@ -40,6 +43,7 @@ jobs:
         run: |
           swift test --package-path Packages/LuxCore
           swift test --package-path Traditions/BCP1662
+          swift test --package-path Scripture/KJV
       - name: Generate Xcode project
         run: |
           brew install xcodegen

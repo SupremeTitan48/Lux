@@ -22,13 +22,13 @@
     {
       "code" : "lesson-text-unavailable",
       "elementID" : "ep.lesson.first.text",
-      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "message" : "The First Lesson is appointed but its text cannot be given: no text of the Scriptures was chosen for this office.",
       "severity" : "warning"
     },
     {
       "code" : "lesson-text-unavailable",
       "elementID" : "ep.lesson.second.text",
-      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "message" : "The Second Lesson is appointed but its text cannot be given: no text of the Scriptures was chosen for this office.",
       "severity" : "warning"
     },
     {
@@ -850,7 +850,7 @@
             "id" : "ep.lesson.first.text",
             "kind" : "lesson-text",
             "label" : "Wisdom 2",
-            "reason" : "The text of the Scriptures is not yet included in Lux."
+            "reason" : "No text of the Scriptures was chosen."
           }
         }
       ],
@@ -1121,7 +1121,7 @@
             "id" : "ep.lesson.second.text",
             "kind" : "lesson-text",
             "label" : "2 Corinthians 12",
-            "reason" : "The text of the Scriptures is not yet included in Lux."
+            "reason" : "No text of the Scriptures was chosen."
           }
         }
       ],

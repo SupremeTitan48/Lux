@@ -376,3 +376,31 @@ Where the source is silent:
   Lux keeps on the 25th in leap years) is filled by nothing, with a warning.
 - The second Sunday after Christmas (2 to 5 January) has lessons in the table
   though the Collects use the Circumcision's collect.
+
+## The Text of the Lessons
+
+The prayer book appoints the lessons; their text comes from a separate
+Scripture edition, the King James Version, in its own package
+(`Scripture/KJV`). Two texts were supplied:
+
+- A DaVince Tools PDF text layer ("kjvbiblea.pdf.txt"). Compared verse by
+  verse with the CrossWire KJVA module, it lacks the last verse of
+  Philippians, 1 Thessalonians, Hebrews and Revelation, has errors inside
+  appointed lessons (Matthew 5:30 "cut if off"), and many scanning errors in
+  the Apocrypha. Not used.
+- eBible.org's PDF of the standardized text of 1769 with the Apocrypha,
+  chosen by Jackson on 2026-10-21. It has every verse the lectionary needs.
+  Against the CrossWire KJVA it differs in the edition's conventions (LORD in
+  capitals, Judæa, hyphenated names) and in 86 verses' wording, mostly names
+  and readings of the Apocrypha; Ecclesiasticus 44 is divided into 23 verses
+  rather than 22 (reviewed in `Tools/ContentExtraction/data/kjv.json`).
+
+The PDF is read character by character (see `Tools/ContentExtraction/
+lux_extract/kjv.py`): italic words are kept as words the translators
+supplied, the translators' marginal notes and their reference marks are left
+out, and the paragraph marks (¶) are kept. The prologues of Ecclesiasticus
+and the arguments printed above some chapters are not part of any verse and
+are not shipped.
+
+The lectionary's "to v. N" is read as stopping before verse N (see above), so
+Christmas Day's "Luk. 2. to ver. 15" gives Luke 2:1–14.

@@ -22,13 +22,13 @@
     {
       "code" : "lesson-text-unavailable",
       "elementID" : "mp.lesson.first.text",
-      "message" : "The First Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "message" : "The First Lesson is appointed but its text cannot be given: no text of the Scriptures was chosen for this office.",
       "severity" : "warning"
     },
     {
       "code" : "lesson-text-unavailable",
       "elementID" : "mp.lesson.second.text",
-      "message" : "The Second Lesson is appointed but its text cannot be given: Lux does not yet include a text of the Scriptures (the King James Version has been chosen; its source is still to be selected).",
+      "message" : "The Second Lesson is appointed but its text cannot be given: no text of the Scriptures was chosen for this office.",
       "severity" : "warning"
     },
     {
@@ -942,7 +942,7 @@
             "id" : "mp.lesson.first.text",
             "kind" : "lesson-text",
             "label" : "Wisdom 1",
-            "reason" : "The text of the Scriptures is not yet included in Lux."
+            "reason" : "No text of the Scriptures was chosen."
           }
         }
       ],
@@ -1363,7 +1363,7 @@
             "id" : "mp.lesson.second.text",
             "kind" : "lesson-text",
             "label" : "Mark 16",
-            "reason" : "The text of the Scriptures is not yet included in Lux."
+            "reason" : "No text of the Scriptures was chosen."
           }
         }
       ],

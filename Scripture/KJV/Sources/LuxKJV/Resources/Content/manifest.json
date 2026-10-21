@@ -1,0 +1,305 @@
+{
+ "schemaVersion": 1,
+ "tradition": "kjv",
+ "contentVersion": "0.1.0",
+ "title": "King James Version with the Apocrypha (eBible.org, source files dated 26 September 2026)",
+ "source": {
+  "id": "kjv-ebible-2026-09-26",
+  "file": "eng-kjv_all.pdf",
+  "sha256": "72bfbacda4d8358b42d0477d447496c6743350c7fb07b87c45b476a3190f256f"
+ },
+ "files": [
+  {
+   "path": "books/1-chronicles.json",
+   "sha256": "6239a3a8292c25f5e13caf938b39da2d89d6cd04c8a0bed72c748f2e5dbc64c8"
+  },
+  {
+   "path": "books/1-corinthians.json",
+   "sha256": "2ca80d30e88099419324e9ff51ec0f79f4dd3bb6c34e75d8fd6491c3e5ce82c7"
+  },
+  {
+   "path": "books/1-john.json",
+   "sha256": "92e0a93d85bed190a58fbb932b9e160b1108fb83bbe3ef0695877ebf4330a3e4"
+  },
+  {
+   "path": "books/1-kings.json",
+   "sha256": "f54ad924bb336cc0551c0229bdaaeb69377b51768166c84fcec5c065fd7a2be1"
+  },
+  {
+   "path": "books/1-peter.json",
+   "sha256": "e63bf6188b42799ab253213c7ff41887b1c76a6e39d2bc1bc54a4b0c444edd69"
+  },
+  {
+   "path": "books/1-samuel.json",
+   "sha256": "13f75f3a661a2215a1df61a8e16b5cfad0fbc12ef78cacb7ac965ece7d9465bd"
+  },
+  {
+   "path": "books/1-thessalonians.json",
+   "sha256": "46d1d2d525f262fae2da780ac9ba7c62fa245c182f696f0eb5927a49012b0e60"
+  },
+  {
+   "path": "books/1-timothy.json",
+   "sha256": "c6066718122618e0422d650ad9e32d83297fa4394b3f419cc2bd35c60d117433"
+  },
+  {
+   "path": "books/2-chronicles.json",
+   "sha256": "96135754d84372a89567b7da4d2dd3d10a0df0f3bd5b587be82567c1bf1d8512"
+  },
+  {
+   "path": "books/2-corinthians.json",
+   "sha256": "908f016adba0fdc88e95cfd81289e1f110b340849012022704b5e71f555f6c05"
+  },
+  {
+   "path": "books/2-john.json",
+   "sha256": "150da5eae22af4b2d68def8159bc898b4c9b2f312d96d91971f6f01b671b45af"
+  },
+  {
+   "path": "books/2-kings.json",
+   "sha256": "ea5c2905af4a27ae3624ca4ec40eeaf40c9f882f5b948433362fba72c677538e"
+  },
+  {
+   "path": "books/2-peter.json",
+   "sha256": "133a93bd93c5749e8904e6bd28cd06d8464c8a8272e2bed638d0553f95a66ac4"
+  },
+  {
+   "path": "books/2-samuel.json",
+   "sha256": "96b7bf1df8bdcc5eeb6294035306445092c9dd166796faa02fd2906ca100e8cc"
+  },
+  {
+   "path": "books/2-thessalonians.json",
+   "sha256": "44a4af98c5bbc85fa36e2b5f5e3733631e6ee72c33f4ebe32454fbc0f3bf0a13"
+  },
+  {
+   "path": "books/2-timothy.json",
+   "sha256": "e35104c6c29a1129045b56e860d9518885ad88730d762b33b921f46afca46d60"
+  },
+  {
+   "path": "books/3-john.json",
+   "sha256": "ce3321570171043a4a64beebee232dbad683bbea09bd4a9f44873078d444adbe"
+  },
+  {
+   "path": "books/acts.json",
+   "sha256": "961df8f1649d03980242cbad2394fe02eae1cbeebb85446296c9ab350b41033b"
+  },
+  {
+   "path": "books/amos.json",
+   "sha256": "03c612b16e9713b9eb9b2a688b46af70d58979aa100b3f670d2cb07d5d8e2981"
+  },
+  {
+   "path": "books/baruch.json",
+   "sha256": "12d9b74ce6a782296323b6295bcb004cb58074979875f885c1e2c54a1a0f6719"
+  },
+  {
+   "path": "books/bel-and-the-dragon.json",
+   "sha256": "690febac808f552202d21ca7fc43e3d52252bd4ee0f6b9e504fb11ea264ce315"
+  },
+  {
+   "path": "books/colossians.json",
+   "sha256": "11be516182b04658b02e5f6a78c1fae70f578d80934334ea267f0e5e5a52c1ae"
+  },
+  {
+   "path": "books/daniel.json",
+   "sha256": "df5e55acb539ac88e69eb26d205b9b71c105351188d4c04c16402fe5f1742e64"
+  },
+  {
+   "path": "books/deuteronomy.json",
+   "sha256": "34938e91f71c7b73ffc7c481bf559323833d6acb7a07a4e68e737dca2dce7f89"
+  },
+  {
+   "path": "books/ecclesiastes.json",
+   "sha256": "682d3267dc71a24da74fea13d4513adc3ca957388987024959ce47468d5d9f34"
+  },
+  {
+   "path": "books/ecclesiasticus.json",
+   "sha256": "fd936e0c342e319e739ea166cb329d47f88a28862e15b3186098cd4544988e63"
+  },
+  {
+   "path": "books/ephesians.json",
+   "sha256": "5908005c3965eb98d8fa5390f943af9ab9aa5ede50f8eadb5622b583317849c3"
+  },
+  {
+   "path": "books/esther.json",
+   "sha256": "599d8ed24ffa3720b94253d3f1308e40c01d27d3228c27530b5e40e29a001d19"
+  },
+  {
+   "path": "books/exodus.json",
+   "sha256": "e9a82fec65e9059ce485d696848a6ac1c619e50844ec4d4db29d476a6e9ec3f8"
+  },
+  {
+   "path": "books/ezekiel.json",
+   "sha256": "e64fc2a1f9898c1b5a892a186ea6f462deadfabeb3c754e5f79eaa9d8ec17b8f"
+  },
+  {
+   "path": "books/ezra.json",
+   "sha256": "a9d5f1f1e59fd90f4710dcf494c1a9c9488a2201cf5a23624c07f7e63415ca30"
+  },
+  {
+   "path": "books/galatians.json",
+   "sha256": "35bfdbb404694194ec916677941efd47541d291672d45bf8798aa3cf7086e7ea"
+  },
+  {
+   "path": "books/genesis.json",
+   "sha256": "adc825a4cfa62f748966c243548968e75fcc32ab9eb0a87950900e10f57518da"
+  },
+  {
+   "path": "books/habakkuk.json",
+   "sha256": "4302b7b3e3b25898634ea2eb6e1ff2874fcdaf41cf3177377ac628699021ba04"
+  },
+  {
+   "path": "books/haggai.json",
+   "sha256": "943ae886c8764ca366b9913cbbef29c3680a7ed3337ce7288c90be378a6466ca"
+  },
+  {
+   "path": "books/hebrews.json",
+   "sha256": "1845e155ccc32a1d230595b0ee1c475599aaff6b1cbe7a4e2a325907171951a7"
+  },
+  {
+   "path": "books/hosea.json",
+   "sha256": "a9cd21617968ba2127f02e88f1bffe0e03737746ddca537f00ec03df9dd5aa3b"
+  },
+  {
+   "path": "books/isaiah.json",
+   "sha256": "4c9c194165e18f7aeb76976e06f2cd6f73b372857fe39f233744cf6dcc37854b"
+  },
+  {
+   "path": "books/james.json",
+   "sha256": "cf9c21aeecbb6968eb935e3c996a8da86f1250dbb42405ae70fe809327b5b93b"
+  },
+  {
+   "path": "books/jeremiah.json",
+   "sha256": "4780a51b70019b861e3bb7f3de1aca8f3da414484e8fad4b26135dfc6e1d5959"
+  },
+  {
+   "path": "books/job.json",
+   "sha256": "37706303a8798c07e5938da4780ad7890b131c5e3843e2923945ebb35f973076"
+  },
+  {
+   "path": "books/joel.json",
+   "sha256": "2c7a1d51a5285c89e3d6c68b0f501596f5ad678c6fe904348eeaf4d3d548131d"
+  },
+  {
+   "path": "books/john.json",
+   "sha256": "5821e403a44152dc7278832d8290c0555f440f56398e5966f007611aeba891c9"
+  },
+  {
+   "path": "books/jonah.json",
+   "sha256": "e964612362abf1ff695aa0a31753250591dcc7148f6422c0f2bcc6fa18e59a3d"
+  },
+  {
+   "path": "books/joshua.json",
+   "sha256": "9992a59cab9efe78b685b02d7d9adce262083fa83f40d884d2b78a5021a9dd31"
+  },
+  {
+   "path": "books/jude.json",
+   "sha256": "d11ebea899b5ebf18ae4804ee9361e293a4d674a20e253c39e82f63bd2613f14"
+  },
+  {
+   "path": "books/judges.json",
+   "sha256": "b3fd1f8268b24f22d79663cfa100c2fba5b852799ac7b5557f19d073610c68ba"
+  },
+  {
+   "path": "books/judith.json",
+   "sha256": "233bfdefaee77f0bd7fb767672b0c1df2ed25c202b5990ac9a654050587f5936"
+  },
+  {
+   "path": "books/lamentations.json",
+   "sha256": "fe3e59fb54d068257aad5ebb8e7bd97386e0359c1aa364e2a854148945b60b28"
+  },
+  {
+   "path": "books/leviticus.json",
+   "sha256": "13f61cd1c4427b90bb42290ad8877c65c51a7eb5beb66cdeee236bd1cf99026d"
+  },
+  {
+   "path": "books/luke.json",
+   "sha256": "47fad567f81746821e703f9d46bdcb04daa7991ebd177eb0ae63003484f9f877"
+  },
+  {
+   "path": "books/malachi.json",
+   "sha256": "e17d9c08e0a07e8b89ff19785e3225d80cd939b29742d763e2bd26945b71b66a"
+  },
+  {
+   "path": "books/mark.json",
+   "sha256": "34bc50b3e55ec19f9e06d6b7d646fcec3e0a89dabc92f258056506ccd252d8d3"
+  },
+  {
+   "path": "books/matthew.json",
+   "sha256": "3c6167b07feb05872c783e47792663737611a0dd41a1fe8d697a1698783ad987"
+  },
+  {
+   "path": "books/micah.json",
+   "sha256": "71efd134e5d815073e6827b7a32948dbd3254c5fa49b663dc3461f78fa72ce79"
+  },
+  {
+   "path": "books/nahum.json",
+   "sha256": "84120c028078f3bfb01e4cfb499917ce014c04f3f2958e4bc8f3ee2a87d9a705"
+  },
+  {
+   "path": "books/nehemiah.json",
+   "sha256": "7e4ac4d96e4b88d465395b645da36cb760d2072f58c6375e0ccdcb848fd114a6"
+  },
+  {
+   "path": "books/numbers.json",
+   "sha256": "25aa1a16734f32ba7723416d2ffbd5f1f2431cc6080a018c884a5dd41c4ccba5"
+  },
+  {
+   "path": "books/obadiah.json",
+   "sha256": "344a52913b1f99f9162a8448e82436b8ba5fb1c71115dd456b73d32511fe8858"
+  },
+  {
+   "path": "books/philemon.json",
+   "sha256": "66c09e24b4cbbfab78eff1f2322b7aa528def83a5e8473f5891857848525090c"
+  },
+  {
+   "path": "books/philippians.json",
+   "sha256": "0c2075785b6fc3e81e220015f862c28ee99cf96280e940ec33276839055a7728"
+  },
+  {
+   "path": "books/proverbs.json",
+   "sha256": "cc99c875f63eaa1483e6b8a43800bcf866189a63ed71eb13032b1f841fb42d95"
+  },
+  {
+   "path": "books/revelation.json",
+   "sha256": "ee0cc9492e49c049716a24cd7fa121e3a3617ab5a49e04d132f441b37439e60b"
+  },
+  {
+   "path": "books/romans.json",
+   "sha256": "f02e77b3687dd2499045b588d787094c402fba2c07ce9160ffab57b936a1babd"
+  },
+  {
+   "path": "books/ruth.json",
+   "sha256": "88f9b61875fb221012db00d152eafcf0ccd572c88407a5c3c30880108f9213d0"
+  },
+  {
+   "path": "books/song-of-solomon.json",
+   "sha256": "ae92cbebc97f36d6a57bb80a628bbf406b3a28e9fb6dc63d220a2e0634bff7f4"
+  },
+  {
+   "path": "books/susanna.json",
+   "sha256": "35d42bcc49a1f247889a2f0afc9a0e9efc81853b046325f1547dbda627123715"
+  },
+  {
+   "path": "books/titus.json",
+   "sha256": "99df9af950a220c167a6b19396e1bcba5a94af65a549d0dade38a1dfcf1ace28"
+  },
+  {
+   "path": "books/tobit.json",
+   "sha256": "733600f84bea0a0464b30c2e61acc40b50140f21bb7cb802afbc04d16937995b"
+  },
+  {
+   "path": "books/wisdom.json",
+   "sha256": "74b8d2127fc3faec599aabb39899ef37dd8f2557377b182dc5713c8066b850ec"
+  },
+  {
+   "path": "books/zechariah.json",
+   "sha256": "ca40e4e04f2ea1b7c207ce89023645f5cbc5cdbf13d32c80ffad8582ba0ef8b2"
+  },
+  {
+   "path": "books/zephaniah.json",
+   "sha256": "e145436d73115a4bf67704e6a61b2db707c57970353a380794c2a835771cb807"
+  },
+  {
+   "path": "index.json",
+   "sha256": "445fbd7d23a20c50089933883c79de1254c0e1b46de7b86093b1967650ad4738"
+  }
+ ]
+}

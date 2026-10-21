@@ -1,0 +1,19 @@
+{
+ "schemaVersion": 1,
+ "sources": [
+  {
+   "id": "kjv-ebible-2026-09-26",
+   "file": "eng-kjv_all.pdf",
+   "sha256": "72bfbacda4d8358b42d0477d447496c6743350c7fb07b87c45b476a3190f256f",
+   "bytes": 12178269,
+   "title": "King James Version with the Apocrypha (eBible.org, source files dated 26 September 2026)",
+   "description": "eBible.org's PDF of the King James Version or Authorized Version, 'using the standardized text of 1769, with Apocrypha/Deuterocanon', from the CrossWire Bible Society. 1,704 pages, typeset with Haiola and XeLaTeX on 18 October 2026 from source files dated 26 September 2026 (PDF title page). Used for the text of the lessons.",
+   "reproducer": "eBible.org (Michael Paul Johnson), from the CrossWire Bible Society's text",
+   "witness": "The King James Version, standardized text of 1769 (Oxford, Benjamin Blayney)",
+   "format": "PDF 1.7, US letter, NotoSerif; verse numbers 9 pt, text 12 pt, supplied words in NotoSerif-Italic, the translators' marginal notes as 9 pt footnotes",
+   "obtained": "2026-10-21, uploaded to the Lux project by Jackson as eng-kjv_all.pdf.zip (sha256 794fccd02e0c6209808a52579ee31d4fde86de0d7a09a771028ecb25d0e4d106, which also held a macOS __MACOSX entry); the PDF is committed as it came out of the zip",
+   "termsVerbatim": "Public Domain\nLetters patent issued by King James with no expiration date means that to print this translation in the United Kingdom or import printed copies into the UK, you need permission. Currently, the Cambridge University Press, the Oxford University Press, and Collins have the exclusive right to print this Bible translation in the UK. This royal decree has no effect outside of the UK, where this work is firmly in the Public Domain. Please see http://www.cambridge.org/about-us/who-we-are/queens-printers-patent and https://en.wikipedia.org/wiki/King_James_Version#Copyright_status for more information.\nThis free text of the King James Version of the Holy Bible is brought to you courtesy of the Crosswire Bible Society and eBible.org.",
+   "notes": "Chosen by Jackson on 2026-10-21 over a DaVince Tools text that lacks four verses and has scanning errors. Compared verse by verse with the CrossWire KJVA module (scrollmapper bible_databases, formats/csv/KJVA.csv, sha256 f7a4eb2a…): every verse present; Ecclesiasticus 44 is divided into 23 verses rather than 22; 86 verses differ in wording beyond the edition's LORD, Æ and hyphen conventions, mostly spellings of names (Judæa, Alphæus) and readings of the Apocrypha. Page numbers in Lux provenance are PDF page indices (the printed page numbers differ)."
+  }
+ ]
+}

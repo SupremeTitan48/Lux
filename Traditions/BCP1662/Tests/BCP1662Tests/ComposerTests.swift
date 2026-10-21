@@ -167,6 +167,8 @@ import Testing
                 #expect(source != nil || id.hasPrefix("collect.") || id.hasSuffix(".psalms.proper"), "\(id) has no source")
             case let .lesson(id, _, _, source):
                 #expect(source != nil, "\(id) has no source")
+            case let .reading(id, passage):
+                #expect(passage.source != nil, "\(id) has no source")
             case .placeholder:
                 break
             }

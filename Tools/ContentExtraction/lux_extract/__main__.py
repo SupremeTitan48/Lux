@@ -1,7 +1,7 @@
 """Command-line entry point.
 
     python3 -m lux_extract propose   # fill missing decision-table entries
-    python3 -m lux_extract build     # regenerate Traditions/BCP1662/Content
+    python3 -m lux_extract build     # regenerate Traditions/BCP1662 and Scripture/KJV content
     python3 -m lux_extract check     # fail if generated content is stale
 """
 
@@ -14,6 +14,7 @@ import tempfile
 from pathlib import Path
 
 from . import decisions as dec
+from . import kjv
 from .build import PROVENANCE_DIR, RUNTIME_DIR, build
 from .normalize import normalize
 from .raw import load_raw
@@ -21,6 +22,7 @@ from .raw import load_raw
 REPO = Path(__file__).resolve().parents[3]
 TRADITION = REPO / "Traditions" / "BCP1662"
 SOURCES_JSON = TRADITION / "Witness" / "sources.json"
+KJV = REPO / "Scripture" / "KJV"
 
 
 def _source():
@@ -47,21 +49,29 @@ def cmd_build(args) -> int:
     source, meta = _source()
     root = Path(args.out) if args.out else TRADITION
     report = build(source, meta, root)
+    report["kjv"] = kjv.write_package(KJV / "Witness", Path(args.kjv_out) if args.kjv_out else KJV)
     print(json.dumps(report, indent=1))
     return 0
 
 
+def _stale(generated_root: Path, committed_root: Path, dirs) -> list[str]:
+    generated = {p.relative_to(generated_root) for p in generated_root.rglob("*") if p.is_file()}
+    committed = {p.relative_to(committed_root) for d in dirs for p in (committed_root / d).rglob("*") if p.is_file()}
+    stale = []
+    for rel in sorted(generated | committed):
+        a, b = generated_root / rel, committed_root / rel
+        if not a.exists() or not b.exists() or a.read_bytes() != b.read_bytes():
+            stale.append(str(committed_root.relative_to(REPO) / rel))
+    return stale
+
+
 def cmd_check(args) -> int:
     source, meta = _source()
-    with tempfile.TemporaryDirectory() as tmp:
+    with tempfile.TemporaryDirectory() as tmp, tempfile.TemporaryDirectory() as kjv_tmp:
         build(source, meta, Path(tmp))
-        stale = []
-        generated = {p.relative_to(tmp) for p in Path(tmp).rglob("*") if p.is_file()}
-        committed = {p.relative_to(TRADITION) for d in (RUNTIME_DIR, PROVENANCE_DIR) for p in (TRADITION / d).rglob("*") if p.is_file()}
-        for rel in sorted(generated | committed):
-            a, b = Path(tmp) / rel, TRADITION / rel
-            if not a.exists() or not b.exists() or a.read_bytes() != b.read_bytes():
-                stale.append(str(rel))
+        kjv.write_package(KJV / "Witness", Path(kjv_tmp))
+        stale = _stale(Path(tmp), TRADITION, (RUNTIME_DIR, PROVENANCE_DIR))
+        stale += _stale(Path(kjv_tmp), KJV, (kjv.RUNTIME_DIR, kjv.PROVENANCE_DIR))
     if stale:
         print("Generated content is stale. Run `python3 -m lux_extract build`.\n" + "\n".join(stale))
         return 1
@@ -82,6 +92,7 @@ def main(argv: list[str] | None = None) -> int:
     p.set_defaults(func=cmd_propose)
     b = sub.add_parser("build", help="generate structured content")
     b.add_argument("--out", help="tradition root to write into (default: Traditions/BCP1662)")
+    b.add_argument("--kjv-out", help="KJV package root to write into (default: Scripture/KJV)")
     b.set_defaults(func=cmd_build)
     c = sub.add_parser("check", help="verify committed content matches a fresh build")
     c.set_defaults(func=cmd_check)

@@ -9,6 +9,11 @@ Every element of a composed office carries a `SourceReference`:
   transcription, the XML line of the table cell.
 - `pages`: extraction pages (LF-delimited pages of the text layer; 339 in all).
   For the 1693 transcription, the TCP page-image number.
+- For the text of a lesson (`reading` elements), `sourceID` is
+  `kjv-ebible-2026-09-26` (`Scripture/KJV/Witness/sources.json`),
+  `rawLines` are lines of `Scripture/KJV/Provenance/transcription.txt` (every
+  text line of the PDF as read, italic in braces) and `pages` are PDF page
+  indices.
 - `review`: set when the unit needs checking against the page image, for
   example `reading-order-reconstructed`.
 - `editorial`: plain-language list of interventions, for example a restored

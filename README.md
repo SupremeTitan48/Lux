@@ -25,13 +25,16 @@ This is the foundation. What works today, and is tested on Linux:
   days, collect selection (including the Advent, Lent, Christmas,
   Circumcision and eve rules), Psalter assignment, and the canticle, creed
   and invitatory rules, with golden tests of complete offices.
+- **Lessons** with their text from the King James Version
+  (`Scripture/KJV`, from eBible.org's edition of the standardized text of
+  1769 with the Apocrypha), supplied words in italic.
 - **Design tokens** (`Packages/LuxDesignSystem`).
 
 Not yet done (see [Documentation/ROADMAP.md](Documentation/ROADMAP.md)):
 
-- **Lessons and Proper Psalms.** Their tables are missing from the supplied
-  text; offices show a clear placeholder instead. The PDF is needed.
-- **Scripture text.** No Bible translation has been chosen or licensed.
+- **Comparing the lectionary with the Baskerville pages.** The Kalendar,
+  Proper Lessons and Proper Psalms come from the 1693 printing until the
+  Baskerville PDF is available.
 - **The apps** (`Apps/Lux`): SwiftUI sources for iPhone, iPad, Mac, Apple
   Watch and Vision Pro are written but have **not been built or seen**:
   they were written without Xcode. CI builds them on macOS.
@@ -42,6 +45,7 @@ Not yet done (see [Documentation/ROADMAP.md](Documentation/ROADMAP.md)):
 Packages/LuxCore            platform-independent liturgical core
 Packages/LuxDesignSystem    design tokens and SwiftUI bindings
 Traditions/BCP1662          the 1662 tradition package
+Scripture/KJV               the King James Version as a Scripture provider
   Witness/                  the source witness, unchanged, with its checksum
   Sources/BCP1662/          calendar, rules, composer; bundled content
   Provenance/               normalized transcription, edit log, review queue

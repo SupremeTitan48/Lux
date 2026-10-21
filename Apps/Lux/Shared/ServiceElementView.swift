@@ -119,6 +119,14 @@ struct ServiceElementView: View {
             }
             .padding(.top, Spacing.s)
 
+        case let .reading(_, passage):
+            VStack(alignment: .leading, spacing: Spacing.s) {
+                ForEach(Array(passage.verses.enumerated()), id: \.offset) { index, verse in
+                    ScriptureVerseView(verse: verse, showChapter: index == 0 || passage.verses[index - 1].chapter != verse.chapter)
+                }
+                provenance(passage.source)
+            }
+
         case let .placeholder(_, _, label, reason):
             VStack(alignment: .leading, spacing: Spacing.xs) {
                 Label(label, systemImage: "book.closed").font(TypeRole.heading.font)
@@ -147,6 +155,32 @@ struct ServiceElementView: View {
                      "page \(source.pages.map(String.init).joined(separator: ", "))"]
         if let review = source.review { parts.append("review: \(review)") }
         return parts.joined(separator: " · ")
+    }
+}
+
+/// A verse of a lesson. Words the translators supplied are set in italic, as
+/// the edition prints them.
+private struct ScriptureVerseView: View {
+    let verse: ScriptureVerse
+    let showChapter: Bool
+    @Environment(\.colorScheme) private var scheme
+
+    var body: some View {
+        let colors = LuxColors(scheme)
+        HStack(alignment: .firstTextBaseline, spacing: Spacing.s) {
+            Text(showChapter ? "\(verse.chapter):\(verse.number)" : "\(verse.number)")
+                .font(TypeRole.caption.font.monospacedDigit())
+                .foregroundStyle(colors.textSecondary)
+                .frame(minWidth: 24, alignment: .trailing)
+                .accessibilityHidden(true)
+            verse.segments.reduce(Text("")) { text, segment in
+                text + (segment.supplied ? Text(segment.text).italic() : Text(segment.text))
+            }
+            .font(TypeRole.body.font)
+            .foregroundStyle(colors.textPrimary)
+            .lineSpacing(TypeRole.body.lineSpacing)
+            .selectableText()
+        }
     }
 }
 

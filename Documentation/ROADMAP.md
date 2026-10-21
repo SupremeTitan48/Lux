@@ -27,7 +27,7 @@ Blocked on the PDF:
 
 Blocked on a decision:
 
-- A KJV source text (translation chosen 2026-10-13) and a `ScriptureProvider` for it; UK distribution of the KJV.
+- UK distribution of the KJV (Crown letters patent).
 - Redistribution under the witness's terms; UK Crown rights.
 - Reading typeface.
 
