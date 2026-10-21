@@ -60,3 +60,18 @@ public struct ServiceOption: Hashable, Sendable, Identifiable {
         officiants.isEmpty || officiants.contains(officiant)
     }
 }
+
+extension Speaker {
+    /// Who says this part when `officiant` leads the office.
+    ///
+    /// EDITORIAL ADAPTATION, not source text. The 1662 book names "the
+    /// Priest" for parts any officiant says (the preces, the versicles after
+    /// the Creed), because it assumes a priest. When a deacon or lay person
+    /// leads, Lux labels those parts as the Minister's. The composed document
+    /// keeps the speaker as printed; only the label shown changes, and the
+    /// office notes say so. Parts reserved to a priest (the Absolution) are
+    /// not relabelled: the tradition leaves them out instead.
+    public func saidBy(_ officiant: Officiant) -> Speaker {
+        self == .priest && !officiant.isPriest ? .minister : self
+    }
+}

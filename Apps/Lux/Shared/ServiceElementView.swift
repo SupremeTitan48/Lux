@@ -112,14 +112,26 @@ struct ServiceElementView: View {
             }
 
         case let .lesson(_, printed, references, source):
+            let reference = references.map(\.description).joined(separator: "; ")
             VStack(alignment: .leading, spacing: Spacing.xs) {
-                Text(references.map(\.description).joined(separator: "; "))
-                    .font(typeFont(.heading))
-                    .foregroundStyle(colors.textPrimary)
-                    .accessibilityAddTraits(.isHeader)
-                Text("As printed: \(render(printed))")
-                    .font(typeFont(.caption))
-                    .foregroundStyle(colors.textSecondary)
+                VStack(alignment: .leading, spacing: Spacing.xs) {
+                    Text(reference)
+                        .font(typeFont(.heading))
+                        .foregroundStyle(colors.textPrimary)
+                    // The table's own form, which may be a bare chapter
+                    // number continuing the book named above it.
+                    if printed != reference {
+                        Text("In the table: “\(render(printed))”")
+                            .font(typeFont(.caption))
+                            .foregroundStyle(colors.textSecondary)
+                    }
+                }
+                // Read as one heading: the reference, with the table's form
+                // as a hint rather than a stray line.
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel(reference)
+                .accessibilityHint(printed != reference ? "Printed in the table as \(render(printed))" : "")
+                .accessibilityAddTraits(.isHeader)
                 provenance(source)
             }
             .padding(.top, Spacing.s)
@@ -217,8 +229,12 @@ private struct ReadingView: View {
     }
 }
 
+/// Who says a part. With a deacon or lay officiant, parts the book gives to
+/// "the Priest" are labelled the Minister's (`Speaker.saidBy`, an editorial
+/// adaptation); the document keeps the speaker as printed.
 private struct SpeakerLabel: View {
     let speaker: Speaker
+    @AppStorage(ReaderSettingKey.officiant) private var officiant: Officiant = .priest
     @Environment(\.colorScheme) private var scheme
     @Environment(\.readingStyle) private var style
     @Environment(\.dynamicTypeSize) private var dynamicType
@@ -232,7 +248,7 @@ private struct SpeakerLabel: View {
     }
 
     private var name: String {
-        switch speaker {
+        switch speaker.saidBy(officiant) {
         case .minister: "Minister"
         case .priest: "Priest"
         case .people: "Answer"
